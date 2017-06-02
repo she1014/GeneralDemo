@@ -1,0 +1,32 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.order;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class DeliverDetailActivity$$ViewInjector<T extends com.techfly.demo.activity.order.DeliverDetailActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131362060, "field 'detail_logistics_name_et'");
+    target.detail_logistics_name_et = finder.castView(view, 2131362060, "field 'detail_logistics_name_et'");
+    view = finder.findRequiredView(source, 2131362062, "field 'detail_logistics_number_et'");
+    target.detail_logistics_number_et = finder.castView(view, 2131362062, "field 'detail_logistics_number_et'");
+    view = finder.findRequiredView(source, 2131361938, "field 'submit_btn' and method 'submit'");
+    target.submit_btn = finder.castView(view, 2131361938, "field 'submit_btn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.submit();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.detail_logistics_name_et = null;
+    target.detail_logistics_number_et = null;
+    target.submit_btn = null;
+  }
+}

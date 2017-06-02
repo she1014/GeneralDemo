@@ -1,0 +1,102 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class MyFragment$$ViewInjector<T extends com.techfly.demo.fragment.MyFragment> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558536, "field 'top_title_tv'");
+    target.top_title_tv = finder.castView(view, 2131558536, "field 'top_title_tv'");
+    view = finder.findRequiredView(source, 2131558755, "field 'mine_avator_iv'");
+    target.mine_avator_iv = finder.castView(view, 2131558755, "field 'mine_avator_iv'");
+    view = finder.findRequiredView(source, 2131558756, "field 'mine_month_money_tv'");
+    target.mine_month_money_tv = finder.castView(view, 2131558756, "field 'mine_month_money_tv'");
+    view = finder.findRequiredView(source, 2131558773, "field 'mine_version_tv'");
+    target.mine_version_tv = finder.castView(view, 2131558773, "field 'mine_version_tv'");
+    view = finder.findRequiredView(source, 2131558759, "field 'mine_delivery_tv'");
+    target.mine_delivery_tv = finder.castView(view, 2131558759, "field 'mine_delivery_tv'");
+    view = finder.findRequiredView(source, 2131558761, "method 'jumpToAvator'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToAvator();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558765, "method 'jumpToModifyPass'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToModifyPass();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558767, "method 'jumpToCache'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToCache();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558771, "method 'jumpToVersion'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToVersion();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558775, "method 'jumpToExit'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToExit();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558777, "method 'jumpToRelease'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToRelease();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558779, "method 'jumpToManager'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToManager();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558757, "method 'jumpToDelivery'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToDelivery();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.top_title_tv = null;
+    target.mine_avator_iv = null;
+    target.mine_month_money_tv = null;
+    target.mine_version_tv = null;
+    target.mine_delivery_tv = null;
+  }
+}

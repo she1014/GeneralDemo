@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\sublime_picker_view_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout-land\\sublime_picker_view_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\time_picker_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout-land\\time_picker_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\date_picker_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout-land\\date_picker_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\date_picker_header.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout-land\\date_picker_header.xml"
+    }
+]

@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lucky_pan.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\lucky_pan.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_bottom_out_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_bottom_out_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\modal_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_left_out_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_left_out_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_middle_to_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\from_middle_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_bottom_to_middle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\from_bottom_to_middle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_exit.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\zoom_exit.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slidein.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\slidein.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_middle_to_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\from_middle_to_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\sp_date_picker_fade_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\anim\\sp_date_picker_fade_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_bow_roate.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\success_bow_roate.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_animation.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\dialog_animation.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\sp_date_picker_fade_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\anim\\sp_date_picker_fade_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_mask_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\success_mask_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\from_top_to_middle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\from_top_to_middle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_right_out_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_right_out_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_x_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\error_x_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_left_in_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_left_in_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_frame_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\anim\\error_frame_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\full_linearlayout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\full_linearlayout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_enter.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\zoom_enter.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_top_in_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_top_in_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\move_right_in_activity.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\move_right_in_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\flip_left_in.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\anim\\flip_left_in.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    }
+]

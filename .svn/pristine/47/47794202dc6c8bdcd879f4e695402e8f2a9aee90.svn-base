@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ಪ್ರತಿದಿನ ಪುನರಾವರ್ತಿಸು"</item>
+        <item>"ವಾರ ಪುನರಾವರ್ತಿಸು"</item>
+        <item>"ತಿಂಗಳು ಪುನರಾವರ್ತಿಸು"</item>
+        <item>"ವಾರ್ಷಿಕ ಪುನರಾವರ್ತಿಸು"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಶುಕ್ರವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಶುಕ್ರವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಶುಕ್ರವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಶುಕ್ರವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಶುಕ್ರವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಸೋಮವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಸೋಮವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಸೋಮವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಸೋಮವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಸೋಮವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಶನಿವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಶನಿವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಶನಿವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಶನಿವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಶನಿವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಭಾನುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಭಾನುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಭಾನುವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಭಾನುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಭಾನುವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಗುರುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಗುರುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಗುರುವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಗುರುವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಗುರುವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಮಂಗಳವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಮಂಗಳವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಮಂಗಳವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಮಂಗಳವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಮಂಗಳವಾರ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ಪ್ರತಿ ಮೊದಲ ಬುಧವಾರ"</item>
+        <item>"ಪ್ರತಿ ಎರಡನೇ ಬುಧವಾರ"</item>
+        <item>"ಪ್ರತಿ ಮೂರನೇ ಬುಧವಾರ"</item>
+        <item>"ಪ್ರತಿ ನಾಲ್ಕನೇ ಬುಧವಾರ"</item>
+        <item>"ಪ್ರತಿ ಕೊನೆಯ ಬುಧವಾರ"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ಪ್ರತಿದಿನ"</item>
+        <item quantity="other">"ಪ್ರತಿ <ns1:g id="NUMBER">%d</ns1:g> ದಿನಗಳು"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; ಒಂದು ಬಾರಿಗೆ"</item>
+        <item quantity="other">";  <ns1:g id="NUMBER">%d</ns1:g> ಬಾರಿಗೆ"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ಈವೆಂಟ್‌ಗಾಗಿ"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ಈವೆಂಟ್‌ಗಳಿಗಾಗಿ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ದಿನ"</item>
+        <item quantity="other">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ದಿನಗಳು"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ತಿಂಗಳು"</item>
+        <item quantity="other">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ತಿಂಗಳು"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ವಾರ"</item>
+        <item quantity="other">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ವಾರಗಳು"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ವರ್ಷ"</item>
+        <item quantity="other">"ಪ್ರತಿ <ns1:g id="COUNT">%d</ns1:g> ವರ್ಷಗಳು"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ರಂದು ಪ್ರತಿ ವಾರ"</item>
+        <item quantity="other">"<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ರಂದು ಪ್ರತಿ <ns1:g id="NUMBER">%1$d</ns1:g> ವಾರಗಳು"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ಮುಗಿದಿದೆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ಆಫ್"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ಆನ್"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ಹುಡುಕಿ…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ಹುಡುಕು"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ಧ್ವನಿ ಹುಡುಕಾಟ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ಜೊತೆಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ಸಂಕುಚಿಸು"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"ಅಂತಿಮ ದಿನಾಂಕವನ್ನು ಬದಲಾಯಿಸಿ"</string>
+    <string name="cancel">"ರದ್ದುಮಾಡು"</string>
+    <string name="day_picker_description">"ದಿನಗಳ ತಿಂಗಳಿನ ಗ್ರಿಡ್"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ಅಳಿಸಲಾಗಿದೆ"</string>
+    <string name="endByDate">";<ns1:g id="DATE">%s</ns1:g> ವರೆಗೆ"</string>
+    <string name="every_weekday">"ಪ್ರತಿ ವಾರದ ದಿನ (ಸೋಮ–ಶುಕ್ರವಾರ)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="monthly">"ಮಾಸಿಕ"</string>
+    <string name="ok">"ಸರಿ"</string>
+    <string name="recurrence_end_continously">"ಶಾಶ್ವತವಾಗಿ"</string>
+    <string name="recurrence_end_count_label">"ಹಲವು ಈವೆಂಟ್‌ಗಳಿಗೆ"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> ವರೆಗೆ"</string>
+    <string name="recurrence_end_date_label">"ದಿನಾಂಕದವರೆಗೆ"</string>
+    <string name="recurrence_month_pattern_by_day">"ಪ್ರತಿ ತಿಂಗಳು ಅದೇ ದಿನ"</string>
+    <string name="select_day">"ತಿಂಗಳು ಮತ್ತು ದಿನವನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="select_hours">"ಗಂಟೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="select_minutes">"ನಿಮಿಷಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="select_year">"ವರ್ಷವನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"ವರ್ಷದ ಪಟ್ಟಿ"</string>
+    <string name="yearly_plain">"ವಾರ್ಷಿಕ"</string>
+</resources>

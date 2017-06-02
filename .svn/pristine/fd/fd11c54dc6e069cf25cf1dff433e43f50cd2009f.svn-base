@@ -1,0 +1,1160 @@
+[
+    {
+        "outputFile": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\values-pt\\values-pt.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 334
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endLine": 9,
+                        "endColumn": 19,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 339,
+                    "endLine": 14,
+                    "endColumn": 19,
+                    "endOffset": 648
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endLine": 16,
+                        "endColumn": 19,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 653,
+                    "endLine": 21,
+                    "endColumn": 19,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 1117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endLine": 28,
+                    "endColumn": 19,
+                    "endOffset": 1261
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1122,
+                        "endLine": 30,
+                        "endColumn": 19,
+                        "endOffset": 1406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1266,
+                    "endLine": 35,
+                    "endColumn": 19,
+                    "endOffset": 1555
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1411,
+                        "endLine": 37,
+                        "endColumn": 19,
+                        "endOffset": 1700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1560,
+                    "endLine": 42,
+                    "endColumn": 19,
+                    "endOffset": 1876
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1705,
+                        "endLine": 44,
+                        "endColumn": 19,
+                        "endOffset": 2021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1881,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 2191
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2026,
+                        "endLine": 51,
+                        "endColumn": 19,
+                        "endOffset": 2336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2196,
+                    "endLine": 56,
+                    "endColumn": 19,
+                    "endOffset": 2510
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2341,
+                        "endLine": 58,
+                        "endColumn": 19,
+                        "endOffset": 2655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2515,
+                    "endLine": 60,
+                    "endColumn": 14,
+                    "endOffset": 2684
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2806,
+                        "endLine": 64,
+                        "endColumn": 14,
+                        "endOffset": 2975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2689,
+                    "endLine": 64,
+                    "endColumn": 14,
+                    "endOffset": 2857
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2980,
+                        "endLine": 68,
+                        "endColumn": 14,
+                        "endOffset": 3148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2862,
+                    "endLine": 68,
+                    "endColumn": 14,
+                    "endOffset": 3085
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3153,
+                        "endLine": 72,
+                        "endColumn": 14,
+                        "endOffset": 3376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3090,
+                    "endLine": 72,
+                    "endColumn": 14,
+                    "endOffset": 3306
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3381,
+                        "endLine": 76,
+                        "endColumn": 14,
+                        "endOffset": 3597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3311,
+                    "endLine": 76,
+                    "endColumn": 14,
+                    "endOffset": 3530
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3602,
+                        "endLine": 80,
+                        "endColumn": 14,
+                        "endOffset": 3821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3535,
+                    "endLine": 80,
+                    "endColumn": 14,
+                    "endOffset": 3758
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3826,
+                        "endLine": 84,
+                        "endColumn": 14,
+                        "endOffset": 4049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3763,
+                    "endLine": 84,
+                    "endColumn": 14,
+                    "endOffset": 3980
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 4054,
+                        "endLine": 88,
+                        "endColumn": 14,
+                        "endOffset": 4271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3985,
+                    "endLine": 88,
+                    "endColumn": 14,
+                    "endOffset": 4231
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4276,
+                        "endLine": 92,
+                        "endColumn": 14,
+                        "endOffset": 4522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4236,
+                    "endColumn": 119,
+                    "endOffset": 4351
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 119,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4356,
+                    "endColumn": 107,
+                    "endOffset": 4459
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 107,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 4464,
+                    "endColumn": 122,
+                    "endOffset": 4582
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 122,
+                        "endOffset": 401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 4587,
+                    "endColumn": 105,
+                    "endOffset": 4688
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 406,
+                        "endColumn": 105,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4693,
+                    "endColumn": 106,
+                    "endOffset": 4795
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 106,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 4800,
+                    "endColumn": 88,
+                    "endOffset": 4884
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 88,
+                        "endOffset": 703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4889,
+                    "endColumn": 100,
+                    "endOffset": 4985
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 708,
+                        "endColumn": 100,
+                        "endOffset": 804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4990,
+                    "endColumn": 117,
+                    "endOffset": 5103
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 117,
+                        "endOffset": 922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 5108,
+                    "endColumn": 82,
+                    "endOffset": 5186
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 927,
+                        "endColumn": 82,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5191,
+                    "endColumn": 79,
+                    "endOffset": 5266
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1010,
+                        "endColumn": 79,
+                        "endOffset": 1085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 5271,
+                    "endColumn": 86,
+                    "endOffset": 5353
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 86,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 5358,
+                    "endColumn": 106,
+                    "endOffset": 5460
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 106,
+                        "endOffset": 1279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5465,
+                    "endColumn": 111,
+                    "endOffset": 5572
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endColumn": 111,
+                        "endOffset": 1391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 5577,
+                    "endColumn": 101,
+                    "endOffset": 5674
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1396,
+                        "endColumn": 101,
+                        "endOffset": 1493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 5679,
+                    "endColumn": 107,
+                    "endOffset": 5782
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1498,
+                        "endColumn": 107,
+                        "endOffset": 1601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 5787,
+                    "endColumn": 106,
+                    "endOffset": 5889
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1606,
+                        "endColumn": 106,
+                        "endOffset": 1708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 5894,
+                    "endColumn": 109,
+                    "endOffset": 5999
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1713,
+                        "endColumn": 109,
+                        "endOffset": 1818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6004,
+                    "endColumn": 124,
+                    "endOffset": 6124
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1823,
+                        "endColumn": 124,
+                        "endOffset": 1943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 6129,
+                    "endColumn": 99,
+                    "endOffset": 6224
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1948,
+                        "endColumn": 99,
+                        "endOffset": 2043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6229,
+                    "endColumn": 105,
+                    "endOffset": 6330
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4527,
+                        "endColumn": 105,
+                        "endOffset": 4628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 6335,
+                    "endColumn": 45,
+                    "endOffset": 6376
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4633,
+                        "endColumn": 45,
+                        "endOffset": 4674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6381,
+                    "endColumn": 73,
+                    "endOffset": 6450
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4679,
+                        "endColumn": 73,
+                        "endOffset": 4748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 6455,
+                    "endColumn": 79,
+                    "endOffset": 6530
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4753,
+                        "endColumn": 79,
+                        "endOffset": 4828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6535,
+                    "endColumn": 73,
+                    "endOffset": 6604
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4833,
+                        "endColumn": 73,
+                        "endOffset": 4902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 6609,
+                    "endColumn": 88,
+                    "endOffset": 6693
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4907,
+                        "endColumn": 88,
+                        "endOffset": 4991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 6698,
+                    "endColumn": 88,
+                    "endOffset": 6782
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4996,
+                        "endColumn": 88,
+                        "endOffset": 5080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 6787,
+                    "endColumn": 49,
+                    "endOffset": 6832
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 5085,
+                        "endColumn": 49,
+                        "endOffset": 5130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 6837,
+                    "endColumn": 35,
+                    "endOffset": 6868
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5135,
+                        "endColumn": 35,
+                        "endOffset": 5166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 6873,
+                    "endColumn": 75,
+                    "endOffset": 6944
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 6949,
+                    "endColumn": 72,
+                    "endOffset": 7017
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 72,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 7022,
+                    "endColumn": 83,
+                    "endOffset": 7101
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 83,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 7106,
+                    "endColumn": 63,
+                    "endOffset": 7165
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 5171,
+                        "endColumn": 63,
+                        "endOffset": 5230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 7170,
+                    "endColumn": 71,
+                    "endOffset": 7237
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 5235,
+                        "endColumn": 71,
+                        "endOffset": 5302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 7242,
+                    "endColumn": 81,
+                    "endOffset": 7319
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5307,
+                        "endColumn": 81,
+                        "endOffset": 5384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 7324,
+                    "endColumn": 68,
+                    "endOffset": 7388
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 5389,
+                        "endColumn": 68,
+                        "endOffset": 5453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 7393,
+                    "endColumn": 86,
+                    "endOffset": 7475
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5458,
+                        "endColumn": 86,
+                        "endOffset": 5540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 7480,
+                    "endColumn": 64,
+                    "endOffset": 7540
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 5545,
+                        "endColumn": 64,
+                        "endOffset": 5605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 7545,
+                    "endColumn": 61,
+                    "endOffset": 7602
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 5610,
+                        "endColumn": 61,
+                        "endOffset": 5667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 7607,
+                    "endColumn": 65,
+                    "endOffset": 7668
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5672,
+                        "endColumn": 65,
+                        "endOffset": 5733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 7673,
+                    "endColumn": 57,
+                    "endOffset": 7726
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5738,
+                        "endColumn": 57,
+                        "endOffset": 5791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 7731,
+                    "endColumn": 100,
+                    "endOffset": 7827
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2048,
+                        "endColumn": 100,
+                        "endOffset": 2144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 7832,
+                    "endColumn": 67,
+                    "endOffset": 7895
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5796,
+                        "endColumn": 67,
+                        "endOffset": 5859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 7900,
+                    "endColumn": 53,
+                    "endOffset": 7949
+                },
+                "from": {
+                    "file": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5864,
+                        "endColumn": 53,
+                        "endOffset": 5913
+                    }
+                }
+            }
+        ]
+    }
+]

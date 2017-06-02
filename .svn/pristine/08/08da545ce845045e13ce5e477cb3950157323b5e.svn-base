@@ -1,0 +1,43 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo1Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo1Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558583, "field 'demo_banner'");
+    target.demo_banner = finder.castView(view, 2131558583, "field 'demo_banner'");
+    view = finder.findRequiredView(source, 2131558584, "field 'demo_adtv'");
+    target.demo_adtv = finder.castView(view, 2131558584, "field 'demo_adtv'");
+    view = finder.findRequiredView(source, 2131558586, "field 'demo_bottom1_tv' and method 'showDialog1'");
+    target.demo_bottom1_tv = finder.castView(view, 2131558586, "field 'demo_bottom1_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog1();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558587, "field 'demo_bottom2_tv' and method 'showDialog2'");
+    target.demo_bottom2_tv = finder.castView(view, 2131558587, "field 'demo_bottom2_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog2();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.demo_banner = null;
+    target.demo_adtv = null;
+    target.demo_bottom1_tv = null;
+    target.demo_bottom2_tv = null;
+  }
+}

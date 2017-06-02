@@ -1,0 +1,24 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo15Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo15Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427492, "field 'demo_nsv'");
+    target.demo_nsv = finder.castView(view, 2131427492, "field 'demo_nsv'");
+    view = finder.findRequiredView(source, 2131427490, "field 'app_barLayout'");
+    target.app_barLayout = finder.castView(view, 2131427490, "field 'app_barLayout'");
+    view = finder.findRequiredView(source, 2131427489, "field 'app_coordlinear'");
+    target.app_coordlinear = finder.castView(view, 2131427489, "field 'app_coordlinear'");
+  }
+
+  @Override public void reset(T target) {
+    target.demo_nsv = null;
+    target.app_barLayout = null;
+    target.app_coordlinear = null;
+  }
+}

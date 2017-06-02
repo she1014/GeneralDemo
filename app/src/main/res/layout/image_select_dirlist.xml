@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:background="#d4ffffff"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:paddingTop="2.5dp"
+        android:id="@+id/id_list_dirs"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:background="#d4ffffff"
+        android:dividerHeight="0dp" >
+    </ListView>
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="相册为空"
+        android:textColor="#b2b2b2"
+        android:textSize="@dimen/size_big"
+        />
+</LinearLayout>

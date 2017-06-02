@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-v16/styles.xml -->
+    <eat-comment/>
+    <style name="SButtonTextAppearance" parent="STextAppearanceBase.BaseButton">
+        <item name="android:fontFamily">@string/font_family_button_material</item>
+    </style>
+    <style name="STextAppearance" parent="STextAppearanceBase">
+        <item name="android:fontFamily">@string/font_family_body_1</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-h320dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="sp_timepicker_radial_picker_dimen">224dp</dimen>
+    <dimen name="sp_timepicker_text_inset_inner">58dp</dimen>
+</resources>

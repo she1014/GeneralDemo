@@ -1,0 +1,33 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.user;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class ModifyPassActivity$$ViewInjector<T extends com.techfly.demo.activity.user.ModifyPassActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131362053, "field 'modify_pass_originEt'");
+    target.modify_pass_originEt = finder.castView(view, 2131362053, "field 'modify_pass_originEt'");
+    view = finder.findRequiredView(source, 2131362055, "field 'modify_pass_newEt'");
+    target.modify_pass_newEt = finder.castView(view, 2131362055, "field 'modify_pass_newEt'");
+    view = finder.findRequiredView(source, 2131362057, "field 'modify_pass_confirmEt'");
+    target.modify_pass_confirmEt = finder.castView(view, 2131362057, "field 'modify_pass_confirmEt'");
+    view = finder.findRequiredView(source, 2131362058, "method 'ConfirmModifyMsg'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.ConfirmModifyMsg();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.modify_pass_originEt = null;
+    target.modify_pass_newEt = null;
+    target.modify_pass_confirmEt = null;
+  }
+}

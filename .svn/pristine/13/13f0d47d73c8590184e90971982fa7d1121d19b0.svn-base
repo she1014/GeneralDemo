@@ -1,0 +1,862 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_jpush_tip.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_jpush_tip.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_horizontalscroll.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.1\\res\\layout\\layout_recyclerview_horizontalscroll.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo13.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo13.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_refund_detail.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_order_refund_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lv_foot.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_lv_foot.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_demo7.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_demo7.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nine_pic.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_nine_pic.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_empty.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\view_empty.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_demo22.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_demo22.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo11.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo11.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recyclerview_verticalscroll.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.1\\res\\layout\\layout_recyclerview_verticalscroll.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_recurrence_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_recurrence_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recurrence_end_date_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\recurrence_end_date_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_horizontal_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_horizontal_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_order.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_order.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_refresh_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_refresh_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress_recyclerview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.1\\res\\layout\\layout_progress_recyclerview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_softupdate_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_softupdate_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_service.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_update_service.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bottom_tab.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_bottom_tab.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_good_attribute.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_select_good_attribute.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_index.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_index.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_property_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_property_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_pulllistview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_base_pulllistview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide_two.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_guide_two.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo1.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo1.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_face.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\emoji\\unspecified\\res\\layout\\fragment_face.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_main.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_progress_bar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\view_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_manager_menu.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_goods_manager_menu.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_show_rule.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_show_rule.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_month_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\date_picker_month_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_photo.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_select_photo.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo15.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo15.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vertical_rv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_vertical_rv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo4.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo4.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_refund_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_order_refund_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_string.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_string.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_review_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_review_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo22.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo22.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\roc_freq_spinner_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\roc_freq_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rich_edit_imageview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_rich_edit_imageview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_viewpager.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\convenientbanner\\1.1.0\\res\\layout\\include_viewpager.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_slide_detail2.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_slide_detail2.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_comment_manage_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_comment_manage_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_header.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\time_picker_header.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo6.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo6.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_slide.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_slide.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recurrence_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\recurrence_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend_list.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_recommend_list.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mine_file.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_mine_file.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_face_grid.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\emoji\\unspecified\\res\\layout\\layout_face_grid.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_middle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_middle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_release_banner_rv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_release_banner_rv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_pass.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_modify_pass.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_time_axis.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_time_axis.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipeback_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\me.imid.swipebacklayout.lib\\library\\1.0.0\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_pager_slide.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_photo_pager_slide.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_agreement.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_user_agreement.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_button_panel_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_button_panel_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dial.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_dial.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_flowlayout_tv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_flowlayout_tv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_rank_gridview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_rank_gridview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base_menu.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_base_menu.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide_three.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_guide_three.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\roc_spinner_dropdown_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\roc_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo23.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo23.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_delivery.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_set_delivery.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_directory.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_directory.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_logistic.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_order_logistic.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo5.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo5.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_header.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\date_picker_header.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_picker_view_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_picker_view_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge_history.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_recharge_history.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_top_bar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_base_top_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qq_main_page.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_qq_main_page.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_time_selector.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_time_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_commodity_release.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_commodity_release.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide_one.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_guide_one.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_date_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_date_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_options.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\layout\\pickerview_options.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_update_service.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_update_service.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_pending_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_order_pending_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_reviews.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_order_reviews.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo14.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo14.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_view_animator.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\date_picker_view_animator.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_pager.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_image_pager.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rich_edit_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_rich_edit_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo9.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo9.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base_webview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_base_webview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_deliver_detail.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_order_deliver_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\roc_end_spinner_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\roc_end_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_slide_page.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_slide_page.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\week_day_button.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\week_day_button.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_member_history.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_member_history.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_back.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_back.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo7.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo7.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_manage_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_goods_manage_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_listview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_base_listview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_middle_login.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_middle_login.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_picker_content_sdp.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\day_picker_content_sdp.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_submit_info.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_submit_info.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\year_label_text_view.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\year_label_text_view.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pickerview_time.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\layout\\pickerview_time.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_rv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_base_rv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_head_rlv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_head_rlv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\decision_button_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\decision_button_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo18.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo18.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_member_history.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_member_history.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pager.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_pager.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo12.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo12.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\time_picker_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_select_list.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_select_list.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_slide_detail1.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_slide_detail1.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo21.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo21.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_imageview_review.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_imageview_review.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recharge_history.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_recharge_history.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_imageview_horizontal_show.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_imageview_horizontal_show.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_basepickerview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo3.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo3.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_more_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\view_more_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_groceries_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_groceries_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_simple.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\layout\\pull_to_refresh_header_simple.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo17.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo17.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_goods_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_loading.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_three_select.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_three_select.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_center_lv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_center_lv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lable_gv.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_lable_gv.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_select_dirlist.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\image_select_dirlist.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base_superrecyclerview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_base_superrecyclerview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base_menu_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_base_menu_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_detail.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo10.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo10.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recurrence_options_menu.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\recurrence_options_menu.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_layout.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\date_picker_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_face.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\emoji\\unspecified\\res\\layout\\item_face.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_jpush_notification.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\layout_jpush_notification.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_more_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.1\\res\\layout\\layout_more_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sublime_time_picker.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\sublime_time_picker.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base_pulllistview.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_base_pulllistview.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\week_buttons.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\week_buttons.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_base_loading.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_base_loading.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_loading.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\view_loading.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_middle_wait.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\dialog_middle_wait.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base_top_bar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_base_top_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo8.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo8.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_picker_content_redp.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\layout\\day_picker_content_redp.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.malinskiy\\superrecyclerview\\1.1.1\\res\\layout\\layout_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo2.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo2.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_pager.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_photo_pager.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_demo20.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\activity_demo20.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_good_style.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\layout\\item_add_good_style.xml"
+    }
+]

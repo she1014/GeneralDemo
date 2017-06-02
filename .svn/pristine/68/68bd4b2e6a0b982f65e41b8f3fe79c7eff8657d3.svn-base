@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中 -->
+    <item
+        android:drawable="@drawable/shape_stroke_empty_solid_darkorange"
+        android:state_checked="true"
+        >
+    </item>
+
+    <!-- 点击 -->
+    <item
+        android:drawable="@drawable/shape_stroke_empty_solid_darkorange"
+        android:state_pressed="true"
+        >
+    </item>
+
+    <!-- 正常 -->
+    <item
+        android:drawable="@drawable/shape_stroke_empty_solid_gray_angle"></item>
+</selector>

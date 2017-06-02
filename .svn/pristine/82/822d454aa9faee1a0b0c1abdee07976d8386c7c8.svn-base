@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <com.techfly.demo.selfview.FlexibileScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@string/activity_body_weight"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/demo1_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="涟漪效果"
+                        />
+
+                    <com.techfly.demo.selfview.RippleView
+                        android:id="@+id/demo_ripview1_rv"
+                        style="@style/viewButtom"
+                        android:layout_below="@+id/demo1_tv"
+                        rv_centered="true"
+                        android:layout_margin="@dimen/marign_boundary"
+                        >
+                        <Button
+                            android:id="@+id/demo1_login_tv"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_middle"
+                            android:background="@null"
+                            android:text="点我有特效" />
+                    </com.techfly.demo.selfview.RippleView>
+
+                    <com.techfly.demo.selfview.RippleView
+                        android:id="@+id/demo_ripview2_rv"
+                        rv_centered="true"
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/demo_ripview1_rv"
+                        android:layout_margin="@dimen/marign_big"
+                        >
+                        <Button
+                            android:id="@+id/demo_start_animation_btn"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:background="@color/green"
+                            android:textColor="@color/white"
+                            android:text="动画小球"
+                            />
+                    </com.techfly.demo.selfview.RippleView>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_normal"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="广告轮播"
+                        />
+                    <com.bigkoo.convenientbanner.ConvenientBanner
+                        android:id="@+id/demo_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_normal"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="广告滚动栏"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/marign_mid"
+                        android:paddingRight="@dimen/marign_mid"
+                        android:layout_margin="@dimen/marign_middle"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:layout_width="@dimen/marign_bigger"
+                            android:layout_height="@dimen/marign_bigger"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/marign_normal"
+                            android:src="@drawable/icon_horn" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/marign_normal"
+                            android:text="平台公告"
+                            android:textColor="@color/text_font_black"
+                            android:textSize="@dimen/size_smaller" />
+
+                        <com.techfly.demo.selfview.ADTextView
+                            android:id="@+id/demo_adtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/marign_middle"
+                            android:textColor="@color/text_font_pink"
+                            android:textSize="@dimen/size_smaller"
+                            app:ad_text_view_interval="2000"
+                            app:ad_text_view_speed="3" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_normal"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="流光字体"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#333333"
+                        android:padding="@dimen/marign_middle"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        >
+
+                        <com.techfly.demo.selfview.shimmer.ShimmerTextView
+                            android:id="@+id/demo_shimmer_stv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6d6d6d"
+                            android:textSize="@dimen/size_big"
+                            android:text="你以为你以为的就是你以为的吗?"
+                            />
+
+                        <Button
+                            android:id="@+id/demo_shimmer_btn"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:background="@color/pink"
+                            android:layout_marginLeft="@dimen/marign_normal"
+                            android:textSize="@dimen/size_middle"
+                            android:textColor="@color/white"
+                            android:text="开始/结束"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_normal"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="IOS风格时间"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_middle"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        >
+                        <TextView
+                            android:id="@+id/demo_ios_time_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_font_black"
+                            android:textSize="@dimen/size_big"
+                            android:text="时间:0000-00-00 00:00"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_normal"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_mid"
+                        android:background="@color/blue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_middle"
+                        android:text="日历"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/marign_middle"
+                        android:orientation="horizontal"
+                        android:gravity="center|left"
+                        >
+                        <TextView
+                            android:id="@+id/demo_calander_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_font_black"
+                            android:textSize="@dimen/size_big"
+                            android:text="日历:0000-00-00 00:00"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </com.techfly.demo.selfview.FlexibileScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/demo_bottom1_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_big"
+                android:text="属性组"
+                />
+            <TextView
+                android:id="@+id/demo_shopcar_num_tv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignRight="@+id/demo_bottom1_tv"
+                android:paddingBottom="1dp"
+                android:background="@drawable/shape_circle_solid_red_point"
+                android:text="0"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_line_color"
+            />
+        <TextView
+            android:id="@+id/demo_bottom2_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_big"
+            android:text="时间组"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_line_color"
+            />
+        <TextView
+            android:id="@+id/demo_bottom3_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_big"
+            android:text="IOS时间"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider_line_color"
+            />
+        <TextView
+            android:id="@+id/demo_bottom4_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_big"
+            android:text="日历选择"
+            />
+    </LinearLayout>
+
+</LinearLayout>

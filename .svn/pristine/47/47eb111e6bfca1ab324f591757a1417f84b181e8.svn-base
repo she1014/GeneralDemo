@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-mn-rMN/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ӨДӨР БҮР ДАВТАХ"</item>
+        <item>"ДОЛОО ХОНОГ БҮР ДАВТАХ"</item>
+        <item>"САР БҮР ДАВТАХ"</item>
+        <item>"ЖИЛ БҮР ДАВТАХ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"Эхний Баасан гараг бүрт"</item>
+        <item>"Хоёрдох Баасан гараг бүрт"</item>
+        <item>"Гуравдах Баасан гараг бүрт"</item>
+        <item>"Дөрөвдэх Баасан гараг бүрт"</item>
+        <item>"Сүүлийн Баасан гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"Эхний Даваа гараг бүрт"</item>
+        <item>"Хоёрдох Даваа гараг бүрт"</item>
+        <item>"Гуравдах Даваа гараг бүрт"</item>
+        <item>"Дөрөвдэх Даваа гараг бүрт"</item>
+        <item>"Сүүлийн Даваа гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"Эхний Бямба гараг бүрт"</item>
+        <item>"Хоёрдох Бямба гараг бүрт"</item>
+        <item>"Гуравдах Бямба гараг бүрт"</item>
+        <item>"Дөрөвдэх Бямба гараг бүрт"</item>
+        <item>"Сүүлийн Бямба гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"Эхний Ням гараг бүрт"</item>
+        <item>"Хоёрдох Ням гараг бүрт"</item>
+        <item>"Гуравдах Ням гараг бүрт"</item>
+        <item>"Дөрөвдэх Ням гараг бүрт"</item>
+        <item>"Сүүлийн Ням гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"Эхний Пүрэв гараг бүрт"</item>
+        <item>"Хоёрдох Пүрэв гараг бүрт"</item>
+        <item>"Гуравдах Пүрэв гараг бүрт"</item>
+        <item>"Дөрөвдэх Пүрэв гараг бүрт"</item>
+        <item>"Сүүлийн Пүрэв гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"Эхний Мягмар гараг бүрт"</item>
+        <item>"Хоёрдох Мягмар гараг бүрт"</item>
+        <item>"Гуравдах Мягмар гараг бүрт"</item>
+        <item>"Дөрөвдэх Мягмар гараг бүрт"</item>
+        <item>"Сүүлийн Мягмар гараг бүрт"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"Эхний Лхагва гараг бүрт"</item>
+        <item>"Хоёрдох Лхагва гараг бүрт"</item>
+        <item>"Гуравдах Лхагва гараг бүрт"</item>
+        <item>"Дөрөвдэх Лхагва гараг бүрт"</item>
+        <item>"Сүүлийн Лхагва гараг бүрт"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-mn-rMN/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Өдөр тутам"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> өдөр тутам"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; нэг удаа"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> удаа"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> үйл явдалд"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> үйл явдалд"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> өдөр тутам"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> өдөр тутам"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> сар тутам"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> сар тутам"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> долоо хоног тутам"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> долоо хоног тутам"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> жил тутам"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> жил тутам"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Долоо хоног бүрийн <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> долоо хоног тутмын <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"дуусах огноог өөрчлөх"</string>
+    <string name="cancel">"Цуцлах"</string>
+    <string name="day_picker_description">"Өдрүүдийг сараар"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> устсан"</string>
+    <string name="endByDate">"; хүртэл <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Ажлын бүх өдрүүдэд (Дав–Баа)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> сонгогдсон"</string>
+    <string name="monthly">"Сар бүр"</string>
+    <string name="ok">"Тийм"</string>
+    <string name="recurrence_end_continously">"Үүрд"</string>
+    <string name="recurrence_end_count_label">"Нэлээн хэдэн үйл явдалд"</string>
+    <string name="recurrence_end_date">"Хүртэл <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Огноо хүртэл"</string>
+    <string name="recurrence_month_pattern_by_day">"сар бүрийн ижил өдөр"</string>
+    <string name="select_day">"Сар болон өдрийг сонгоно уу"</string>
+    <string name="select_hours">"Цаг сонгоно уу"</string>
+    <string name="select_minutes">"Минут сонгоно уу"</string>
+    <string name="select_year">"Жилийг сонгоно уу"</string>
+    <string name="year_picker_description">"Жилийн жагсаалт"</string>
+    <string name="yearly_plain">"Жил бүр"</string>
+</resources>

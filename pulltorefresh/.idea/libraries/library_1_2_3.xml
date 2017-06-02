@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/res" />
+      <root url="jar://$PROJECT_DIR$/../app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.2.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.traex.rippleeffect/library/1.2.3/700e4aaeb09ba67226646b2bf4a125c78f747a11/library-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

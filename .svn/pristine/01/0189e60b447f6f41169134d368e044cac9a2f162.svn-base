@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <com.techfly.demo.selfview.wheelview.CoordLayoutScrollLisener
+            android:id="@+id/app_coordlinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.techfly.demo.selfview.AppBarLayoutScrollLisener
+                android:id="@+id/app_barLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <FrameLayout
+                    android:id="@+id/frame_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="208dp"
+                    android:background="@color/white"
+                    app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_default_show" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/marign_middle"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/main_bg"
+                    >
+
+                    <ImageView
+                        android:id="@+id/top_back_iv"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:paddingBottom="@dimen/marign_middle"
+                        android:paddingLeft="@dimen/marign_boundary"
+                        android:paddingRight="25dp"
+                        android:paddingTop="@dimen/marign_middle"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_return" />
+
+                    <TextView
+                        android:id="@+id/top_title_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_toLeftOf="@+id/top_right_iv"
+                        android:layout_toRightOf="@+id/top_back_iv"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="中间标题"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/size_bigger"
+                        />
+
+                    <ImageView
+                        android:id="@+id/top_right_iv"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/marign_boundary"
+                        android:scaleType="fitXY"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/top_right_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="8dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_big"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </com.techfly.demo.selfview.AppBarLayoutScrollLisener>
+
+            <com.techfly.demo.selfview.NestScrollLisenerView
+                android:id="@+id/demo_nsv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <com.techfly.demo.selfview.ForbidScrollListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/blue_bright"
+                    android:divider="@color/text_font_blue"
+                    android:dividerHeight="0.5dp"
+                    android:entries="@array/exp_name"></com.techfly.demo.selfview.ForbidScrollListView>
+
+            </com.techfly.demo.selfview.NestScrollLisenerView>
+
+        </com.techfly.demo.selfview.wheelview.CoordLayoutScrollLisener>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

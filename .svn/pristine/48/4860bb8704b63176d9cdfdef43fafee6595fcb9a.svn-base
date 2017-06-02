@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-is-rIS/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ENDURTAKA DAGLEGA"</item>
+        <item>"ENDURTAKA VIKULEGA"</item>
+        <item>"ENDURTAKA MÁNAÐARLEGA"</item>
+        <item>"ENDURTAKA ÁRLEGA"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"fyrsta föstudag í hverjum mánuði"</item>
+        <item>"annan hvern föstudag"</item>
+        <item>"þriðja hvern föstudag"</item>
+        <item>"fjórða hvern föstudag"</item>
+        <item>"síðasta föstudag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"fyrsta mánudag í hverjum mánuði"</item>
+        <item>"annan hvern mánudag"</item>
+        <item>"þriðja hvern mánudag"</item>
+        <item>"fjórða hvern mánudag"</item>
+        <item>"síðasta mánudag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"fyrsta laugardag í hverjum mánuði"</item>
+        <item>"annan hvern laugardag"</item>
+        <item>"þriðja hvern laugardag"</item>
+        <item>"fjórða hvern laugardag"</item>
+        <item>"síðasta laugardag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"fyrsta sunnudag í hverjum mánuði"</item>
+        <item>"annan hvern sunnudag"</item>
+        <item>"þriðja hvern sunnudag"</item>
+        <item>"fjórða hvern sunnudag"</item>
+        <item>"síðasta sunnudag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"fyrsta fimmtudag í hverjum mánuði"</item>
+        <item>"annan hvern fimmtudag"</item>
+        <item>"þriðja hvern fimmtudag"</item>
+        <item>"fjórða hvern fimmtudag"</item>
+        <item>"síðasta fimmtudag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"fyrsta þriðjudag í hverjum mánuði"</item>
+        <item>"annan hvern þriðjudag"</item>
+        <item>"þriðja hvern þriðjudag"</item>
+        <item>"fjórða hvern þriðjudag"</item>
+        <item>"síðasta þriðjudag í hverjum mánuði"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"fyrsta miðvikudag í hverjum mánuði"</item>
+        <item>"annan hvern miðvikudag"</item>
+        <item>"þriðja hvern miðvikudag"</item>
+        <item>"fjórða hvern miðvikudag"</item>
+        <item>"síðasta miðvikudag í hverjum mánuði"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-is-rIS/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Daglega"</item>
+        <item quantity="other">"Á <ns1:g id="NUMBER">%d</ns1:g> daga fresti"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">", í eitt skipti"</item>
+        <item quantity="other">", <ns1:g id="NUMBER">%d</ns1:g> sinnum"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Fyrir <ns1:g id="EVENT_COUNT">%d</ns1:g> viðburði"</item>
+        <item quantity="other">"Fyrir <ns1:g id="EVENT_COUNT">%d</ns1:g> viðburði"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Á <ns1:g id="COUNT">%d</ns1:g> dags fresti"</item>
+        <item quantity="other">"Á <ns1:g id="COUNT">%d</ns1:g> daga fresti"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Á <ns1:g id="COUNT">%d</ns1:g> mánaðar fresti"</item>
+        <item quantity="other">"Á <ns1:g id="COUNT">%d</ns1:g> mánaða fresti"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Á <ns1:g id="COUNT">%d</ns1:g> viku fresti"</item>
+        <item quantity="other">"Á <ns1:g id="COUNT">%d</ns1:g> vikna fresti"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Á <ns1:g id="COUNT">%d</ns1:g> árs fresti"</item>
+        <item quantity="other">"Á <ns1:g id="COUNT">%d</ns1:g> ára fresti"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Vikulega á <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Á <ns1:g id="NUMBER">%1$d</ns1:g> þriggja vikna fresti á <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"breyta lokadegi"</string>
+    <string name="cancel">"Hætta við"</string>
+    <string name="day_picker_description">"Mánaðartafla með dögum"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> eytt"</string>
+    <string name="endByDate">", til <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Alla virka daga (mán.–fös.)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> valið"</string>
+    <string name="monthly">"Mánaðarlega"</string>
+    <string name="ok">"Í lagi"</string>
+    <string name="recurrence_end_continously">"Ótímabundið"</string>
+    <string name="recurrence_end_count_label">"Fyrir marga viðburði"</string>
+    <string name="recurrence_end_date">"Til <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Til"</string>
+    <string name="recurrence_month_pattern_by_day">"sama dag í hverjum mánuði"</string>
+    <string name="select_day">"Veldu mánuð og dag"</string>
+    <string name="select_hours">"Veldu klukkustundir"</string>
+    <string name="select_minutes">"Veldu mínútur"</string>
+    <string name="select_year">"Veldu ár"</string>
+    <string name="year_picker_description">"Áralisti"</string>
+    <string name="yearly_plain">"Árlega"</string>
+</resources>

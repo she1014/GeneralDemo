@@ -1,0 +1,98 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.order;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OrderDetailActivity$$ViewInjector<T extends com.techfly.demo.activity.order.OrderDetailActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427612, "field 'order_status_tv'");
+    target.order_status_tv = finder.castView(view, 2131427612, "field 'order_status_tv'");
+    view = finder.findRequiredView(source, 2131427619, "field 'logistics_status_tv'");
+    target.logistics_status_tv = finder.castView(view, 2131427619, "field 'logistics_status_tv'");
+    view = finder.findRequiredView(source, 2131427640, "field 'goods_status_tv'");
+    target.goods_status_tv = finder.castView(view, 2131427640, "field 'goods_status_tv'");
+    view = finder.findRequiredView(source, 2131427613, "field 'order_number_tv'");
+    target.order_number_tv = finder.castView(view, 2131427613, "field 'order_number_tv'");
+    view = finder.findRequiredView(source, 2131427614, "field 'order_time_tv'");
+    target.order_time_tv = finder.castView(view, 2131427614, "field 'order_time_tv'");
+    view = finder.findRequiredView(source, 2131427615, "field 'order_service_tv'");
+    target.order_service_tv = finder.castView(view, 2131427615, "field 'order_service_tv'");
+    view = finder.findRequiredView(source, 2131427616, "field 'order_remark_tv'");
+    target.order_remark_tv = finder.castView(view, 2131427616, "field 'order_remark_tv'");
+    view = finder.findRequiredView(source, 2131427625, "field 'order_point_tv1'");
+    target.order_point_tv1 = finder.castView(view, 2131427625, "field 'order_point_tv1'");
+    view = finder.findRequiredView(source, 2131427626, "field 'order_point_tv2'");
+    target.order_point_tv2 = finder.castView(view, 2131427626, "field 'order_point_tv2'");
+    view = finder.findRequiredView(source, 2131427627, "field 'order_point_tv3'");
+    target.order_point_tv3 = finder.castView(view, 2131427627, "field 'order_point_tv3'");
+    view = finder.findRequiredView(source, 2131427628, "field 'order_point_tv4'");
+    target.order_point_tv4 = finder.castView(view, 2131427628, "field 'order_point_tv4'");
+    view = finder.findRequiredView(source, 2131427621, "field 'order_status_tv1'");
+    target.order_status_tv1 = finder.castView(view, 2131427621, "field 'order_status_tv1'");
+    view = finder.findRequiredView(source, 2131427622, "field 'order_status_tv2'");
+    target.order_status_tv2 = finder.castView(view, 2131427622, "field 'order_status_tv2'");
+    view = finder.findRequiredView(source, 2131427623, "field 'order_status_tv3'");
+    target.order_status_tv3 = finder.castView(view, 2131427623, "field 'order_status_tv3'");
+    view = finder.findRequiredView(source, 2131427624, "field 'order_status_tv4'");
+    target.order_status_tv4 = finder.castView(view, 2131427624, "field 'order_status_tv4'");
+    view = finder.findRequiredView(source, 2131427634, "field 'address_name_tv'");
+    target.address_name_tv = finder.castView(view, 2131427634, "field 'address_name_tv'");
+    view = finder.findRequiredView(source, 2131427635, "field 'address_phone_tv'");
+    target.address_phone_tv = finder.castView(view, 2131427635, "field 'address_phone_tv'");
+    view = finder.findRequiredView(source, 2131427637, "field 'address_detail_tv'");
+    target.address_detail_tv = finder.castView(view, 2131427637, "field 'address_detail_tv'");
+    view = finder.findRequiredView(source, 2131427644, "field 'pay_type_tv'");
+    target.pay_type_tv = finder.castView(view, 2131427644, "field 'pay_type_tv'");
+    view = finder.findRequiredView(source, 2131427645, "field 'pay_info_tv1'");
+    target.pay_info_tv1 = finder.castView(view, 2131427645, "field 'pay_info_tv1'");
+    view = finder.findRequiredView(source, 2131427646, "field 'pay_info_tv2'");
+    target.pay_info_tv2 = finder.castView(view, 2131427646, "field 'pay_info_tv2'");
+    view = finder.findRequiredView(source, 2131427631, "field 'detail_phone_linear' and method 'jumpToCall'");
+    target.detail_phone_linear = finder.castView(view, 2131427631, "field 'detail_phone_linear'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToCall();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427632, "field 'detail_phone_tv'");
+    target.detail_phone_tv = finder.castView(view, 2131427632, "field 'detail_phone_tv'");
+    view = finder.findRequiredView(source, 2131427641, "field 'goods_lv'");
+    target.goods_lv = finder.castView(view, 2131427641, "field 'goods_lv'");
+    view = finder.findRequiredView(source, 2131427609, "field 'base_linear'");
+    target.base_linear = finder.castView(view, 2131427609, "field 'base_linear'");
+  }
+
+  @Override public void reset(T target) {
+    target.order_status_tv = null;
+    target.logistics_status_tv = null;
+    target.goods_status_tv = null;
+    target.order_number_tv = null;
+    target.order_time_tv = null;
+    target.order_service_tv = null;
+    target.order_remark_tv = null;
+    target.order_point_tv1 = null;
+    target.order_point_tv2 = null;
+    target.order_point_tv3 = null;
+    target.order_point_tv4 = null;
+    target.order_status_tv1 = null;
+    target.order_status_tv2 = null;
+    target.order_status_tv3 = null;
+    target.order_status_tv4 = null;
+    target.address_name_tv = null;
+    target.address_phone_tv = null;
+    target.address_detail_tv = null;
+    target.pay_type_tv = null;
+    target.pay_info_tv1 = null;
+    target.pay_info_tv2 = null;
+    target.detail_phone_linear = null;
+    target.detail_phone_tv = null;
+    target.goods_lv = null;
+    target.base_linear = null;
+  }
+}

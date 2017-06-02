@@ -1,0 +1,116 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class IndexFragment$$ViewInjector<T extends com.techfly.demo.fragment.IndexFragment> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558536, "field 'top_title_tv'");
+    target.top_title_tv = finder.castView(view, 2131558536, "field 'top_title_tv'");
+    view = finder.findRequiredView(source, 2131558535, "field 'top_back_iv' and method 'showSlideLayout'");
+    target.top_back_iv = finder.castView(view, 2131558535, "field 'top_back_iv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showSlideLayout();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558732, "field 'index_avator_iv'");
+    target.index_avator_iv = finder.castView(view, 2131558732, "field 'index_avator_iv'");
+    view = finder.findRequiredView(source, 2131558733, "field 'index_shopname_tv'");
+    target.index_shopname_tv = finder.castView(view, 2131558733, "field 'index_shopname_tv'");
+    view = finder.findRequiredView(source, 2131558734, "field 'index_month_money_tv'");
+    target.index_month_money_tv = finder.castView(view, 2131558734, "field 'index_month_money_tv'");
+    view = finder.findRequiredView(source, 2131558735, "field 'index_day_money_tv'");
+    target.index_day_money_tv = finder.castView(view, 2131558735, "field 'index_day_money_tv'");
+    view = finder.findRequiredView(source, 2131558738, "field 'index_public_adtv'");
+    target.index_public_adtv = finder.castView(view, 2131558738, "field 'index_public_adtv'");
+    view = finder.findRequiredView(source, 2131558739, "method 'jumpToMember'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToMember();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558741, "method 'jumpToRecharge'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToRecharge();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558743, "method 'jumpToRelease'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToRelease();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558745, "method 'jumpToManager'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToManager();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558747, "method 'jumpToWait1'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToWait1();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558749, "method 'jumpToWait2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToWait2();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558751, "method 'jumpToWait3'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToWait3();
+        }
+      });
+    view = finder.findRequiredView(source, 2131558753, "method 'jumpToWait4'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToWait4();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.top_title_tv = null;
+    target.top_back_iv = null;
+    target.index_avator_iv = null;
+    target.index_shopname_tv = null;
+    target.index_month_money_tv = null;
+    target.index_day_money_tv = null;
+    target.index_public_adtv = null;
+  }
+}

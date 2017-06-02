@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"‏‮REPEAT‬‏ ‏‮DAILY‬‏"</item>
+        <item>"‏‮REPEAT‬‏ ‏‮WEEKLY‬‏"</item>
+        <item>"‏‮REPEAT‬‏ ‏‮MONTHLY‬‏"</item>
+        <item>"‏‮REPEAT‬‏ ‏‮YEARLY‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Friday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Friday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Friday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Friday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Friday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Monday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Monday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Monday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Monday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Monday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Saturday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Saturday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Saturday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Saturday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Saturday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Sunday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Sunday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Sunday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Sunday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Sunday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Thursday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Thursday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Thursday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Thursday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Thursday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Tuesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Tuesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Tuesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Tuesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Tuesday‬‏"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮first‬‏ ‏‮Wednesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮second‬‏ ‏‮Wednesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮third‬‏ ‏‮Wednesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮fourth‬‏ ‏‮Wednesday‬‏"</item>
+        <item>"‏‮on‬‏ ‏‮every‬‏ ‏‮last‬‏ ‏‮Wednesday‬‏"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"‏‮Daily‬‏"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="NUMBER">%d</ns1:g> ‏‮days‬‏"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; ‏‮for‬‏ ‏‮one‬‏ ‏‮time‬‏"</item>
+        <item quantity="other">"; ‏‮for‬‏ <ns1:g id="NUMBER">%d</ns1:g> ‏‮times‬‏"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"‏‮For‬‏ <ns1:g id="EVENT_COUNT">%d</ns1:g> ‏‮event‬‏"</item>
+        <item quantity="other">"‏‮For‬‏ <ns1:g id="EVENT_COUNT">%d</ns1:g> ‏‮events‬‏"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮day‬‏"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮days‬‏"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮month‬‏"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮months‬‏"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮week‬‏"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮weeks‬‏"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮year‬‏"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="COUNT">%d</ns1:g> ‏‮years‬‏"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"‏‮Weekly‬‏ ‏‮on‬‏ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"‏‮Every‬‏ <ns1:g id="NUMBER">%1$d</ns1:g> ‏‮weeks‬‏ ‏‮on‬‏ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"‏‮change‬‏ ‏‮end‬‏ ‏‮date‬‏"</string>
+    <string name="endByDate">"; ‏‮until‬‏ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"‏‮Every‬‏ ‏‮weekday‬‏ (‏‮Mon‬‏–‏‮Fri‬‏)"</string>
+    <string name="monthly">"‏‮Monthly‬‏"</string>
+    <string name="recurrence_end_continously">"‏‮Forever‬‏"</string>
+    <string name="recurrence_end_count_label">"‏‮For‬‏ ‏‮a‬‏ ‏‮number‬‏ ‏‮of‬‏ ‏‮events‬‏"</string>
+    <string name="recurrence_end_date">"‏‮Until‬‏ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"‏‮Until‬‏ ‏‮a‬‏ ‏‮date‬‏"</string>
+    <string name="recurrence_month_pattern_by_day">"‏‮on‬‏ ‏‮the‬‏ ‏‮same‬‏ ‏‮day‬‏ ‏‮each‬‏ ‏‮month‬‏"</string>
+    <string name="yearly_plain">"‏‮Yearly‬‏"</string>
+</resources>

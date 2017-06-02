@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-lv/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ATKĀRTOT KATRU DIENU"</item>
+        <item>"ATKĀRTOT KATRU NED."</item>
+        <item>"ATKĀRTOT KATRU MĒN."</item>
+        <item>"ATKĀRTOT KATRU GADU"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"katra mēn. pirmajā piektdienā"</item>
+        <item>"katra mēneša otrajā piektdienā"</item>
+        <item>"katra mēn. trešajā piektdienā"</item>
+        <item>"katra mēn. ceturt. piektdienā"</item>
+        <item>"katra mēneša pēdējā piektdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"katra mēneša pirmajā pirmdienā"</item>
+        <item>"katra mēneša otrajā pirmdienā"</item>
+        <item>"katra mēneša trešajā pirmdienā"</item>
+        <item>"katra mēn. ceturtajā pirmdienā"</item>
+        <item>"katra mēneša pēdējā pirmdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"katra mēneša pirmajā sestdienā"</item>
+        <item>"katra mēneša otrajā sestdienā"</item>
+        <item>"katra mēneša trešajā sestdienā"</item>
+        <item>"katra mēn. ceturtajā sestdienā"</item>
+        <item>"katra mēneša pēdējā sestdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"katra mēneša pirmajā svētdienā"</item>
+        <item>"katra mēneša otrajā svētdienā"</item>
+        <item>"katra mēneša trešajā svētdienā"</item>
+        <item>"katra mēn. ceturtajā svētdienā"</item>
+        <item>"katra mēneša pēdējā svētdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"katra mēn. pirmajā ceturtdienā"</item>
+        <item>"katra mēn. otrajā ceturtdienā"</item>
+        <item>"katra mēn. trešajā ceturtdienā"</item>
+        <item>"katra mēn. ceturt. ceturtdienā"</item>
+        <item>"katra mēn. pēdējā ceturtdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"katra mēneša pirmajā otrdienā"</item>
+        <item>"katra mēneša otrajā otrdienā"</item>
+        <item>"katra mēneša trešajā otrdienā"</item>
+        <item>"katra mēn. ceturtajā otrdienā"</item>
+        <item>"katra mēneša pēdējā otrdienā"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"katra mēneša pirmajā trešdienā"</item>
+        <item>"katra mēneša otrajā trešdienā"</item>
+        <item>"katra mēneša trešajā trešdienā"</item>
+        <item>"katra mēn. ceturtajā trešdienā"</item>
+        <item>"katra mēneša pēdējā trešdienā"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-lv/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Katru dienu"</item>
+        <item quantity="other">"Ik pēc <ns1:g id="NUMBER">%d</ns1:g> dienām"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; vienu reizi"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> reizes"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> notikumā"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> notikumos"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> dienas"</item>
+        <item quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> dienas(-ām)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> mēneša"</item>
+        <item quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> mēneša(-iem)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> nedēļas"</item>
+        <item quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> nedēļas(-ām)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> gada"</item>
+        <item quantity="other">"Ik pēc <ns1:g id="COUNT">%d</ns1:g> gada(-iem)"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Reizi nedēļā, katru <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Reizi <ns1:g id="NUMBER">%1$d</ns1:g> nedēļās, katru <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"mainīt beigu datumu"</string>
+    <string name="cancel">"Atcelt"</string>
+    <string name="day_picker_description">"Režģis ar mēneša dienām"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> tika dzēsts."</string>
+    <string name="endByDate">"; līdz šādam datumam: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Katru darbadienu (Pr–Pk)"</string>
+    <string name="item_is_selected">"Atlasīts: <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Reizi mēnesī"</string>
+    <string name="ok">"Labi"</string>
+    <string name="recurrence_end_continously">"Bezgalīgi"</string>
+    <string name="recurrence_end_count_label">"Noteiktu reižu skaitu"</string>
+    <string name="recurrence_end_date">"Līdz  šādam datumam: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Līdz noteiktam datumam"</string>
+    <string name="recurrence_month_pattern_by_day">"Katru mēnesi"</string>
+    <string name="select_day">"Atlasiet mēnesi un dienu."</string>
+    <string name="select_hours">"Atlasiet stundas."</string>
+    <string name="select_minutes">"Atlasiet minūtes."</string>
+    <string name="select_year">"Atlasiet gadu."</string>
+    <string name="year_picker_description">"Gadu saraksts"</string>
+    <string name="yearly_plain">"Reizi gadā"</string>
+</resources>

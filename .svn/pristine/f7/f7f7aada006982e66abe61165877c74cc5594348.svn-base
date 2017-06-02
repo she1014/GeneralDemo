@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-v21/donottranslate.xml -->
+    <eat-comment/>
+    <string name="font_family_button_material">sans-serif-medium</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="SButtonBarButtonStyle" parent="SButtonBarButtonStyleBase">
+        <item name="android:stateListAnimator">@anim/disabled_anim_material</item>
+    </style>
+    <style name="SInvertedButtonBarButtonStyle" parent="SButtonBarButtonStyleBase">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:stateListAnimator">@anim/disabled_anim_material</item>
+    </style>
+    <style name="TextAppearance.EditEvent_SpinnerBase" parent="android:Widget.Material.Light.Spinner"/>
+</resources>

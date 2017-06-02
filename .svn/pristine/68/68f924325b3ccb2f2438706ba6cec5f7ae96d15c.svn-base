@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ja/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"繰り返し: 毎日"</item>
+        <item>"繰り返し: 毎週"</item>
+        <item>"繰り返し: 毎月"</item>
+        <item>"繰り返し: 毎年"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"毎月第1金曜日"</item>
+        <item>"毎月第2金曜日"</item>
+        <item>"毎月第3金曜日"</item>
+        <item>"毎月第4金曜日"</item>
+        <item>"毎月最終金曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"毎月第1月曜日"</item>
+        <item>"毎月第2月曜日"</item>
+        <item>"毎月第3月曜日"</item>
+        <item>"毎月第4月曜日"</item>
+        <item>"毎月最終月曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"毎月第1土曜日"</item>
+        <item>"毎月第2土曜日"</item>
+        <item>"毎月第3土曜日"</item>
+        <item>"毎月第4土曜日"</item>
+        <item>"毎月最終土曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"毎月第1日曜日"</item>
+        <item>"毎月第2日曜日"</item>
+        <item>"毎月第3日曜日"</item>
+        <item>"毎月第4日曜日"</item>
+        <item>"毎月最終日曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"毎月第1木曜日"</item>
+        <item>"毎月第2木曜日"</item>
+        <item>"毎月第3木曜日"</item>
+        <item>"毎月第4木曜日"</item>
+        <item>"毎月最終木曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"毎月第1火曜日"</item>
+        <item>"毎月第2火曜日"</item>
+        <item>"毎月第3火曜日"</item>
+        <item>"毎月第4火曜日"</item>
+        <item>"毎月最終火曜日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"毎月第1水曜日"</item>
+        <item>"毎月第2水曜日"</item>
+        <item>"毎月第3水曜日"</item>
+        <item>"毎月第4水曜日"</item>
+        <item>"毎月最終水曜日"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"毎日"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g>日ごと"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"（1回）"</item>
+        <item quantity="other">"（<ns1:g id="NUMBER">%d</ns1:g>回）"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g>回繰り返す"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g>回繰り返す"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>日"</item>
+        <item quantity="other">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>日"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>か月"</item>
+        <item quantity="other">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>か月"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>週間"</item>
+        <item quantity="other">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>週間"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>年"</item>
+        <item quantity="other">"繰り返す間隔: <ns1:g id="COUNT">%d</ns1:g>年"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"毎週<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g>週間ごとの<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"終了日を変更します"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="day_picker_description">"日グリッド（月別）"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g>を削除しました"</string>
+    <string name="endByDate">"（<ns1:g id="DATE">%s</ns1:g>まで）"</string>
+    <string name="every_weekday">"平日（月～金）"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g>を選択しました"</string>
+    <string name="monthly">"月次"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"終了日なし"</string>
+    <string name="recurrence_end_count_label">"回数"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g>まで"</string>
+    <string name="recurrence_end_date_label">"終了日:"</string>
+    <string name="recurrence_month_pattern_by_day">"毎月同じ日"</string>
+    <string name="select_day">"月と日を選択"</string>
+    <string name="select_hours">"時間を選択"</string>
+    <string name="select_minutes">"分を選択"</string>
+    <string name="select_year">"年を選択"</string>
+    <string name="year_picker_description">"年リスト"</string>
+    <string name="yearly_plain">"毎年"</string>
+</resources>

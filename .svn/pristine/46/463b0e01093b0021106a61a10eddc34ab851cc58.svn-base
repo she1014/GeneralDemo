@@ -1,0 +1,128 @@
+package com.techfly.demo.bean;
+
+import java.util.List;
+
+/**
+ * EventBus相关
+ * Created by ssm on 2015/12/30.
+ */
+public class EventBean {
+
+    public String action;
+    public String msg;
+    public List<String> list;
+
+    public static final String EVENT_EXIT_APP = "EVENT_EXIT_APP";
+
+    public static final String EVENT_END = "EVENT_END";
+    public static final String EVENT_REFRESH_UI = "EVENT_REFRESH_UI";
+    public static final String EVENT_GET_DATA = "EVENT_GET_DATA";
+    public static final String EVENT_REFRESH_PERSON_INFO = "EVENT_REFRESH_PERSON_INFO";//刷新个人中心
+
+    public static final String EVENT_REFRESH_RECHARGE_INFO = "EVENT_REFRESH_RECHARGE_INFO";//获取推荐人
+
+    public static final String EVENT_RECHARGE_CARD_INFO = "EVENT_RECHARGE_CARD_INFO";//充值卡充值成功
+
+    public static final String EVENT_REFRESH_RECHARGE = "EVENT_REFRESH_RECHARGE";
+
+    public static final String EVENT_REFRESH_COMPLETED_LIST = "EVENT_REFRESH_COMPLETED_LIST";
+
+
+    public static final String EVENT_CONFIRM_DELETE = "EVENT_CONFIRM_DELETE";
+    public static final String EVENT_CONFIRM_DELETE_ORDER = "EVENT_CONFIRM_DELETE_ORDER";
+    public static final String EVENT_CANCEL_DELETE = "EVENT_CANCEL_DELETE";
+    public static final String EVENT_CONFIM_SUBMIT = "EVENT_CONFIM_SUBMIT";
+
+    public static final String EVENT_ORDER_EVALUATION_SUCCESS = "EVENT_ORDER_EVALUATION_SUCCESS";
+
+    public static final String EVENT_JUMP_TO_ORDER = "EVENT_JUMP_TO_ORDER";
+
+    public static final String EVENT_PAY_SUCCESS = "EVENT_PAY_SUCCESS";
+    public static final String EVENT_WXPAY_SUCCESS = "EVENT_WXPAY_SUCCESS";
+    public static final String EVENT_PAY_ERROR = "EVENT_PAY_ERROR";
+
+    public static final String EVENT_GET_CACHE_CONTENT = "EVENT_GET_CACHE_CONTENT";
+
+    public static final String EVENT_GET_DEFAULT_LOCATION = "EVENT_GET_DEFAULT_LOCATION";
+
+
+    public static final String REPORT_WRITE_END = "REPORT_WRITE_END";
+    public static final String GET_BAIKE_INFO_END = "GET_BAIKE_INFO_END";
+    public static final String WXENTRY_END = "WXENTRY_END";
+    public static final String WXENTRY_CANCEL = "WXENTRY_CANCEL";
+    public static final String WXENTRY_REFUSE = "WXENTRY_REFUSE";
+    public static final String EVENT_WX_SHARE_SUCCESS = "EVENT_WX_SHARE_SUCCESS";
+    public static final String EVENT_WAIT_FINISH = "EVENT_WAIT_FINISH";
+    public static final String EVENT_OPEN_CAMERE = "EVENT_OPEN_CAMERE";
+    public static final String EVENT_EMPTY = "EVENT_EMPTY";
+
+    public static final String EVENT_CLOSE_CURRENT_ACTIVITY = "EVENT_CLOSE_CURRENT_ACTIVITY";
+
+    public static final String EVENT_UPLOAD_FINISH = "EVENT_UPLOAD_FINISH";
+    public static final String EVENT_CLOSE_WAIT_DIALOG = "EVENT_CLOSE_WAIT_DIALOG";
+
+    public static final String EVENT_GOODS_STATUS_NORMAL = "EVENT_GOODS_STATUS_NORMAL";//上架
+    public static final String EVENT_GOODS_STATUS_OFF_SHELF = "EVENT_GOODS_STATUS_OFF_SHELF";//下架
+    public static final String EVENT_GOODS_STATUS_DELETE = "EVENT_GOODS_STATUS_DELETE";//删除
+    public static final String EVENT_CONFIRM_DELETE_GOOD = "EVENT_CONFIRM_DELETE_GOOD";
+
+    public static final String EVENT_MAIN_SELECT_SLIDE = "EVENT_MAIN_SELECT_SLIDE";
+    public static final String EVENT_MAIN_SLIDE_CHANGE = "EVENT_MAIN_SLIDE_CHANGE";
+
+    public static String CONFIRM_ORDER_CONFIRM_REFUND = "CONFIRM_ORDER_CONFIRM_REFUND";      //同意退款
+    public static String CONFIRM_ORDER_REFUSE_REFUND = "CONFIRM_ORDER_REFUSE_REFUND";//拒绝退款
+
+    public static String CONFIRM_ORDER_ACCEPT = "CONFIRM_ORDER_ACCEPT";//接单
+    public static String CONFIRM_ORDER_REJECT = "CONFIRM_ORDER_REJECT";//拒单
+
+
+    //退出登录  exitAccountDialog
+    public static final String EVENT_EXIT_ACCOUNT = "EVENT_EXIT_ACCOUNT";
+
+    public static final String EVENT_UPDATE_AVATAR = "EVENT_UPDATE_AVATAR";
+
+    public static String CONFIRM_ORDER_DELIVERY = "CONFIRM_ORDER_DELIVERY";//发货
+
+    public EventBean() {
+    }
+
+    public EventBean(String action, List<String> list) {
+        this.action = action;
+        this.list = list;
+    }
+
+    public EventBean(String action) {
+        this.action = action;
+    }
+
+    public String getAction() {
+        return action;
+    }
+
+    public void setAction(String action) {
+        this.action = action;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public EventBean(String action, String msg) {
+        this.action = action;
+        this.msg = msg;
+    }
+
+    public List<String> getList() {
+        return list;
+    }
+
+    public void setList(List<String> list) {
+        this.list = list;
+    }
+
+
+}

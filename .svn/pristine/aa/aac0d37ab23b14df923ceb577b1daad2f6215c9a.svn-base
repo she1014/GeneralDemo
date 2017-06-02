@@ -1,0 +1,119 @@
+package com.techfly.demo.bean;
+
+import java.util.List;
+
+/**
+ * EventBus相关
+ * Created by ssm on 2015/12/30.
+ */
+public class EventBean {
+
+    public String action;
+    public String msg;
+    public List<String> list;
+
+    public static final String EVENT_EXIT_APP = "EVENT_EXIT_APP";
+
+    public static final String EVENT_REFRESH_UI = "EVENT_REFRESH_UI";
+    public static final String EVENT_CLOSE_CURRENT_ACTIVITY = "EVENT_CLOSE_CURRENT_ACTIVITY";
+
+    public static final String EVENT_GET_DATA = "EVENT_GET_DATA";
+
+    public static final String EVENT_REFRESH_COMPLETED_LIST = "EVENT_REFRESH_COMPLETED_LIST";
+
+    public static final String EVENT_CONFIRM_DELETE = "EVENT_CONFIRM_DELETE";
+    public static final String EVENT_CANCEL_DELETE = "EVENT_CANCEL_DELETE";
+    public static final String EVENT_CONFIRM_SUBMIT = "EVENT_CONFIRM_SUBMIT";
+
+    public static final String EVENT_JUMP_TO_ORDER = "EVENT_JUMP_TO_ORDER";
+
+    public static final String EVENT_PAY_SUCCESS = "EVENT_PAY_SUCCESS";
+    public static final String EVENT_WXPAY_SUCCESS = "EVENT_WXPAY_SUCCESS";
+    public static final String EVENT_PAY_ERROR = "EVENT_PAY_ERROR";
+
+    public static final String EVENT_GET_CACHE_CONTENT = "EVENT_GET_CACHE_CONTENT";
+
+    public static final String EVENT_GET_DEFAULT_LOCATION = "EVENT_GET_DEFAULT_LOCATION";
+
+    public static final String WXENTRY_END = "WXENTRY_END";
+    public static final String WXENTRY_CANCEL = "WXENTRY_CANCEL";
+    public static final String WXENTRY_REFUSE = "WXENTRY_REFUSE";
+    public static final String EVENT_WX_SHARE_SUCCESS = "EVENT_WX_SHARE_SUCCESS";
+    public static final String EVENT_WAIT_FINISH = "EVENT_WAIT_FINISH";
+    public static final String EVENT_OPEN_CAMERE = "EVENT_OPEN_CAMERE";
+    public static final String EVENT_EMPTY = "EVENT_EMPTY";
+
+    public static final String EVENT_UPLOAD_FINISH = "EVENT_UPLOAD_FINISH";
+    public static final String EVENT_CLOSE_WAIT_DIALOG = "EVENT_CLOSE_WAIT_DIALOG";
+
+    public static final String EVENT_GOODS_STATUS_NORMAL = "EVENT_GOODS_STATUS_NORMAL";//上架
+    public static final String EVENT_GOODS_STATUS_OFF_SHELF = "EVENT_GOODS_STATUS_OFF_SHELF";//下架
+    public static final String EVENT_GOODS_STATUS_DELETE = "EVENT_GOODS_STATUS_DELETE";//删除
+
+    public static final String EVENT_MAIN_SELECT_SLIDE = "EVENT_MAIN_SELECT_SLIDE";
+    public static final String EVENT_MAIN_SLIDE_CHANGE = "EVENT_MAIN_SLIDE_CHANGE";
+
+    public static String CONFIRM_ORDER_CONFIRM_REFUND = "CONFIRM_ORDER_CONFIRM_REFUND";      //同意退款
+    public static String CONFIRM_ORDER_REFUSE_REFUND = "CONFIRM_ORDER_REFUSE_REFUND";//拒绝退款
+
+    public static String CONFIRM_ORDER_ACCEPT = "CONFIRM_ORDER_ACCEPT";//接单
+    public static String CONFIRM_ORDER_REJECT = "CONFIRM_ORDER_REJECT";//拒单
+
+    //退出登录  exitAccountDialog
+    public static final String EVENT_EXIT_ACCOUNT = "EVENT_EXIT_ACCOUNT";
+
+    public static final String EVENT_UPDATE_AVATAR = "EVENT_UPDATE_AVATAR";
+
+    public static String CONFIRM_ORDER_DELIVERY = "CONFIRM_ORDER_DELIVERY";//发货
+
+    //转盘相关
+    public static final String EVENT_CONFIRM_TRANSFER_ACCOUNT_INFO = "EVENT_CONFIRM_TRANSFER_ACCOUNT_INFO";//充值卡充值成功
+    public static final String EVENT_CONFIRM_LUCKY = "EVENT_CONFIRM_LUCKY";
+
+    public static final String EVENT_LUCK_SHOW_BACKGROUD = "EVENT_LUCK_SHOW_BACKGROUD";
+    public static final String EVENT_LUCK_START_LUCK = "EVENT_LUCK_START_LUCK";
+
+
+    public EventBean() {
+    }
+
+    public EventBean(String action, List<String> list) {
+        this.action = action;
+        this.list = list;
+    }
+
+    public EventBean(String action) {
+        this.action = action;
+    }
+
+    public String getAction() {
+        return action;
+    }
+
+    public void setAction(String action) {
+        this.action = action;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public EventBean(String action, String msg) {
+        this.action = action;
+        this.msg = msg;
+    }
+
+    public List<String> getList() {
+        return list;
+    }
+
+    public void setList(List<String> list) {
+        this.list = list;
+    }
+
+
+}

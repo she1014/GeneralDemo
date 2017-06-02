@@ -1,0 +1,56 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo22Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo22Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427516, "field 'demo_flv'");
+    target.demo_flv = finder.castView(view, 2131427516, "field 'demo_flv'");
+    view = finder.findRequiredView(source, 2131427515, "field 'demo_bg_iv'");
+    target.demo_bg_iv = finder.castView(view, 2131427515, "field 'demo_bg_iv'");
+    view = finder.findRequiredView(source, 2131427525, "field 'container_linear1'");
+    target.container_linear1 = finder.castView(view, 2131427525, "field 'container_linear1'");
+    view = finder.findRequiredView(source, 2131427524, "field 'demo_hv1'");
+    target.demo_hv1 = finder.castView(view, 2131427524, "field 'demo_hv1'");
+    view = finder.findRequiredView(source, 2131427526, "field 'demo_gv'");
+    target.demo_gv = finder.castView(view, 2131427526, "field 'demo_gv'");
+    view = finder.findRequiredView(source, 2131427530, "field 'demo_top_linear'");
+    target.demo_top_linear = finder.castView(view, 2131427530, "field 'demo_top_linear'");
+    view = finder.findRequiredView(source, 2131427531, "field 'demo_top_left_linear'");
+    target.demo_top_left_linear = finder.castView(view, 2131427531, "field 'demo_top_left_linear'");
+    view = finder.findRequiredView(source, 2131427533, "field 'demo_top_right_linear' and method 'showAnimator'");
+    target.demo_top_right_linear = finder.castView(view, 2131427533, "field 'demo_top_right_linear'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showAnimator();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427532, "field 'demo_top_right_tv'");
+    target.demo_top_right_tv = finder.castView(view, 2131427532, "field 'demo_top_right_tv'");
+    view = finder.findRequiredView(source, 2131427528, "field 'container_linear2'");
+    target.container_linear2 = finder.castView(view, 2131427528, "field 'container_linear2'");
+    view = finder.findRequiredView(source, 2131427527, "field 'demo_hv2'");
+    target.demo_hv2 = finder.castView(view, 2131427527, "field 'demo_hv2'");
+  }
+
+  @Override public void reset(T target) {
+    target.demo_flv = null;
+    target.demo_bg_iv = null;
+    target.container_linear1 = null;
+    target.demo_hv1 = null;
+    target.demo_gv = null;
+    target.demo_top_linear = null;
+    target.demo_top_left_linear = null;
+    target.demo_top_right_linear = null;
+    target.demo_top_right_tv = null;
+    target.container_linear2 = null;
+    target.demo_hv2 = null;
+  }
+}

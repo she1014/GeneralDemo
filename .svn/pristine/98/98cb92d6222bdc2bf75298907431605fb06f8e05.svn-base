@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_red_solid_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_red_solid_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_darkorange.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_darkorange.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_dotted_more.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_line_dotted_more.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_photo_checkbox_bg.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_photo_checkbox_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_darkorange_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_darkorange_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_red_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_red_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\recurrence_menu_divider.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.appeaser.sublimepickerlibrary\\sublimepickerlibrary\\2.1.1\\res\\drawable\\recurrence_menu_divider.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_yellow.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\rating_yellow.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lucky_text_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\lucky_text_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error_circle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\error_circle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error_center_x.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\error_center_x.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_sidebar.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\background_sidebar.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_solid_gray_point.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_solid_gray_point.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_black_solid_gray.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_black_solid_gray.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_red.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_red.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_sigh.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\warning_sigh.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lucky_hit_backgroud.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\lucky_hit_backgroud.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_rectangle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_line_rectangle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_three_stroke_blue.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_three_stroke_blue.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tag_bg.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_tag_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_face_text.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\emoji\\unspecified\\res\\drawable\\selector_face_text.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\red_button_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_gray_solid_empty_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_gray_solid_empty_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_footer_loading_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\sample_footer_loading_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pickerview_btn.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\pickerview\\2.0.8\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edittext_cursor.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_edittext_cursor.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_dialog_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\background_dialog_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_circle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\success_circle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_solid_darkorange_point.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_solid_darkorange_point.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_bow.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\success_bow.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_dot.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_dot.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_three_stroke_green.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_three_stroke_green.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\frame_bao.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\frame_bao.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_pink_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_pink_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_tab.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_solid_red_double.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_solid_red_double.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_tapered.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_line_tapered.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\pulltorefresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rounded.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.github.traex.rippleeffect\\library\\1.2.3\\res\\drawable\\shape_rounded.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_red_solid_pink.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_red_solid_pink.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_pink_solid_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_pink_solid_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layer_progress.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\layer_progress.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_button_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\blue_button_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_blue_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_blue_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_white_solid_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_white_solid_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_ring.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_line_ring.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\FileSelector\\unspecified\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_radio_space.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_radio_space.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_empty.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_empty.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_radio_msg.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_radio_msg.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lucky_rule_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\lucky_rule_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\searchview_frame.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\searchview_frame.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_text_color.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_green.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_green.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\gray_button_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_green_solid_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_green_solid_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_three_stroke_red.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_three_stroke_red.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_gray_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_gray_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_line_dotted.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_line_dotted.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_black_solid_empty_right_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_black_solid_empty_right_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_solid_red_point.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_circle_solid_red_point.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_circle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\cn.pedant.sweetalert\\library\\1.3\\res\\drawable\\warning_circle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_font.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_font.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unselect_btn.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\GeneralDemo\\FileSelector\\unspecified\\res\\drawable\\unselect_btn.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_gray_solid_white.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_gray_solid_white.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_radio_con.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_radio_con.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_empty_solid_gray_angle.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_empty_solid_gray_angle.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_stroke_white_solid_transparent.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\shape_stroke_white_solid_transparent.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_white_gray.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_white_gray.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_customer_background.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable\\selector_customer_background.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    }
+]

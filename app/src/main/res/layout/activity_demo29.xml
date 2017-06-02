@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/top_title"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        layout="@layout/activity_base_top_bar"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marign_normal"
+        android:background="@color/red"
+        >
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="vertical"
+            android:fadingEdgeLength="20px"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            />
+
+        <TextView
+            android:id="@+id/demo28_show_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_middle"
+            android:textColor="@color/text_font_black"
+            android:text=""
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>

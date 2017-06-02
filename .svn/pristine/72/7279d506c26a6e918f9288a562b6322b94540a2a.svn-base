@@ -1,0 +1,21 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.goods;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class GoodManagerMenuActivity$$ViewInjector<T extends com.techfly.demo.activity.goods.GoodManagerMenuActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558528, "field 'pager'");
+    target.pager = finder.castView(view, 2131558528, "field 'pager'");
+    view = finder.findRequiredView(source, 2131558527, "field 'tabs'");
+    target.tabs = finder.castView(view, 2131558527, "field 'tabs'");
+  }
+
+  @Override public void reset(T target) {
+    target.pager = null;
+    target.tabs = null;
+  }
+}

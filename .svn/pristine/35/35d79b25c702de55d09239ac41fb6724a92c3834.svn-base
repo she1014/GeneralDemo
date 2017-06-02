@@ -1,0 +1,129 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 图文间距 -->
+    <dimen name="marign_text_image">2dp</dimen>
+
+    <dimen name="marign_gridview">4dp</dimen>
+
+    <!--纵向间隔-->
+    <dimen name="horizontal_spacing">7dp</dimen>
+    <!--横向间隔-->
+    <dimen name="horizontal_advanced_spacing">25dp</dimen>
+    <!--横向间隔-->
+    <dimen name="horizontal_normal_spacing">10dp</dimen>
+    <!--横向间隔-->
+    <dimen name="horizontal_icon_spacing">10dp</dimen>
+
+    <!-- 距离边界 -->
+    <dimen name="marign_boundary">15dp</dimen>
+
+    <!-- 距离边界 -->
+    <dimen name="marign_boundary_title">20dp</dimen>
+
+
+    <dimen name="marign_boundary_more">45dp</dimen>
+    <dimen name="marign_top">13dp</dimen>
+    <dimen name="marign_bottom">13dp</dimen>
+
+    <!--横向图片文字间隔-->
+    <dimen name="marign_icon_text_spacing">12dp</dimen>
+
+    <dimen name="good_release_divider_height">0.8dp</dimen>
+
+    <dimen name="marign_normal">5dp</dimen>
+
+    <dimen name="mine_marign_normal">7dp</dimen>
+
+    <dimen name="marign_mid">7dp</dimen>
+
+    <dimen name="marign_middle">10dp</dimen>
+
+    <dimen name="marign_big">15dp</dimen>
+
+    <dimen name="marign_max">18dp</dimen>
+
+    <dimen name="marign_bigger">20dp</dimen>
+
+    <dimen name="marign_large">30dp</dimen>
+
+    <dimen name="marign_larger">40dp</dimen>
+
+    <dimen name="padding_normal">5dp</dimen>
+
+    <dimen name="button_height">40dp</dimen>
+
+    <dimen name="linear_item_height">43dp</dimen>
+
+    <dimen name="marign_empty">15dp</dimen>
+    <!-- 填写检查报告，占空位 -->
+
+    <!-- 三档字体   px/2.5 = dp -->
+    <!--字体-->
+    <dimen name="size_mini">12dp</dimen>
+    <!--字体-->
+    <dimen name="size_small">14dp</dimen>
+    <!-- 40px -->
+    <!--字体-->
+    <dimen name="size_middle">16dp</dimen>
+    <!-- 46px -->
+    <!--字体-->
+    <dimen name="size_big">18dp</dimen>
+    <!-- 50px -->
+
+    <dimen name="px_42">16dp</dimen>
+    <!-- 42px -->
+    <dimen name="px_48">19dp</dimen>
+    <!-- 48px -->
+
+    <!--字体-->
+    <dimen name="size_large">20dp</dimen>
+    <!-- 60px -->
+
+    <!--字体-->
+    <dimen name="size_title">30dp</dimen>
+    <!-- 60px -->
+    <!--字体-->
+    <dimen name="text_large">45dp</dimen>
+    <!-- 90px -->
+    <!--字体-->
+    <dimen name="text_larger">95dp</dimen>
+    <!-- 190px -->
+
+    <dimen name="divider_line">1dp</dimen>
+
+    <dimen name="seek_bar_width">30dp</dimen>
+    <dimen name="seek_bar_dialog_height">90dp</dimen>
+    <dimen name="seek_bar_dialog_width">90dp</dimen>
+    <!--个人中心-->
+    <dimen name="header_bar_height">48dp</dimen>
+    <!--边距值 用在调新增地址和建议输入框边距-->
+    <dimen name="px_20">11.11dp</dimen>
+    <dimen name="px_30">16.67dp</dimen>
+    <dimen name="suggest_px_10">5.56dp</dimen>
+
+    <dimen name="px_130">72.22dp</dimen>
+    <dimen name="px_10">5.56dp</dimen>
+    <dimen name="px_15">8.33dp</dimen>
+    <dimen name="px_28">15.56dp</dimen>
+    <dimen name="px_40">22.22dp</dimen>
+    <dimen name="px_50">27.78dp</dimen>
+    <dimen name="px_80">44.44dp</dimen>
+
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_11">11dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_13">13dp</dimen>
+    <dimen name="size_14">14dp</dimen>
+    <dimen name="size_15">15dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_17">17dp</dimen>
+    <dimen name="size_18">18dp</dimen>
+    <dimen name="size_19">19dp</dimen>
+    <dimen name="size_20">20dp</dimen>
+
+<!--检测更新-->
+    <dimen name="dialog_title">22dp</dimen>
+</resources>

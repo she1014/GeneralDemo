@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-az-rAZ/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"HƏR GÜN TƏKRARLA"</item>
+        <item>"HƏR HƏFTƏ TƏKRARLA"</item>
+        <item>"HƏR AY TƏKRARLA"</item>
+        <item>"HƏR İL TƏKRARLA"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"hər birinci cümə"</item>
+        <item>"hər ikinci cümə"</item>
+        <item>"hər üçüncü cümə"</item>
+        <item>"hər dördüncü cümə"</item>
+        <item>"hər sonuncu cümə"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"hər birinci bazar ertəsi"</item>
+        <item>"hər ikinci bazar ertəsi"</item>
+        <item>"hər üçüncü bazar ertəsi"</item>
+        <item>"hər dördüncü bazar ertəsi"</item>
+        <item>"hər sonuncu bazar ertəsi"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"hər birinci şənbə"</item>
+        <item>"hər ikinci şənbə"</item>
+        <item>"hər üçüncü şənbə"</item>
+        <item>"hər dördüncü şənbə"</item>
+        <item>"hər sonuncu şənbə"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"hər birinci bazar günü"</item>
+        <item>"hər ikinci bazar günü"</item>
+        <item>"hər üçüncü bazar günü"</item>
+        <item>"hər dördüncü bazar günü"</item>
+        <item>"hər sonuncu bazar günü"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"hər birinci cümə axşamı"</item>
+        <item>"hər ikinci cümə axşamı"</item>
+        <item>"hər üçüncü cümə axşamı"</item>
+        <item>"hər dördüncü cümə axşamı"</item>
+        <item>"hər sonuncu cümə axşamı"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"hər birinci çərşənbə axşamı"</item>
+        <item>"hər ikinci çərşənbə axşamı"</item>
+        <item>"hər üçüncü çərşənbə axşamı"</item>
+        <item>"hər dördüncü çərşənbə axşamı"</item>
+        <item>"hər sonuncu çərşənbə axşamı"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"hər birinci çərşənbə"</item>
+        <item>"hər ikinci çərşənbə"</item>
+        <item>"hər üçüncü çərşənbə"</item>
+        <item>"hər dördüncü çərşənbə"</item>
+        <item>"hər sonuncu çərşənbə"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-az-rAZ/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Günlük"</item>
+        <item quantity="other">"Hər <ns1:g id="NUMBER">%d</ns1:g> gün"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; bir dəfəlik"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> dəfəlik"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Hər <ns1:g id="EVENT_COUNT">%d</ns1:g> tədbir"</item>
+        <item quantity="other">"Hər <ns1:g id="EVENT_COUNT">%d</ns1:g> tədbir"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Hər <ns1:g id="COUNT">%d</ns1:g> gündən bir"</item>
+        <item quantity="other">"Hər <ns1:g id="COUNT">%d</ns1:g> gündən bir"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Hər <ns1:g id="COUNT">%d</ns1:g> aydan bir"</item>
+        <item quantity="other">"Hər <ns1:g id="COUNT">%d</ns1:g> aydan bir"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Hər <ns1:g id="COUNT">%d</ns1:g> həftədən bir"</item>
+        <item quantity="other">"Hər <ns1:g id="COUNT">%d</ns1:g> həftədən bir"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Hər <ns1:g id="COUNT">%d</ns1:g> ildən bir"</item>
+        <item quantity="other">"Hər <ns1:g id="COUNT">%d</ns1:g> ildən bir"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Hər həftə <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Hər <ns1:g id="NUMBER">%1$d</ns1:g> həftədən bir <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"son tarixi dəyiş"</string>
+    <string name="cancel">"Ləğv et"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> tarixinə qədər"</string>
+    <string name="every_weekday">"Hər həftə içi (B.e.–Cümə)"</string>
+    <string name="monthly">"Hər ay"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Həmişə"</string>
+    <string name="recurrence_end_count_label">"Bir sıra tədbirlər üçün"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> tarixinə qədər"</string>
+    <string name="recurrence_end_date_label">"Bir tarixə qədər"</string>
+    <string name="recurrence_month_pattern_by_day">"hər ayın eyni günü"</string>
+    <string name="yearly_plain">"Hər il"</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ప్రతిరోజు పునరావృతం చేయి"</item>
+        <item>"ప్రతి వారం పునరావృతం చేయి"</item>
+        <item>"ప్రతి నెల పునరావృతం చేయి"</item>
+        <item>"ప్రతి సంవత్సరం పునరావృతం చేయి"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ప్రతి మొదటి శుక్రవారం"</item>
+        <item>"ప్రతి రెండవ శుక్రవారం"</item>
+        <item>"ప్రతి మూడవ శుక్రవారం"</item>
+        <item>"ప్రతి నాలుగవ శుక్రవారం"</item>
+        <item>"ప్రతి చివరి శుక్రవారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ప్రతి మొదటి సోమవారం"</item>
+        <item>"ప్రతి రెండవ సోమవారం"</item>
+        <item>"ప్రతి మూడవ సోమవారం"</item>
+        <item>"ప్రతి నాలుగవ సోమవారం"</item>
+        <item>"ప్రతి చివరి సోమవారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ప్రతి మొదటి శనివారం"</item>
+        <item>"ప్రతి రెండవ శనివారం"</item>
+        <item>"ప్రతి మూడవ శనివారం"</item>
+        <item>"ప్రతి నాలుగవ శనివారం"</item>
+        <item>"ప్రతి చివరి శనివారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ప్రతి మొదటి ఆదివారం"</item>
+        <item>"ప్రతి రెండవ ఆదివారం"</item>
+        <item>"ప్రతి మూడవ ఆదివారం"</item>
+        <item>"ప్రతి నాలుగవ ఆదివారం"</item>
+        <item>"ప్రతి చివరి ఆదివారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ప్రతి మొదటి గురువారం"</item>
+        <item>"ప్రతి రెండవ గురువారం"</item>
+        <item>"ప్రతి మూడవ గురువారం"</item>
+        <item>"ప్రతి నాలుగవ గురువారం"</item>
+        <item>"ప్రతి చివరి గురువారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ప్రతి మొదటి మంగళవారం"</item>
+        <item>"ప్రతి రెండవ మంగళవారం"</item>
+        <item>"ప్రతి మూడవ మంగళవారం"</item>
+        <item>"ప్రతి నాలుగవ మంగళవారం"</item>
+        <item>"ప్రతి చివరి మంగళవారం"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ప్రతి మొదటి బుధవారం"</item>
+        <item>"ప్రతి రెండవ బుధవారం"</item>
+        <item>"ప్రతి మూడవ బుధవారం"</item>
+        <item>"ప్రతి నాలుగవ బుధవారం"</item>
+        <item>"ప్రతి చివరి బుధవారం"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ప్రతిరోజు"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="NUMBER">%d</ns1:g> రోజులు"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; ఒకసారి"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> సార్లు"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ఈవెంట్‌కు"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ఈవెంట్‌లకు"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> రోజు"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> రోజులు"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> నెల"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> నెలలు"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> వారం"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> వారాలు"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> సంవత్సరం"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="COUNT">%d</ns1:g> సంవత్సరాలు"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"ప్రతి వారం <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> నాడు"</item>
+        <item quantity="other">"ప్రతి <ns1:g id="NUMBER">%1$d</ns1:g> వారాలకు <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> నాడు"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేయండి"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేయండి"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"పూర్తయింది"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"అన్నీ చూడండి"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"అనువర్తనాన్ని ఎంచుకోండి"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ఆఫ్ చేయి"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ఆన్ చేయి"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"శోధించు..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ప్రశ్నను క్లియర్ చేయి"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ప్రశ్న శోధించండి"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"శోధించు"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పించు"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"వీరితో భాగస్వామ్యం చేయి"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sతో భాగస్వామ్యం చేయి"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"కుదించండి"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"ముగింపు తేదీని మార్చండి"</string>
+    <string name="cancel">"రద్దు చేయండి"</string>
+    <string name="day_picker_description">"రోజుల యొక్క నెల గ్రిడ్"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> తొలగించబడింది"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> వరకు"</string>
+    <string name="every_weekday">"ప్రతి వారపురోజు (సోమ–శుక్ర)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ఎంచుకోబడింది"</string>
+    <string name="monthly">"ప్రతి నెల"</string>
+    <string name="ok">"సరే"</string>
+    <string name="recurrence_end_continously">"ఎప్పటికీ"</string>
+    <string name="recurrence_end_count_label">"ఇన్ని ఈవెంట్‌లకు"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> వరకు"</string>
+    <string name="recurrence_end_date_label">"ఒక తేదీ వరకు"</string>
+    <string name="recurrence_month_pattern_by_day">"ప్రతి నెల అదే రోజున"</string>
+    <string name="select_day">"నెల మరియు రోజును ఎంచుకోండి"</string>
+    <string name="select_hours">"గంటలను ఎంచుకోండి"</string>
+    <string name="select_minutes">"నిమిషాలను ఎంచుకోండి"</string>
+    <string name="select_year">"సంవత్సరాన్ని ఎంచుకోండి"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"సంవత్సర జాబితా"</string>
+    <string name="yearly_plain">"ప్రతి సంవత్సరం"</string>
+</resources>

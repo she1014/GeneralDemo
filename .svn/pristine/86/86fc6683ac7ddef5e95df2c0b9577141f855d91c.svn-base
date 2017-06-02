@@ -1,0 +1,74 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.refund;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class RefundOrderDetailActivity$$ViewInjector<T extends com.techfly.demo.activity.refund.RefundOrderDetailActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427613, "field 'order_number_tv'");
+    target.order_number_tv = finder.castView(view, 2131427613, "field 'order_number_tv'");
+    view = finder.findRequiredView(source, 2131427614, "field 'order_time_tv'");
+    target.order_time_tv = finder.castView(view, 2131427614, "field 'order_time_tv'");
+    view = finder.findRequiredView(source, 2131427616, "field 'order_remark_tv'");
+    target.order_remark_tv = finder.castView(view, 2131427616, "field 'order_remark_tv'");
+    view = finder.findRequiredView(source, 2131427634, "field 'address_name_tv'");
+    target.address_name_tv = finder.castView(view, 2131427634, "field 'address_name_tv'");
+    view = finder.findRequiredView(source, 2131427635, "field 'address_phone_tv'");
+    target.address_phone_tv = finder.castView(view, 2131427635, "field 'address_phone_tv'");
+    view = finder.findRequiredView(source, 2131427637, "field 'address_detail_tv'");
+    target.address_detail_tv = finder.castView(view, 2131427637, "field 'address_detail_tv'");
+    view = finder.findRequiredView(source, 2131427644, "field 'pay_type_tv'");
+    target.pay_type_tv = finder.castView(view, 2131427644, "field 'pay_type_tv'");
+    view = finder.findRequiredView(source, 2131427645, "field 'pay_info_tv1'");
+    target.pay_info_tv1 = finder.castView(view, 2131427645, "field 'pay_info_tv1'");
+    view = finder.findRequiredView(source, 2131427646, "field 'pay_info_tv2'");
+    target.pay_info_tv2 = finder.castView(view, 2131427646, "field 'pay_info_tv2'");
+    view = finder.findRequiredView(source, 2131427631, "field 'detail_phone_linear' and method 'jumpToCall'");
+    target.detail_phone_linear = finder.castView(view, 2131427631, "field 'detail_phone_linear'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToCall();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427632, "field 'detail_phone_tv'");
+    target.detail_phone_tv = finder.castView(view, 2131427632, "field 'detail_phone_tv'");
+    view = finder.findRequiredView(source, 2131427641, "field 'goods_lv'");
+    target.goods_lv = finder.castView(view, 2131427641, "field 'goods_lv'");
+    view = finder.findRequiredView(source, 2131427609, "field 'base_linear'");
+    target.base_linear = finder.castView(view, 2131427609, "field 'base_linear'");
+    view = finder.findRequiredView(source, 2131427653, "field 'detail_reason_tv'");
+    target.detail_reason_tv = finder.castView(view, 2131427653, "field 'detail_reason_tv'");
+    view = finder.findRequiredView(source, 2131427655, "field 'detail_container_linear'");
+    target.detail_container_linear = finder.castView(view, 2131427655, "field 'detail_container_linear'");
+    view = finder.findRequiredView(source, 2131427657, "field 'detail_confirm_tv'");
+    target.detail_confirm_tv = finder.castView(view, 2131427657, "field 'detail_confirm_tv'");
+    view = finder.findRequiredView(source, 2131427658, "field 'detail_refuse_tv'");
+    target.detail_refuse_tv = finder.castView(view, 2131427658, "field 'detail_refuse_tv'");
+  }
+
+  @Override public void reset(T target) {
+    target.order_number_tv = null;
+    target.order_time_tv = null;
+    target.order_remark_tv = null;
+    target.address_name_tv = null;
+    target.address_phone_tv = null;
+    target.address_detail_tv = null;
+    target.pay_type_tv = null;
+    target.pay_info_tv1 = null;
+    target.pay_info_tv2 = null;
+    target.detail_phone_linear = null;
+    target.detail_phone_tv = null;
+    target.goods_lv = null;
+    target.base_linear = null;
+    target.detail_reason_tv = null;
+    target.detail_container_linear = null;
+    target.detail_confirm_tv = null;
+    target.detail_refuse_tv = null;
+  }
+}

@@ -1,0 +1,35 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo7Fragment2$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo7Fragment2> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427393, "field 'base_plv'");
+    target.base_plv = finder.castView(view, 2131427393, "field 'base_plv'");
+    view = finder.findRequiredView(source, 2131427744, "field 'base_load'");
+    target.base_load = view;
+    view = finder.findRequiredView(source, 2131427401, "field 'top_title_tv'");
+    target.top_title_tv = finder.castView(view, 2131427401, "field 'top_title_tv'");
+    view = finder.findRequiredView(source, 2131427403, "field 'top_right_tv' and method 'jumpToCompleted'");
+    target.top_right_tv = finder.castView(view, 2131427403, "field 'top_right_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToCompleted();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.base_plv = null;
+    target.base_load = null;
+    target.top_title_tv = null;
+    target.top_right_tv = null;
+  }
+}

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/Title"
+        android:background="@color/main_bg"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        >
+        <ImageView
+            android:id="@+id/top_back_iv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/marign_middle"
+            android:paddingBottom="@dimen/marign_middle"
+            android:paddingLeft="@dimen/marign_boundary"
+            android:paddingRight="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_return"
+            android:scaleType="fitXY"
+            />
+
+        <EditText
+            android:id="@+id/top_title_et"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_stroke_black_solid_gray"
+            android:textCursorDrawable="@drawable/shape_edittext_cursor"
+            android:layout_toRightOf="@+id/top_back_iv"
+            android:layout_toLeftOf="@+id/top_right2_tv"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/size_bigger"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:hint="http://www.baidu.com"
+            />
+
+        <TextView
+            android:id="@+id/top_right2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_stroke_empty_solid_red"
+            android:layout_marginLeft="@dimen/marign_normal"
+            android:layout_toLeftOf="@+id/top_right_tv"
+            android:textSize="@dimen/size_big"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/white"
+            android:text="浏览"
+            />
+
+        <TextView
+            android:id="@+id/top_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_stroke_empty_solid_green"
+            android:textSize="@dimen/size_big"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/white"
+            android:text="播放"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marign_normal"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        >
+
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/tencent_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layerType="software"
+            >
+        </com.tencent.smtt.sdk.WebView>
+
+    </LinearLayout>
+
+</LinearLayout>

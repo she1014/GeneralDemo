@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight"
+        android:background="@color/main_bg">
+
+        <include layout="@layout/layout_back" />
+
+        <TextView
+            android:id="@+id/top_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="照片预览"
+            android:textColor="@color/text_font_black"
+            android:textSize="@dimen/size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/delete_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/horizontal_icon_spacing"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_default"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight"
+        android:background="@color/main_gray">
+
+        <fragment
+            android:id="@+id/photoPagerFragment"
+            android:name="com.techfly.demo.selfview.photepicker.fragment.ImagePagerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/carcoolwork/20150921/mycarcool_android/app/src/main/res/layout/activity_photo_pager.xml -->

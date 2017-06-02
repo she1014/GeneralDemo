@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-mr-rIN/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"दररोज पुनरावृत्ती"</item>
+        <item>"साप्ताहिक पुनरावृत्ती"</item>
+        <item>"मासिक पुनरावृत्ती"</item>
+        <item>"वार्षिक पुनरावृत्ती"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"प्रत्येक पहिल्या शुक्रवारी"</item>
+        <item>"प्रत्येक दुसर्‍या शुक्रवारी"</item>
+        <item>"प्रत्येक तिसर्‍या शुक्रवारी"</item>
+        <item>"प्रत्येक चौथ्या शुक्रवारी"</item>
+        <item>"प्रत्येक शेवटच्या शुक्रवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"प्रत्येक पहिल्या सोमवारी"</item>
+        <item>"प्रत्येक दुसर्‍या सोमवारी"</item>
+        <item>"प्रत्येक तिसर्‍या सोमवारी"</item>
+        <item>"प्रत्येक चौथ्या सोमवारी"</item>
+        <item>"प्रत्येक शेवटच्या सोमवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"प्रत्येक पहिल्या शनिवारी"</item>
+        <item>"प्रत्येक दुसर्‍या शनिवारी"</item>
+        <item>"प्रत्येक तिसर्‍या शनिवारी"</item>
+        <item>"प्रत्येक चौथ्या शनिवारी"</item>
+        <item>"प्रत्येक शेवटच्या शनिवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"प्रत्येक पहिल्या रविवारी"</item>
+        <item>"प्रत्येक दुसर्‍या रविवारी"</item>
+        <item>"प्रत्येक तिसर्‍या रविवारी"</item>
+        <item>"प्रत्येक चौथ्या रविवारी"</item>
+        <item>"प्रत्येक शेवटच्या रविवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"प्रत्येक पहिल्या गुरुवारी"</item>
+        <item>"प्रत्येक दुसर्‍या गुरुवारी"</item>
+        <item>"प्रत्येक तिसर्‍या गुरुवारी"</item>
+        <item>"प्रत्येक चौथ्या गुरुवारी"</item>
+        <item>"प्रत्येक शेवटच्या गुरुवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"प्रत्येक पहिल्या मंगळवारी"</item>
+        <item>"प्रत्येक दुसर्‍या मंगळवारी"</item>
+        <item>"प्रत्येक तिसर्‍या मंगळवारी"</item>
+        <item>"प्रत्येक चौथ्या मंगळवारी"</item>
+        <item>"प्रत्येक शेवटच्या मंगळवारी"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"प्रत्येक पहिल्या बुधवारी"</item>
+        <item>"प्रत्येक दुसर्‍या बुधवारी"</item>
+        <item>"प्रत्येक तिसर्‍या बुधवारी"</item>
+        <item>"प्रत्येक चौथ्या बुधवारी"</item>
+        <item>"प्रत्येक शेवटच्या बुधवारी"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-mr-rIN/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"दैनिक"</item>
+        <item quantity="other">"दर <ns1:g id="NUMBER">%d</ns1:g> दिवसांनी"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; एका वेळी"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> वेळी"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> इव्हेंटसाठी"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> इव्हेंटसाठी"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"दर <ns1:g id="COUNT">%d</ns1:g> दिवसाने"</item>
+        <item quantity="other">"दर <ns1:g id="COUNT">%d</ns1:g> दिवसांनी"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"दर <ns1:g id="COUNT">%d</ns1:g> महिन्याने"</item>
+        <item quantity="other">"दर <ns1:g id="COUNT">%d</ns1:g> महिन्यांनी"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"दर <ns1:g id="COUNT">%d</ns1:g> आठवड्यात"</item>
+        <item quantity="other">"दर <ns1:g id="COUNT">%d</ns1:g> आठवड्यांनी"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"दर <ns1:g id="COUNT">%d</ns1:g> वर्षी"</item>
+        <item quantity="other">"दर <ns1:g id="COUNT">%d</ns1:g> वर्षांनी"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> रोजी साप्ताहिक"</item>
+        <item quantity="other">"<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> रोजी दर <ns1:g id="NUMBER">%1$d</ns1:g> आठवड्यांनी"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"समाप्ती तारीख बदला"</string>
+    <string name="cancel">"रद्द करा"</string>
+    <string name="day_picker_description">"दिवसांची महिना ग्रिड"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> हटविली"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> पर्यंत"</string>
+    <string name="every_weekday">"शनि रवि खेरिज इतर कोणताही वार (सोम–शुक्र)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> निवडले"</string>
+    <string name="monthly">"मासिक"</string>
+    <string name="ok">"ठीक"</string>
+    <string name="recurrence_end_continously">"कायम"</string>
+    <string name="recurrence_end_count_label">"अनेक इव्हेंटसाठी"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> पर्यंत"</string>
+    <string name="recurrence_end_date_label">"या तारखेपर्यंत"</string>
+    <string name="recurrence_month_pattern_by_day">"प्रत्येक महिन्याच्या त्याच दिवशी"</string>
+    <string name="select_day">"महिना आणि दिवस निवडा"</string>
+    <string name="select_hours">"तास निवडा"</string>
+    <string name="select_minutes">"मिनिटे निवडा"</string>
+    <string name="select_year">"वर्ष निवडा"</string>
+    <string name="year_picker_description">"वर्ष सूची"</string>
+    <string name="yearly_plain">"वार्षिक"</string>
+</resources>

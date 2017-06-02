@@ -1,0 +1,171 @@
+package com.techfly.demo.activity.demo;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.view.View;
+import android.webkit.JavascriptInterface;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.techfly.demo.R;
+import com.techfly.demo.activity.base.BaseActivity;
+import com.techfly.demo.util.LogsUtil;
+import com.techfly.demo.util.ToastUtil;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+
+/*
+ * Scrollview+图片横向滑动
+ */
+public class Demo23Activity extends BaseActivity {
+
+    @InjectView(R.id.detail_call_js_btn)
+    Button detail_call_js_btn;
+    @InjectView(R.id.detail_wv)
+    WebView detail_wv;
+
+    @Override
+    protected void onCreate(Bundle arg0) {
+        super.onCreate(arg0);
+        setContentView(R.layout.activity_demo23);
+
+        ButterKnife.inject(this);
+
+        initBaseView();
+        setBaseTitle("Demo23", 0);
+        initBackButton(R.id.top_back_iv);
+        setTranslucentStatus(R.color.main_bg);
+
+        initView();
+
+        initWebView1();
+    }
+
+    private void initView() {
+    }
+
+    private void initWebView1(){
+        //设置编码
+        detail_wv.getSettings().setDefaultTextEncodingName("utf-8");
+        //支持js
+        detail_wv.getSettings().setJavaScriptEnabled(true);
+        //设置背景颜色 透明
+        detail_wv.setBackgroundColor(Color.argb(0, 0, 0, 0));
+        //设置本地调用对象及其接口
+//        detail_wv.addJavascriptInterface(new JavaScriptObject(this), "myObj");
+        detail_wv.addJavascriptInterface(new JavaScriptObject(this), "jumpObj");
+        //载入js
+//        detail_wv.loadUrl("file:///android_asset/test.html");
+        detail_wv.loadUrl("file:///android_asset/test2.html");
+
+//        detail_wv.loadUrl("http://www.baidu.com");
+
+//        detail_wv.loadUrl("http://www.liutaitai.cn/liu/pages/intention/test.html");//可用
+
+        //点击调用js中方法
+        detail_call_js_btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                LogsUtil.normal("点击事件22");
+                detail_wv.loadUrl("javascript:funFromjs()");
+//                Toast.makeText(Demo23Activity.this, "调用javascript:funFromjs()", Toast.LENGTH_LONG).show();
+            }
+        });
+
+    }
+
+    private void initWebView2(){
+
+        detail_wv.getSettings().setJavaScriptEnabled(true);//可用JS
+        detail_wv.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);//滚动条风格，为0就是不给滚动条留空间，滚动条覆盖在网页上
+        detail_wv.setWebViewClient(new WebViewClient() {
+            public boolean shouldOverrideUrlLoading(final WebView view, final String url) {
+                loadurl(view,url);//载入网页
+                return true;
+            }//重写点击动作,用webview载入
+
+        });
+        /*detail_wv.setWebChromeClient(new WebChromeClient() {
+            public void onProgressChanged(WebView view, int progress) {//载入进度改变而触发
+                *//*if (progress == 100) {
+//                    handler.sendEmptyMessage(1);//如果全部载入,隐藏进度对话框
+                    closeProcessDialog();
+                }*//*
+                super.onProgressChanged(view, progress);
+            }
+        });*/
+
+
+    }
+
+    public void loadurl(final WebView view, final String url) {
+        view.loadUrl(url);//载入网页
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        initWebView2();
+
+        loadurl(detail_wv,"http://www.baidu.com");
+
+//        detail_wv.loadUrl("http://www.baidu.com");
+//        initWebView2("http://www.baidu.com");
+        LogsUtil.normal("requestCode="+requestCode+",resultCode="+resultCode);
+    }
+
+    @Override
+    public void getResult(String result, int type) {
+        super.getResult(result, type);
+//        LogsUtil.normal("getResult");
+    }
+
+
+    public class JavaScriptObject {
+        Context mContxt;
+
+        public JavaScriptObject(Context mContxt) {
+            this.mContxt = mContxt;
+        }
+
+        @JavascriptInterface//添加此注解
+        public void fun1FromAndroid(String name) {
+            Toast.makeText(mContxt, name, Toast.LENGTH_LONG).show();
+        }
+
+        public void fun2(String name) {
+            Toast.makeText(mContxt, "调用fun2:" + name, Toast.LENGTH_SHORT).show();
+        }
+
+        @JavascriptInterface//添加此注解
+        public void fun2FromAndroid(String name,String phone,String email,String city) {
+
+            ToastUtil.DisplayToast(mContxt, name + "," + phone + "," + email + "," + city);
+
+            Intent intent = new Intent(mContxt, Demo22Activity.class);
+            startActivityForResult(intent,1);
+
+//            mContxt.startActivity(intent);
+//        mContxt.startActivityForResult(intent, 1);
+
+        }
+
+        /**
+         * @param type  页面类型
+         * @param id    ID(可为空)
+         */
+        @JavascriptInterface//添加此注解
+        public void jumpToDiff(String type,String id) {
+            ToastUtil.DisplayToast(Demo23Activity.this,"type="+type);
+        }
+    }
+
+
+}

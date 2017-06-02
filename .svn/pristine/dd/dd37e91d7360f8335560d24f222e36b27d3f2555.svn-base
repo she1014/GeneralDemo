@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ПОНАВЉАЈ ДНЕВНО"</item>
+        <item>"ПОНАВЉАЈ НЕДЕЉНО"</item>
+        <item>"ПОНАВЉАЈ МЕСЕЧНО"</item>
+        <item>"ПОНАВЉАЈ ГОДИШЊЕ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"сваког првог петка"</item>
+        <item>"сваког другог петка"</item>
+        <item>"сваког трећег петка"</item>
+        <item>"сваког четвртог петка"</item>
+        <item>"сваког последњег петка"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"сваког првог понедељка"</item>
+        <item>"сваког другог понедељка"</item>
+        <item>"сваког трећег понедељка"</item>
+        <item>"сваког четвртог понедељка"</item>
+        <item>"сваког последњег понедељка"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"сваке прве суботе"</item>
+        <item>"сваке друге суботе"</item>
+        <item>"сваке треће суботе"</item>
+        <item>"сваке четврте суботе"</item>
+        <item>"сваке последње суботе"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"сваке прве недеље"</item>
+        <item>"сваке друге недеље"</item>
+        <item>"сваке треће недеље"</item>
+        <item>"сваке четврте недеље"</item>
+        <item>"сваке последње недеље"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"сваког првог четвртка"</item>
+        <item>"сваког другог четвртка"</item>
+        <item>"сваког трећег четвртка"</item>
+        <item>"сваког четвртог четвртка"</item>
+        <item>"сваког последњег четвртка"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"сваког првог уторка"</item>
+        <item>"сваког другог уторка"</item>
+        <item>"сваког трећег уторка"</item>
+        <item>"сваког четвртог уторка"</item>
+        <item>"сваког последњег уторка"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"сваке прве среде"</item>
+        <item>"сваке друге среде"</item>
+        <item>"сваке треће среде"</item>
+        <item>"сваке четврте среде"</item>
+        <item>"сваке последње среде"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Дневно"</item>
+        <item quantity="other">"На <ns1:g id="NUMBER">%d</ns1:g> дана"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; једанпут"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> пута"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"За <ns1:g id="EVENT_COUNT">%d</ns1:g> догађај"</item>
+        <item quantity="other">"За <ns1:g id="EVENT_COUNT">%d</ns1:g> догађаја"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"На <ns1:g id="COUNT">%d</ns1:g> дан"</item>
+        <item quantity="other">"На <ns1:g id="COUNT">%d</ns1:g> дана"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"На <ns1:g id="COUNT">%d</ns1:g> месец"</item>
+        <item quantity="other">"На <ns1:g id="COUNT">%d</ns1:g> месеца(и)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"На <ns1:g id="COUNT">%d</ns1:g> недељу"</item>
+        <item quantity="other">"На <ns1:g id="COUNT">%d</ns1:g> недеље(а)"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"На <ns1:g id="COUNT">%d</ns1:g> годину"</item>
+        <item quantity="other">"На <ns1:g id="COUNT">%d</ns1:g> године(а)"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Недељно (<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+        <item quantity="other">"На <ns1:g id="NUMBER">%1$d</ns1:g> недеље(а) (<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Одлазак на Почетну"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Кретање нагоре"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Избор апликације"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ИСКЉУЧИ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"УКЉУЧИ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Претражите..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Брисање упита"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Упит за претрагу"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Претрага"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Слање упита"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Дели са"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Дели са апликацијом %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"промена крајњег датума"</string>
+    <string name="cancel">"Откажи"</string>
+    <string name="day_picker_description">"Приказ дана у месецу у виду мреже"</string>
+    <string name="deleted_key">"Избрисали сте <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"; до <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Сваког радног дана (од понедељка до петка)"</string>
+    <string name="item_is_selected">"Изабрали сте <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"На месечном нивоу"</string>
+    <string name="ok">"Потврди"</string>
+    <string name="recurrence_end_continously">"Заувек"</string>
+    <string name="recurrence_end_count_label">"За више догађаја"</string>
+    <string name="recurrence_end_date">"До <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"До одређеног датума"</string>
+    <string name="recurrence_month_pattern_by_day">"истог дана сваког месеца"</string>
+    <string name="select_day">"Изаберите месец и дан"</string>
+    <string name="select_hours">"Изаберите сате"</string>
+    <string name="select_minutes">"Изаберите минуте"</string>
+    <string name="select_year">"Изаберите годину"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="year_picker_description">"Листа година"</string>
+    <string name="yearly_plain">"На годишњем нивоу"</string>
+</resources>

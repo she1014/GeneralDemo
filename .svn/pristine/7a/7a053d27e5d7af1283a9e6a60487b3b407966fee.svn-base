@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SButtonTextAppearance" parent="STextAppearanceBase.BaseButton">
+        <item name="android:fontFamily">@string/font_family_button_material</item>
+    </style>
+    <style name="STextAppearance" parent="STextAppearanceBase">
+        <item name="android:fontFamily">@string/font_family_body_1</item>
+    </style>
+</resources>

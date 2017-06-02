@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"နေ့စဉ် ထပ်လုပ်ပါ"</item>
+        <item>"အပတ်စဉ် ထပ်လုပ်ပါ"</item>
+        <item>"လစဉ် ထပ်လုပ်ပါ"</item>
+        <item>"နှစ်စဉ် ထပ်လုပ်"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ပထမ သောကြာနေ့တိုင်း"</item>
+        <item>"ဒုတိယ သောကြာနေ့တိုင်း"</item>
+        <item>"တတိယ သောကြာနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ သောကြာနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး သောကြာနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ပထမ တနင်္လာနေ့တိုင်း"</item>
+        <item>"ဒုတိယ တနင်္လာနေ့တိုင်း"</item>
+        <item>"တတိယ တနင်္လာနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ တနင်္လာနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး တနင်္လာနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ပထမ စနေနေ့တိုင်း"</item>
+        <item>"ဒုတိယ စနေနေ့တိုင်း"</item>
+        <item>"တတိယ စနေနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ စနေနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး စနေနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ပထမ တနင်္ဂနွေနေ့တိုင်း"</item>
+        <item>"ဒုတိယ တနင်္ဂနွေနေ့တိုင်း"</item>
+        <item>"တတိယ တနင်္ဂနွေနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ တနင်္ဂနွေနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး တနင်္ဂနွေနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ပထမ ကြာသပတေးနေ့တိုင်း"</item>
+        <item>"ဒုတိယ ကြာသပတေးနေ့တိုင်း"</item>
+        <item>"တတိယ ကြာသပတေးနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ ကြာသပတေးနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး ကြာသပတေးနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ပထမ အင်္ဂါနေ့တိုင်း"</item>
+        <item>"ဒုတိယ အင်္ဂါနေ့တိုင်း"</item>
+        <item>"တတိယ အင်္ဂါနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ အင်္ဂါနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး အင်္ဂါနေ့တိုင်း"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ပထမ ဗုဒ္ဓဟူးနေ့တိုင်း"</item>
+        <item>"ဒုတိယ ဗုဒ္ဓဟူးနေ့တိုင်း"</item>
+        <item>"တတိယ ဗုဒ္ဓဟူးနေ့တိုင်း"</item>
+        <item>"စတုတ္ထ ဗုဒ္ဓဟူးနေ့တိုင်း"</item>
+        <item>"နောက်ဆုံး ဗုဒ္ဓဟူးနေ့တိုင်း"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"နေ့စဉ်"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> ရက်တိုင်း"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"၊ တစ်ကြိမ်"</item>
+        <item quantity="other">";၊ <ns1:g id="NUMBER">%d</ns1:g> ကြိမ်"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"ဖြစ်ရပ် <ns1:g id="EVENT_COUNT">%d</ns1:g> အတွက်"</item>
+        <item quantity="other">"ဖြစ်ရပ်များ <ns1:g id="EVENT_COUNT">%d</ns1:g> အတွက်"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> ရက်တိုင်း"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> ရက်တိုင်း"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> လတိုင်း"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> လတိုင်း"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> ပတ်တိုင်း"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> ပတ်တိုင်း"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> နှစ်တိုင်း"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> နှစ်တိုင်း"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"အပတ်စဉ် <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> တွင်"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> ပတ်တိုင်း <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> တွင်"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"မူလနေရာကို သွားရန်"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s၊ %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s ၊ %2$s ၊ %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"အပေါ်သို့သွားရန်"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ပိုမိုရွေးချယ်စရာများ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ပြီးဆုံးပါပြီ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"အားလုံးကို ကြည့်ရန်"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"အပလီကေးရှင်း တစ်ခုခုကို ရွေးချယ်ပါ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ပိတ်"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ဖွင့်"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ရှာဖွေပါ..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ရှာစရာ အချက်အလက်များ ရှင်းလင်းရန်"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ရှာစရာ အချက်အလက်နေရာ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ရှာဖွေရန်"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ရှာဖွေစရာ အချက်အလက်ကို အတည်ပြုရန်"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"အသံဖြင့် ရှာဖွေခြင်း"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"မျှဝေဖို့ ရွေးပါ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ကို မျှဝေပါရန်"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ခေါက်ရန်"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"ပြီးဆုံးရက်စွဲကို ပြောင်းရန်"</string>
+    <string name="cancel">"ထားတော့"</string>
+    <string name="day_picker_description">"လအလိုက် ရွေးနိုင်သော ရက်များ"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ကို ဖျက်ပြီးပါပြီ"</string>
+    <string name="endByDate">";<ns1:g id="DATE">%s</ns1:g> အထိ"</string>
+    <string name="every_weekday">"ရုံးရက်တိုင်း (တနင်္လာ–သောကြာ)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ခုရွေးချယ်ထားပြီး"</string>
+    <string name="monthly">"လစဉ်"</string>
+    <string name="ok">"ကောင်းပြီ"</string>
+    <string name="recurrence_end_continously">"ထာဝရ"</string>
+    <string name="recurrence_end_count_label">"ဖြစ်ရပ် တစ်သီကြီး အတွက်"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> အထိ"</string>
+    <string name="recurrence_end_date_label">"ရက်စွဲ အထိ"</string>
+    <string name="recurrence_month_pattern_by_day">"လစဉ် ထို နေ့မှာ"</string>
+    <string name="select_day">"လ နှင့် ရက် ရွေးပါ"</string>
+    <string name="select_hours">"နာရီများ ရွေးပါ"</string>
+    <string name="select_minutes">"မိနစ်များ ရွေးပါ"</string>
+    <string name="select_year">"ခုနှစ်ကို ရွေးပါ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"၉၉၉+"</string>
+    <string name="year_picker_description">"ခုနှစ် အစဉ်"</string>
+    <string name="yearly_plain">"နှစ်စဉ်"</string>
+</resources>

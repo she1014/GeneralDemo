@@ -1,0 +1,231 @@
+package com.techfly.demo.util;
+
+import android.app.ActivityManager;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Environment;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.view.Window;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.techfly.demo.R;
+import com.techfly.demo.service.UpdateService;
+
+import java.io.File;
+import java.util.List;
+
+/**
+ * @author coolszy
+ * @date 2012-4-26
+ * @blog http://blog.92coding.com
+ */
+
+public class UpdateUtil {
+    /* 下载中 */
+    private static final int DOWNLOAD = 1;
+    /* 下载结束 */
+    private static final int DOWNLOAD_FINISH = 2;
+
+    /* 下载保存路径 */
+    private String mSavePath;
+    /* 记录进度条数量 */
+    private int progress;
+    /* 是否取消更新 */
+    private boolean cancelUpdate = false;
+
+    private String versionInfo = "";
+
+    private static Context mContext;
+
+    private Dialog mDownloadDialog;
+
+    private File savaFile = null;//已下载文件路径
+
+    private String m_version = "";
+    private String m_url = "";
+
+    private Integer m_isMust = 0;//0-自愿；1-强制
+
+    public UpdateUtil(Context context, String version, String url, String versionInfo, int isMust) {
+        this.mContext = context;
+        this.m_version = version;
+        this.m_url = url;
+        this.versionInfo = versionInfo;
+        this.m_isMust = isMust;
+    }
+
+    /**
+     * 检测软件更新
+     */
+    public void checkUpdate() {
+        if (isUpdate()) {
+            // 显示提示对话框
+            showNoticeDialog();
+        } else {
+            return;
+        }
+    }
+
+    /**
+     * 检查软件是否有更新版本
+     *
+     * @return
+     */
+    public boolean isUpdate() {
+        // 获取当前软件版本
+        double cur_version = getCurVersion();
+        double server_version = Double.parseDouble(m_version);
+
+        Log.i("TEST", "cur_version=" + cur_version + ",m_version=" + m_version + ",server_version=" + server_version);
+
+        if (cur_version >= server_version) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    /**
+     * 获取版本号
+     *
+     * @return 当前应用的版本号
+     */
+    public int getCurVersion() {
+        try {
+            PackageManager manager = mContext.getPackageManager();
+            PackageInfo info = manager.getPackageInfo(mContext.getPackageName(), 0);
+//			String version = info.versionName;
+            int versionCodee = info.versionCode;
+            return versionCodee;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 0;
+        }
+    }
+
+    /**
+     * 显示软件更新对话框
+     */
+    public void showNoticeDialog() {
+
+        m_url = "http://221.228.67.156/imtt.dd.qq.com/16891/FBC276DC9D5DF2B53739798124A3E224.apk?mkey=58081a36d31381c9&f=d287&c=0&fsname=com.tencent.mobileqq_6.5.5_410.apk&csr=4d5s&p=.apk";
+
+        final AlertDialog dialog = new Builder(mContext, R.style.MyDialog).create();
+        dialog.show();
+        Window window = dialog.getWindow();
+        window.setGravity(Gravity.CENTER);  //此处可以设置dialog显示的位置
+        View view = View.inflate(mContext, R.layout.dialog_middle_login, null);
+        window.setContentView(view);
+
+        TextView tv0 = (TextView) view.findViewById(R.id.title_tv);
+        TextView tv1 = (TextView) view.findViewById(R.id.middle_tv);
+        TextView tv2 = (TextView) view.findViewById(R.id.cancel);
+        TextView tv3 = (TextView) view.findViewById(R.id.ok);
+
+        Boolean isAlreadyDownload = false;//是否已下载
+
+        String savePath = Environment.getExternalStorageDirectory() + "/Download/" + FileUtils.getUrlFileName(m_url);
+        savaFile = new File(savePath);
+        if(savaFile.exists()){
+            isAlreadyDownload = true;
+        }
+
+        tv1.setGravity(Gravity.LEFT);
+        tv1.setText(CommonUtils.getSplitLines(versionInfo));
+
+        if (isAlreadyDownload) {
+            tv0.setText(R.string.soft_update_download);
+            tv2.setText(R.string.soft_wait_install);
+            if(isAlreadyDownload){
+                tv2.setVisibility(View.GONE);
+            }
+            tv3.setText(R.string.soft_now_install);
+        } else {
+            tv0.setText(R.string.soft_update_title);
+            tv2.setText(R.string.soft_update_later);
+            if(m_isMust == 1){
+                tv2.setVisibility(View.GONE);
+            }
+            tv3.setText(R.string.soft_update_updatebtn);
+        }
+
+        if(isAlreadyDownload || m_isMust == 1){
+            dialog.setCanceledOnTouchOutside(false);
+            dialog.setCancelable(false);
+        }
+
+        tv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+
+        if (isAlreadyDownload) {
+            tv3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dialog.dismiss();
+                    // 显示下载对话框
+                    Instanll(savaFile,mContext);
+                }
+            });
+        } else {
+            tv3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dialog.dismiss();
+                    // 显示下载对话框
+                    if (!isServiceWork(mContext, "com.yt.liudelivernew.service.UpdateService")) {
+                        ToastUtil.DisplayToast(mContext, "已添加下载任务", Toast.LENGTH_LONG);
+                        Intent intent = new Intent(mContext, UpdateService.class);
+                        intent.putExtra("UPDATE_URL", m_url);
+                        mContext.startService(intent);
+                    }
+                }
+            });
+        }
+
+    }
+
+    //安装下载后的apk文件
+    private void Instanll(File file, Context context) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.fromFile(file), "application/vnd.android.package-archive");
+        context.startActivity(intent);
+    }
+
+    /*
+     * 判断某个服务是否正在运行的方法
+     */
+    public boolean isServiceWork(Context mContext, String serviceName) {
+        boolean isWork = false;
+        ActivityManager myAM = (ActivityManager) mContext
+                .getSystemService(Context.ACTIVITY_SERVICE);
+        List<ActivityManager.RunningServiceInfo> myList = myAM.getRunningServices(20);
+        if (myList.size() <= 0) {
+            return false;
+        }
+        for (int i = 0; i < myList.size(); i++) {
+            String mName = myList.get(i).service.getClassName().toString();
+            if (mName.equals(serviceName)) {
+                isWork = true;
+                break;
+            }
+        }
+        return isWork;
+    }
+
+}

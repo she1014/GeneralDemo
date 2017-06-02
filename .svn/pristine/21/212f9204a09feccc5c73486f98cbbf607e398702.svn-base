@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声名属性集的名称 -->
+    <declare-styleable name="LimitMaxLineEditText">
+
+        <!-- 声名一个属性  name是my_background   类型为 引用类型      引用资源ID -->
+        <attr name="limitlines" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="zmsTabTextSize" format="dimension" />
+        <attr name="zmsTabTextColor" format="color" />
+        <attr name="zmsSelectedTabTextSize" format="dimension" />
+        <attr name="zmsSelectedTabTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ADTextView">
+        <!--文字进入与消失的时间-->
+        <attr name="ad_text_view_speed" format="integer" />
+        <!--文字停留在中心的时间-->
+        <attr name="ad_text_view_interval" format="integer" />
+        <!--前缀文字颜色-->
+        <attr name="ad_text_front_color" format="color" />
+        <!--前缀文字大小-->
+        <attr name="ad_text_front_size" format="dimension" />
+        <!--内容文字颜色-->
+        <attr name="ad_text_content_color" format="color" />
+        <!--内容文字大小-->
+        <attr name="ad_text_content_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+        <attr name="flow_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DragLayout">
+        <attr name="rightChildCount" format="integer"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="SlideDetailsLayout">
+        <!-- float value for indicate the moment of switch panel-->
+        <attr name="percent" format="float"/>
+        <!-- how long the animation keep-->
+        <attr name="duration" format="integer"/>
+        <!-- default panel to show after init-->
+        <attr name="default_panel" format="enum">
+            <enum name="front" value="0"/>
+            <enum name="behind" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+
+</resources>

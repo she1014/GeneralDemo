@@ -1,0 +1,54 @@
+package com.techfly.demo.selfview;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.view.View;
+import android.widget.TextView;
+
+import com.techfly.demo.R;
+
+
+/**
+ * Created by enjoytouch-ad02 on 2015/8/5.
+ * 弹出提醒dialog
+ *
+ */
+public class MiddleDialog<E> extends Dialog {
+    private E bean;
+    private int position;
+    private onButtonCLickListener listener;
+
+    public MiddleDialog(Context context, String str, final onButtonCLickListener<E> listener, int theme) {
+        super(context, theme);
+        View view = View.inflate(context, R.layout.dialog_middle, null);
+        setContentView(view);
+        setCancelable(true);
+        ((TextView) view.findViewById(R.id.middle_tv)).setText(str);
+        this.listener = listener;
+        view.findViewById(R.id.cancel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dismiss();
+            }
+        });
+        view.findViewById(R.id.ok).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //if(bean!=null){
+                dismiss();
+                listener.onActivieButtonClick(bean, position);
+                // }
+            }
+        });
+
+    }
+
+    public void resetData(E bean, int position) {
+        this.bean = bean;
+        this.position = position;
+    }
+
+    public interface onButtonCLickListener<E> {
+        public void onActivieButtonClick(E bean, int position);
+    }
+}

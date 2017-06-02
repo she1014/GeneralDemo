@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-si-rLK/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"දිනපතා නැවත කරන්න"</item>
+        <item>"සතිපතා නැවත කරන්න"</item>
+        <item>"මාස්පතා නැවත කරන්න"</item>
+        <item>"වාර්ෂිකව නැවත කරන්න"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"සෑම පළමු සිකුරාදාවකම"</item>
+        <item>"සෑම දෙවන සිකුරාදාවකම"</item>
+        <item>"සෑම තෙවන සිකුරාදාවකම"</item>
+        <item>"සෑම සිව්වන සිකුරාදාවකම"</item>
+        <item>"සෑම අවසන් සිකුරාදාවකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"සෑම පළමු සඳුදාවකම"</item>
+        <item>"සෑම දෙවන සඳුදාවකම"</item>
+        <item>"සෑම තෙවන සඳුදාවකම"</item>
+        <item>"සෑම සිව්වන සඳුදාවකම"</item>
+        <item>"සෑම අවසන් සඳුදාවකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"සෑම පළමු සෙනසුරාදාවකම"</item>
+        <item>"සෑම දෙවන සෙනසුරාදාවකම"</item>
+        <item>"සෑම තෙවන සෙනසුරාදාවකම"</item>
+        <item>"සෑම සිව්වන සෙනසුරාදාවකම"</item>
+        <item>"සෑම අවසන් සෙනසුරාදාවකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"සෑම පළමු ඉරිදාවකම"</item>
+        <item>"සෑම දෙවන ඉරිදාවකම"</item>
+        <item>"සෑම තෙවන ඉරිදාවකම"</item>
+        <item>"සෑම සිව්වන ඉරිදාවකම"</item>
+        <item>"සෑම අවසන් ඉරිදාවකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"සෑම පළමු බ්‍රහස්පතින්දාවකම"</item>
+        <item>"සෑම දෙවන බ්‍රහස්පතින්දාවකම"</item>
+        <item>"සෑම තෙවන බ්‍රහස්පතින්දාවකම"</item>
+        <item>"සෑම සිව්වන බ්‍රහස්පතින්දාවකම"</item>
+        <item>"සෑම අවසන් බ්‍රහස්පතින්දාවකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"සෑම පළමු අඟහරුවාදාකම"</item>
+        <item>"සෑම දෙවන අඟහරුවාදාකම"</item>
+        <item>"සෑම තෙවන අඟහරුවාදාකම"</item>
+        <item>"සෑම සිව්වන අඟහරුවාදාකම"</item>
+        <item>"සෑම අවසන් අඟහරුවාදාකම"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"සෑම පළමු බදාදාවකම"</item>
+        <item>"සෑම දෙවන බදාදාවකම"</item>
+        <item>"සෑම තෙවන බදාදාවකම"</item>
+        <item>"සෑම සිව්වන බදාදාවකම"</item>
+        <item>"සෑම අවසන් බදාදාවකම"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-si-rLK/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"දිනපතා"</item>
+        <item quantity="other">"සෑම දින <ns1:g id="NUMBER">%d</ns1:g> කට"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; එක් වරක් සඳහා"</item>
+        <item quantity="other">"; වාර <ns1:g id="NUMBER">%d</ns1:g> සඳහා"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"සිදුවීම් <ns1:g id="EVENT_COUNT">%d</ns1:g> සඳහා"</item>
+        <item quantity="other">"සිදුවීම් <ns1:g id="EVENT_COUNT">%d</ns1:g> සඳහා"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"සෑම දින <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+        <item quantity="other">"සෑම දින <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"සෑම මාස <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+        <item quantity="other">"සෑම මාස <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"සෑම සති <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+        <item quantity="other">"සෑම සති <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"සෑම වසර <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+        <item quantity="other">"සෑම වසර <ns1:g id="COUNT">%d</ns1:g> කට"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"සතිපතාම <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> දින"</item>
+        <item quantity="other">"සෑම සති <ns1:g id="NUMBER">%1$d</ns1:g> කට වරක් <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> දින"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"අවසන්වන දිනය වෙනස් කරන්න"</string>
+    <string name="cancel">"අවලංගු කරන්න"</string>
+    <string name="day_picker_description">"දින ජාලයකින් මාසය"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> මකා දමන ලදි"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> තෙක්"</string>
+    <string name="every_weekday">"සෑම සතියේ දිනකම (සඳු–සිකු)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> තෝරාගෙන ඇත"</string>
+    <string name="monthly">"මාසිකව"</string>
+    <string name="ok">"හරි"</string>
+    <string name="recurrence_end_continously">"සදහටම"</string>
+    <string name="recurrence_end_count_label">"සිදුවීම් ගණනක් සඳහා"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> තෙක්"</string>
+    <string name="recurrence_end_date_label">"දිනයක් දක්වා"</string>
+    <string name="recurrence_month_pattern_by_day">"සෑම මසකම එකම දිනයේ"</string>
+    <string name="select_day">"මාසය සහ දිනය තෝරන්න"</string>
+    <string name="select_hours">"පැය තෝරන්න"</string>
+    <string name="select_minutes">"මිනිත්තු තෝරන්න"</string>
+    <string name="select_year">"වසර තෝරන්න"</string>
+    <string name="year_picker_description">"වසර ලැයිස්තුව"</string>
+    <string name="yearly_plain">"වාර්ෂිකව"</string>
+</resources>

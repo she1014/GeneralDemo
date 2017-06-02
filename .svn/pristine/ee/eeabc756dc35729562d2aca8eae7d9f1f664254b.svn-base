@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\app_loading0.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\app_loading0.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\app_loading1.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\app_loading1.png"
+    }
+]

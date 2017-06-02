@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta chatset="utf-8" />
+    <title>This is a test</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        display: block;
+        width: 100px;
+        padding: 1em;
+        margin: 0 auto;
+        font-size: 1em;
+        color: #FFF;
+        background-color: highlight;
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <a>js中调用Android方法</a>
+    <script>
+    
+    function funFromjs(){
+    	document.getElementById("helloweb").innerHTML="HelloWebView,i'm from js";
+    }
+	alert(1)
+    var aTag = document.getElementsByTagName('a')[0];
+    aTag.addEventListener('click', function(){
+        //调用android本地方法
+		myObj.fun2FromAndroid("aa","bb","cc","dd");
+        return false;
+    }, false);
+    </script>
+    <p></p>
+
+
+    <div id="helloweb">
+
+	</div>
+
+
+
+</body>
+</html>

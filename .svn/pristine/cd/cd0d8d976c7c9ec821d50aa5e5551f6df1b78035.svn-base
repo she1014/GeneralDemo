@@ -1,0 +1,104 @@
+package com.techfly.demo.activity.application;
+
+import android.app.Application;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+
+import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.techfly.demo.activity.base.Constant;
+
+import cn.jpush.android.api.JPushInterface;
+
+//import com.baidu.mapapi.BMapManager;
+
+/**
+ * Created by Administrator on 2015/7/22.
+ */
+public class MyApplication extends Application {
+
+    public static boolean isTest = true;
+    protected static MyApplication mInstance;
+    public static SharedPreferences sf;
+
+    public static boolean isLogin;//是否登录
+    public static boolean first;//是否为第一次登录
+
+//    public LocationService locationService;
+//    public Vibrator mVibrator;
+//    public final static String KEY = "";
+//    private BMapManager bMapManager;
+
+    public MyApplication() {
+        mInstance = this;
+    }
+
+    public static MyApplication getApp() {
+        if (mInstance != null && mInstance instanceof MyApplication) {
+            return mInstance;
+        } else {
+            mInstance = new MyApplication();
+            mInstance.onCreate();
+            return mInstance;
+        }
+
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        sf = PreferenceManager.getDefaultSharedPreferences(this);
+        first = sf.getBoolean(Constant.CONFIG_IS_LOGIN, true);
+
+        initImageLoader();
+
+        initJpush();
+
+        initLocation();
+    }
+
+    //获取应用的data/data/....File目录
+    public String getFilesDirPath() {
+        return getFilesDir().getAbsolutePath();
+    }
+
+    //获取应用的data/data/....Cache目录
+    public String getCacheDirPath() {
+        return getCacheDir().getAbsolutePath();
+    }
+
+    private void initJpush() {
+        JPushInterface.setDebugMode(true);
+        JPushInterface.init(this);
+    }
+
+    private void initImageLoader() {
+
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(
+                this).threadPriority(Thread.NORM_PRIORITY - 2)
+                .denyCacheImageMultipleSizesInMemory()
+                .memoryCache(new LruMemoryCache(5 * 1024 * 1024))
+                .memoryCacheSize(5 * 1024 * 1024)
+                .diskCacheSize(50 * 1024 * 1024)
+                .diskCacheFileCount(100)
+                .tasksProcessingOrder(QueueProcessingType.LIFO) // Not
+                .build();
+        // Initialize ImageLoader with configuration.
+        ImageLoader.getInstance().init(config);
+
+    }
+
+    private void initLocation() {
+//        SDKInitializer.initialize(getApplicationContext());
+    }
+
+    @Override
+    public void onLowMemory() {
+        // TODO Auto-generated method stub
+        super.onLowMemory();
+    }
+
+}

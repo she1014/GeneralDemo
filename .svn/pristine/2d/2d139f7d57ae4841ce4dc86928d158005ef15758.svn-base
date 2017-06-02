@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 分割线高度 -->
+    <dimen name="divider_line_height">0.8dp</dimen>
+
+    <!-- 距离边界 -->
+    <dimen name="marign_boundary">15dp</dimen>
+    <!-- mini  minier  normal small smaller middler big  bigger larger max maxer -->
+    <dimen name="marign_mini">2dp</dimen>
+
+    <dimen name="margin_minier">4dp</dimen>
+
+    <dimen name="marign_normal">5dp</dimen>
+
+    <dimen name="marign_small">6dp</dimen>
+
+    <dimen name="marign_mid">7dp</dimen>
+
+    <dimen name="marign_smaller">8dp</dimen>
+
+    <dimen name="marign_middle">10dp</dimen>
+
+    <dimen name="marign_middler">12dp</dimen>
+
+    <dimen name="marign_big">15dp</dimen>
+
+    <dimen name="marign_bigger">18dp</dimen>
+
+    <dimen name="marign_large">20dp</dimen>
+
+    <dimen name="marign_larger">25dp</dimen>
+
+    <dimen name="marign_max">30dp</dimen>
+
+    <dimen name="marign_maxer">35dp</dimen>
+
+
+    <!-- 条目的高度 -->
+    <dimen name="linear_button_height">40dp</dimen>
+
+    <dimen name="linear_item_height">43dp</dimen>
+
+
+    <!-- 三档字体   px/2.5 = dp -->
+    <!-- mini  minier  normal small smaller middler big  bigger larger max maxer -->
+    <!--字体-->
+    <dimen name="size_mn">5dp</dimen>
+    <!--字体-->
+    <dimen name="size_mini">8dp</dimen>
+    <!--字体-->
+    <dimen name="size_minier">10dp</dimen>
+    <!--字体-->
+    <dimen name="size_small">12dp</dimen>
+    <!--字体-->
+    <dimen name="size_smaller">14dp</dimen>
+    <!--字体-->
+    <dimen name="size_middle">16dp</dimen>
+    <!--字体-->
+    <dimen name="size_big">18dp</dimen>
+    <!--字体-->
+    <dimen name="size_bigger">20dp</dimen>
+    <!--字体-->
+    <dimen name="size_max">30dp</dimen>
+    <!--字体-->
+    <dimen name="size_maxer">40dp</dimen>
+
+</resources>

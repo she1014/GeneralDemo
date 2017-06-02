@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"HERHAAL DAAGLIKS"</item>
+        <item>"HERHAAL WEEKLIKS"</item>
+        <item>"HERHAAL MAANDELIKS"</item>
+        <item>"HERHAAL JAARLIKS"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"op elke eerste Vrydag"</item>
+        <item>"op elke tweede Vrydag"</item>
+        <item>"op elke derde Vrydag"</item>
+        <item>"op elke vierde Vrydag"</item>
+        <item>"op elke laaste Vrydag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"op elke eerste Maandag"</item>
+        <item>"op elke tweede Maandag"</item>
+        <item>"op elke derde Maandag"</item>
+        <item>"op elke vierde Maandag"</item>
+        <item>"op elke laaste Maandag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"op elke eerste Saterdag"</item>
+        <item>"op elke tweede Saterdag"</item>
+        <item>"op elke derde Saterdag"</item>
+        <item>"op elke vierde Saterdag"</item>
+        <item>"op elke laaste Saterdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"op elke eerste Sondag"</item>
+        <item>"op elke tweede Sondag"</item>
+        <item>"op elke derde Sondag"</item>
+        <item>"op elke vierde Sondag"</item>
+        <item>"op elke laaste Sondag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"op elke eerste Donderdag"</item>
+        <item>"op elke tweede Donderdag"</item>
+        <item>"op elke derde Donderdag"</item>
+        <item>"op elke vierde Donderdag"</item>
+        <item>"op elke laaste Donderdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"op elke eerste Dinsdag"</item>
+        <item>"op elke tweede Dinsdag"</item>
+        <item>"op elke derde Dinsdag"</item>
+        <item>"op elke vierde Dinsdag"</item>
+        <item>"op elke laaste Dinsdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"op elke eerste Woensdag"</item>
+        <item>"op elke tweede Woensdag"</item>
+        <item>"op elke derde Woensdag"</item>
+        <item>"op elke vierde Woensdag"</item>
+        <item>"op elke laaste Woensdag"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Daagliks"</item>
+        <item quantity="other">"Elke <ns1:g id="NUMBER">%d</ns1:g> dae"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; vir een keer"</item>
+        <item quantity="other">"; vir <ns1:g id="NUMBER">%d</ns1:g> kere"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Vir <ns1:g id="EVENT_COUNT">%d</ns1:g> geleentheid"</item>
+        <item quantity="other">"Vir <ns1:g id="EVENT_COUNT">%d</ns1:g> geleenthede"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> dag"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> dae"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> maand"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> maande"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> week"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> weke"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> jaar"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> jaar"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Weekliks op <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Elke <ns1:g id="NUMBER">%1$d</ns1:g> weke op <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeer tuis"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigeer op"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Nog opsies"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Klaar"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Sien alles"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Kies \'n program"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AAN"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Soek …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Vee navraag uit"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Soeknavraag"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Soek"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Dien navraag in"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Stemsoektog"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Deel met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Deel met %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Vou in"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"verander einddatum"</string>
+    <string name="cancel">"Kanselleer"</string>
+    <string name="day_picker_description">"Maandrooster van dae"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> uitgevee"</string>
+    <string name="endByDate">"; tot <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Elke weeksdag (Ma-Vr)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> gekies"</string>
+    <string name="monthly">"Maandeliks"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Vir altyd"</string>
+    <string name="recurrence_end_count_label">"Vir \'n aantal geleenthede"</string>
+    <string name="recurrence_end_date">"Tot <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Tot \'n datum"</string>
+    <string name="recurrence_month_pattern_by_day">"op dieselfde dag elke maand"</string>
+    <string name="select_day">"Kies maand en dag"</string>
+    <string name="select_hours">"Kies ure"</string>
+    <string name="select_minutes">"Kies minute"</string>
+    <string name="select_year">"Kies jaar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Jaarlys"</string>
+    <string name="yearly_plain">"Jaarliks"</string>
+</resources>

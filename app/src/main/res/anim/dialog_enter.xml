@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 移动效果-从上到下 -->
+    <translate
+        android:duration="1000"
+        android:fromYDelta="-100%p"
+        />
+
+    <!-- 旋转效果 -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="3"
+        android:pivotX="0%"
+        android:pivotY="0%"
+        android:duration="1000"
+        />
+
+    <!--<rotate
+        android:fromDegrees="0"
+        android:toDegrees="+360"旋转度数
+        android:pivotX="50%" 旋转圆点
+        android:pivotY="50%" 旋转圆点
+        android:duration="2000"
+        />-->
+
+    <!-- 淡入淡出-可见=>不可见
+     startOffset 延迟效果时间-->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1000"
+        />
+
+    <!-- 缩放效果 -->
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="1.5"
+        android:fromYScale="1.0"
+        android:toYScale="1.5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        />
+
+</set>

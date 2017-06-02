@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_text_color">#eeeeee</color>
+    <color name="black_text_color">#222222</color>
+    <color name="grey_text_color">#888888</color>
+
+    <color name="text_color">#03a9f4</color>
+
+    <color name="white_bg">#ffffff</color>
+    <color name="black_bg">#212121</color>
+    <color name="grey_bg">#f5f5f5</color>
+
+    <color name="hitBar_background_white">#99eeeeee</color>
+    <color name="hitBar_backgroung_black">#99777777</color>
+    <color name="hitBar_background_grey">#99aaaaaa</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#99000000</color>
+
+    <color name="button_normal_white">#22000000</color>
+    <color name="button_pressed_white">#88000000</color>
+
+</resources>

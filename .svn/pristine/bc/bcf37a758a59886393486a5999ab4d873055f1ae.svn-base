@@ -1,0 +1,70 @@
+package com.techfly.demo.activity.qq_demo.adapt;
+
+import android.app.Activity;
+import android.graphics.drawable.Drawable;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import com.techfly.demo.R;
+
+/**
+ * Created by Root on 2016/6/20.
+ */
+public class SlideAdapt extends BaseAdapter{
+
+    private static final int pic[] = {R.drawable.qq_setting_svip,R.drawable.qq_setting_qianbao,
+                                      R.drawable.qq_setting_zhuangban,R.drawable.qq_setting_shoucang,
+                                      R.drawable.qq_setting_xiangce,R.drawable.qq_setting_wenjian,
+                                      R.drawable.qq_setting_businesscard,R.drawable.qq_setting_svip,
+                                      R.drawable.qq_setting_zhuangban,R.drawable.qq_setting_shoucang,
+                                      R.drawable.qq_setting_xiangce};
+
+    private static final String pic_name[] =  {"一些特效","侧滑列表","QQ.DEMO","抽奖装盘","流星雨弹幕",
+            "上拉加载更多","上滑隐藏头部","引导页样式切换","图文编辑","引导蒙版","样式示例"};
+
+    Activity mContext;
+    public SlideAdapt(Activity context) {
+        mContext = context;
+    }
+
+    @Override
+    public int getCount() {
+        return pic.length;
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    ViewHolder mViewHolder;
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+        if (convertView == null){
+            convertView = View.inflate(mContext,R.layout.item_slide,null);
+            mViewHolder = new ViewHolder();
+            mViewHolder.mTextView = (TextView) convertView.findViewById(R.id.slide_item);
+            convertView.setTag(mViewHolder);
+        }else {
+            mViewHolder = (ViewHolder) convertView.getTag();
+        }
+        mViewHolder.mTextView.setText(pic_name[position]);
+        Drawable drawable= mContext.getResources().getDrawable(pic[position]);
+        drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
+        mViewHolder.mTextView.setCompoundDrawables(drawable,null,null,null);
+
+        return convertView;
+    }
+
+    private class ViewHolder{
+        public TextView mTextView;
+    }
+}

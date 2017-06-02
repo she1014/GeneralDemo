@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-nl/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"DAGELIJKS HERHALEN"</item>
+        <item>"WEKELIJKS HERHALEN"</item>
+        <item>"MAANDELIJKS HERHALEN"</item>
+        <item>"JAARLIJKS HERHALEN"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"op elke eerste vrijdag"</item>
+        <item>"op elke tweede vrijdag"</item>
+        <item>"op elke derde vrijdag"</item>
+        <item>"op elke vierde vrijdag"</item>
+        <item>"op elke laatste vrijdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"op elke eerste maandag"</item>
+        <item>"op elke tweede maandag"</item>
+        <item>"op elke derde maandag"</item>
+        <item>"op elke vierde maandag"</item>
+        <item>"op elke laatste maandag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"op elke eerste zaterdag"</item>
+        <item>"op elke tweede zaterdag"</item>
+        <item>"op elke derde zaterdag"</item>
+        <item>"op elke vierde zaterdag"</item>
+        <item>"op elke laatste zaterdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"op elke eerste zondag"</item>
+        <item>"op elke tweede zondag"</item>
+        <item>"op elke derde zondag"</item>
+        <item>"op elke vierde zondag"</item>
+        <item>"op elke laatste zondag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"op elke eerste donderdag"</item>
+        <item>"op elke tweede donderdag"</item>
+        <item>"op elke derde donderdag"</item>
+        <item>"op elke vierde donderdag"</item>
+        <item>"op elke laatste donderdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"op elke eerste dinsdag"</item>
+        <item>"op elke tweede dinsdag"</item>
+        <item>"op elke derde dinsdag"</item>
+        <item>"op elke vierde dinsdag"</item>
+        <item>"op elke laatste dinsdag"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"op elke eerste woensdag"</item>
+        <item>"op elke tweede woensdag"</item>
+        <item>"op elke derde woensdag"</item>
+        <item>"op elke vierde woensdag"</item>
+        <item>"op elke laatste woensdag"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Dagelijks"</item>
+        <item quantity="other">"Elke <ns1:g id="NUMBER">%d</ns1:g> dagen"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; één keer"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> keer"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Voor <ns1:g id="EVENT_COUNT">%d</ns1:g> afspraak"</item>
+        <item quantity="other">"Voor <ns1:g id="EVENT_COUNT">%d</ns1:g> evenementen"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> dag"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> dagen"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> maand"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> maanden"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Elke <ns1:g id="COUNT">%d</ns1:g> week"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> weken"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Elk <ns1:g id="COUNT">%d</ns1:g> jaar"</item>
+        <item quantity="other">"Elke <ns1:g id="COUNT">%d</ns1:g> jaar"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Wekelijks op <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Elke <ns1:g id="NUMBER">%1$d</ns1:g> weken op <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"einddatum wijzigen"</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="day_picker_description">"Maandraster van dagen"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> verwijderd"</string>
+    <string name="endByDate">"; tot <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Elke werkdag (ma - vr)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> geselecteerd"</string>
+    <string name="monthly">"Maandelijks"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Voor altijd"</string>
+    <string name="recurrence_end_count_label">"Voor een aantal evenementen"</string>
+    <string name="recurrence_end_date">"Tot <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Tot een datum"</string>
+    <string name="recurrence_month_pattern_by_day">"elke maand op dezelfde dag"</string>
+    <string name="select_day">"Maand en dag selecteren"</string>
+    <string name="select_hours">"Uren selecteren"</string>
+    <string name="select_minutes">"Minuten selecteren"</string>
+    <string name="select_year">"Jaar selecteren"</string>
+    <string name="year_picker_description">"Jaarlijst"</string>
+    <string name="yearly_plain">"Jaarlijks"</string>
+</resources>

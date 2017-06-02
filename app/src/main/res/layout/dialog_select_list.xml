@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/marign_middle"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <!--<ListView
+        android:id="@+id/factories_lv"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:background="@color/white"
+        android:divider="#00000000"
+        android:scrollbars="none"
+        android:footerDividersEnabled="false"
+        >
+    </ListView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_dialog_white"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/dialog_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="@dimen/marign_normal"
+            android:paddingTop="@dimen/marign_normal"
+            android:paddingBottom="@dimen/marign_normal"
+            android:textSize="@dimen/size_big"
+            android:textStyle="bold"
+            android:textColor="@color/text_font_black"
+            android:gravity="center"
+            android:text="选择分类"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_line_gray"
+            />
+
+        <ListView
+            android:id="@+id/dialog_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="@dimen/marign_normal"
+            android:divider="@color/divider_line_color"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none"
+            android:footerDividersEnabled="false"
+            >
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider_line_gray"
+            />
+
+        <TextView
+            android:id="@+id/dialog_cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="@dimen/marign_normal"
+            android:paddingTop="@dimen/marign_normal"
+            android:paddingBottom="@dimen/marign_normal"
+            android:textSize="@dimen/size_big"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="取消"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

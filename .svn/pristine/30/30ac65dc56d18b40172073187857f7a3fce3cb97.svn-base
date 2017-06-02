@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeLayout"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="dimension" name="horizontalSwipeOffset"/><attr format="dimension" name="verticalSwipeOffset"/><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable>
+    <declare-styleable name="superrecyclerview"><attr format="reference" name="layout_empty"/><attr format="reference" name="layout_moreProgress"/><attr format="reference" name="layout_progress"/><attr format="boolean" name="recyclerClipToPadding"/><attr format="dimension" name="recyclerPadding"/><attr format="dimension" name="recyclerPaddingTop"/><attr format="dimension" name="recyclerPaddingBottom"/><attr format="dimension" name="recyclerPaddingLeft"/><attr format="dimension" name="recyclerPaddingRight"/><attr name="scrollbarStyle"><flag name="insideOverlay" value="0x0"/><flag name="insideInset" value="0x01000000"/><flag name="outsideOverlay" value="0x02000000"/><flag name="outsideInset" value="0x03000000"/></attr><attr format="reference" name="mainLayoutId"/></declare-styleable>
+    <!-- From: file:/Users/pkunzip/Development/libs/SuperRecyclerView/SuperRecyclerView/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="swipe_progress_bar_height">8dp</dimen>
+    <!-- From: file:/Users/pkunzip/Development/libs/SuperRecyclerView/SuperRecyclerView/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="recyclerview_swipe" type="id"/>
+</resources>

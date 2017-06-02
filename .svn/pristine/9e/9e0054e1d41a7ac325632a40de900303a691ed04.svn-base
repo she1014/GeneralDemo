@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/around_white_shape_bg"
+        android:padding="@dimen/marign_normal"
+        android:layout_margin="@dimen/marign_normal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/photo_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textSize="@dimen/size_middle"
+                android:textColor="@color/text_font_gray"
+                android:text="选择"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider_line_color"
+                />
+
+            <TextView
+                android:id="@+id/photo_cancel_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="@color/text_font_red"
+                android:textSize="@dimen/size_middle"
+                android:text="取消"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider_line_color"
+                />
+
+            <TextView
+                android:id="@+id/photo_camera_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="@color/text_font_blue"
+                android:textSize="@dimen/size_middle"
+                android:text="拍照"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider_line_color"
+                />
+
+            <TextView
+                android:id="@+id/photo_album_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="@color/text_font_blue"
+                android:textSize="@dimen/size_middle"
+                android:text="从相册选择"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

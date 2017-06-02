@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-fi/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"TOISTA PÄIVITTÄIN"</item>
+        <item>"TOISTA VIIKOITTAIN"</item>
+        <item>"TOISTA KUUKAUSITTAIN"</item>
+        <item>"TOISTA VUOSITTAIN"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"kuukauden 1. perjantai"</item>
+        <item>"kuukauden 2. perjantai"</item>
+        <item>"kuukauden 3. perjantai"</item>
+        <item>"kuukauden 4. perjantai"</item>
+        <item>"kuukauden viimeinen perjantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"kuukauden 1. maanantai"</item>
+        <item>"kuukauden 2. maanantai"</item>
+        <item>"kuukauden 3. maanantai"</item>
+        <item>"kuukauden 4. maanantai"</item>
+        <item>"kuukauden viimeinen maanantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"kuukauden 1. lauantai"</item>
+        <item>"kuukauden 2. lauantai"</item>
+        <item>"kuukauden 3. lauantai"</item>
+        <item>"kuukauden 4. lauantai"</item>
+        <item>"kuukauden viimeinen lauantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"kuukauden 1. sunnuntai"</item>
+        <item>"kuukauden 2. sunnuntai"</item>
+        <item>"kuukauden 3. sunnuntai"</item>
+        <item>"kuukauden 4. sunnuntai"</item>
+        <item>"kuukauden viimeinen sunnuntai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"kuukauden 1. torstai"</item>
+        <item>"kuukauden 2. torstai"</item>
+        <item>"kuukauden 3. torstai"</item>
+        <item>"kuukauden 4. torstai"</item>
+        <item>"kuukauden viimeinen torstai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"kuukauden 1. tiistai"</item>
+        <item>"kuukauden 2. tiistai"</item>
+        <item>"kuukauden 3. tiistai"</item>
+        <item>"kuukauden 4. tiistai"</item>
+        <item>"kuukauden viimeinen tiistai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"kuukauden 1. keskiviikko"</item>
+        <item>"kuukauden 2. keskiviikko"</item>
+        <item>"kuukauden 3. keskiviikko"</item>
+        <item>"kuukauden 4. keskiviikko"</item>
+        <item>"kuukauden viim. keskiviikko"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-fi/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Päivittäin"</item>
+        <item quantity="other">"Joka <ns1:g id="NUMBER">%d</ns1:g>. päivä"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"yhden kerran"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> kertaa"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> tapahtuman ajan"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> tapahtuman ajan"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> päivän välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> päivän välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> kuukauden välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> kuukauden välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> viikon välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> viikon välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> vuoden välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> vuoden välein"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Viikoittain joka <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> viikon välein joka <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"muuta lopetuspäivää"</string>
+    <string name="cancel">"Peruuta"</string>
+    <string name="day_picker_description">"Päiväruudukko kuukausittain"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> poistettiin"</string>
+    <string name="endByDate">"<ns1:g id="DATE">%s</ns1:g> saakka"</string>
+    <string name="every_weekday">"Joka arkipäivä (ma–pe)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> on valittu"</string>
+    <string name="monthly">"Kuukausittain"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Ikuisesti"</string>
+    <string name="recurrence_end_count_label">"Useita kertoja"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> saakka"</string>
+    <string name="recurrence_end_date_label">"Tiettyyn päivään saakka"</string>
+    <string name="recurrence_month_pattern_by_day">"samana päiv. joka kk"</string>
+    <string name="select_day">"Valitse kuukausi ja päivä"</string>
+    <string name="select_hours">"Valitse tunnit"</string>
+    <string name="select_minutes">"Valitse minuutit"</string>
+    <string name="select_year">"Valitse vuosi"</string>
+    <string name="year_picker_description">"Vuosiluettelo"</string>
+    <string name="yearly_plain">"Vuosittain"</string>
+</resources>

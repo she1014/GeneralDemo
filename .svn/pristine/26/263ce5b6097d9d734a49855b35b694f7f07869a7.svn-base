@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-v17/styles.xml -->
+    <eat-comment/>
+    <style name="BaseRecurrenceOptionCreatorEndSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="BaseRecurrenceOptionCreatorFreqSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+</resources>

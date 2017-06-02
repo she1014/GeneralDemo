@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-km-rKH/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ថ្ងៃ"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​សប្ដាហ៍"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ខែ"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ឆ្នាំ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទីពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទីបី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ចុងក្រោយ"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-km-rKH/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"ប្រចាំថ្ងៃ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="NUMBER">%d</ns1:g> ថ្ងៃ"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; សម្រាប់​ម្ដង"</item>
+        <item quantity="other">"; សម្រាប់ <ns1:g id="NUMBER">%d</ns1:g> ដង"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"សម្រាប់ <ns1:g id="EVENT_COUNT">%d</ns1:g> ព្រឹត្តិការណ៍"</item>
+        <item quantity="other">"សម្រាប់ <ns1:g id="EVENT_COUNT">%d</ns1:g> ព្រឹត្តិការណ៍"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ថ្ងៃ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ថ្ងៃ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ខែ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ខែ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> សប្ដាហ៍"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> សប្ដាហ៍"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ឆ្នាំ"</item>
+        <item quantity="other">"ឆ្នាំ <ns1:g id="COUNT">%d</ns1:g> ឆ្នាំ"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"សប្ដាហ៍​នៃ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"រាល់ <ns1:g id="NUMBER">%1$d</ns1:g> សប្ដាហ៍​នៃ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"ប្ដូរ​កាលបរិច្ឆេទ​បញ្ចប់"</string>
+    <string name="cancel">"បោះ​បង់​"</string>
+    <string name="day_picker_description">"ក្រឡា​​​ខែ​នៃ​ថ្ងៃ"</string>
+    <string name="deleted_key">"បាន​លុប <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"; រហូតដល់ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"រាល់ថ្ងៃ​ធ្វើការ (ចន្ទ–សុក្រ)"</string>
+    <string name="item_is_selected">"បាន​ជ្រើស <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"ប្រចាំខែ"</string>
+    <string name="ok">"យល់​ព្រម​"</string>
+    <string name="recurrence_end_continously">"ជានិច្ច"</string>
+    <string name="recurrence_end_count_label">"សម្រាប់​ព្រឹត្តិការណ៍​មួយ​ចំនួន"</string>
+    <string name="recurrence_end_date">"រហូតដល់ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"រហូតដល់​កាលបរិច្ឆេទ"</string>
+    <string name="recurrence_month_pattern_by_day">"នៅ​ថ្ងៃ​ដដែល​នៃ​ខែ​នីមួយៗ"</string>
+    <string name="select_day">"ជ្រើស​ខែ និង​ថ្ងៃ"</string>
+    <string name="select_hours">"ជ្រើស​ម៉ោង"</string>
+    <string name="select_minutes">"ជ្រើស​នាទី"</string>
+    <string name="select_year">"ជ្រើស​ឆ្នាំ"</string>
+    <string name="year_picker_description">"បញ្ជី​ឆ្នាំ"</string>
+    <string name="yearly_plain">"ប្រចាំ​ឆ្នាំ"</string>
+</resources>

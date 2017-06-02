@@ -1,0 +1,34 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/layout_click_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/size_big"
+        android:textColor="@color/white"
+        android:text="点击上拉"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/marign_middle"
+        android:gravity="center"
+        android:textSize="@dimen/size_big"
+        android:textColor="@color/white"
+        android:text="上拉查看详情↑↑"
+        />
+
+</RelativeLayout>

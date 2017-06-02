@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#ffffff</color>
+    <!-- 主背景色 -->
+    <color name="main_gray">#f0f0f0</color>
+    <!-- 主背景-灰色 -->
+    <color name="hint_gray">#b3b3b3</color>
+    <!-- 提示-灰色 （179,179,179） -->
+
+    <color name="transparent">#00000000</color>
+    <!-- 透明 -->
+    <color name="translucent">#88323232</color>
+    <!-- 半透明 -->
+
+
+    <color name="white">#ffffff</color>
+    <!-- 白色 （255,255,255） -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="pink">#ff7781</color>
+    <!-- 粉红 -->
+    <color name="green">#69a460</color>
+    <!-- 绿色 -->
+    <color name="green_light">#66cd00</color>
+    <!-- 淡绿 -->
+    <color name="orange">#ef781f</color>
+    <!-- 橙色 -->
+    <color name="orange_dark">#ff5517</color>
+    <!-- 深橙色 -->
+    <color name="gray">#999999</color>
+    <!-- 其他-深灰 (51,51,51)-->
+    <color name="blue">#00a496</color>
+    <!-- 蓝色 (0，164,150)-->
+    <color name="blue_bright">#41b9f2</color>
+    <!-- 亮蓝色 (0，164,150)-->
+    <color name="blue_dark">#6666ff</color>
+    <!-- 深深蓝 -->
+    <color name="red">#FF3543</color>
+    <!-- 红色 -->
+    <color name="ivory">#FFFFF0</color>
+    <!-- 象牙色 -->
+    <color name="lightyellow">#FFFFE0</color>
+    <!-- 亮黄色 -->
+    <color name="yellow">#FFFF00</color>
+    <!-- 黄色 -->
+    <color name="yellow_light">#BEA340</color>
+    <!-- 淡黄色 -->
+    <color name="snow">#fafafa</color>
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <!-- 花白色 -->
+    <color name="colorPrimary">#2196F3</color>
+    <!-- 遮罩层 -->
+    <color name="shadow">#cc222222</color>
+
+
+
+    <color name="text_font_black">#333333</color>
+    <!-- 字体-黑色 (51,51,51) -->
+    <color name="text_font_black_light">#666666</color>
+    <!-- 字体-淡黑 (102,102,102) -->
+    <color name="text_font_gray">#969696</color>
+    <!-- 字体-灰色 (150,150,150) -->
+    <color name="text_font_gray_light">#747474</color>
+    <!-- 字体-淡灰 (116,116,116) -->
+    <color name="text_font_red">#f70e0e</color>
+    <!-- 字体-红色 (247,14,14) -->
+    <color name="text_font_green">#69a460</color>
+    <!-- 字体-绿色 (105,164,96) -->
+    <color name="text_font_pink">#ff3f70</color>
+    <!-- 字体-粉红 (247,14,14) -->
+    <color name="text_font_blue">#0079ff</color>
+    <!-- 字体-蓝色 (247,14,14) -->
+
+
+    <color name="divider_line_color">#cccccc</color>
+    <!-- 分割线-通用 -->
+    <color name="divider_line_gray">#d5d5d5</color>
+    <!-- 分割线-灰色 -->
+    <color name="divider_line_orange">#FBB55D</color>
+    <!-- 分割线-橙色 -->
+    <color name="divider_line_blue">#eceefb</color>
+    <!-- 分割线-蓝色 -->
+
+    <color name="list_item_click_color">#d6d6d6</color>
+    <!-- 点击后变色 -->
+
+
+</resources>

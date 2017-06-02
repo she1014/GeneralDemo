@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-bn-rBD/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"দৈনিক পুনরাবৃত্তি"</item>
+        <item>"সাপ্তাহিক পুনরাবৃত্তি"</item>
+        <item>"মাসিক পুনরাবৃত্তি"</item>
+        <item>"পুনরাবৃত্তি বাৎসরিক"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"প্রতি মাসের প্রথম শুক্রবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় শুক্রবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় শুক্রবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ শুক্রবারে"</item>
+        <item>"প্রতি মাসের শেষ শুক্রবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"প্রতি মাসের প্রথম সোমবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় সোমবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় সোমবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ সোমবারে"</item>
+        <item>"প্রতি মাসের শেষ সোমবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"প্রতি মাসের প্রথম শনিবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় শনিবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় শনিবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ শনিবারে"</item>
+        <item>"প্রতি মাসের শেষ শনিবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"প্রতি মাসের প্রথম রবিবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় রবিবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় রবিবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ রবিবারে"</item>
+        <item>"প্রতি মাসের শেষ রবিবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"প্রতি মাসের প্রথম বৃহস্পতিবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় বৃহস্পতিবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় বৃহস্পতিবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ বৃহস্পতিবারে"</item>
+        <item>"প্রতি মাসের শেষ বৃহস্পতিবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"প্রতি মাসের প্রথম মঙ্গলবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় মঙ্গলবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় মঙ্গলবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ মঙ্গলবারে"</item>
+        <item>"প্রতি মাসের শেষ মঙ্গলবারে"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"প্রতি মাসের প্রথম বুধবারে"</item>
+        <item>"প্রতি মাসের দ্বিতীয় বুধবারে"</item>
+        <item>"প্রতি মাসের তৃতীয় বুধবারে"</item>
+        <item>"প্রতি মাসের চতুর্থ বুধবারে"</item>
+        <item>"প্রতি মাসের শেষ বুধবারে"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-bn-rBD/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"প্রতিদিন"</item>
+        <item quantity="other">"প্রতি <ns1:g id="NUMBER">%d</ns1:g> দিনে"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; একবারের জন্য"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> বারের জন্য"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g>টি ইভেন্টের জন্য"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g>টি ইভেন্টের জন্য"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"প্রতি <ns1:g id="COUNT">%d</ns1:g> দিনে"</item>
+        <item quantity="other">"প্রতি <ns1:g id="COUNT">%d</ns1:g> দিনে"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"প্রতি <ns1:g id="COUNT">%d</ns1:g> মাসে"</item>
+        <item quantity="other">"প্রতি <ns1:g id="COUNT">%d</ns1:g> মাসে"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"প্রতি <ns1:g id="COUNT">%d</ns1:g> সপ্তাহে"</item>
+        <item quantity="other">"প্রতি <ns1:g id="COUNT">%d</ns1:g> সপ্তাহে"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"প্রতি <ns1:g id="COUNT">%d</ns1:g> বছরে"</item>
+        <item quantity="other">"প্রতি <ns1:g id="COUNT">%d</ns1:g> বছরে"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"প্রতি সপ্তাহের <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> এ"</item>
+        <item quantity="other">"প্রতি <ns1:g id="NUMBER">%1$d</ns1:g> সপ্তাহ পর পর <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> এ"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"সমাপ্তির তারিখ পরিবর্তন করুন"</string>
+    <string name="cancel">"বাতিল করুন"</string>
+    <string name="day_picker_description">"দিন দিয়ে সংগঠিত মাসের গ্রিড"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> মুছে ফেলা হয়েছে"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> তারিখ পর্যন্ত"</string>
+    <string name="every_weekday">"প্রতিটি কর্মদিবসে (সোম–শুক্র)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> নির্বাচন করা হয়েছে"</string>
+    <string name="monthly">"মাসিক"</string>
+    <string name="ok">"ঠিক আছে"</string>
+    <string name="recurrence_end_continously">"চিরকাল"</string>
+    <string name="recurrence_end_count_label">"একাধিক ঘটনার জন্য"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> পর্যন্ত"</string>
+    <string name="recurrence_end_date_label">"একটি তারিখ পর্যন্ত"</string>
+    <string name="recurrence_month_pattern_by_day">"প্রতি মাসের একই দিনে"</string>
+    <string name="select_day">"মাস এবং দিন নির্বাচন করুন"</string>
+    <string name="select_hours">"ঘন্টা নির্বাচন করুন"</string>
+    <string name="select_minutes">"মিনিট নির্বাচন করুন"</string>
+    <string name="select_year">"বছর নির্বাচন করুন"</string>
+    <string name="year_picker_description">"বছরের তালিকা"</string>
+    <string name="yearly_plain">"বাৎসরিক"</string>
+</resources>

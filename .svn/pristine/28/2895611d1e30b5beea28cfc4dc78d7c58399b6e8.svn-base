@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ISMÉTLÉS NAPONTA"</item>
+        <item>"ISMÉTLÉS HETENTE"</item>
+        <item>"ISMÉTLÉS HAVONTA"</item>
+        <item>"ISMÉTLÉS ÉVENTE"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"minden első pénteken"</item>
+        <item>"minden második pénteken"</item>
+        <item>"minden harmadik pénteken"</item>
+        <item>"minden negyedik pénteken"</item>
+        <item>"minden utolsó pénteken"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"minden első hétfőn"</item>
+        <item>"minden második hétfőn"</item>
+        <item>"minden harmadik hétfőn"</item>
+        <item>"minden negyedik hétfőn"</item>
+        <item>"minden utolsó hétfőn"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"minden első szombaton"</item>
+        <item>"minden második szombaton"</item>
+        <item>"minden harmadik szombaton"</item>
+        <item>"minden negyedik szombaton"</item>
+        <item>"minden utolsó szombaton"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"minden első vasárnapon"</item>
+        <item>"minden második vasárnapon"</item>
+        <item>"minden harmadik vasárnapon"</item>
+        <item>"minden negyedik vasárnapon"</item>
+        <item>"minden utolsó vasárnapon"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"minden első csütörtökön"</item>
+        <item>"minden második csütörtökön"</item>
+        <item>"minden harmadik csütörtökön"</item>
+        <item>"minden negyedik csütörtökön"</item>
+        <item>"minden utolsó csütörtökön"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"minden első kedden"</item>
+        <item>"minden második kedden"</item>
+        <item>"minden harmadik kedden"</item>
+        <item>"minden negyedik kedden"</item>
+        <item>"minden utolsó kedden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"minden első szerdán"</item>
+        <item>"minden második szerdán"</item>
+        <item>"minden harmadik szerdán"</item>
+        <item>"minden negyedik szerdán"</item>
+        <item>"minden utolsó szerdán"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Naponta"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> naponta"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; egyszer"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> alkalommal"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> eseményhez"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> eseményhez"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> naponta"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> naponta"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> havonta"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> havonta"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> hetente"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> hetente"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> évente"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> évente"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Hetente – <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>i napon"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> hetente – <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>i napon"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BE"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Megosztás a következővel: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"befejezés dátumának módosítása"</string>
+    <string name="cancel">"Mégse"</string>
+    <string name="day_picker_description">"Napok havi leosztásban"</string>
+    <string name="deleted_key">"A(z) <ns1:g id="KEY">%1$s</ns1:g> érték törölve"</string>
+    <string name="endByDate">"; eddig – <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Minden hétköznap (hétfő–péntek)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> kiválasztva"</string>
+    <string name="monthly">"Havi"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Végtelenszer"</string>
+    <string name="recurrence_end_count_label">"Adott számú alkalommal"</string>
+    <string name="recurrence_end_date">"Záró dátum: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Meghatározott dátumig"</string>
+    <string name="recurrence_month_pattern_by_day">"havonta ugyanakkor"</string>
+    <string name="select_day">"Válassza ki a hónapot és a napot"</string>
+    <string name="select_hours">"Óra kiválasztása"</string>
+    <string name="select_minutes">"Perc kiválasztása"</string>
+    <string name="select_year">"Válassza ki az évet"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Évek listája"</string>
+    <string name="yearly_plain">"Évente"</string>
+</resources>

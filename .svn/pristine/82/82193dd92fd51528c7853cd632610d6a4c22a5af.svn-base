@@ -1,0 +1,338 @@
+package com.techfly.demo.activity.demo;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
+import com.handmark.pulltorefresh.library.PullToRefreshListView;
+import com.techfly.demo.R;
+import com.techfly.demo.activity.base.Constant;
+import com.techfly.demo.activity.order.CompletedOrderListActivity;
+import com.techfly.demo.activity.order.DeliverDetailActivity;
+import com.techfly.demo.activity.order.OrderLogisticActivity;
+import com.techfly.demo.adpter.ShopOrderLvAdapter;
+import com.techfly.demo.bean.EventBean;
+import com.techfly.demo.bean.ReasultBean;
+import com.techfly.demo.bean.ShopOrderListBean;
+import com.techfly.demo.bean.User;
+import com.techfly.demo.fragment.BaseFragment;
+import com.techfly.demo.interfaces.ItemMoreClickListener;
+import com.techfly.demo.interfaces.ItemScrollListener;
+import com.techfly.demo.util.CommonUtils;
+import com.techfly.demo.util.DialogUtil;
+import com.techfly.demo.util.LogsUtil;
+import com.techfly.demo.util.SharePreferenceUtils;
+import com.techfly.demo.util.ToastUtil;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
+import de.greenrobot.event.EventBus;
+
+/*
+ */
+public class Demo7Fragment2 extends BaseFragment {
+
+    @InjectView(R.id.base_plv)
+    PullToRefreshListView base_plv;
+    @InjectView(R.id.base_load)
+    View base_load;
+
+    @InjectView(R.id.top_title_tv)
+    TextView top_title_tv;
+    @InjectView(R.id.top_right_tv)
+    TextView top_right_tv;
+
+
+    private Context mContext;
+    private View view;
+
+    private User mUser = null;
+    private int mPage = 1;
+    private int mSize = 10;
+    private int mTotalRecord = 0;
+
+    private String mStatus = "ACCEPT_WAITTING,PS_WAITTING,RECEIVE_WAITTING";//待发货，待收货//PS_WAITTING,ACCEPT_WAITTING
+    private int mStatusCode = 1;
+
+    private Boolean isVisible = false;
+    private Boolean isInit = false;
+
+    private ShopOrderLvAdapter adapter;
+    private List<ShopOrderListBean.DataEntity.DatasEntity> datasEntities = new ArrayList<ShopOrderListBean.DataEntity.DatasEntity>();
+
+    private ItemScrollListener scrollListener;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        view = inflater.inflate(R.layout.fragment_order, container, false);
+
+        LogsUtil.normal("OrderFragment.onCreateView");
+
+        mContext = getActivity();
+
+        ButterKnife.inject(this, view);
+        EventBus.getDefault().register(this);
+
+        initView();
+
+        initAdapter();
+
+        initLisener();
+
+        if (isVisible) {
+            refresh();
+        }
+        isInit = true;
+
+        return view;
+    }
+
+    private void initView() {
+        top_title_tv.setText("未收货");
+        top_right_tv.setText("已收货");
+        mUser = SharePreferenceUtils.getInstance(getActivity()).getUser();
+
+        scrollListener = (ItemScrollListener)getActivity();
+
+    }
+
+    private void initAdapter() {
+
+        adapter = new ShopOrderLvAdapter(mContext, datasEntities, mStatusCode);
+        base_plv.setAdapter(adapter);
+
+        adapter.setItemClickListener(new ItemMoreClickListener() {
+            @Override
+            public void onItemClick(View view, int postion) {
+            }
+
+            @Override
+            public void onItemSubViewClick(int choice, int postion) {
+            }
+
+            @Override
+            public void onItemMulViewClick(int type, int choice, int postion) {
+
+                ShopOrderListBean.DataEntity.DatasEntity bean = (ShopOrderListBean.DataEntity.DatasEntity) adapter.getItem(postion);
+
+                LogsUtil.normal("type=" + type + ",choice=" + choice + ",postion=" + postion);
+
+                if (type == mStatusCode) {
+                    switch (choice) {
+                        case 0://物流不可查
+                            ToastUtil.DisplayToast(mContext, "未发货暂无物流信息");
+                            break;
+                        case 1://物流可查
+                            Intent intent1 = new Intent(mContext, OrderLogisticActivity.class);
+                            intent1.putExtra(Constant.CONFIG_INTENT_ORDER_ID, bean.getId() + "");
+                            intent1.putExtra(Constant.CONFIG_INTENT_IS_MODIFY, true);
+                            startActivity(intent1);
+                            break;
+                        case 2://去发货
+                            Intent intent2 = new Intent(mContext, DeliverDetailActivity.class);
+                            intent2.putExtra(Constant.CONFIG_INTENT_ORDER_ID, bean.getId() + "");
+                            startActivityForResult(intent2, Constant.REQUESTCODE_NORMAL);
+                            break;
+                        case 3://已发货
+                            ToastUtil.DisplayToast(mContext, "已发货");
+                            break;
+                        case 8:
+                            DialogUtil.showSelectDialog(mContext, "温馨提示", "您确认接单?", bean.getId() + "");
+                            break;
+                    }
+                }
+            }
+        });
+
+    }
+
+    private void initLisener() {
+        base_plv.setMode(PullToRefreshBase.Mode.BOTH);
+        base_plv.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
+            @Override
+            public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
+                sendCloseNotification();
+                refresh();
+            }
+
+            @Override
+            public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
+                loadMore();
+            }
+        });
+
+        /*base_plv.setOnScrollChangeListener(new View.OnScrollChangeListener() {
+            @Override
+            public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
+                LogsUtil.normal("scrollX="+scrollX+",scrollY="+scrollY+",oldScrollX="+oldScrollX+",oldScrollY="+oldScrollY);
+            }
+        });*/
+
+        base_plv.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+                LogsUtil.normal("scrollState="+scrollState);
+            }
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                if(scrollListener != null){
+                    scrollListener.onItemClick(view,firstVisibleItem);
+                }
+                LogsUtil.normal("firstVisibleItem="+firstVisibleItem+",visibleItemCount="+visibleItemCount+",totalItemCount="+totalItemCount);
+            }
+        });
+
+    }
+
+    private void loadMore() {
+        if (adapter.getCount() < mTotalRecord) {
+            mPage = mPage + 1;
+            getShopOrderListApi(mUser.getmId(), mUser.getmToken(), mPage, mSize, mStatus);
+        } else {
+            ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_LOADING_FINISH);
+            base_plv.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    base_plv.onRefreshComplete();
+                }
+            }, 200);
+        }
+    }
+
+    private void refresh() {
+        mPage = 1;
+        mSize = 10;
+
+//        closeNotification();
+
+        //清除之前的数据，加载最新的数据
+        adapter.clearAll();
+        if (mUser != null) {
+            getShopOrderListApi(mUser.getmId(), mUser.getmToken(), mPage, mSize, mStatus);
+        } else {
+            ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_LOGIN_FIRST);
+        }
+    }
+
+    private void sendCloseNotification() {
+        LogsUtil.normal("closeNotification");
+        Intent intent = new Intent();
+        intent.setAction(Constant.CONFIG_BROADCAST_NOTIFICATION);
+        mContext.sendBroadcast(intent);
+    }
+
+    @OnClick(R.id.top_right_tv)
+    public void jumpToCompleted() {
+        Intent intent = new Intent(mContext, CompletedOrderListActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser) {
+            isVisible = true;
+            if (isInit) {
+                refresh();
+            }
+        } else {
+            isVisible = false;
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == Constant.REQUESTCODE_NORMAL && resultCode == getActivity().RESULT_OK) {
+            refresh();
+        }
+    }
+
+    @Override
+    public void getResult(String result, int type) {
+        super.getResult(result, type);
+
+        LogsUtil.normal("getResult");
+
+        base_plv.onRefreshComplete();
+        base_load.setVisibility(View.INVISIBLE);
+        Gson gson = new Gson();
+
+//        result = result.replace("{}", "\"\"");
+        result = CommonUtils.removeBrace(result);
+
+        try {
+            if (type == Constant.API_GET_SHOP_ORDER_LIST_SUCCESS) {
+                ShopOrderListBean data = gson.fromJson(result, ShopOrderListBean.class);
+                if (data != null) {
+                    mTotalRecord = data.getData().getTotalRecord();
+                    adapter.addAll(data.getData().getDatas(), mStatusCode);
+
+                    if (mTotalRecord == 0) {
+                        ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_REBACK_EMPTY);
+                    }
+                } else {
+                    ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_ANALYZE_ERROR);
+                }
+            }
+
+            if (type == Constant.API_POST_SHOP_DELIVERY_CONFIRM_SUCCESS) {
+                ReasultBean data = gson.fromJson(result, ReasultBean.class);
+                if (data != null) {
+                    DialogUtil.showSuccessDialog(mContext, data.getData(), EventBean.EVENT_EMPTY);
+                    refresh();
+                } else {
+                    ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_ANALYZE_ERROR);
+                }
+
+            }
+
+            if (type == Constant.API_POST_SHOP_ACCEPT_ORDER_SUCCESS) {
+                ReasultBean data = gson.fromJson(result, ReasultBean.class);
+                if (data != null) {
+                    ToastUtil.DisplayToast(mContext,data.getData());
+                    refresh();
+                } else {
+                    ToastUtil.DisplayToast(mContext, Constant.TOAST_MEG_ANALYZE_ERROR);
+                }
+
+            }
+
+        } catch (JsonSyntaxException e) {
+            ToastUtil.DisplayToastDebug(mContext, Constant.TOAST_MEG_REBACK_ERROR + "\n" + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    public void onEventMainThread(EventBean bean) {
+        if (bean.getAction().equals(EventBean.CONFIRM_ORDER_ACCEPT) && isVisible) {
+            String oId = bean.getMsg();
+            postAcceptShopOrderApi(mUser.getmId(), mUser.getmToken(), oId,"PS_WAITTING");
+        }
+        if (bean.getAction().equals(EventBean.CONFIRM_ORDER_REJECT) && isVisible) {
+            String oId = bean.getMsg();
+            postAcceptShopOrderApi(mUser.getmId(), mUser.getmToken(), oId,"CANCELED");
+        }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        EventBus.getDefault().unregister(this);
+    }
+}

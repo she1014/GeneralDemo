@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <com.techfly.demo.selfview.FlexibileScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/marign_bigger"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marign_middle"
+                        android:text="免运费值:"
+                        android:textColor="@color/text_font_black"
+                        android:textSize="@dimen/size_middle" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/marign_middle"
+                        android:layout_marginRight="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_black_solid_gray">
+
+                        <EditText
+                            android:id="@+id/delivery_money_et1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:hint="如:满88免运费"
+                            android:inputType="numberDecimal"
+                            android:paddingLeft="@dimen/marign_normal"
+                            android:textColor="@color/text_font_black"
+                            android:textColorHint="@color/hint_gray"
+                            android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                            android:textSize="@dimen/size_middle" />
+
+                        <ImageView
+                            android:id="@+id/delivery_clear_iv1"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/marign_middle"
+                            android:src="@drawable/icon_search_delete" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/marign_bigger"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marign_middle"
+                        android:text="设置运费:"
+                        android:textColor="@color/text_font_black"
+                        android:textSize="@dimen/size_middle" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/marign_middle"
+                        android:layout_marginRight="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_black_solid_gray">
+
+                        <EditText
+                            android:id="@+id/delivery_money_et2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:hint="如:不满88运费10元"
+                            android:inputType="numberDecimal"
+                            android:paddingLeft="@dimen/marign_normal"
+                            android:textColor="@color/text_font_black"
+                            android:textColorHint="@color/hint_gray"
+                            android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                            android:textSize="@dimen/size_middle" />
+
+                        <ImageView
+                            android:id="@+id/delivery_clear_iv2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/marign_middle"
+                            android:src="@drawable/icon_search_delete" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/save_btn"
+                    style="@style/normalButtom"
+                    android:layout_margin="@dimen/marign_bigger"
+                    android:text="确定" />
+
+            </LinearLayout>
+        </com.techfly.demo.selfview.FlexibileScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

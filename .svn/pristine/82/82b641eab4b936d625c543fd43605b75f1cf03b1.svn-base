@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/mine_address_frame_customer_focus" android:state_checked="true"/>
+    <item android:drawable="@drawable/mine_address_frame_customer_focus" android:state_pressed="true"/>
+    <item android:drawable="@drawable/mine_address_frame_customer_normal" android:state_pressed="false" />
+
+</selector>

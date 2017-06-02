@@ -1,0 +1,68 @@
+-keep class com.techfly.demo.activity.application.MyApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.techfly.demo.activity.base.MainActivity { <init>(); }
+-keep class com.techfly.demo.activity.user.LoginActivity { <init>(); }
+-keep class com.techfly.demo.guidepage.SplashActivity { <init>(); }
+-keep class com.techfly.demo.guidepage.GuideActivity { <init>(); }
+-keep class com.techfly.demo.activity.user.ModifyPassActivity { <init>(); }
+-keep class com.techfly.demo.activity.order.DeliverDetailActivity { <init>(); }
+-keep class com.techfly.demo.activity.order.OrderReviewActivity { <init>(); }
+-keep class com.techfly.demo.activity.order.OrderLogisticActivity { <init>(); }
+-keep class com.techfly.demo.activity.refund.RefundOrderMenuActivity { <init>(); }
+-keep class com.techfly.demo.activity.user.UserAgreementActivity { <init>(); }
+-keep class com.techfly.demo.activity.order.CompletedOrderListActivity { <init>(); }
+-keep class com.techfly.demo.activity.release.CommentReleaseActivity { <init>(); }
+-keep class com.techfly.demo.activity.goods.GoodManagerMenuActivity { <init>(); }
+-keep class com.techfly.demo.activity.record.RechargeHistoryActivity { <init>(); }
+-keep class com.techfly.demo.activity.refund.RefundOrderDetailActivity { <init>(); }
+-keep class com.techfly.demo.activity.record.MemberHistoryActivity { <init>(); }
+-keep class com.techfly.demo.activity.base.HtmlDetailActivity { <init>(); }
+-keep class com.techfly.demo.activity.setting.SetDeliveryActivity { <init>(); }
+-keep class com.techfly.demo.selfview.photepicker.PhotoPickerActivity { <init>(); }
+-keep class com.techfly.demo.selfview.photepicker.PhotoPagerActivity { <init>(); }
+-keep class com.techfly.demo.selfview.photepicker.PhotoSlideActivity { <init>(); }
+-keep class com.techfly.demo.activity.order.OrderDetailActivity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo1Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo2Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo3Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo4Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo5Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo6Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo7Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo8Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo9Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo10Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo11Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo12Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo13Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo14Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo15Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo16Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo17Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo18Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo19Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo20Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo21Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo22Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo23Activity { <init>(); }
+-keep class com.techfly.demo.activity.demo.Demo24Activity { <init>(); }
+-keep class com.techfly.demo.service.UpdateService { <init>(); }
+-keep class cn.jpush.android.ui.PushActivity { <init>(); }
+-keep class cn.jpush.android.service.DownloadService { <init>(); }
+-keep class cn.jpush.android.service.PushService { <init>(); }
+-keep class cn.jpush.android.service.DaemonService { <init>(); }
+-keep class cn.jpush.android.service.PushReceiver { <init>(); }
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(); }
+-keep class com.techfly.demo.activity.jpush.MyReceiver { <init>(); }
+-keep class com.tencent.tinker.lib.service.TinkerPatchService { <init>(); }
+-keep class com.tencent.tinker.lib.service.TinkerPatchService$InnerService { <init>(); }
+-keep class com.tencent.tinker.lib.service.DefaultTinkerResultService { <init>(); }
+-keep class zhou.tools.fileselector.FileSelectorActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.techfly.demo.activity.qq_demo.view.SlideLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_slide_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/layout_slide_page" />
+
+    <include layout="@layout/layout_main" />
+
+</com.techfly.demo.activity.qq_demo.view.SlideLayout>

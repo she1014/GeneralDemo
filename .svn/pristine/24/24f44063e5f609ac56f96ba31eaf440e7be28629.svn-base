@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">通用模板</string>
+
+    <string name="over_max_count_tips">图片数量达到上限</string>
+    <string name="all_image">所有图片</string>
+
+    <!-- 针对MainActivity,内容部分、导航栏 -->
+    <string name="main_activity_body_weight">91</string>
+    <string name="main_activity_bottom_weight">9</string>
+
+    <!-- 针对BaseActivity,标题栏、内容部分 -->
+    <string name="activity_title_weight">6</string>
+    <string name="activity_body_weight">94</string>
+
+    <!-- 针对Fragment,标题栏、内容部分 -->
+    <string name="fragment_title_weight">6.6</string>
+    <string name="fragment_body_weight">93.4</string>
+
+    <string name="main_01">首页</string>
+    <string name="main_02">订单列表</string>
+    <string name="main_03">我的</string>
+
+    <string name="user_register">注册</string>
+    <string name="user_login">登录</string>
+    <string name="user_login_go">去登录</string>
+    <string name="user_agreement">用户协议</string>
+
+    <!-- 基本的一些数据，标题右边上角或按钮提交 -->
+    <string name="basic_add">新增</string>
+    <string name="basic_delete">删除</string>
+    <string name="basic_modity">修改</string>
+    <string name="basic_query">查询</string>
+
+    <string name="basic_search">搜索</string>
+    <string name="basic_edit">编辑</string>
+    <string name="basic_more">更多</string>
+    <string name="basic_confirm">确认</string>
+    <string name="basic_cancel">取消</string>
+    <string name="basic_select">选择</string>
+    <string name="basic_reviews">评价</string>
+    <string name="basic_save">保存</string>
+    <string name="basic_realse">发布</string>
+    <string name="basic_submit">提交</string>
+    <string name="basic_completed">已完成</string>
+    <string name="basic_uncompleted">未完成</string>
+
+    <string name="banner_detail">详情</string>
+    <string name="baike_detail">百科知识</string>
+    <string name="order_uncompleted_detail">订单详情</string>
+    <string name="refund_order_detail">退款订单详情</string>
+    <string name="order_evalutaion">订单评价</string>
+
+    <string name="jpush_content">刘太太生活</string>
+
+    <!-- 微信相关 -->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <string name="error_cacel_wx_pay">您已经取消付款</string>
+    <string name="error_wx_pay">付款失败</string>
+    <string name="error_wx_pay_send">无法发送，付款失败</string>
+    <string name="error_wx_pay_get_right"> 授权失败</string>
+    <string name="error_wx_pay_no_support">微信未安装或者不支持</string>
+
+    <!--个人中心 -->
+    <string name="mine_center">个人中心</string>
+    <string name="mine_coupon">优惠券</string>
+    <string name="mine_coupon_pieces">张</string>
+    <string name="mine_balance">余额</string>
+    <string name="mine_balance_yuan">元</string>
+
+    <string name="suggest_hint">您的每条意见和建议都是我们成长的动力！</string>
+
+    <string name="mine_set_recharge">点击充值</string>
+    <string name="mine_recommend">推荐有奖</string>
+    <string name="mine_commission">我的提成</string>
+    <string name="mine_address">常用地址</string>
+    <string name="mine_address_list">我的地址</string>
+    <string name="mine_voucher_list">我的优惠卷</string>
+    <string name="mine_attract_investment">招商加盟</string>
+    <string name="mine_feedback">意见反馈</string>
+    <string name="mine_more">更多</string>
+    <string name="mine_new_add_address">新增收货地址</string>
+    <string name="mine_change_nick_name">修改昵称</string>
+    <string name="mine_blance">我的余额</string>
+
+    <string name="mine_modify_address">收货地址编辑</string>
+    <!--新增地址-->
+    <string name="mine_address_title">收货地址</string>
+
+    <string name="mine_person_data">个人资料</string>
+    <string name="mine_shop_delivery">设置运费</string>
+
+    <string name="voucher_text5">满%1$s可用</string>
+
+    <string name="mine_address_changeadd_text">请输入姓名</string>
+    <string name="mine_address_changeadd_text1">请输入手机号码</string>
+    <string name="mine_address_changeadd_text2">请输入收货地址</string>
+    <string name="mine_address_changeadd_text3">确认</string>
+    <string name="add_title">新增收获地址</string>
+
+    <!--推荐有奖-->
+    <string name="mine_recommend_activity_rule">活动规则</string>
+    <string name="mine_recommend_extra_pay">推荐有奖</string>
+
+    <!--我的提成-->
+    <string name="mine_confirm_username">账 户 姓 名</string>
+    <string name="mine_confirm_account">支付宝账户</string>
+    <string name="mine_confirm_input_username">请输入账户人姓名</string>
+    <string name="mine_confirm_input_account">请输入支付宝账号</string>
+    <string name="mine_confirm_withdrawal">确认提现</string>
+    <string name="mine_address_select_text4">点击选择地址</string>
+    <string name="mine_address_changeadd_text5">请输入详细地址</string>
+
+
+    <string name="shop_index1">会员记录</string>
+    <string name="shop_index2">充值记录</string>
+    <string name="shop_index3">商品发布</string>
+    <string name="shop_index4">商品管理</string>
+
+    <string name="shop_index5">退款管理</string>
+    <string name="shop_index6">敬请期待</string>
+    <string name="shop_index7">敬请期待</string>
+    <string name="shop_index8">敬请期待</string>
+
+    <!--更多-->
+    <string name="function_introduction">功能介绍</string>
+    <string name="common_problem">常见问题</string>
+    <string name="give_score">给我们评分</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="contact_us">联系我们</string>
+    <string name="version_upgrade">版本升级</string>
+    <string name="exit_account">退出账号</string>
+
+    <!--版本升级-->
+    <string name="soft_update">更新提示</string>
+    <string name="soft_update_failed">升级失败！</string>
+    <string name="soft_update_no_need">已经是最新版本！</string>
+    <string name="soft_update_if_cancel">是否取消升级？</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">更新提示</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗?</string>
+    <string name="soft_update_updatebtn">立即更新</string>
+    <string name="soft_update_later">下次更新</string>
+    <string name="soft_update_exit">退出应用</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_wait_install">稍后安装</string>
+    <string name="soft_now_install">立即安装</string>
+    <string name="soft_update_download">新版本已下载完成</string>
+    <string name="soft_update_already_download">新版本已经下载完成</string>
+
+    <string name="login_tip1">点击"登录",即表示同意</string>
+    <string name="login_tip2">《刘太太.生活用户协议》</string>
+
+    <!--充值-限制输入充值卡字符-->
+    <string name="account_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="booking_time_tip">请选择取件时间</string>
+
+    <string name="select_city_title_text">选择城市</string>
+
+    <string name="search_city_hint_text">请输入城市中文名或者拼音</string>
+    <string name="select_city_location">定位当前城市</string>
+    <string name="select_city_location_ing">定位中...</string>
+    <string name="select_city_location_disable">对不起，这个城市还没有开通服务</string>
+
+    <string name="alipay_fail_promt">付款失败，请再次尝试付款!</string>
+    <string name="alipay_cancel_promt">你已经取消付款</string>
+
+    <!-- 我的余额 -->
+    <string name="balance_text">余额记录</string>
+    <string name="balance_text1">￥%1$s</string>
+    <string name="balance_text2">元&#160;&#160;充值卡</string>
+    <string name="balance_text3">充%1$s&#160;&#160;送%1$s</string>
+    <string name="balance_text4">有效期%1$s</string>
+    <string name="balance_text5">立即\n充值</string>
+    <string name="balance_no_content">暂无充值卡，敬请期待~</string>
+    <string name="balance_history_no_content">暂无记录~</string>
+
+    <string name="recharge_text">售价:</string>
+    <string name="recharge_text1">支付宝支付</string>
+    <string name="recharge_text2">微信支付</string>
+    <string name="recharge_text4">余额支付</string>
+    <string name="recharge_text5">线下支付</string>
+    <string name="recharge_text6">未支付</string>
+    <string name="recharge_text3">确认充值</string>
+    <string name="recharge_title">余额</string>
+
+    <string name="common_phone_dial_num">4008275899</string>
+    <string name="common_phone_dial">400-827-5899</string>
+
+    <string name="login_register_text">一、前言
+\n刘太太.生活（网址：http://liutaitai.com/）是由安徽赢投电子商务有限公司所有并经营的生活服务类手机APP平台。 本协议描述”刘太太.生活"所提供的服务及用户的责任，请在使用本站服务前细阅读本协议并接受该协议全部条款。刘太太.生活有权随时单方面修改本协议，修改后的协议经用户阅览同意后生效。
+\n二、服务内容
+\n1.本站运用自己的操作系统，通过手机APP运用为用户提供生活服务的网络平台服务，用户可通过本站进行预约干洗、奢侈品保养、美甲、美睫、鲜花、生鲜服务等网络信息活动。
+\n2.用户使用本站提供的网络平台服务，必须：
+        \na) 自行配备上网的所需设备，包括个人手机、使用流量或其他必备上网装置。
+        \nb) 自行负担个人上网所支付的与此服务有关的电话费用、网络费用。
+\n三、用户信息
+\n1.基于本站所提供的网络服务的重要性，用户在注册及提交预约订单时，应按照本站的要求提供真实、有效、详尽、准确的个人资料。包括但不限于姓名、手机号、家庭地址等信息。 用户应不断更新注册资料，符合及时、详尽、准确的要求。本站对用户的电子邮件、手机号等隐私资料进行保护，承诺不会在未获得用户许可的情况下擅自将用户的个人资料信息出租或出售给任何第三方，但以下情况除外:
+        \na) 用户同意让第三方共享资料；
+        \nb) 用户同意公开其个人资料，享受为其提供的产品和服务；
+        \nc) 本站需要听从法庭传票、法律命令或遵循法律程序；
+        \nd) 本站发现用户违反了本站服务条款或本站其它使用规定；
+        \ne) 为了上门服务或其他为用户利益需要而向交易以外第三方提供的，例如用户同意的产品或服务提供商等。关于用户隐私的具体协议以本站的隐私声明为准。
+\n如果用户提供的资料包含有不正确的信息，本站保留暂停用户使用网络服务资格的权利。
+\n2.用户通过本站发布的信息，本站没有必须保存的义务，本站不对用户发布的信息丢失和储存失败负责。本站有权删除站内各类不符合法律政策或不真实的信息内容而无须通知用户，同时本站保有追究用户相关法律责任的权利。
+\n3.若国家相关机关向本站发出命令、指示、裁决等法律文书，本站有权对相关账号及交易进行冻结或取消，同时对违反本协议及本站相关服务规则的用户，本站有权封停其账号。
+\n四、用户行为限制
+用户使用本站服务，不得有下列行为：
+\n1.利用本站发布违反国家相关法律、法规及其他规范性文件的信息或从事其他违法犯罪活动；
+\n2.利用本站从事洗钱、窃取商业秘密、窃取个人信息等违法犯罪活动；
+\n3.干扰本站的正常运转，非法入侵本站服务器、篡改本站代码或其他损害本站利益的行为；
+\n4.传输或发表任何违法犯罪的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的，淫秽的、不文明的等信息资料；
+\n5.利用在本站注册的账户进行牟利性经营活动。
+\n五、服务条款的修改
+\n1.本站将可能不定期的修改本用户协议的有关条款，一旦条款及服务内容产生变动，本站将会在重要页面上提示修改内容。如果不同意本站对条款内容所做的修改，用户可以主动取消获得的网络服务。如果用户继续使用本站的服务，则视为接受服务条款的变动。若遇特殊情况，本站将有可能修改或中断服务，网站将尽量降低对用户的影响。
+\n2.用户应及时关注本站不时发布的各项服务规则及本协议修改的相关提示，若不同意相关规则及条款修改的，用户应及时停止使用本站服务，否则将被视为同意相关修改及规则。
+\n六、结束服务
+\n本站可能会随时根据实际情况中断一项或多项网络服务。用户对本站的服务不满，可以行使如下权利：
+\n1.停止使用本站的网络服务。
+\n2.通告本站停止对该用户的服务。
+\n结束用户服务后，用户使用网络服务的权利马上中止。同时，本站也会尽量减轻前述行为给用户带来的影响。
+\n七、 通告
+\n所有发给用户的通告都可通过重要页面的公告或电子邮件传送。本站的活动信息也将定期通过页面公告及电子邮件方式向用户发送。用户协议条款的修改、服务变更、或其它重要事件的通告都会以此形式进行。
+\n八、网络服务内容的所有权
+\n本站定义的网络服务内容包括：文字、软件、声音、图片、录象、图表、广告中的全部内容；电子邮件的全部内容；本站为用户提供的其他信息。所有这些内容受版权、商标、标签和其它财产所有权法律的保护。所以，用户只能在本站和广告商授权下才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。本站所有的文章版权归原文作者和本站共同所有，任何人需要转载本站的文章，必须征得原文作者或本站授权。
+\n九、版权条款
+\n任何用户接受本服务条款，即表明该用户主动将其在任何时间段在本站发表的任何形式的信息的著作财产权，包括并不限于：复制权、发行权、出租权、展览权、表演权、放映权、广播权、信息网络传播权、摄制权、改编权、翻译权、汇编权以及应当由著作权人享有的其他可转让权利无偿独家转让给本站运营商所有，同时表明该用户许可本站有权利就任何主体侵权而单独提起诉讼，并获得全部赔偿。 
+
+\n本协议已经构成《著作权法》第二十五条所规定的书面协议，其效力及于用户在本站发布的任何受著作权法保护的作品内容，无论该内容形成于本协议签订前还是本协议签订后。 用户同意并明确了解上述条款，不将已发表于本站的信息，以任何形式发布或授权其它网站（及媒体）使用。同时，本站保留删除站内各类不符合规定点评而不通知用户的权利：安徽赢投电子商务有限公司拥有此网站内容及资源的版权,受国家知识产权保护,享有对本网站声明的最终解释与修改权；未经安徽赢投电子商务有限公司的明确书面许可,任何单位或个人不得以任何方式,以任何文字作全部和局部复制、转载、引用和链接。否则安徽赢投电子商务有限公司将追究其法律责任。
+\n十、责任限制
+\n1.如因不可抗力或其他本站无法控制的原因使本站销售系统崩溃或无法正常使用导致网上交易无法完成或丢失有关的信息、记录等，本站不承担责任。但是本站会尽可能合理地协助处理善后事宜，并努力使客户免受经济损失。
+\n2.除了本站的使用条件中规定的其它限制和除外情况之外，在中国法律法规所允许的限度内，对于因交易或服务而引起的或与之有关的任何直接的、间接的、特殊的、附带的、后果性的或惩罚性的损害，或任何其它性质的损害，本站、本站的董事、管理人员、雇员、代理或其它代表在任何情况下都不承担责任。
+\n十一、法律管辖和适用
+\n1.本协议的订立、执行和解释及争议的解决均应适用中国法律。
+\n2.如发生本站服务条款与中国法律相抵触时，则这些条款将完全按法律规定重新解释，而其它合法条款则依旧保持对用户产 生法律效力和影响。
+\n3.本协议的规定是可分割的，如本协议任何规定被裁定为无效或不可执行，该规定可被删除而其余条款应予以执行。
+\n4.如双方就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；协商不成时，任何一方均可向本站所在地的人民法院提起诉讼。</string>
+
+        <string name="demo22_content">{"state":1,"data":[{"uid":"120","username":"13681863492","score":"7150","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_120.jpg","name":"tongtaste","fansnum":"7","watched":0},{"uid":"150","username":"oOFr-s_u_EmAxQ1gRJ9Hd7zff6FY","score":"5000","avatar":"","name":"头文件","fansnum":"3","watched":0},{"uid":"79","username":"15000194925","score":"3350","avatar":"","name":"童员","fansnum":"2","watched":0},{"uid":"23","username":"caipu001","score":"3200","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_23.jpg","name":"tongtaste","fansnum":"7","watched":1},{"uid":"95","username":"18501644896","score":"2150","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_95.jpg","name":"回家吃饭","fansnum":"7","watched":1},{"uid":"11","username":"18205183644","score":"2000","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_11.jpg","name":"咔咔6","fansnum":"16","watched":0},{"uid":"24","username":"18581933520","score":"1656","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_24.jpg","name":"王欢","fansnum":"12","watched":1},{"uid":"144","username":"13917607319","score":"1250","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_144.jpg","name":"何源源","fansnum":"3","watched":0},{"uid":"136","username":"18010972229","score":"1050","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_136.jpg","name":"nicheng","fansnum":"1","watched":0},{"uid":"1","username":"ch","score":"1000","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_1.jpg","name":"童员","fansnum":"11","watched":0},{"uid":"81","username":"14782571386","score":"950","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"85","username":"13566273806","score":"750","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"22","username":"caipu","score":"400","avatar":"","name":"童员","fansnum":"4","watched":0},{"uid":"123","username":"15800740572","score":"350","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"139","username":"15904872201","score":"250","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_139.jpg","name":"潼潼","fansnum":"5","watched":0},{"uid":"122","username":"13818908641","score":"250","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"86","username":"13917349901","score":"150","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"172","username":"18820045160","score":"150","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_172.jpg","name":"童员","fansnum":"1","watched":0},{"uid":"204","username":"18018552656","score":"150","avatar":"","name":"童员","fansnum":0,"watched":0},{"uid":"206","username":"15356539961","score":"150","avatar":"","name":"童员","fansnum":0,"watched":0},{"uid":"68","username":"15901954518","score":"100","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_68.jpg","name":"童员","fansnum":"3","watched":1},{"uid":"74","username":"13958898652","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_74.jpg","name":"微","fansnum":"6","watched":0},{"uid":"75","username":"13676743122","score":"50","avatar":"","name":"童员","fansnum":"2","watched":0},{"uid":"76","username":"18721073138","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_76.jpg","name":"Krystal傻逼王","fansnum":"2","watched":0},{"uid":"77","username":"pppppp","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"78","username":"hhhhhh","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"82","username":"666666","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"87","username":"17702149009","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_87.jpg","name":"小蜜蜂","fansnum":"1","watched":0},{"uid":"88","username":"13301544335","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"89","username":"13151662110","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"97","username":"444444","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"109","username":"18368713282","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_109.jpg","name":"童员","fansnum":"1","watched":0},{"uid":"110","username":"15106154772","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"101","username":"15045035025","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"102","username":"18916311299","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"103","username":"13588926020","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"104","username":"13914217965","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"105","username":"15257729563","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"106","username":"18236067553","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_106.jpg","name":"童员","fansnum":"1","watched":0},{"uid":"107","username":"15921929775","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"108","username":"18516635510","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_108.jpg","name":"童员","fansnum":"1","watched":0},{"uid":"94","username":"15900462946","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"96","username":"555555","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"73","username":"18694047910","score":"50","avatar":"","name":"童员","fansnum":"2","watched":0},{"uid":"84","username":"18767090784","score":"50","avatar":"http:\/\/dev.cp.ysrlin.com\/member\/uploadfile\/avatar_84.jpg","name":"文琴","fansnum":"1","watched":0},{"uid":"111","username":"13585031240","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"113","username":"13861515235","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"114","username":"15190219530","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"115","username":"13685251341","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0},{"uid":"116","username":"18758739786","score":"50","avatar":"","name":"童员","fansnum":"1","watched":0}]}</string>
+</resources>

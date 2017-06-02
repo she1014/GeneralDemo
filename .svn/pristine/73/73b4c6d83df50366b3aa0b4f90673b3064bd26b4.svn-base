@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"REPETEIX DIÀRIAMENT"</item>
+        <item>"REPETEIX SETMANALMENT"</item>
+        <item>"REPETEIX MENSUALMENT"</item>
+        <item>"REPETEIX ANUALMENT"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"primer divendres de cada mes"</item>
+        <item>"segon divendres de cada mes"</item>
+        <item>"tercer divendres de cada mes"</item>
+        <item>"quart divendres de cada mes"</item>
+        <item>"últim divendres de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"primer dilluns de cada mes"</item>
+        <item>"segon dilluns de cada mes"</item>
+        <item>"tercer dilluns de cada mes"</item>
+        <item>"quart dilluns de cada mes"</item>
+        <item>"últim dilluns de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"primer dissabte de cada mes"</item>
+        <item>"segon dissabte de cada mes"</item>
+        <item>"tercer dissabte de cada mes"</item>
+        <item>"quart dissabte de cada mes"</item>
+        <item>"últim dissabte de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"primer diumenge de cada mes"</item>
+        <item>"segon diumenge de cada mes"</item>
+        <item>"tercer diumenge de cada mes"</item>
+        <item>"quart diumenge de cada mes"</item>
+        <item>"últim diumenge de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"primer dijous de cada mes"</item>
+        <item>"segon dijous de cada mes"</item>
+        <item>"tercer dijous de cada mes"</item>
+        <item>"quart dijous de cada mes"</item>
+        <item>"últim dijous de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"primer dimarts de cada mes"</item>
+        <item>"segon dimarts de cada mes"</item>
+        <item>"tercer dimarts de cada mes"</item>
+        <item>"quart dimarts de cada mes"</item>
+        <item>"últim dimarts de cada mes"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"primer dimecres de cada mes"</item>
+        <item>"segon dimecres de cada mes"</item>
+        <item>"tercer dimecres de cada mes"</item>
+        <item>"quart dimecres de cada mes"</item>
+        <item>"últim dimecres de cada mes"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Diàriament"</item>
+        <item quantity="other">"Cada <ns1:g id="NUMBER">%d</ns1:g> dies"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; una vegada"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> vegades"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Per a <ns1:g id="EVENT_COUNT">%d</ns1:g> esdeveniment"</item>
+        <item quantity="other">"Per a <ns1:g id="EVENT_COUNT">%d</ns1:g> esdeveniments"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Cada <ns1:g id="COUNT">%d</ns1:g> dia"</item>
+        <item quantity="other">"Cada <ns1:g id="COUNT">%d</ns1:g> dies"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Cada <ns1:g id="COUNT">%d</ns1:g> mes"</item>
+        <item quantity="other">"Cada <ns1:g id="COUNT">%d</ns1:g> mesos"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Cada <ns1:g id="COUNT">%d</ns1:g> setmana"</item>
+        <item quantity="other">"Cada <ns1:g id="COUNT">%d</ns1:g> setmanes"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Cada <ns1:g id="COUNT">%d</ns1:g> any"</item>
+        <item quantity="other">"Cada <ns1:g id="COUNT">%d</ns1:g> anys"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Setmanalment el <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Cada <ns1:g id="NUMBER">%1$d</ns1:g> setmanes el <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Mostra\'ls tots"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Comparteix amb %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"canvia la data de finalització"</string>
+    <string name="cancel">"Cancel·la"</string>
+    <string name="day_picker_description">"Graella mensual de dies"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> suprimit"</string>
+    <string name="endByDate">"; fins al dia <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Entre setmana (Dl.-Dv.)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> seleccionat"</string>
+    <string name="monthly">"Mensualment"</string>
+    <string name="ok">"D\'acord"</string>
+    <string name="recurrence_end_continously">"Sempre"</string>
+    <string name="recurrence_end_count_label">"Per a alguns esdeveniments"</string>
+    <string name="recurrence_end_date">"Fins al dia <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Fins a una data"</string>
+    <string name="recurrence_month_pattern_by_day">"el mateix dia de cada mes"</string>
+    <string name="select_day">"Selecciona un mes i un dia"</string>
+    <string name="select_hours">"Selecciona les hores"</string>
+    <string name="select_minutes">"Selecciona els minuts"</string>
+    <string name="select_year">"Selecciona un any"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="year_picker_description">"Llista anual"</string>
+    <string name="yearly_plain">"Anualment"</string>
+</resources>

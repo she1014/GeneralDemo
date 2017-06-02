@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"التكرار يوميًا"</item>
+        <item>"التكرار أسبوعيًا"</item>
+        <item>"التكرار شهريًا"</item>
+        <item>"التكرار سنويًا"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"يوم الجمعة الأول من كل شهر"</item>
+        <item>"يوم الجمعة الثاني من كل شهر"</item>
+        <item>"يوم الجمعة الثالث من كل شهر"</item>
+        <item>"يوم الجمعة الرابع من كل شهر"</item>
+        <item>"يوم الجمعة الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"يوم الاثنين الأول من كل شهر"</item>
+        <item>"يوم الاثنين الثاني من كل شهر"</item>
+        <item>"يوم الاثنين الثالث من كل شهر"</item>
+        <item>"يوم الاثنين الرابع من كل شهر"</item>
+        <item>"يوم الاثنين الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"يوم السبت الأول من كل شهر"</item>
+        <item>"يوم السبت الثاني من كل شهر"</item>
+        <item>"يوم السبت الثالث من كل شهر"</item>
+        <item>"يوم السبت الرابع من كل شهر"</item>
+        <item>"يوم السبت الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"يوم الأحد الأول من كل شهر"</item>
+        <item>"يوم الأحد الثاني من كل شهر"</item>
+        <item>"يوم الأحد الثالث من كل شهر"</item>
+        <item>"يوم الأحد الرابع من كل شهر"</item>
+        <item>"يوم الأحد الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"يوم الخميس الأول من كل شهر"</item>
+        <item>"يوم الخميس الثاني من كل شهر"</item>
+        <item>"يوم الخميس الثالث من كل شهر"</item>
+        <item>"يوم الخميس الرابع من كل شهر"</item>
+        <item>"يوم الخميس الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"يوم الثلاثاء الأول من كل شهر"</item>
+        <item>"يوم الثلاثاء الثاني من كل شهر"</item>
+        <item>"يوم الثلاثاء الثالث من كل شهر"</item>
+        <item>"يوم الثلاثاء الرابع من كل شهر"</item>
+        <item>"يوم الثلاثاء الأخير من كل شهر"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"يوم الأربعاء الأول من كل شهر"</item>
+        <item>"يوم الأربعاء الثاني من كل شهر"</item>
+        <item>"يوم الأربعاء الثالث من كل شهر"</item>
+        <item>"يوم الأربعاء الرابع من كل شهر"</item>
+        <item>"يوم الأربعاء الأخير من كل شهر"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"يوميًا"</item>
+        <item quantity="other">"كل <ns1:g id="NUMBER">%d</ns1:g> أيام"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"؛ لمرة واحدة"</item>
+        <item quantity="other">"؛ لـ <ns1:g id="NUMBER">%d</ns1:g> من المرات"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"لـ <ns1:g id="EVENT_COUNT">%d</ns1:g> حدث"</item>
+        <item quantity="other">"لـ <ns1:g id="EVENT_COUNT">%d</ns1:g> من الأحداث"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"كل <ns1:g id="COUNT">%d</ns1:g> يوم"</item>
+        <item quantity="other">"كل <ns1:g id="COUNT">%d</ns1:g> يوم"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"كل <ns1:g id="COUNT">%d</ns1:g> شهر"</item>
+        <item quantity="other">"كل <ns1:g id="COUNT">%d</ns1:g> شهر"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"كل <ns1:g id="COUNT">%d</ns1:g> أسبوع"</item>
+        <item quantity="other">"كل <ns1:g id="COUNT">%d</ns1:g> أسبوع"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"كل <ns1:g id="COUNT">%d</ns1:g> عام"</item>
+        <item quantity="other">"كل <ns1:g id="COUNT">%d</ns1:g> عام"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"يوم <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> من كل أسبوع"</item>
+        <item quantity="other">"يوم <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> من كل <ns1:g id="NUMBER">%1$d</ns1:g> من الأسابيع"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"تغيير تاريخ الانتهاء"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="day_picker_description">"شبكة الشهر مكونة من الأيام"</string>
+    <string name="deleted_key">"تم حذف <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"؛ حتى <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"كل أيام الأسبوع (الاثنين-الجمعة)"</string>
+    <string name="item_is_selected">"تم تحديد <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"شهريًا"</string>
+    <string name="ok">"موافق"</string>
+    <string name="pull_to_refresh_pull_label">اسحب للتحديث…</string>
+    <string name="pull_to_refresh_refreshing_label">تحميل…</string>
+    <string name="pull_to_refresh_release_label">اترك للتحديث…</string>
+    <string name="recurrence_end_continously">"للأبد"</string>
+    <string name="recurrence_end_count_label">"لعدد من الأحداث"</string>
+    <string name="recurrence_end_date">"حتى <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"حتى تاريخ ما"</string>
+    <string name="recurrence_month_pattern_by_day">"في اليوم نفسه من كل شهر"</string>
+    <string name="select_day">"تحديد الشهر واليوم"</string>
+    <string name="select_hours">"تحديد الساعات"</string>
+    <string name="select_minutes">"تحديد الدقائق"</string>
+    <string name="select_year">"تحديد العام"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="year_picker_description">"قائمة الأعوام"</string>
+    <string name="yearly_plain">"سنويًا"</string>
+</resources>

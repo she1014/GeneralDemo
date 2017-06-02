@@ -1,0 +1,16 @@
+package com.techfly.demo;
+
+import com.tencent.tinker.loader.app.TinkerApplication;
+
+/**
+ *
+ * Generated application for tinker life cycle
+ *
+ */
+public class SampleApplication extends TinkerApplication {
+
+    public SampleApplication() {
+        super(7, "com.techfly.demo.tinker.SampleApplicationLike", "com.tencent.tinker.loader.TinkerLoader", false);
+    }
+
+}

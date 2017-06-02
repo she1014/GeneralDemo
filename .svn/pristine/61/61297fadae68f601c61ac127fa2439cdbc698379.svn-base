@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-zu/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"PHINDA NSUKU ZONKE"</item>
+        <item>"PHINDA NGEVIKI"</item>
+        <item>"PHINDA NGENYANGA"</item>
+        <item>"PHINDA NGONYAKA"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"njalo ngoLwesihlanu wokuqala"</item>
+        <item>"njalo ngoLwesihlanu wesibili"</item>
+        <item>"njalo ngoLwesihlanu wesithathu"</item>
+        <item>"njalo ngoLwesihlanu wesine"</item>
+        <item>"njalo ngoLwesihlanu wokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"njalo ngoMsombuluko wokuqala"</item>
+        <item>"njalo ngoMsombuluko wesibili"</item>
+        <item>"njalo ngoMsombuluko wesithathu"</item>
+        <item>"njalo ngoMsombuluko wesine"</item>
+        <item>"njalo ngoMsombuluko wokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"njalo ngoMgqibelo wokuqala"</item>
+        <item>"njalo ngoMgqibelo wesibili"</item>
+        <item>"njalo ngoMgqibelo wesithathu"</item>
+        <item>"njalo ngoMgqibelo wesine"</item>
+        <item>"njalo ngoMgqibelo wokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"njalo ngeSonto lokuqala"</item>
+        <item>"njalo ngeSonto lesibili"</item>
+        <item>"njalo ngeSonto lesithathu"</item>
+        <item>"njalo ngeSonto lesine"</item>
+        <item>"njalo ngeSonto lokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"njalo ngoLwesine wokuqala"</item>
+        <item>"njalo ngoLwesine wesibili"</item>
+        <item>"njalo ngoLwesine wesithathu"</item>
+        <item>"njalo ngoLwesine wesine"</item>
+        <item>"njalo ngoLwesine wokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"njalo ngoLwesibili wokuqala"</item>
+        <item>"njalo ngoLwesibili wesibili"</item>
+        <item>"njalo ngoLwesibili wesithathu"</item>
+        <item>"njalo ngoLwesibili wesine"</item>
+        <item>"njalo ngoLwesibili wokugcina"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"njalo ngoLwesithathu wokuqala"</item>
+        <item>"njalo ngoLwesithathu wesibili"</item>
+        <item>"njalo ngoLwesithathu wesithathu"</item>
+        <item>"njalo ngoLwesithathu wesine"</item>
+        <item>"njalo ngoLwesithathu wokugcina"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-zu/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Nsuku zonke"</item>
+        <item quantity="other">"Njalo ngezinsuku ezingu-<ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; okwesikhathi esisodwa"</item>
+        <item quantity="other">"; okwezikhathi ezingu-<ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Okomcimbi ongu-<ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Okwemicimbi engu-<ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Njalo ngosuku olungu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Njalo ngezinsuku ezingu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Njalo ngenyanga engu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Njalo ngezinyanga ezingu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Njalo ngeviki elingu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Njalo ngamaviki angu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Njalo ngonyaka ongu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Njalo ngeminyaka engu-<ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Njalo ngeviki nge-<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Njalo ngamaviki angu-<ns1:g id="NUMBER">%1$d</ns1:g> nge-<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"shintsha idethi yokugcina"</string>
+    <string name="cancel">"Khansela"</string>
+    <string name="day_picker_description">"Igridi yenyanga yezinsuku"</string>
+    <string name="deleted_key">"I-<ns1:g id="KEY">%1$s</ns1:g> isusiwe"</string>
+    <string name="endByDate">"; kuze kube <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Njalo phakathi nesonto (Msom-Lwes)"</string>
+    <string name="item_is_selected">"I-<ns1:g id="ITEM">%1$s</ns1:g> ekhethiwe"</string>
+    <string name="monthly">"Nyanga zonke"</string>
+    <string name="ok">"KULUNGILE"</string>
+    <string name="recurrence_end_continously">"Phakade"</string>
+    <string name="recurrence_end_count_label">"Okwezinombolo zemicimbi"</string>
+    <string name="recurrence_end_date">"Kuze kube <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Kuze kube idethi ethile"</string>
+    <string name="recurrence_month_pattern_by_day">"ngosuku olufanayo njalo ngenyanga"</string>
+    <string name="select_day">"Khetha inyanga nosuku"</string>
+    <string name="select_hours">"Khetha amahora"</string>
+    <string name="select_minutes">"Khetha amaminithi"</string>
+    <string name="select_year">"Khetha unyaka"</string>
+    <string name="year_picker_description">"Uhlu lonyaka"</string>
+    <string name="yearly_plain">"Mnyaka yonke"</string>
+</resources>

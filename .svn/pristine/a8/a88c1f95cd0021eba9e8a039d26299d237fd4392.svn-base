@@ -1,0 +1,77 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.user;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class LoginActivity$$ViewInjector<T extends com.techfly.demo.activity.user.LoginActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427585, "field 'login_phoneEt'");
+    target.login_phoneEt = finder.castView(view, 2131427585, "field 'login_phoneEt'");
+    view = finder.findRequiredView(source, 2131427589, "field 'login_passEt'");
+    target.login_passEt = finder.castView(view, 2131427589, "field 'login_passEt'");
+    view = finder.findRequiredView(source, 2131427594, "field 'login_modify_tv' and method 'jumpToModifyPass'");
+    target.login_modify_tv = finder.castView(view, 2131427594, "field 'login_modify_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToModifyPass();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427590, "field 'login_pwd_linear' and method 'isShowPwd'");
+    target.login_pwd_linear = finder.castView(view, 2131427590, "field 'login_pwd_linear'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.isShowPwd();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427586, "field 'login_phone_deleteIv' and method 'clearPhone'");
+    target.login_phone_deleteIv = finder.castView(view, 2131427586, "field 'login_phone_deleteIv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clearPhone();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427591, "field 'login_pwd_deleteIv' and method 'clearPwd'");
+    target.login_pwd_deleteIv = finder.castView(view, 2131427591, "field 'login_pwd_deleteIv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clearPwd();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427592, "field 'login_pwd_show_iv'");
+    target.login_pwd_show_iv = finder.castView(view, 2131427592, "field 'login_pwd_show_iv'");
+    view = finder.findRequiredView(source, 2131427593, "method 'confirmLogin'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.confirmLogin();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.login_phoneEt = null;
+    target.login_passEt = null;
+    target.login_modify_tv = null;
+    target.login_pwd_linear = null;
+    target.login_phone_deleteIv = null;
+    target.login_pwd_deleteIv = null;
+    target.login_pwd_show_iv = null;
+  }
+}

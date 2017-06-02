@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-hr/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"DNEVNO PONAVLJANJE"</item>
+        <item>"PONAVLJAJ TJEDNO"</item>
+        <item>"PONAVLJAJ MJESEČNO"</item>
+        <item>"PONAVLJAJ GODIŠNJE"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"svakog prvog petka"</item>
+        <item>"svakog drugog petka"</item>
+        <item>"svakog trećeg petka"</item>
+        <item>"svakog četvrtog petka"</item>
+        <item>"svakog zadnjeg petka"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"svakog prvog ponedjeljka"</item>
+        <item>"svakog drugog ponedjeljka"</item>
+        <item>"svakog trećeg ponedjeljka"</item>
+        <item>"svakog četvrtog ponedjeljka"</item>
+        <item>"svakog zadnjeg ponedjeljka"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"svake prve subote"</item>
+        <item>"svake druge subote"</item>
+        <item>"svake treće subote"</item>
+        <item>"svake četvrte subote"</item>
+        <item>"svake zadnje subote"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"svake prve nedjelje"</item>
+        <item>"svake druge nedjelje"</item>
+        <item>"svake treće nedjelje"</item>
+        <item>"svake četvrte nedjelje"</item>
+        <item>"svake zadnje nedjelje"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"svakog prvog četvrtka"</item>
+        <item>"svakog drugog četvrtka"</item>
+        <item>"svakog trećeg četvrtka"</item>
+        <item>"svakog četvrtog četvrtka"</item>
+        <item>"svakog zadnjeg četvrtka"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"svakog prvog utorka"</item>
+        <item>"svakog drugog utorka"</item>
+        <item>"svakog trećeg utorka"</item>
+        <item>"svakog četvrtog utorka"</item>
+        <item>"svakog zadnjeg utorka"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"svake prve srijede"</item>
+        <item>"svake druge srijede"</item>
+        <item>"svake treće srijede"</item>
+        <item>"svake četvrte srijede"</item>
+        <item>"svake zadnje srijede"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-hr/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Dnevno"</item>
+        <item quantity="other">"Svakih toliko dana: <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; jedanput"</item>
+        <item quantity="other">"; toliko puta: <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Za ovoliko događaja: <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Za ovoliko događaja: <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Svakog <ns1:g id="COUNT">%d</ns1:g>. dana"</item>
+        <item quantity="other">"Svakog <ns1:g id="COUNT">%d</ns1:g>. dana"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Svakog <ns1:g id="COUNT">%d</ns1:g>. mjeseca"</item>
+        <item quantity="other">"Svakog <ns1:g id="COUNT">%d</ns1:g>. mjeseca"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Svakog <ns1:g id="COUNT">%d</ns1:g>. tjedna"</item>
+        <item quantity="other">"Svakog <ns1:g id="COUNT">%d</ns1:g>. tjedna"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Svake <ns1:g id="COUNT">%d</ns1:g>. godine"</item>
+        <item quantity="other">"Svake <ns1:g id="COUNT">%d</ns1:g>. godine"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Svaki tjedan, <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Svaki <ns1:g id="NUMBER">%1$d</ns1:g>. tjedan, <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"promjena datuma završetka"</string>
+    <string name="cancel">"Odustani"</string>
+    <string name="day_picker_description">"Mreža dana u mjesecu"</string>
+    <string name="deleted_key">"Izbrisan je broj <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"; do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Svaki dan u tjednu (pon–pet)"</string>
+    <string name="item_is_selected">"Odabrana je stavka <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Mjesečno"</string>
+    <string name="ok">"U redu"</string>
+    <string name="recurrence_end_continously">"Zauvijek"</string>
+    <string name="recurrence_end_count_label">"Za ovoliko događaja"</string>
+    <string name="recurrence_end_date">"Do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Do datuma"</string>
+    <string name="recurrence_month_pattern_by_day">"na isti dan svakog mjeseca"</string>
+    <string name="select_day">"Odaberite mjesec i dan"</string>
+    <string name="select_hours">"Odaberite sate"</string>
+    <string name="select_minutes">"Odaberite minute"</string>
+    <string name="select_year">"Odaberite godinu"</string>
+    <string name="year_picker_description">"Popis godina"</string>
+    <string name="yearly_plain">"Godišnje"</string>
+</resources>

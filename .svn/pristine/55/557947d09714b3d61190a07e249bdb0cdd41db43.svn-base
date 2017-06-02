@@ -1,0 +1,102 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo1Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo1Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427454, "field 'demo_banner'");
+    target.demo_banner = finder.castView(view, 2131427454, "field 'demo_banner'");
+    view = finder.findRequiredView(source, 2131427455, "field 'demo_adtv'");
+    target.demo_adtv = finder.castView(view, 2131427455, "field 'demo_adtv'");
+    view = finder.findRequiredView(source, 2131427461, "field 'demo_bottom1_tv' and method 'showDialog1'");
+    target.demo_bottom1_tv = finder.castView(view, 2131427461, "field 'demo_bottom1_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog1();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427463, "field 'demo_bottom2_tv' and method 'showDialog2'");
+    target.demo_bottom2_tv = finder.castView(view, 2131427463, "field 'demo_bottom2_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog2();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427458, "field 'demo_ios_time_tv'");
+    target.demo_ios_time_tv = finder.castView(view, 2131427458, "field 'demo_ios_time_tv'");
+    view = finder.findRequiredView(source, 2131427459, "field 'demo_calander_tv'");
+    target.demo_calander_tv = finder.castView(view, 2131427459, "field 'demo_calander_tv'");
+    view = finder.findRequiredView(source, 2131427456, "field 'demo_shimmer_stv'");
+    target.demo_shimmer_stv = finder.castView(view, 2131427456, "field 'demo_shimmer_stv'");
+    view = finder.findRequiredView(source, 2131427453, "field 'demo_start_animation_btn' and method 'startAnimation'");
+    target.demo_start_animation_btn = finder.castView(view, 2131427453, "field 'demo_start_animation_btn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.startAnimation();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427462, "field 'demo_shopcar_num_tv'");
+    target.demo_shopcar_num_tv = finder.castView(view, 2131427462, "field 'demo_shopcar_num_tv'");
+    view = finder.findRequiredView(source, 2131427464, "method 'showDialog3'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog3();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427465, "method 'showDialog4'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showDialog4();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427457, "method 'showShimmer'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showShimmer();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427451, "method 'showWaitDialog'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.showWaitDialog();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.demo_banner = null;
+    target.demo_adtv = null;
+    target.demo_bottom1_tv = null;
+    target.demo_bottom2_tv = null;
+    target.demo_ios_time_tv = null;
+    target.demo_calander_tv = null;
+    target.demo_shimmer_stv = null;
+    target.demo_start_animation_btn = null;
+    target.demo_shopcar_num_tv = null;
+  }
+}

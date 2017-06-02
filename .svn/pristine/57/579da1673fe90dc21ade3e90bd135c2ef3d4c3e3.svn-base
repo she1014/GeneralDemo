@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/Title"
+        android:background="@color/main_bg"
+        >
+
+        <!--<com.andexert.library.RippleView
+            android:id="@+id/top_left_rv"
+            android:layout_width="?android:actionBarSize"
+            android:layout_height="?android:actionBarSize"
+            android:layout_margin="5dp"
+            rv_centered="true"
+            >-->
+            <ImageView
+                android:id="@+id/top_back_iv"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/marign_boundary"
+                android:paddingBottom="@dimen/marign_boundary"
+                android:paddingLeft="@dimen/marign_boundary"
+                android:paddingRight="25dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_return"
+                android:visibility="invisible"
+                android:scaleType="fitXY"
+                />
+        <!--</com.andexert.library.RippleView>-->
+
+        <TextView
+            android:id="@+id/top_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/top_back_iv"
+            android:layout_toLeftOf="@+id/top_right_iv"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="中间标题"
+            android:textSize="@dimen/size_large"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/top_right_iv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="@dimen/marign_boundary"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/top_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/size_big"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/marign_middle"
+            android:textColor="@color/text_font_black_light"
+            android:text=""
+            />
+    </RelativeLayout>
+
+</LinearLayout>

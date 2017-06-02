@@ -1,0 +1,18 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.order;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class OrderReviewActivity$$ViewInjector<T extends com.techfly.demo.activity.order.OrderReviewActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558615, "field 'base_plv'");
+    target.base_plv = finder.castView(view, 2131558615, "field 'base_plv'");
+  }
+
+  @Override public void reset(T target) {
+    target.base_plv = null;
+  }
+}

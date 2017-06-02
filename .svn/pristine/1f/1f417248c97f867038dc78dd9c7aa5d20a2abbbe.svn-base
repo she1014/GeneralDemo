@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ko/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"매일 반복"</item>
+        <item>"매주 반복"</item>
+        <item>"매월 반복"</item>
+        <item>"매년 반복"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"매월 첫 번째 금요일"</item>
+        <item>"매월 두 번째 금요일"</item>
+        <item>"매월 세 번째 금요일"</item>
+        <item>"매월 네 번째 금요일"</item>
+        <item>"매월 마지막 금요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"매월 첫 번째 월요일"</item>
+        <item>"매월 두 번째 월요일"</item>
+        <item>"매월 세 번째 월요일"</item>
+        <item>"매월 네 번째 월요일"</item>
+        <item>"매월 마지막 월요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"매월 첫 번째 토요일"</item>
+        <item>"매월 두 번째 토요일"</item>
+        <item>"매월 세 번째 토요일"</item>
+        <item>"매월 네 번째 토요일"</item>
+        <item>"매월 마지막 토요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"매월 첫 번째 일요일"</item>
+        <item>"매월 두 번째 일요일"</item>
+        <item>"매월 세 번째 일요일"</item>
+        <item>"매월 네 번째 일요일"</item>
+        <item>"매월 마지막 일요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"매월 첫 번째 목요일"</item>
+        <item>"매월 두 번째 목요일"</item>
+        <item>"매월 세 번째 목요일"</item>
+        <item>"매월 네 번째 목요일"</item>
+        <item>"매월 마지막 목요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"매월 첫 번째 화요일"</item>
+        <item>"매월 두 번째 화요일"</item>
+        <item>"매월 세 번째 화요일"</item>
+        <item>"매월 네 번째 화요일"</item>
+        <item>"매월 마지막 화요일"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"매월 첫 번째 수요일"</item>
+        <item>"매월 두 번째 수요일"</item>
+        <item>"매월 세 번째 수요일"</item>
+        <item>"매월 네 번째 수요일"</item>
+        <item>"매월 마지막 수요일"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"매일"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g>일에 한 번"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">", 일회성"</item>
+        <item quantity="other">", <ns1:g id="NUMBER">%d</ns1:g>회"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"반복 횟수 <ns1:g id="EVENT_COUNT">%d</ns1:g>번"</item>
+        <item quantity="other">"반복 횟수 <ns1:g id="EVENT_COUNT">%d</ns1:g>번"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g>일에 한 번"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g>일에 한 번"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g>개월에 한 번"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g>개월에 한 번"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g>주에 한 번"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g>주에 한 번"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g>년에 한 번"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g>년에 한 번"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"매주 <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g>주에 한 번 <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"종료일 변경"</string>
+    <string name="cancel">"취소"</string>
+    <string name="day_picker_description">"월별 바둑판식 날짜 표시"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> 삭제됨"</string>
+    <string name="endByDate">", <ns1:g id="DATE">%s</ns1:g>까지"</string>
+    <string name="every_weekday">"주중 매일(월-금)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g>이(가) 선택됨"</string>
+    <string name="monthly">"매월"</string>
+    <string name="ok">"확인"</string>
+    <string name="recurrence_end_continously">"계속"</string>
+    <string name="recurrence_end_count_label">"지정된 횟수만"</string>
+    <string name="recurrence_end_date">"종료일: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"특정일까지"</string>
+    <string name="recurrence_month_pattern_by_day">"매월 같은 날"</string>
+    <string name="select_day">"월/일 선택"</string>
+    <string name="select_hours">"시간 선택"</string>
+    <string name="select_minutes">"분 선택"</string>
+    <string name="select_year">"연도 선택"</string>
+    <string name="year_picker_description">"년"</string>
+    <string name="yearly_plain">"매년"</string>
+</resources>

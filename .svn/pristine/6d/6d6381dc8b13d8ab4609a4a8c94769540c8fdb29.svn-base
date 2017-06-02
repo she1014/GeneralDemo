@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ყოველდღიურად გამეორება"</item>
+        <item>"ყოველკვირეულად გამეორება"</item>
+        <item>"ყოველთვიურად გამეორება"</item>
+        <item>"ყოველწლიურად გამეორება"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ყოველ პირველ პარასკევს"</item>
+        <item>"ყოველ მეორე პარასკევს"</item>
+        <item>"ყოველ მესამე პარასკევს"</item>
+        <item>"ყოველ მეოთხე პარასკევს"</item>
+        <item>"ყოველ ბოლო პარასკევს"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ყოველ პირველ ორშაბათს"</item>
+        <item>"ყოველ მეორე ორშაბათს"</item>
+        <item>"ყოველ მესამე ორშაბათს"</item>
+        <item>"ყოველ მეოთხე ორშაბათს"</item>
+        <item>"ყოველ ბოლო ორშაბათს"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ყოველ პირველ შაბათს"</item>
+        <item>"ყოველ მეორე შაბათს"</item>
+        <item>"ყოველ მესამე შაბათს"</item>
+        <item>"ყოველ მეოთხე შაბათს"</item>
+        <item>"ყოველ ბოლო შაბათს"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ყოველ პირველ კვირას"</item>
+        <item>"ყოველ მეორე კვირას"</item>
+        <item>"ყოველ მესამე კვირას"</item>
+        <item>"ყოველ მეოთხე კვირას"</item>
+        <item>"ყოველ მეხუთე კვირას"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ყოველ პირველ ხუთშაბათს"</item>
+        <item>"ყოველ მეორე ხუთშაბათს"</item>
+        <item>"ყოველ მესამე ხუთშაბათს"</item>
+        <item>"ყოველ მეოთხე ხუთშაბათს"</item>
+        <item>"ყოველ ბოლო ხუთშაბათს"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ყოველ პირველ სამშაბათს"</item>
+        <item>"ყოველ მეორე სამშაბათს"</item>
+        <item>"ყოველ მესამე სამშაბათს"</item>
+        <item>"ყოველ მეოთხე სამშაბათს"</item>
+        <item>"ყოველ ბოლო სამშაბათს"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ყოველ პირველ ოთხშაბათს"</item>
+        <item>"ყოველ მეორე ოთხშაბათს"</item>
+        <item>"ყოველ მესამე ოთხშაბათს"</item>
+        <item>"ყოველ მეოთხე ოთხშაბათს"</item>
+        <item>"ყოველ ბოლო ოთხშაბათს"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ყოველდღიურად"</item>
+        <item quantity="other">"ყოველ <ns1:g id="NUMBER">%d</ns1:g> დღეს"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; ერთხელ"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g>-ჯერ"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ღონისძიებისთვის"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> ღონისძიებისთვის"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"ყოველ <ns1:g id="COUNT">%d</ns1:g> დღეში"</item>
+        <item quantity="other">"ყოველ <ns1:g id="COUNT">%d</ns1:g> დღეში"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"ყოველ <ns1:g id="COUNT">%d</ns1:g> თვეში"</item>
+        <item quantity="other">"ყოველ <ns1:g id="COUNT">%d</ns1:g> თვეში"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"ყოველ <ns1:g id="COUNT">%d</ns1:g> კვირაში"</item>
+        <item quantity="other">"ყოველ <ns1:g id="COUNT">%d</ns1:g> კვირაში"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"ყოველ <ns1:g id="COUNT">%d</ns1:g> წელიწადში"</item>
+        <item quantity="other">"ყოველ <ns1:g id="COUNT">%d</ns1:g> წელიწადში"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"ყოველკვირეულად <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>-ობით"</item>
+        <item quantity="other">"ყოველ <ns1:g id="NUMBER">%1$d</ns1:g> კვირაში, <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>-ობით"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"მთავარზე ნავიგაცია"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ზემოთ ნავიგაცია"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"მეტი ვარიანტები"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"დასრულდა"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ყველას ნახვა"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"აპის არჩევა"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"გამორთულია"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ჩართულია"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ძიება..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"მოთხოვნის გასუფთავება"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ძიების მოთხოვნა"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ძიება"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"მოთხოვნის გადაგზავნა"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ხმოვანი ძიება"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"გაზიარება:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s-თან გაზიარება"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"აკეცვა"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"დასრულების თარიღის შეცვლა"</string>
+    <string name="cancel">"გაუქმება"</string>
+    <string name="day_picker_description">"დღეების ბადე თვეზე"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> წაიშალა"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g>-მდე"</string>
+    <string name="every_weekday">"ყოველ სამუშაო დღეს (ორშ–პარ)"</string>
+    <string name="item_is_selected">"არჩეულია <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"ყოველთვიურად"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"სამუდამოდ"</string>
+    <string name="recurrence_end_count_label">"რამდენიმე ღონისძიებისთვის"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g>-მდე"</string>
+    <string name="recurrence_end_date_label">"თარიღამდე"</string>
+    <string name="recurrence_month_pattern_by_day">"თითოეული თვის ერთსა და იმავე დღეს"</string>
+    <string name="select_day">"აირჩიეთ თვე და რიცხვი"</string>
+    <string name="select_hours">"აირჩიეთ საათები"</string>
+    <string name="select_minutes">"აირჩიეთ წუთები"</string>
+    <string name="select_year">"აირჩიეთ წელი"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"წლის სია"</string>
+    <string name="yearly_plain">"ყოველწლიურად"</string>
+</resources>

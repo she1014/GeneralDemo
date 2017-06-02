@@ -1,0 +1,21 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo11Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo11Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427401, "field 'top_title_tv'");
+    target.top_title_tv = finder.castView(view, 2131427401, "field 'top_title_tv'");
+    view = finder.findRequiredView(source, 2131427475, "field 'demo_style_sv'");
+    target.demo_style_sv = finder.castView(view, 2131427475, "field 'demo_style_sv'");
+  }
+
+  @Override public void reset(T target) {
+    target.top_title_tv = null;
+    target.demo_style_sv = null;
+  }
+}

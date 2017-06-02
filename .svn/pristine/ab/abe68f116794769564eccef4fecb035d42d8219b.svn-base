@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    android:gravity="center"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marign_normal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <!--<com.techfly.liutaitai.selfview.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            >-->
+            <TextView
+                android:id="@+id/lable_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/background_dialog_white"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="@color/text_font_black"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="9:00-11:00"
+                />
+       <!-- </com.techfly.liutaitai.selfview.RippleView>-->
+
+    </RelativeLayout>
+</LinearLayout>

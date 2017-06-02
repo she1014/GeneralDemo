@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="horizontal"
+    android:padding="@dimen/marign_mid"
+    android:gravity="center|left"
+    >
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/icon_jpush_tip"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marign_normal"
+        android:textSize="@dimen/size_smaller"
+        android:textColor="@color/black"
+        android:text="当前机型将获取不到订单推送消息,其他功能正常"
+        />
+    
+</LinearLayout>

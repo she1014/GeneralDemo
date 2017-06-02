@@ -1,0 +1,400 @@
+package com.techfly.demo.fragment;
+
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.PopupWindow;
+import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.techfly.demo.R;
+import com.techfly.demo.activity.base.Constant;
+import com.techfly.demo.activity.base.HtmlDetailActivity;
+import com.techfly.demo.activity.goods.GoodManagerMenuActivity;
+import com.techfly.demo.activity.record.MemberHistoryActivity;
+import com.techfly.demo.activity.record.RechargeHistoryActivity;
+import com.techfly.demo.activity.refund.RefundOrderMenuActivity;
+import com.techfly.demo.activity.release.CommentReleaseActivity;
+import com.techfly.demo.bean.EventBean;
+import com.techfly.demo.bean.PlatformNoticeBean;
+import com.techfly.demo.bean.ShopBaseBean;
+import com.techfly.demo.bean.UpdataVersionBean;
+import com.techfly.demo.bean.User;
+import com.techfly.demo.selfview.ADTextView;
+import com.techfly.demo.util.CommonUtils;
+import com.techfly.demo.util.ImageLoaderUtil;
+import com.techfly.demo.util.LogsUtil;
+import com.techfly.demo.util.PreferenceUtil;
+import com.techfly.demo.util.SharePreferenceUtils;
+import com.techfly.demo.util.ToastUtil;
+import com.techfly.demo.util.UpdateUtil;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
+import de.greenrobot.event.EventBus;
+
+
+/**
+ * Created by ssm on 2015/12/22.
+ */
+public class IndexFragment extends BaseFragment {
+
+    @InjectView(R.id.top_title_tv)
+    TextView top_title_tv;
+    @InjectView(R.id.top_back_iv)
+    ImageView top_back_iv;
+
+    @InjectView(R.id.index_avator_iv)
+    ImageView index_avator_iv;
+    @InjectView(R.id.index_shopname_tv)
+    TextView index_shopname_tv;
+
+    @InjectView(R.id.index_month_money_tv)
+    TextView index_month_money_tv;
+    @InjectView(R.id.index_day_money_tv)
+    TextView index_day_money_tv;
+
+    @InjectView(R.id.index_public_adtv)
+    ADTextView index_public_adtv;
+
+    public View view;
+    private Context mContext;//    private FragmentChangeListener fragmentChangeListener;
+
+    private User mUser;
+    //    private UserInfo userInfo;
+    private SharePreferenceUtils mPreferenceUtils;
+
+    private Boolean isVisible = false;
+    private Boolean isCheckUpdata = true;//检查更新
+
+    private Boolean isInit = false;
+    private Boolean isLoad = true;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        view = inflater.inflate(R.layout.fragment_index, null);
+
+        LogsUtil.normal("IndexFragment.onCreateView");
+
+        ButterKnife.inject(this, view);
+
+        EventBus.getDefault().register(this);
+
+        mContext = getActivity();
+
+        initLisener();
+
+        initView();
+
+        if (isVisible) {
+            loadData();
+        }
+        isInit = true;
+
+        return view;
+    }
+
+    private void initLisener() {
+        index_public_adtv.setOnItemClickListener(new ADTextView.OnItemClickListener() {
+            @Override
+            public void onClick(String title, String content) {
+                Intent intent = new Intent(mContext, HtmlDetailActivity.class);
+                intent.putExtra(Constant.CONFIG_INTENT_TITLE, title);
+                intent.putExtra(Constant.CONFIG_INTENT_CONTENT, content);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void initView() {
+        top_title_tv.setText("模板");
+        mPreferenceUtils = SharePreferenceUtils.getInstance(getActivity());
+        mUser = SharePreferenceUtils.getInstance(mContext).getUser();
+
+        index_shopname_tv.setText(mUser.getmNick());
+    }
+
+    private void loadData() {
+        if(isLoad){
+            isLoad = false;
+            getShopBaseInfoApi(mUser.getmId(), mUser.getmToken());
+        }
+    }
+
+    private void checkUpdate() {
+        if (isCheckUpdata) {
+            isCheckUpdata = false;
+            try {
+                //当前应用的版本号
+                PackageManager pm = mContext.getPackageManager();
+                PackageInfo pInfo = pm.getPackageInfo(mContext.getPackageName(), 0);
+                String version = pInfo.versionCode + "";
+
+//                showProcessDialog();
+                postUpdateVersionInfoAPI(version);
+            } catch (Exception e) {
+
+            }
+        }
+    }
+
+    private void showJPushTip() {
+
+        LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(mContext.LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.layout_jpush_tip, null);
+
+        final PopupWindow pop = new PopupWindow(view, WindowManager.LayoutParams.MATCH_PARENT,
+                WindowManager.LayoutParams.WRAP_CONTENT);
+
+        pop.update();
+        pop.setInputMethodMode(PopupWindow.INPUT_METHOD_NEEDED);  //设置弹出菜单可输入
+        pop.setTouchable(true);       //设置popupwindow可点击
+        pop.setOutsideTouchable(true);//设置popupwindow外部可点击
+
+        // 设置popWindow弹出窗体可点击，这句话必须添加，并且是true
+        pop.setFocusable(false);
+        // 实例化一个ColorDrawable颜色为半透明
+//        ColorDrawable dw = new ColorDrawable(0x7DC0C0C0);
+//        pop.setBackgroundDrawable(dw);
+
+        // 设置popWindow的显示和消失动画
+//        pop.setAnimationStyle(R.style.toastdig);
+
+        pop.setBackgroundDrawable(new BitmapDrawable());
+
+        pop.showAtLocation(view, Gravity.TOP, 0, 0);
+
+        pop.setOnDismissListener(new PopupWindow.OnDismissListener() {
+            @Override
+            public void onDismiss() {
+                pop.dismiss();
+            }
+        });
+
+    }
+
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        isVisible = isVisibleToUser;
+        if (isVisibleToUser) {
+            isVisible = true;
+            if (isInit) {
+                loadData();
+            }
+        } else {
+            isVisible = false;
+        }
+    }
+
+    @OnClick(R.id.top_back_iv)
+    public void showSlideLayout() {
+        EventBus.getDefault().post(new EventBean(EventBean.EVENT_MAIN_SELECT_SLIDE));
+    }
+
+    @OnClick(R.id.index_lable1)
+    public void jumpToMember() {
+        if (checkLogin(mContext)) {
+            Intent intent = new Intent(mContext, MemberHistoryActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    @OnClick(R.id.index_lable2)
+    public void jumpToRecharge() {
+        if (checkLogin(mContext)) {
+            Intent intent = new Intent(mContext, RechargeHistoryActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    @OnClick(R.id.index_lable3)
+    public void jumpToRelease() {
+        if (checkLogin(mContext)) {
+            Intent intent = new Intent(mContext, CommentReleaseActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    @OnClick(R.id.index_lable4)
+    public void jumpToManager() {
+        if (checkLogin(mContext)) {
+            Intent intent = new Intent(mContext, GoodManagerMenuActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    @OnClick(R.id.index_lable5)
+    public void jumpToWait1() {
+//        ToastUtil.DisplayToast(mContext,"敬请期待!");
+        if (checkLogin(mContext)) {
+            Intent intent = new Intent(mContext, RefundOrderMenuActivity.class);
+            startActivity(intent);
+        }
+    }
+    @OnClick(R.id.index_lable6)
+    public void jumpToWait2() {
+        ToastUtil.DisplayToast(mContext,"敬请期待!");
+//        Intent intent = new Intent(mContext, Demo1Activity.class);
+//        startActivity(intent);
+    }
+    @OnClick(R.id.index_lable7)
+    public void jumpToWait3() {
+        ToastUtil.DisplayToast(mContext,"敬请期待!");
+//        Intent intent = new Intent(mContext, Demo2Activity.class);
+//        startActivity(intent);
+    }
+    @OnClick(R.id.index_lable8)
+    public void jumpToWait4() {
+        ToastUtil.DisplayToast(mContext,"敬请期待!");
+//        Intent intent = new Intent(mContext, Demo3Activity.class);
+//        startActivity(intent);
+    }
+
+    public void onEventMainThread(EventBean bean) {
+
+        if (bean.getAction().equals(EventBean.EVENT_REFRESH_UI) && isVisible) {
+            Log.i("TTSS", "MyFragment.EVENT_REFRESH_UI");
+            initView();
+        }
+        if (bean.getAction().equals(EventBean.EVENT_EXIT_ACCOUNT)) {
+            mPreferenceUtils.clearUser();
+            mPreferenceUtils.clearAddress();
+            PreferenceUtil.clearBooleanSharePreference(mContext, Constant.CONFIG_IS_LOGIN);
+
+            EventBus.getDefault().post(new EventBean(EventBean.EVENT_REFRESH_UI));
+            getActivity().finish();
+        }
+
+        if (bean.getAction().equals(EventBean.EVENT_UPDATE_AVATAR)) {
+            ImageLoader.getInstance().displayImage(Constant.CURRENT_AVATAR, index_avator_iv, ImageLoaderUtil.mAvatarIconLoaderOptions);
+        }
+
+        if (bean.getAction().equals(EventBean.EVENT_MAIN_SLIDE_CHANGE)) {
+            Float value = Float.parseFloat(bean.getMsg());
+            top_back_iv.setAlpha(1-value);
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == Constant.REQUESTCODE_NORMAL) {
+            switch (resultCode) {
+                case Constant.RESULTCODE_LOGIN:
+                    User user = SharePreferenceUtils.getInstance(mContext).getUser();
+                    break;
+            }
+        }
+    }
+
+    @Override
+    public void getResult(String result, int type) {
+        super.getResult(result, type);
+
+        result = CommonUtils.removeBrace(result);
+
+        Gson gson = new Gson();
+
+        try {
+
+            if (type == Constant.API_GET_SHOP_BASE_INFO_SUCCESS) {
+
+                getPlatformNoticeInfoApi(mUser.getmId(), mUser.getmToken());
+
+                ShopBaseBean data = gson.fromJson(result, ShopBaseBean.class);
+                if (data != null) {
+
+                    Constant.CURRENT_MONTH_MONEY = data.getData().getMonthProfit();
+                    Constant.CURRENT_DAY_MONEY = data.getData().getDayProfit();
+                    Constant.CURRENT_AVATAR = data.getData().getAvatar();
+
+                    Constant.CURRENT_SHOP_FREE = data.getData().getFreight_info().getPoint()+"";
+                    Constant.CURRENT_SHOP_DELIVERY = data.getData().getFreight_info().getMoney()+"";
+
+                    LogsUtil.normal("IndexFragment.getAvatar");
+
+                    if (TextUtils.isEmpty(Constant.CURRENT_MONTH_MONEY)) {
+                        Constant.CURRENT_MONTH_MONEY = "0.0";
+                    }
+                    if (TextUtils.isEmpty(Constant.CURRENT_DAY_MONEY)) {
+                        Constant.CURRENT_DAY_MONEY = "0.0";
+                    }
+
+                    index_month_money_tv.setText("¥" + Constant.CURRENT_MONTH_MONEY);
+                    index_day_money_tv.setText("¥" + Constant.CURRENT_DAY_MONEY);
+
+                    if(!TextUtils.isEmpty(Constant.CURRENT_AVATAR)){
+                        ImageLoader.getInstance().displayImage(Constant.CURRENT_AVATAR, index_avator_iv, ImageLoaderUtil.mAvatarIconLoaderOptions);
+                    }
+                }
+            }
+
+            if (type == Constant.API_GET_PLATFORM_NOTICE_INFO_SUCCESS) {
+
+                checkUpdate();
+
+                PlatformNoticeBean data = gson.fromJson(result, PlatformNoticeBean.class);
+                if (data != null) {
+                    index_public_adtv.setFrontColor(Color.RED);
+                    index_public_adtv.setBackColor(Color.BLACK);
+                    index_public_adtv.setmTexts(data.getData());
+                }
+            }
+
+            if (type == Constant.API_POST_UPDATA_VERSION_SUCCESS) {
+
+                if(!PreferenceUtil.getBooleanSharePreference(mContext,Constant.CONFIG_PREFERENCE_IS_GET_JPUSH,false)){
+                    showJPushTip();
+                }
+
+                if (result != null) {
+                    try {
+                        UpdataVersionBean data = gson.fromJson(result, UpdataVersionBean.class);
+                        //当前应用的版本号
+                        PackageManager pm = getActivity().getPackageManager();
+                        PackageInfo pInfo = pm.getPackageInfo(getActivity().getPackageName(), 0);
+                        int version = pInfo.versionCode + 1;
+                        String versionCode = version + "";
+                        UpdateUtil manager = new UpdateUtil(mContext, versionCode, data.getData().getUrl(), data.getData().getComment(), data.getData().getMust());
+                        //检测更新
+                        manager.checkUpdate();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+        } catch (JsonSyntaxException e) {
+            ToastUtil.DisplayToastDebug(mContext, Constant.TOAST_MEG_REBACK_ERROR + "\n" + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        EventBus.getDefault().unregister(this);
+    }
+
+    
+}

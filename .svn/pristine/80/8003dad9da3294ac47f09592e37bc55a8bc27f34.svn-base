@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-am/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"በየቀኑ ድገም"</item>
+        <item>"በየሳምንቱ ድገም"</item>
+        <item>"በየወሩ ድገም"</item>
+        <item>"በየዓመቱ ድገም"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"በሁሉም የመጀመሪያ አርብ"</item>
+        <item>"በሁሉም ሁለተኛ አርብ"</item>
+        <item>"በሁሉም ሶስተኛ አርብ"</item>
+        <item>"በሁሉም አራተኛ አርብ"</item>
+        <item>"በሁሉም የመጨረሻ አርብ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"በሁሉም የመጀመሪያ ሰኞ"</item>
+        <item>"በሁሉም ሁለተኛ ሰኞ"</item>
+        <item>"በሁሉም ሶስተኛ ሰኞ"</item>
+        <item>"በሁሉም አራተኛ ሰኞ"</item>
+        <item>"በሁሉም የመጨረሻ ሰኞ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"በሁሉም የመጀመሪያ ቅዳሜ"</item>
+        <item>"በሁሉም ሁለተኛ ቅዳሜ"</item>
+        <item>"በሁሉም ሶስተኛ ቅዳሜ"</item>
+        <item>"በሁሉም አራተኛ ቅዳሜ"</item>
+        <item>"በሁሉም የመጨረሻ ቅዳሜ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"በሁሉም የመጀመሪያ እሁድ"</item>
+        <item>"በሁሉም ሁለተኛ እሁድ"</item>
+        <item>"በሁሉም ሶስተኛ እሁድ"</item>
+        <item>"በሁሉም አራተኛ እሁድ"</item>
+        <item>"በሁሉም የመጨረሻ እሁድ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"በሁሉም የመጀመሪያ ሃሙስ"</item>
+        <item>"በሁሉም ሁለተኛ ሃሙስ"</item>
+        <item>"በሁሉም ሶስተኛ ሃሙስ"</item>
+        <item>"በሁሉም አራተኛ ሃሙስ"</item>
+        <item>"በሁሉም የመጨረሻ ሃሙስ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"በሁሉም የመጀመሪያ ማክሰኞ"</item>
+        <item>"በሁሉም ሁለተኛ ማክሰኞ"</item>
+        <item>"በሁሉም ሶስተኛ ማክሰኞ"</item>
+        <item>"በሁሉም አራተኛ ማክሰኞ"</item>
+        <item>"በሁሉም የመጨረሻ ማክሰኞ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"በሁሉም የመጀመሪያ ረቡዕ"</item>
+        <item>"በሁሉም ሁለተኛ ረቡዕ"</item>
+        <item>"በሁሉም ሶስተኛ ረቡዕ"</item>
+        <item>"በሁሉም አራተኛ ረቡዕ"</item>
+        <item>"በሁሉም የመጨረሻ ረቡዕ"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-am/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"ዕለታዊ"</item>
+        <item quantity="other">"በየ<ns1:g id="NUMBER">%d</ns1:g> ቀኖች"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"፤ ለአንድ ጊዜ"</item>
+        <item quantity="other">"፤ ለ<ns1:g id="NUMBER">%d</ns1:g> ጊዜያት"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"ለ<ns1:g id="EVENT_COUNT">%d</ns1:g> ክስተት"</item>
+        <item quantity="other">"ለ<ns1:g id="EVENT_COUNT">%d</ns1:g> ክስተቶች"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ቀን"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ቀን"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ወር"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ወር"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ሳምንት"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ሳምንት"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ዓመት"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ዓመት"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"በየሳምንቱ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ላይ"</item>
+        <item quantity="other">"በየ<ns1:g id="NUMBER">%1$d</ns1:g> ሳምንቱ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ላይ"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"የመጨረሻውን ቀን ቀይር"</string>
+    <string name="cancel">"ይቅር"</string>
+    <string name="day_picker_description">"የቀናት የወር ፍርግርግ"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ተሰርዟል"</string>
+    <string name="endByDate">"፤ እስከ <ns1:g id="DATE">%s</ns1:g> ድረስ"</string>
+    <string name="every_weekday">"በአዘቦት ቀን(ሰኞ-አርብ)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ተመርጧል"</string>
+    <string name="monthly">"ወርሃዊ"</string>
+    <string name="ok">"እሺ"</string>
+    <string name="recurrence_end_continously">"ለዘለዓለም"</string>
+    <string name="recurrence_end_count_label">"ለተወሰነ የክስተቶች ብዛት"</string>
+    <string name="recurrence_end_date">"እስከ <ns1:g id="DATE">%s</ns1:g> ድረስ"</string>
+    <string name="recurrence_end_date_label">"እስከ አንድ ቀን ድረስ"</string>
+    <string name="recurrence_month_pattern_by_day">"በየወሩ በተመሳሳዩ ቀን ላይ"</string>
+    <string name="select_day">"ወር እና ቀን ይምረጡ"</string>
+    <string name="select_hours">"ሰዓታትን ይምረጡ"</string>
+    <string name="select_minutes">"ደቂቃዎችን ይምረጡ"</string>
+    <string name="select_year">"ዓመት ይምረጡ"</string>
+    <string name="year_picker_description">"የዓመት ዝርዝር"</string>
+    <string name="yearly_plain">"በየአመቱ"</string>
+</resources>

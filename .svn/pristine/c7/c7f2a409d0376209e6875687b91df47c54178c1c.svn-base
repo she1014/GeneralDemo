@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File Selector</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="zhou_cancel_btn">取消</string>
+    <string name="zhou_confirm_btn">确定</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="theme_selects">
+        <item>Defult</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Grey</item>
+    </string-array>
+
+    <string-array name="filter_selects">
+        <item>None</item>
+        <item>Image</item>
+        <item>Text</item>
+        <item>Video</item>
+        <item>Audio</item>
+    </string-array>
+
+    <string name="positive_mode">Positive</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"Կրկնել ամեն օր"</item>
+        <item>"Կրկնել ամեն շաբաթ"</item>
+        <item>"Կրկնել ամեն ամիս"</item>
+        <item>"Կրկնել ամեն տարի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"յուրաքանչյուր առաջին ուրբաթ"</item>
+        <item>"յուրաքանչյուր երկրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր երրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր չորրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր վերջին ուրբաթ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"յուրաքանչյուր առաջին երկուշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին երկուշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"յուրաքանչյուր առաջին շաբաթ"</item>
+        <item>"յուրաքանչյուր երկրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր երրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր չորրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր վերջին շաբաթ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"յուրաքանչյուր առաջին կիրակի"</item>
+        <item>"յուրաքանչյուր երկրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր երրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր չորրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր վերջին կիրակի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"յուրաքանչյուր առաջին հինգշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին հինգշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"յուրաքանչյուր առաջին երեքշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին երեքշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"յուրաքանչյուր առաջին չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին չորեքշաբթի"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Ամեն օր"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> օրը մեկ"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; մեկ անգամ"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> անգամ"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> իրադարձության համար"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> իրադարձության համար"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> օրը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> օրը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> ամիսը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> ամիսը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> շաբաթը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> շաբաթը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> տարին մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> տարին մեկ"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Շաբաթը մեկ՝ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> շաբաթը մեկ՝ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ուղղվել տուն"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Ուղղվել վերև"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Այլ ընտրանքներ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Կատարված է"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Տեսնել բոլորը"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Ընտրել ծրագիր"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ԱՆՋԱՏՎԱԾ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ՄԻԱՑՎԱԾ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Որոնում..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Մաքրել հարցումը"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Որոնման հարցում"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Որոնել"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Ուղարկել հարցումը"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ձայնային որոնում"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Տարածել"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Տարածել ըստ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Թաքցնել"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"փոխել ավարտի ամսաթիվը"</string>
+    <string name="cancel">"Չեղարկել"</string>
+    <string name="day_picker_description">"Ամսաթվի ընտրության պատուհան"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> թիվը ջնջված է"</string>
+    <string name="endByDate">"; մինչև <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)"</string>
+    <string name="item_is_selected">"Ընտրված է <ns1:g id="ITEM">%1$s</ns1:g> տարրը"</string>
+    <string name="monthly">"Ամեն ամիս"</string>
+    <string name="ok">"Լավ"</string>
+    <string name="recurrence_end_continously">"Ընդմիշտ"</string>
+    <string name="recurrence_end_count_label">"Իրադարձությունների քանակով"</string>
+    <string name="recurrence_end_date">"Մինչև <ns1:g id="DATE">%s</ns1:g>-ը"</string>
+    <string name="recurrence_end_date_label">"Մինչև ամսաթիվը"</string>
+    <string name="recurrence_month_pattern_by_day">"ամեն ամսվա նույն օրը"</string>
+    <string name="select_day">"Ընտրեք ամիսն ու օրը"</string>
+    <string name="select_hours">"Ընտրեք ժամը"</string>
+    <string name="select_minutes">"Ընտրեք րոպեն"</string>
+    <string name="select_year">"Ընտրեք տարին"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Տարիների ցանկ"</string>
+    <string name="yearly_plain">"Ամեն տարի"</string>
+</resources>

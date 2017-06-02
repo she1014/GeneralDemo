@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ERREPIKATU EGUNERO"</item>
+        <item>"ERREPIKATU ASTERO"</item>
+        <item>"ERREPIKATU HILERO"</item>
+        <item>"ERREPIKATU URTERO"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"hilaren lehen ostiralean"</item>
+        <item>"hilaren bigarren ostiralean"</item>
+        <item>"hilaren hirugarren ostiralean"</item>
+        <item>"hilaren laugarren ostiralean"</item>
+        <item>"hilaren azken ostiralean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"hilaren lehen astelehenean"</item>
+        <item>"hilaren bigarren astelehenean"</item>
+        <item>"hilaren hirugarren astelehenean"</item>
+        <item>"hilaren laugarren astelehenean"</item>
+        <item>"hilaren azken astelehenean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"hilaren lehen larunbatean"</item>
+        <item>"hilaren bigarren larunbatean"</item>
+        <item>"hilaren hirugarren larunbatean"</item>
+        <item>"hilaren laugarren larunbatean"</item>
+        <item>"hilaren azken larunbatean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"hilaren lehen igandean"</item>
+        <item>"hilaren bigarren igandean"</item>
+        <item>"hilaren hirugarren igandean"</item>
+        <item>"hilaren laugarren igandean"</item>
+        <item>"hilaren azken igandean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"hilaren lehen ostegunean"</item>
+        <item>"hilaren bigarren ostegunean"</item>
+        <item>"hilaren hirugarren ostegunean"</item>
+        <item>"hilaren laugarren ostegunean"</item>
+        <item>"hilaren azken ostegunean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"hilaren lehen asteartean"</item>
+        <item>"hilaren bigarren asteartean"</item>
+        <item>"hilaren hirugarren asteartean"</item>
+        <item>"hilaren laugarren asteartean"</item>
+        <item>"hilaren azken asteartean"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"hilaren lehen asteazkenean"</item>
+        <item>"hilaren bigarren asteazkenean"</item>
+        <item>"hilaren hirugarren asteazkenean"</item>
+        <item>"hilaren laugarren asteazkenean"</item>
+        <item>"hilaren azken asteazkenean"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Egunero"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> egunez behin"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; behin"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> aldiz"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> gertaeratan"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> gertaeratan"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> egunez behin"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> egunez behin"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> hilabetez behin"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> hilabetez behin"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> astez behin"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> astez behin"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> urtez behin"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> urtez behin"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Astero, egun honetan: <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> astez behin, egun honetan: <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Joan orri nagusira"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Joan gora"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Aukera gehiago"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Eginda"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ikusi guztiak"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Aukeratu aplikazio bat"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESAKTIBATUTA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AKTIBATUTA"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Bilatu…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Garbitu kontsulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Bilaketa-kontsulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Bilatu"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Bidali kontsulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ahots bidezko bilaketa"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partekatu hauekin"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partekatu %s erabiltzailearekin"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Tolestu"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"aldatu amaiera-data"</string>
+    <string name="cancel">"Utzi"</string>
+    <string name="day_picker_description">"Hilabete-ikuspegiko eguna aukeratzeko sareta"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ezabatu da"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g> arte"</string>
+    <string name="every_weekday">"Astegun guztietan (al.-ol.)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> hautatu da"</string>
+    <string name="monthly">"Hilero"</string>
+    <string name="ok">"Ados"</string>
+    <string name="recurrence_end_continously">"Beti"</string>
+    <string name="recurrence_end_count_label">"Gertaldi jakin batzuk"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> arte"</string>
+    <string name="recurrence_end_date_label">"Data batera arte"</string>
+    <string name="recurrence_month_pattern_by_day">"hilero, beti egun berean"</string>
+    <string name="select_day">"Hautatu hilabetea eta eguna"</string>
+    <string name="select_hours">"Hautatu orduak"</string>
+    <string name="select_minutes">"Hautatu minutuak"</string>
+    <string name="select_year">"Hautatu urtea"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Urteen zerrenda"</string>
+    <string name="yearly_plain">"Urtero"</string>
+</resources>

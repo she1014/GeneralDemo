@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/icon_drop_down" android:drawingCacheQuality="auto" android:state_expanded="false" />
+    &lt;!&ndash;这里la是下拉图标&ndash;&gt;
+    <item android:drawable="@drawable/icon_top" android:drawingCacheQuality="auto" android:state_expanded="true" />-->
+    <!--这里shou是收回图标-->
+</selector>

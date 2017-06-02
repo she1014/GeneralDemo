@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-el/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ΕΠΑΝΑΛΗΨΗ ΚΑΘΗΜΕΡΙΝΑ"</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΕΒΔΟΜΑΔ."</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΜΗΝΙΑΙΑ"</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΕΤΗΣΙΩΣ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"κάθε πρώτη Παρασκευή"</item>
+        <item>"κάθε δεύτερη Παρασκευή"</item>
+        <item>"κάθε τρίτη Παρασκευή"</item>
+        <item>"κάθε τέταρτη Παρασκευή"</item>
+        <item>"κάθε προηγούμενη Παρασκευή"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"κάθε πρώτη Δευτέρα"</item>
+        <item>"κάθε δεύτερη Δευτέρα"</item>
+        <item>"κάθε τρίτη Δευτέρα"</item>
+        <item>"κάθε τέταρτη Δευτέρα"</item>
+        <item>"κάθε προηγούμενη Δευτέρα"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"κάθε πρώτο Σάββατο"</item>
+        <item>"κάθε δεύτερο Σάββατο"</item>
+        <item>"κάθε τρίτο Σάββατο"</item>
+        <item>"κάθε τέταρτο Σάββατο"</item>
+        <item>"κάθε προηγούμενο Σάββατο"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"κάθε πρώτη Κυριακή"</item>
+        <item>"κάθε δεύτερη Κυριακή"</item>
+        <item>"κάθε τρίτη Κυριακή"</item>
+        <item>"κάθε τέταρτη Κυριακή"</item>
+        <item>"κάθε προηγούμενη Κυριακή"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"κάθε πρώτη Πέμπτη"</item>
+        <item>"κάθε δεύτερη Πέμπτη"</item>
+        <item>"κάθε τρίτη Πέμπτη"</item>
+        <item>"κάθε τέταρτη Πέμπτη"</item>
+        <item>"κάθε προηγούμενη Πέμπτη"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"κάθε πρώτη Τρίτη"</item>
+        <item>"κάθε δεύτερη Τρίτη"</item>
+        <item>"κάθε τρίτη Τρίτη"</item>
+        <item>"κάθε τέταρτη Τρίτη"</item>
+        <item>"κάθε προηγούμενη Τρίτη"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"κάθε πρώτη Τετάρτη"</item>
+        <item>"κάθε δεύτερη Τετάρτη"</item>
+        <item>"κάθε τρίτη Τετάρτη"</item>
+        <item>"κάθε τέταρτη Τετάρτη"</item>
+        <item>"κάθε προηγούμενη Τετάρτη"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-el/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Ημερησίως"</item>
+        <item quantity="other">"Κάθε <ns1:g id="NUMBER">%d</ns1:g> ημέρες"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; για μία φορά"</item>
+        <item quantity="other">"; για <ns1:g id="NUMBER">%d</ns1:g> φορές"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Για <ns1:g id="EVENT_COUNT">%d</ns1:g> συμβάν"</item>
+        <item quantity="other">"Για <ns1:g id="EVENT_COUNT">%d</ns1:g> συμβάντα"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> ημέρα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> ημέρες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> μήνα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> μήνες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> εβδομάδα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> εβδομάδες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> έτος"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> έτη"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Κάθε εβδομάδα, μέρα <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Κάθε εβδομάδες <ns1:g id="NUMBER">%1$d</ns1:g>, μέρες <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"αλλαγή ημερομηνίας λήξης"</string>
+    <string name="cancel">"Ακύρωση"</string>
+    <string name="day_picker_description">"Πλέγμα ημερών του μήνα"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> διαγράφηκε"</string>
+    <string name="endByDate">"; έως τις <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Καθημερινά (Δευ-Παρ)"</string>
+    <string name="item_is_selected">"Επιλέχτηκε το στοιχείο <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Μηνιαία"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Για πάντα"</string>
+    <string name="recurrence_end_count_label">"Για έναν αριθμό συμβάντων"</string>
+    <string name="recurrence_end_date">"Έως τις <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Μέχρι μια ορισμένη ημ/νία"</string>
+    <string name="recurrence_month_pattern_by_day">"ίδια ημέρα κάθε μήνα"</string>
+    <string name="select_day">"Επιλογή μήνα και ημέρας"</string>
+    <string name="select_hours">"Επιλογή ωρών"</string>
+    <string name="select_minutes">"Επιλογή λεπτών"</string>
+    <string name="select_year">"Επιλογή έτους"</string>
+    <string name="year_picker_description">"Λίστα ετών"</string>
+    <string name="yearly_plain">"Ετήσια"</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-da/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"GENTAG DAGLIGT"</item>
+        <item>"GENTAG UGENTLIGT"</item>
+        <item>"GENTAG MÅNEDLIGT"</item>
+        <item>"GENTAG ÅRLIGT"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"hver første fredag i måneden"</item>
+        <item>"hver anden fredag"</item>
+        <item>"hver tredje fredag"</item>
+        <item>"hver fjerde fredag"</item>
+        <item>"hver sidste fredag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"hver første mandag i måneden"</item>
+        <item>"hver anden mandag"</item>
+        <item>"hver tredje mandag"</item>
+        <item>"hver fjerde mandag"</item>
+        <item>"hver sidste mandag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"hver første lørdag i måneden"</item>
+        <item>"hver anden lørdag"</item>
+        <item>"hver tredje lørdag"</item>
+        <item>"hver fjerde lørdag"</item>
+        <item>"hver sidste lørdag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"hver første søndag i måneden"</item>
+        <item>"hver anden søndag"</item>
+        <item>"hver tredje søndag"</item>
+        <item>"hver fjerde søndag"</item>
+        <item>"hver sidste søndag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"hver første torsdag i måneden"</item>
+        <item>"hver anden torsdag"</item>
+        <item>"hver tredje torsdag"</item>
+        <item>"hver fjerde torsdag"</item>
+        <item>"hver sidste torsdag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"hver første tirsdag i måneden"</item>
+        <item>"hver anden tirsdag"</item>
+        <item>"hver tredje tirsdag"</item>
+        <item>"hver fjerde tirsdag"</item>
+        <item>"hver sidste tirsdag i måneden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"hver første onsdag i måneden"</item>
+        <item>"hver anden onsdag"</item>
+        <item>"hver tredje onsdag"</item>
+        <item>"hver fjerde onsdag"</item>
+        <item>"hver sidste onsdag i måneden"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-da/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Dagligt"</item>
+        <item quantity="other">"Hver <ns1:g id="NUMBER">%d</ns1:g>. dag"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">", én gang"</item>
+        <item quantity="other">", <ns1:g id="NUMBER">%d</ns1:g> gange"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"For <ns1:g id="EVENT_COUNT">%d</ns1:g> begivenhed"</item>
+        <item quantity="other">"For <ns1:g id="EVENT_COUNT">%d</ns1:g> begivenheder"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Hver <ns1:g id="COUNT">%d</ns1:g> dag"</item>
+        <item quantity="other">"Hver <ns1:g id="COUNT">%d</ns1:g>. dag"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> gang om måneden"</item>
+        <item quantity="other">"Hver <ns1:g id="COUNT">%d</ns1:g>. måned"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> gang om ugen"</item>
+        <item quantity="other">"Hver <ns1:g id="COUNT">%d</ns1:g>. uge"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> gang om året"</item>
+        <item quantity="other">"Hvert <ns1:g id="COUNT">%d</ns1:g>. år"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Ugentligt om <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Hver <ns1:g id="NUMBER">%1$d</ns1:g>. uge om <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"skift slutdato"</string>
+    <string name="cancel">"Annuller"</string>
+    <string name="day_picker_description">"Månedsgitter med dage"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> er slettet"</string>
+    <string name="endByDate">", indtil den <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Hverdage (man.-fre.)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> er valgt"</string>
+    <string name="monthly">"Månedligt"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"For altid"</string>
+    <string name="recurrence_end_count_label">"Et antal gange"</string>
+    <string name="recurrence_end_date">"Indtil <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Frem til en bestemt dato"</string>
+    <string name="recurrence_month_pattern_by_day">"samme dag hver måned"</string>
+    <string name="select_day">"Vælg måned og dag"</string>
+    <string name="select_hours">"Vælg timer"</string>
+    <string name="select_minutes">"Vælg minutter"</string>
+    <string name="select_year">"Vælg år"</string>
+    <string name="year_picker_description">"Liste over år"</string>
+    <string name="yearly_plain">"Årligt"</string>
+</resources>

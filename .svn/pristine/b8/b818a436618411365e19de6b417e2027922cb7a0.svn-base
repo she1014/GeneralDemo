@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-hy-rAM/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"Կրկնել ամեն օր"</item>
+        <item>"Կրկնել ամեն շաբաթ"</item>
+        <item>"Կրկնել ամեն ամիս"</item>
+        <item>"Կրկնել ամեն տարի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"յուրաքանչյուր առաջին ուրբաթ"</item>
+        <item>"յուրաքանչյուր երկրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր երրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր չորրորդ ուրբաթ"</item>
+        <item>"յուրաքանչյուր վերջին ուրբաթ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"յուրաքանչյուր առաջին երկուշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ երկուշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին երկուշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"յուրաքանչյուր առաջին շաբաթ"</item>
+        <item>"յուրաքանչյուր երկրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր երրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր չորրորդ շաբաթ"</item>
+        <item>"յուրաքանչյուր վերջին շաբաթ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"յուրաքանչյուր առաջին կիրակի"</item>
+        <item>"յուրաքանչյուր երկրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր երրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր չորրորդ կիրակի"</item>
+        <item>"յուրաքանչյուր վերջին կիրակի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"յուրաքանչյուր առաջին հինգշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ հինգշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին հինգշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"յուրաքանչյուր առաջին երեքշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ երեքշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին երեքշաբթի"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"յուրաքանչյուր առաջին չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր երկրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր երրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր չորրորդ չորեքշաբթի"</item>
+        <item>"յուրաքանչյուր վերջին չորեքշաբթի"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-hy-rAM/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Ամեն օր"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> օրը մեկ"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; մեկ անգամ"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> անգամ"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> իրադարձության համար"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> իրադարձության համար"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> օրը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> օրը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> ամիսը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> ամիսը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> շաբաթը մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> շաբաթը մեկ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> տարին մեկ"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> տարին մեկ"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Շաբաթը մեկ՝ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> շաբաթը մեկ՝ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"փոխել ավարտի ամսաթիվը"</string>
+    <string name="cancel">"Չեղարկել"</string>
+    <string name="day_picker_description">"Ամսաթվի ընտրության պատուհան"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> թիվը ջնջված է"</string>
+    <string name="endByDate">"; մինչև <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)"</string>
+    <string name="item_is_selected">"Ընտրված է <ns1:g id="ITEM">%1$s</ns1:g> տարրը"</string>
+    <string name="monthly">"Ամեն ամիս"</string>
+    <string name="ok">"Լավ"</string>
+    <string name="recurrence_end_continously">"Ընդմիշտ"</string>
+    <string name="recurrence_end_count_label">"Իրադարձությունների քանակով"</string>
+    <string name="recurrence_end_date">"Մինչև <ns1:g id="DATE">%s</ns1:g>-ը"</string>
+    <string name="recurrence_end_date_label">"Մինչև ամսաթիվը"</string>
+    <string name="recurrence_month_pattern_by_day">"ամեն ամսվա նույն օրը"</string>
+    <string name="select_day">"Ընտրեք ամիսն ու օրը"</string>
+    <string name="select_hours">"Ընտրեք ժամը"</string>
+    <string name="select_minutes">"Ընտրեք րոպեն"</string>
+    <string name="select_year">"Ընտրեք տարին"</string>
+    <string name="year_picker_description">"Տարիների ցանկ"</string>
+    <string name="yearly_plain">"Ամեն տարի"</string>
+</resources>

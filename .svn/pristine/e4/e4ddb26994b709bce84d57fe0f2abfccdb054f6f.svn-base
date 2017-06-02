@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <com.techfly.demo.selfview.FlexibileScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/modify_address_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/marign_big"
+                        android:text="原始密码:"
+                        android:textColor="@color/text_font_black"
+                        android:textSize="@dimen/size_bigger" />
+
+
+                    <EditText
+                        android:id="@+id/modify_pass_originEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/modify_address_tv1"
+                        android:background="@null"
+                        android:hint="请输入您的原始密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textSize="@dimen/size_bigger" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/marign_big"
+                    android:layout_marginRight="@dimen/marign_big"
+                    android:background="@color/divider_line_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/modify_address_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/marign_big"
+                        android:text="新  密  码:"
+                        android:textColor="@color/text_font_black"
+                        android:textSize="@dimen/size_bigger" />
+
+
+                    <EditText
+                        android:id="@+id/modify_pass_newEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/modify_address_tv2"
+                        android:background="@null"
+                        android:hint="请设置6-16位新密码"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:singleLine="true"
+                        android:textSize="@dimen/size_bigger" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/marign_big"
+                    android:layout_marginRight="@dimen/marign_big"
+                    android:background="@color/divider_line_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/modify_address_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/marign_big"
+                        android:text="确认密码:"
+                        android:textColor="@color/text_font_black"
+                        android:textSize="@dimen/size_bigger" />
+
+
+                    <EditText
+                        android:id="@+id/modify_pass_confirmEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/modify_address_tv3"
+                        android:background="@null"
+                        android:hint="请再次输入您的新密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textSize="@dimen/size_bigger" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--<Button
+                        android:id="@+id/exchange_detail_confirmBtn"
+                        style="@style/normalBottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/size_large"
+                        android:text="完成"
+                        />-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/marign_larger"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/modify_confirmBtn"
+                            style="@style/normalButtom"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/size_bigger"
+                            android:text="提交" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <!--<Button
+                            android:id="@+id/exchange_detail_confirmBtn"
+                            style="@style/normalBottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/size_large"
+                            android:text="完成"
+                            />-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.techfly.demo.selfview.FlexibileScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

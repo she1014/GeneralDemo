@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"חזרה על בסיס יומי"</item>
+        <item>"חזרה על בסיס שבועי"</item>
+        <item>"חזרה על בסיס חודשי"</item>
+        <item>"חזרה על בסיס שנתי"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"בכל יום שישי הראשון בכל חודש"</item>
+        <item>"בכל יום שישי השני בכל חודש"</item>
+        <item>"בכל יום שישי השלישי בכל חודש"</item>
+        <item>"בכל יום שישי הרביעי בכל חודש"</item>
+        <item>"בכל יום שישי האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"בכל יום שני הראשון בכל חודש"</item>
+        <item>"בכל יום שני השני בכל חודש"</item>
+        <item>"בכל יום שני השלישי בכל חודש"</item>
+        <item>"בכל יום שני הרביעי בכל חודש"</item>
+        <item>"בכל יום שני האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"בכל יום שבת הראשון בכל חודש"</item>
+        <item>"בכל יום שבת השני בכל חודש"</item>
+        <item>"בכל יום שבת השלישי בכל חודש"</item>
+        <item>"בכל יום שבת הרביעי בכל חודש"</item>
+        <item>"בכל יום שבת האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"בכל יום ראשון הראשון בכל חודש"</item>
+        <item>"בכל יום ראשון השני בכל חודש"</item>
+        <item>"בכל יום ראשון השלישי בכל חודש"</item>
+        <item>"בכל יום ראשון הרביעי בכל חודש"</item>
+        <item>"בכל יום ראשון האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"בכל יום חמישי הראשון בכל חודש"</item>
+        <item>"בכל יום חמישי השני בכל חודש"</item>
+        <item>"בכל יום חמישי השלישי בכל חודש"</item>
+        <item>"בכל יום חמישי הרביעי בכל חודש"</item>
+        <item>"בכל יום חמישי האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"בכל יום שלישי הראשון בכל חודש"</item>
+        <item>"בכל יום שלישי השני בכל חודש"</item>
+        <item>"בכל יום שלישי השלישי בכל חודש"</item>
+        <item>"בכל יום שלישי הרביעי בכל חודש"</item>
+        <item>"בכל יום שלישי האחרון בכל חודש"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"בכל יום רביעי הראשון בכל חודש"</item>
+        <item>"בכל יום רביעי השני בכל חודש"</item>
+        <item>"בכל יום רביעי השלישי בכל חודש"</item>
+        <item>"בכל יום רביעי הרביעי בכל חודש"</item>
+        <item>"בכל יום רביעי האחרון בכל חודש"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"יומי"</item>
+        <item quantity="other">"כל <ns1:g id="NUMBER">%d</ns1:g> ימים"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; פעם אחת"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> פעמים"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"עבור אירוע <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"עבור <ns1:g id="EVENT_COUNT">%d</ns1:g> אירועים"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"כל יום <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"כל <ns1:g id="COUNT">%d</ns1:g> ימים"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"כל חודש <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"כל <ns1:g id="COUNT">%d</ns1:g> חודשים"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"כל שבוע <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"כל <ns1:g id="COUNT">%d</ns1:g> שבועות"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"כל שנה <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"כל <ns1:g id="COUNT">%d</ns1:g> שנים"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"שבועי ביום <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"כל <ns1:g id="NUMBER">%1$d</ns1:g> שבועות ביום <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"‏%1$s‏, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"‏%1$s‏, %2$s‏, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכל"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"כבוי"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"פועל"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"חפש…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"כווץ"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"שינוי של תאריך הסיום"</string>
+    <string name="cancel">"ביטול"</string>
+    <string name="day_picker_description">"בחירת ימים בחודש בתצוגת רשת"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> נמחק"</string>
+    <string name="endByDate">"; עד <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"כל יום חול (ראשון-חמישי)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> נבחר"</string>
+    <string name="monthly">"כל חודש"</string>
+    <string name="ok">"אישור"</string>
+    <string name="pull_to_refresh_pull_label">משוך לרענון…</string>
+    <string name="pull_to_refresh_refreshing_label">טוען…</string>
+    <string name="pull_to_refresh_release_label">שחרר לרענון…</string>
+    <string name="recurrence_end_continously">"ללא תאריך סיום"</string>
+    <string name="recurrence_end_count_label">"למספר אירועים"</string>
+    <string name="recurrence_end_date">"עד <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"עד תאריך מסוים"</string>
+    <string name="recurrence_month_pattern_by_day">"באותו יום בכל חודש"</string>
+    <string name="select_day">"בחר חודש ויום"</string>
+    <string name="select_hours">"בחר שעות"</string>
+    <string name="select_minutes">"בחר דקות"</string>
+    <string name="select_year">"בחר שנה"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+    <string name="year_picker_description">"רשימת שנים"</string>
+    <string name="yearly_plain">"כל שנה"</string>
+</resources>

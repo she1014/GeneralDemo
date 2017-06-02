@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left|center"
+    >
+    <TextView
+        android:id="@+id/slide_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marign_maxer"
+        android:gravity="center|left"
+        android:background="#27C1f7"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/qq_setting_svip"
+        android:drawablePadding="10dp"
+        android:text="开通会员"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

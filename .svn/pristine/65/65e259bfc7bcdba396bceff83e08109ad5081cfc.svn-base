@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <com.techfly.demo.selfview.FlexibileScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_bigger"
+                    android:orientation="vertical"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/marign_larger"
+                        android:paddingLeft="@dimen/marign_boundary"
+                        android:paddingRight="@dimen/marign_boundary"
+                        >
+                        <TextView
+                            android:id="@+id/order_logis_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textSize="@dimen/size_middle"
+                            android:textColor="@color/text_font_black"
+                            android:text="物流公司:"
+                            />
+                        <EditText
+                            android:id="@+id/order_logis_name_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/marign_large"
+                            android:background="@null"
+                            android:textCursorDrawable="@drawable/shape_edittext_cursor"
+                            android:layout_toRightOf="@+id/order_logis_name_tv"
+                            android:layout_centerVertical="true"
+                            android:textSize="@dimen/size_middle"
+                            android:textColor="@color/text_font_black"
+                            android:text=""
+                            android:hint="请输入物流公司名称"
+                            android:textColorHint="@color/hint_gray"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/divider_line_color"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/marign_larger"
+                        android:paddingLeft="@dimen/marign_boundary"
+                        android:paddingRight="@dimen/marign_boundary"
+                        android:layout_marginTop="@dimen/marign_normal"
+                        >
+                        <TextView
+                            android:id="@+id/order_logis_code_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textSize="@dimen/size_middle"
+                            android:textColor="@color/text_font_black"
+                            android:text="物流单号:"
+                            />
+                        <EditText
+                            android:id="@+id/order_logis_code_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/marign_large"
+                            android:background="@null"
+                            android:textCursorDrawable="@drawable/shape_edittext_cursor"
+                            android:layout_toRightOf="@+id/order_logis_code_tv"
+                            android:layout_centerVertical="true"
+                            android:textSize="@dimen/size_middle"
+                            android:textColor="@color/text_font_black"
+                            android:text=""
+                            android:hint="请输入物流单号"
+                            android:textColorHint="@color/hint_gray"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/divider_line_color"
+                            />
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/submit_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/marign_boundary"
+                        android:layout_marginRight="@dimen/marign_boundary"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/shape_stroke_red_solid_pink"
+                        android:text="修改"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_big"
+                        />
+
+                    <TextView
+                        android:id="@+id/order_logis_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/marign_large"
+                        android:gravity="center|left"
+                        android:layout_marginTop="@dimen/marign_bigger"
+                        android:background="@color/main_gray"
+                        android:paddingLeft="@dimen/marign_boundary"
+                        android:textColor="@color/text_font_pink"
+                        android:textSize="@dimen/size_middle"
+                        android:text="物流轨迹:"
+                        />
+
+                    <com.techfly.demo.selfview.ForbidScrollListView
+                        android:id="@+id/order_logis_lv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/marign_middle"
+                        android:entries="@array/testArray"
+                        android:divider="@color/transparent"
+                        android:dividerHeight="0dp"
+                        >
+                    </com.techfly.demo.selfview.ForbidScrollListView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.techfly.demo.selfview.FlexibileScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

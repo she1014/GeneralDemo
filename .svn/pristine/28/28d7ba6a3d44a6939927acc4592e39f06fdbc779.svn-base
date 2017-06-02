@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ru/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"ЕЖЕДНЕВНО"</item>
+        <item>"ЕЖЕНЕДЕЛЬНО"</item>
+        <item>"ЕЖЕМЕСЯЧНО"</item>
+        <item>"ЕЖЕГОДНО"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"первая пятница месяца"</item>
+        <item>"вторая пятница месяца"</item>
+        <item>"третья пятница месяца"</item>
+        <item>"четвертая пятница месяца"</item>
+        <item>"последняя пятница месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"первый понедельник месяца"</item>
+        <item>"второй понедельник месяца"</item>
+        <item>"третий понедельник месяца"</item>
+        <item>"четвертый понедельник месяца"</item>
+        <item>"последний понедельник месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"первая суббота месяца"</item>
+        <item>"вторая суббота месяца"</item>
+        <item>"третья суббота месяца"</item>
+        <item>"четвертая суббота месяца"</item>
+        <item>"последняя суббота месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"первое воскресенье месяца"</item>
+        <item>"второе воскресенье месяца"</item>
+        <item>"третье воскресенье месяца"</item>
+        <item>"четвертое воскресенье месяца"</item>
+        <item>"последнее воскресенье месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"первый четверг месяца"</item>
+        <item>"второй четверг месяца"</item>
+        <item>"третий четверг месяца"</item>
+        <item>"четвертый четверг месяца"</item>
+        <item>"последний четверг месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"первый вторник месяца"</item>
+        <item>"второй вторник месяца"</item>
+        <item>"третий вторник месяца"</item>
+        <item>"четвертый вторник месяца"</item>
+        <item>"последний вторник месяца"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"первая среда месяца"</item>
+        <item>"вторая среда месяца"</item>
+        <item>"третья среда месяца"</item>
+        <item>"четвертая среда месяца"</item>
+        <item>"последняя среда месяца"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Ежедневно"</item>
+        <item quantity="other">"Раз в <ns1:g id="NUMBER">%d</ns1:g> дн."</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; 1 раз"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> раз(-а)"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Повторов: <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Повторов: <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Интервал: <ns1:g id="COUNT">%d</ns1:g> д."</item>
+        <item quantity="other">"Интервал: <ns1:g id="COUNT">%d</ns1:g> дн."</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Интервал: <ns1:g id="COUNT">%d</ns1:g> мес."</item>
+        <item quantity="other">"Интервал: <ns1:g id="COUNT">%d</ns1:g> мес."</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Интервал: <ns1:g id="COUNT">%d</ns1:g> нед."</item>
+        <item quantity="other">"Интервал: <ns1:g id="COUNT">%d</ns1:g> нед."</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Интервал: <ns1:g id="COUNT">%d</ns1:g> г."</item>
+        <item quantity="other">"Интервал: <ns1:g id="COUNT">%d</ns1:g> гг./лет"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Еженедельно (<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+        <item quantity="other">"Кажд. <ns1:g id="NUMBER">%1$d</ns1:g> нед. (<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"изменить дату окончания"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="day_picker_description">"Окно выбора даты"</string>
+    <string name="deleted_key">"Цифра <ns1:g id="KEY">%1$s</ns1:g> удалена"</string>
+    <string name="endByDate">"до <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Каждый будний день (пн–пт)"</string>
+    <string name="item_is_selected">"Выбран элемент <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Ежемесячно"</string>
+    <string name="ok">"ОК"</string>
+    <string name="recurrence_end_continously">"Всегда"</string>
+    <string name="recurrence_end_count_label">"несколько раз"</string>
+    <string name="recurrence_end_date">"До <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"до определенной даты"</string>
+    <string name="recurrence_month_pattern_by_day">"ежемесячно"</string>
+    <string name="select_day">"Выберите месяц и число"</string>
+    <string name="select_hours">"Выберите часы"</string>
+    <string name="select_minutes">"Выберите минуты"</string>
+    <string name="select_year">"Выберите год"</string>
+    <string name="year_picker_description">"Меню выбора года"</string>
+    <string name="yearly_plain">"Ежегодно"</string>
+</resources>

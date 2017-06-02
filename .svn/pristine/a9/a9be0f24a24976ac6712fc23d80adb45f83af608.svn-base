@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-mk-rMK/strings.xml -->
+    <eat-comment/>
+    <string name="cancel">"Откажи"</string>
+    <string name="day_picker_description">"Рамка на месец со денови"</string>
+    <string name="deleted_key">"Избришано <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="item_is_selected">"Избрано <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="ok">"Во ред"</string>
+    <string name="select_day">"Избери месец и ден"</string>
+    <string name="select_hours">"Избери часови"</string>
+    <string name="select_minutes">"Избери минути"</string>
+    <string name="select_year">"Избери година"</string>
+    <string name="year_picker_description">"Список по години"</string>
+</resources>

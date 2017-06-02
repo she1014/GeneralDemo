@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.introductionPage.SplashActivity"
+    >
+
+    <ImageView
+        android:id="@+id/splash_show_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/icon_default_show"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/splash_jump_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/marign_large"
+        android:padding="@dimen/marign_normal"
+        android:gravity="center"
+        android:background="@drawable/shape_stroke_white_solid_transparent"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_big"
+        android:text="跳过\t0s"
+        />
+
+
+</RelativeLayout>

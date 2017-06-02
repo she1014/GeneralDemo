@@ -1,0 +1,780 @@
+package com.techfly.demo.activity.demo;
+
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.text.TextUtils;
+import android.util.Pair;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.TranslateAnimation;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.appeaser.sublimepickerlibrary.datepicker.SelectedDate;
+import com.appeaser.sublimepickerlibrary.helpers.SublimeOptions;
+import com.appeaser.sublimepickerlibrary.recurrencepicker.SublimeRecurrencePicker;
+import com.bigkoo.convenientbanner.CBViewHolderCreator;
+import com.bigkoo.convenientbanner.ConvenientBanner;
+import com.bigkoo.pickerview.TimePickerView;
+import com.google.gson.Gson;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.techfly.demo.R;
+import com.techfly.demo.activity.base.BaseAppCompatActivity;
+import com.techfly.demo.activity.base.Constant;
+import com.techfly.demo.adpter.PropertyAdapter;
+import com.techfly.demo.bean.AttrBean;
+import com.techfly.demo.bean.EventBean;
+import com.techfly.demo.bean.GoodsListDetailBean;
+import com.techfly.demo.bean.LableBean;
+import com.techfly.demo.bean.PlatformNoticeBean;
+import com.techfly.demo.interfaces.ItemMoreClickListener;
+import com.techfly.demo.selfview.ADTextView;
+import com.techfly.demo.selfview.NetworkImageHolderView;
+import com.techfly.demo.selfview.shimmer.Shimmer;
+import com.techfly.demo.selfview.shimmer.ShimmerTextView;
+import com.techfly.demo.selfview.sublimepicker.SublimePickerFragment;
+import com.techfly.demo.selfview.wheelview.LoopView;
+import com.techfly.demo.selfview.wheelview.OnItemSelectedListener;
+import com.techfly.demo.util.CommonUtils;
+import com.techfly.demo.util.DateUtil;
+import com.techfly.demo.util.DensityUtil;
+import com.techfly.demo.util.LogsUtil;
+import com.techfly.demo.util.ToastUtil;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+import butterknife.OnClick;
+import de.greenrobot.event.EventBus;
+
+/**
+ * Created by wang on 2016/3/19.
+ */
+public class Demo1Activity extends BaseAppCompatActivity {
+
+    @InjectView(R.id.demo_banner)
+    ConvenientBanner demo_banner;
+    @InjectView(R.id.demo_adtv)
+    ADTextView demo_adtv;
+    @InjectView(R.id.demo_bottom1_tv)
+    TextView demo_bottom1_tv;
+    @InjectView(R.id.demo_bottom2_tv)
+    TextView demo_bottom2_tv;
+
+    @InjectView(R.id.demo_ios_time_tv)
+    TextView demo_ios_time_tv;
+    @InjectView(R.id.demo_calander_tv)
+    TextView demo_calander_tv;
+
+    @InjectView(R.id.demo_shimmer_stv)
+    ShimmerTextView demo_shimmer_stv;
+
+    private Shimmer shimmer;
+
+    private List<String> m_bannerList = new ArrayList<String>();
+
+    private TimePickerView m_timePicker;
+
+    private String m_startTime = "";
+    private SelectedDate mSelectedDate;
+    private int mSelectHour, mSelectMinute;
+
+    @InjectView(R.id.demo_start_animation_btn)
+    Button demo_start_animation_btn;
+    @InjectView(R.id.demo_shopcar_num_tv)
+    TextView demo_shopcar_num_tv;
+    //加入购物车动画
+    private ImageView m_buyImg;//0-2,3-5,0-5
+    private ViewGroup animMaskLayout;
+
+    SublimePickerFragment.Callback mFragmentCallback = new SublimePickerFragment.Callback() {
+        @Override
+        public void onCancelled() {
+            LogsUtil.normal("onCancelled");
+        }
+
+        @Override
+        public void onDateTimeRecurrenceSet(SelectedDate selectedDate,
+                                            int hourOfDay, int minute,
+                                            SublimeRecurrencePicker.RecurrenceOption recurrenceOption,
+                                            String recurrenceRule) {
+            mSelectedDate = selectedDate;
+            mSelectHour = hourOfDay;
+            mSelectMinute = minute;
+
+            Calendar mCalendar = selectedDate.getFirstDate();
+            Date mDate = mCalendar.getTime();
+
+            m_startTime = DateUtil.dateToString(mDate, "yyyy-MM-dd");
+
+            m_startTime = m_startTime + " " + zerofill(mSelectHour) + ":" + zerofill(mSelectMinute) + ":00";
+
+            demo_calander_tv.setText(m_startTime);
+        }
+    };
+
+    @Override
+    protected void onCreate(Bundle arg0) {
+        super.onCreate(arg0);
+        setContentView(R.layout.activity_demo1);
+
+        ButterKnife.inject(this);
+        EventBus.getDefault().register(this);
+
+        setTranslucentStatus(R.color.main_bg);
+
+        initBaseView();
+        setBaseTitle("Demo1", 0);
+        initBackButton(R.id.top_back_iv);
+
+        initView();
+
+        loadIntent();
+
+        loadData();
+
+        initBanner();
+
+        initAdtv();
+
+        initTimePicker();
+
+        initSublimePicker();
+
+    }
+
+    private void initBanner() {
+        m_bannerList.add("http://pic2.ooopic.com/11/77/46/04bOOOPICde_1024.jpg");
+        m_bannerList.add("http://pic.58pic.com/58pic/17/24/54/67b58PICHXS_1024.jpg");
+        m_bannerList.add("http://img007.hc360.cn/g8/M00/7E/CF/wKhQt1Nu6haEB6irAAAAABzDZZ4852.jpg");
+
+        demo_banner.setPages(new CBViewHolderCreator<NetworkImageHolderView>() {
+            @Override
+            public NetworkImageHolderView createHolder() {
+                return new NetworkImageHolderView();
+            }
+        }, m_bannerList).setPageIndicator(new int[]{R.drawable.icon_banner_white_point, R.drawable.icon_banner_orange_point})
+                //设置指示器的方向
+                .setPageIndicatorAlign(ConvenientBanner.PageIndicatorAlign.ALIGN_PARENT_RIGHT)
+                        //设置翻页的效果，不需要翻页效果可用不设
+                .setPageTransformer(ConvenientBanner.Transformer.DefaultTransformer);
+    }
+
+
+    private void initAdtv() {
+        List<PlatformNoticeBean.DataEntity> list = new ArrayList<PlatformNoticeBean.DataEntity>();
+        for (int i = 0; i < 5; i++) {
+            PlatformNoticeBean.DataEntity bean = new PlatformNoticeBean.DataEntity("标题" + i, "内容" + i);
+            list.add(bean);
+        }
+        demo_adtv.setFrontColor(Color.RED);
+        demo_adtv.setBackColor(Color.BLACK);
+        demo_adtv.setmTexts(list);
+    }
+
+
+    private void initTimePicker() {
+        m_timePicker = new TimePickerView(this, TimePickerView.Type.YEAR_MONTH_DAY);
+        m_timePicker.setTime(new Date());
+        m_timePicker.setCyclic(true);
+        m_timePicker.setCancelable(true);
+
+        m_timePicker.setOnTimeSelectListener(new TimePickerView.OnTimeSelectListener() {
+            @Override
+            public void onTimeSelect(Date date) {
+                demo_ios_time_tv.setText(DateUtil.dateToString(date, "yyyy年MM月dd日"));
+            }
+        });
+    }
+
+    private void initSublimePicker() {
+
+    }
+
+    Pair<Boolean, SublimeOptions> getOptions() {
+        SublimeOptions options = new SublimeOptions();
+        //包含哪些功能,1-日期；2-时间；3-日期+时间
+        int displayOptions = 3;
+        //显示哪个界面？  日期、时间、更多
+        options.setPickerToShow(SublimeOptions.Picker.DATE_PICKER);
+//        options.setPickerToShow(SublimeOptions.Picker.TIME_PICKER);
+//        options.setPickerToShow(SublimeOptions.Picker.REPEAT_OPTION_PICKER);//隐藏更多选项
+        options.setDisplayOptions(displayOptions);
+
+        return new Pair<>(displayOptions != 0 ? Boolean.TRUE : Boolean.FALSE, options);
+    }
+
+    /*
+     * 时间补零
+     */
+    private String zerofill(int str) {
+        String result = str + "";
+        if (result.length() == 1) {
+            result = "0" + result;
+            return result;
+        } else {
+        }
+        return result;
+    }
+
+    private void initView() {
+    }
+
+    private void updateView() {
+    }
+
+    private void loadIntent() {
+    }
+
+    private void loadData() {
+    }
+
+    private void refresh() {
+
+    }
+
+    private void loadMore() {
+
+    }
+
+    private void showAttrSelectDialog(final Context context, List<AttrBean.DataEntity> dataEntities, GoodsListDetailBean detailBean) {
+
+        setBackgroundAlpha((float) 0.7);
+
+        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.layout_select_good_attribute, null);
+
+        Double popHeight = DensityUtil.getScreenHeight(this) * 0.7;
+
+        final PopupWindow pop = new PopupWindow(view, WindowManager.LayoutParams.MATCH_PARENT,
+                popHeight.intValue());
+
+        pop.update();
+        pop.setInputMethodMode(PopupWindow.INPUT_METHOD_NEEDED);  //设置弹出菜单可输入
+        pop.setTouchable(true);       //设置popupwindow可点击
+        pop.setOutsideTouchable(false);//设置popupwindow外部可点击
+
+        // 设置popWindow弹出窗体可点击，这句话必须添加，并且是true
+        pop.setFocusable(true);
+
+        pop.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+
+        // 设置popWindow的显示和消失动画
+        pop.setAnimationStyle(R.style.toastdig);
+
+        pop.setBackgroundDrawable(new BitmapDrawable());
+        // 在底部显示
+        pop.showAtLocation(view, Gravity.BOTTOM, 0, 0);
+
+        final ImageView attr_pic_iv = (ImageView) view.findViewById(R.id.attr_pic_iv);
+
+        final ImageView attr_delete_iv = (ImageView) view.findViewById(R.id.attr_delete_iv);
+
+        final TextView attr_price_tv = (TextView) view.findViewById(R.id.attr_price_tv);
+        final TextView attr_stock_tv = (TextView) view.findViewById(R.id.attr_stock_tv);
+        final TextView attr_descrip_tv = (TextView) view.findViewById(R.id.attr_descrip_tv);
+
+        final TextView attr_other_descrip_tv = (TextView) view.findViewById(R.id.attr_other_descrip_tv);
+
+        TextView attr_sub_tv = (TextView) view.findViewById(R.id.attr_sub_tv);
+        final TextView attr_count_tv = (TextView) view.findViewById(R.id.attr_count_tv);
+        TextView attr_add_tv = (TextView) view.findViewById(R.id.attr_add_tv);
+
+        final ListView attr_lv = (ListView) view.findViewById(R.id.attr_lv);
+
+        final Button attr_confirm_btn = (Button) view.findViewById(R.id.attr_confirm_btn);
+
+        String[] bannerArray = detailBean.getData().getImages().split(" ");
+        ImageLoader.getInstance().displayImage(bannerArray[0], attr_pic_iv);
+
+
+        Constant.CURRENT_REST_NUM = detailBean.getData().getRest_num();
+        attr_price_tv.setText("¥" + detailBean.getData().getPrice());
+        attr_stock_tv.setText("库存" + Constant.CURRENT_REST_NUM + "件");
+
+        final ArrayList<HashMap<String, Object>> hashList = new ArrayList<HashMap<String, Object>>();
+        final PropertyAdapter adapter = new PropertyAdapter(this, hashList);
+
+        String descrip = "";
+        for (int i = 0; i < dataEntities.size(); i++) {
+            HashMap<String, Object> object = new HashMap<String, Object>();
+            object.put("type", dataEntities.get(i).getTitle());
+
+            descrip = descrip + dataEntities.get(i).getTitle() + " ";
+
+            ArrayList<String> lables = new ArrayList<String>();
+            for (int j = 0; j < dataEntities.get(i).getValue().size(); j++) {
+                lables.add(dataEntities.get(i).getValue().get(j));
+            }
+            object.put("lable", lables);
+            hashList.add(object);
+        }
+
+        adapter.initSelectProMap(hashList);
+        attr_lv.setAdapter(adapter);
+
+        attr_descrip_tv.setText("请选择 " + descrip);
+
+        adapter.setItemClickListener(new ItemMoreClickListener() {
+            @Override
+            public void onItemClick(View view, int postion) {
+            }
+
+            @Override
+            public void onItemSubViewClick(int choice, int postion) {
+
+                Boolean isGetRest = false;//是否获取库存
+
+                List<LableBean> getSelect = adapter.getSelectProMap();
+//                LogsUtil.normal("结果getSelect=>" + getSelect);
+                String curSelect = "";//当前已选择
+                String notSelect = "";//尚未选择
+                for (int i = 0; i < getSelect.size(); i++) {
+//                    LogsUtil.normal("属性:"+getSelect.get(i).getId()+",子项:"+getSelect.get(i).getName());
+                    if (TextUtils.isEmpty(getSelect.get(i).getName())) {
+                        notSelect = notSelect + getSelect.get(i).getId() + " ";
+                    } else {
+                        curSelect = curSelect + getSelect.get(i).getName() + " ";
+                    }
+                }
+
+                if (TextUtils.isEmpty(notSelect)) {
+                    attr_descrip_tv.setText("已选:" + curSelect);
+                    isGetRest = true;
+                } else {
+                    attr_descrip_tv.setText("请选择 " + notSelect);
+                }
+
+                if (!isGetRest) {
+                    return;
+                }
+            }
+
+
+            @Override
+            public void onItemMulViewClick(int type, int choice, int postion) {
+
+            }
+        });
+
+        attr_delete_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setBackgroundAlpha((float) 1.0);
+                pop.dismiss();
+            }
+        });
+
+        attr_sub_tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ToastUtil.DisplayToast(context, "亲,返现商品不可修改数量哦~~");
+            }
+        });
+
+        attr_add_tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ToastUtil.DisplayToast(context, "亲,返现商品不可修改数量哦~~");
+            }
+        });
+
+        attr_confirm_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (!attr_descrip_tv.getText().toString().contains("已选")) {
+                    ToastUtil.DisplayToast(context, "请先选择商品属性");
+                    return;
+                }
+
+                if (Constant.CURRENT_REST_NUM == 0) {
+                    ToastUtil.DisplayToast(context, "抱歉,此组合商品已售罄!请重新商品属性", Toast.LENGTH_LONG);
+                    return;
+                }
+
+                setBackgroundAlpha((float) 1.0);
+                pop.dismiss();
+
+            }
+        });
+
+        pop.setOnDismissListener(new PopupWindow.OnDismissListener() {
+            @Override
+            public void onDismiss() {
+                setBackgroundAlpha((float) 1.0);
+            }
+        });
+    }
+
+    private void showTimeSelectDialog(final List<String> dateList, final List<String> timeList, final Context context) {
+
+        setBackgroundAlpha((float) 0.7);
+
+        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+        View view = inflater.inflate(R.layout.layout_time_selector, null);
+
+        final PopupWindow pop = new PopupWindow(view, WindowManager.LayoutParams.MATCH_PARENT,
+                WindowManager.LayoutParams.WRAP_CONTENT);
+
+        pop.update();
+        pop.setInputMethodMode(PopupWindow.INPUT_METHOD_NEEDED);  //设置弹出菜单可输入
+        pop.setTouchable(true);       //设置popupwindow可点击
+        pop.setOutsideTouchable(true);//设置popupwindow外部可点击
+
+        pop.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+
+        // 设置popWindow弹出窗体可点击，这句话必须添加，并且是true
+        pop.setFocusable(false);
+        // 实例化一个ColorDrawable颜色为半透明
+//        ColorDrawable dw = new ColorDrawable(0x7DC0C0C0);
+//        pop.setBackgroundDrawable(dw);
+
+        // 设置popWindow的显示和消失动画
+//        pop.setAnimationStyle(R.style.toastdig);
+
+        pop.setBackgroundDrawable(new BitmapDrawable());
+        // 在底部显示
+        pop.showAtLocation(view, Gravity.BOTTOM, 0, 0);
+
+        final String[] resultArray = new String[]{dateList.get(0), timeList.get(0)};
+
+        final TextView time_show_tv = (TextView) view.findViewById(R.id.item_time_show_tv);
+        final TextView time_confirm_tv = (TextView) view.findViewById(R.id.item_confirm_tv);
+
+        final RelativeLayout wheel_rl1 = (RelativeLayout) view.findViewById(R.id.item_rootview1_rl);
+        final RelativeLayout wheel_rl2 = (RelativeLayout) view.findViewById(R.id.item_rootview2_rl);
+
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT);
+
+        LoopView loopView1 = new LoopView(this);
+        loopView1.setNotLoop();
+        //设置左右内边距
+//        loopView1.setViewPadding(40,0,40,0);
+        loopView1.setListener(new OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(int index) {
+                resultArray[0] = dateList.get(index) + "";
+                if (!TextUtils.isEmpty(resultArray[0]) && !TextUtils.isEmpty(resultArray[1])) {
+                    time_show_tv.setText(resultArray[0] + " " + resultArray[1]);
+                }
+            }
+        });
+        //设置原始数据
+        loopView1.setItems(dateList);
+        //设置初始位置
+        loopView1.setInitPosition(0);
+        //设置字体大小
+        loopView1.setTextSize(15);
+        wheel_rl1.addView(loopView1, layoutParams);
+
+        LoopView loopView2 = new LoopView(this);
+        //设置是否循环播放
+        loopView2.setNotLoop();
+        //设置左右内边距
+        loopView2.setViewPadding(50, 0, 50, 0);
+        //滚动监听
+        loopView2.setListener(new OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(int index) {
+                resultArray[1] = timeList.get(index) + "";
+                if (!TextUtils.isEmpty(resultArray[0]) && !TextUtils.isEmpty(resultArray[1])) {
+                    time_show_tv.setText(resultArray[0] + " " + resultArray[1]);
+                }
+            }
+        });
+        //设置原始数据
+        loopView2.setItems(timeList);
+        //设置初始位置
+        loopView2.setInitPosition(0);
+        //设置字体大小
+        loopView2.setTextSize(15);
+        wheel_rl2.addView(loopView2, layoutParams);
+
+        time_confirm_tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                /*String selectTime = resultArray[0].trim() + " " + resultArray[1].trim();
+
+                deliver_tip_tv2.setText("预约配送:");
+                deliver_booking_time_tv.setText(resultArray[0] + " " + resultArray[1]);
+
+                selectTime = selectTime.replace("(今天)", "");
+                selectTime = selectTime.replace("(明天)", "");
+                selectTime = selectTime.replace("(后天)", "");
+
+                mSelectTime = selectTime.substring(0, 16);
+                LogsUtil.normal("mSelectTime=" + mSelectTime);
+
+                sendToBooking();*/
+
+                setBackgroundAlpha((float) 1.0);
+                pop.dismiss();
+            }
+        });
+
+        pop.setOnDismissListener(new PopupWindow.OnDismissListener() {
+            @Override
+            public void onDismiss() {
+                setBackgroundAlpha((float) 1.0);
+                pop.dismiss();
+            }
+        });
+
+    }
+
+
+    /**
+     * 设置动画
+     *
+     * @param v              要显示的内容
+     * @param start_location 坐标
+     */
+    private void setAnim(final View v, int[] start_location) {
+        animMaskLayout = null;
+        animMaskLayout = createAnimLayout();
+        animMaskLayout.addView(v);// 把动画小球添加到动画层
+        final View view = addViewToAnimLayout(animMaskLayout, v,
+                start_location);
+        int[] end_location = new int[2];// 这是用来存储动画结束位置的X、Y坐标
+
+        demo_shopcar_num_tv.getLocationInWindow(end_location);// shopCart是那个购物车
+
+        // 计算位移
+//        LogsUtil.normal("偏移位置:" + (bottom_customer_service_linear.getWidth() + bottom_addto_shopcar_rl.getWidth() * 1.0 / 3));
+//        Double offset = demo_start_animation_btn.getWidth() + demo_bottom1_tv.getWidth() / 3.0;
+
+        //底部落点位置，从走到右
+        Double offset = demo_bottom1_tv.getWidth()/1.0 - 16;
+
+        int endX = 0 - start_location[0] + Integer.parseInt(new DecimalFormat("0").format(offset));// 动画位移的X坐标
+        int endY = end_location[1] - start_location[1];// 动画位移的y坐标
+
+        TranslateAnimation translateAnimationX = new TranslateAnimation(0,
+                endX, 0, 0);
+        translateAnimationX.setInterpolator(new LinearInterpolator());
+        translateAnimationX.setRepeatCount(0);// 动画重复执行的次数
+        translateAnimationX.setFillAfter(true);
+        TranslateAnimation translateAnimationY = new TranslateAnimation(0, 0,
+                0, endY);
+        translateAnimationY.setInterpolator(new AccelerateInterpolator());
+        translateAnimationY.setRepeatCount(0);// 动画重复执行的次数
+        translateAnimationX.setFillAfter(true);
+        AnimationSet set = new AnimationSet(false);
+        set.setFillAfter(false);
+        set.addAnimation(translateAnimationY);
+        set.addAnimation(translateAnimationX);
+        set.setDuration(1000);// 动画的执行时间
+        view.startAnimation(set);
+        // 动画监听事件
+        set.setAnimationListener(new Animation.AnimationListener() {
+            // 动画的开始
+            @Override
+            public void onAnimationStart(Animation animation) {
+                v.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+                // TODO Auto-generated method stub
+            }
+
+            // 动画的结束
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                v.setVisibility(View.GONE);
+
+                Integer m_num = Integer.parseInt(demo_shopcar_num_tv.getText().toString());
+                if(m_num > 0){
+                    demo_shopcar_num_tv.setVisibility(View.VISIBLE);
+                }
+                m_num++;
+                demo_shopcar_num_tv.setText(""+m_num);
+            }
+        });
+    }
+
+    /**
+     * 初始化动画图层
+     *
+     * @return
+     */
+    private ViewGroup createAnimLayout() {
+        ViewGroup rootView = (ViewGroup) this.getWindow().getDecorView();
+        LinearLayout animLayout = new LinearLayout(this);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT);
+        animLayout.setLayoutParams(lp);
+        animLayout.setBackgroundResource(android.R.color.transparent);
+        rootView.addView(animLayout);
+        return animLayout;
+    }
+
+    /**
+     * 将View添加到动画图层
+     *
+     * @param vg
+     * @param view
+     * @param location
+     * @return
+     */
+    private View addViewToAnimLayout(final ViewGroup vg, final View view,
+                                     int[] location) {
+        int x = location[0];
+        int y = location[1];
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT);
+        lp.leftMargin = x;
+        lp.topMargin = y;
+        view.setLayoutParams(lp);
+        return view;
+    }
+
+
+    /**
+     * 设置添加屏幕的背景透明度
+     *
+     * @param bgAlpha
+     */
+    public void setBackgroundAlpha(float bgAlpha) {
+        WindowManager.LayoutParams lp = getWindow().getAttributes();
+        lp.alpha = bgAlpha; //0.0-1.0
+        getWindow().setAttributes(lp);
+    }
+
+    @OnClick(R.id.demo_start_animation_btn)
+    public void startAnimation(){
+
+        m_buyImg = new ImageView(this);
+        m_buyImg.setBackgroundResource(R.drawable.icon_shopcart_point);// 设置buyImg的图片
+
+        int[] start_location = new int[2];// 一个整型数组，用来存储按钮的在屏幕的X、Y坐标
+//        item_add_linear.getLocationInWindow(start_location);// 这是获取购买按钮的在屏幕的X、Y坐标（这也是动画开始的坐标）
+        demo_start_animation_btn.getLocationInWindow(start_location);// 这是获取购买按钮的在屏幕的X、Y坐标（这也是动画开始的坐标）
+        setAnim(m_buyImg, start_location);// 开始执行动画
+    }
+
+    @OnClick(R.id.demo_bottom1_tv)
+    public void showDialog1() {
+
+        String m_good_detail = "{\"data\":{\"sell_num\":12,\"title\":\"小雏菊晴雨伞\",\"price\":19.9,\"rest_num\":2,\"market_price\":\"32.9\",\"feature_labels\":\"美观、质优\",\"goods_id\":103,\"price_label\":\"火红价\",\"images\":\"http://cyjctrip.qiniudn.com/1374676749/89468472-361C-491D-B900-03405DD1DC48.jpg\",\"mark\":5.0,\"type\":\"非返现商品\",\"monthly_sales\":11},\"code\":\"000\"}\n";
+        String m_good_attr = "{\"data\":[{\"title\":\"颜色\",\"value\":[\"黑色\",\"白色\",\"红色\"]},{\"title\":\"净重\",\"value\":[\"10kg\",\"20kg\",\"30kg\"]}],\"code\":\"000\"}";
+
+        Gson gson = new Gson();
+
+        GoodsListDetailBean data1 = gson.fromJson(m_good_detail, GoodsListDetailBean.class);
+        AttrBean data2 = gson.fromJson(m_good_attr, AttrBean.class);
+
+        showAttrSelectDialog(this, data2.getData(), data1);
+    }
+
+    @OnClick(R.id.demo_bottom2_tv)
+    public void showDialog2() {
+
+        List<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+
+        list1.add("2016-10-07" + "(今天)");
+        list1.add("2016-10-08" + "(明天)");
+        list1.add("2016-10-09" + "(后天)");
+
+        list2.add("08:00-10:00");
+        list2.add("10:00-12:00");
+        list2.add("12:00-14:00");
+        list2.add("14:00-16:00");
+
+        showTimeSelectDialog(list1, list2, this);
+
+    }
+
+    @OnClick(R.id.demo_bottom3_tv)
+    public void showDialog3() {
+        m_timePicker.show();
+    }
+
+    @OnClick(R.id.demo_bottom4_tv)
+    public void showDialog4() {
+        SublimePickerFragment pickerFrag = new SublimePickerFragment();
+        pickerFrag.setCallback(mFragmentCallback);
+        // Options
+        Pair<Boolean, SublimeOptions> optionsPair = getOptions();
+        // Valid options
+        Bundle bundle = new Bundle();
+        bundle.putParcelable("SUBLIME_OPTIONS", optionsPair.second);
+        pickerFrag.setArguments(bundle);
+
+        pickerFrag.setStyle(DialogFragment.STYLE_NO_TITLE, 0);
+        pickerFrag.show(getSupportFragmentManager(), "SUBLIME_PICKER");
+    }
+
+    @OnClick(R.id.demo_shimmer_btn)
+    public void showShimmer() {
+        if (shimmer != null && shimmer.isAnimating()) {
+            shimmer.cancel();
+        } else {
+            shimmer = new Shimmer();
+            shimmer.start(demo_shimmer_stv);
+        }
+    }
+
+    public void onEventMainThread(EventBean bean) {
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        demo_banner.stopTurning();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        demo_banner.startTurning(3000);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void getResult(String result, int type) {
+        super.getResult(result, type);
+
+        result = CommonUtils.removeBrace(result);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        EventBus.getDefault().unregister(this);
+    }
+}

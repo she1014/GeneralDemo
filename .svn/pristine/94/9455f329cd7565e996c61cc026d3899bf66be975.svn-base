@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ថ្ងៃ"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​សប្ដាហ៍"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ខែ"</item>
+        <item>"ធ្វើ​ឡើងវិញ​ប្រចាំ​ឆ្នាំ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទីពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទីបី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សុក្រ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ចន្ទ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​សៅរ៍​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អាទិត្យ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ព្រហស្បតិ៍​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​អង្គារ​ចុងក្រោយ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​មួយ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​ពីរ"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​បី"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ទី​បួន"</item>
+        <item>"នៅ​រាល់​ថ្ងៃ​ពុធ​ចុងក្រោយ"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ប្រចាំថ្ងៃ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="NUMBER">%d</ns1:g> ថ្ងៃ"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; សម្រាប់​ម្ដង"</item>
+        <item quantity="other">"; សម្រាប់ <ns1:g id="NUMBER">%d</ns1:g> ដង"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"សម្រាប់ <ns1:g id="EVENT_COUNT">%d</ns1:g> ព្រឹត្តិការណ៍"</item>
+        <item quantity="other">"សម្រាប់ <ns1:g id="EVENT_COUNT">%d</ns1:g> ព្រឹត្តិការណ៍"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ថ្ងៃ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ថ្ងៃ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ខែ"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ខែ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> សប្ដាហ៍"</item>
+        <item quantity="other">"រាល់ <ns1:g id="COUNT">%d</ns1:g> សប្ដាហ៍"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"រាល់ <ns1:g id="COUNT">%d</ns1:g> ឆ្នាំ"</item>
+        <item quantity="other">"ឆ្នាំ <ns1:g id="COUNT">%d</ns1:g> ឆ្នាំ"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"សប្ដាហ៍​នៃ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"រាល់ <ns1:g id="NUMBER">%1$d</ns1:g> សប្ដាហ៍​នៃ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"រកមើល​ទៅ​ដើម"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"រកមើល​ឡើងលើ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ជម្រើស​ច្រើន​ទៀត"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"រួចរាល់"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"មើល​ទាំងអស់"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ជ្រើស​កម្មវិធី​​"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"បិទ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"បើក"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ស្វែងរក…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ស្វែងរក​សំណួរ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ស្វែងរក"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ដាក់​​​ស្នើ​សំណួរ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ការស្វែងរក​សំឡេង"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជាមួយ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ចែករំលែក​ជាមួយ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"បង្រួម"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"ប្ដូរ​កាលបរិច្ឆេទ​បញ្ចប់"</string>
+    <string name="cancel">"បោះ​បង់​"</string>
+    <string name="day_picker_description">"ក្រឡា​​​ខែ​នៃ​ថ្ងៃ"</string>
+    <string name="deleted_key">"បាន​លុប <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"; រហូតដល់ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"រាល់ថ្ងៃ​ធ្វើការ (ចន្ទ–សុក្រ)"</string>
+    <string name="item_is_selected">"បាន​ជ្រើស <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"ប្រចាំខែ"</string>
+    <string name="ok">"យល់​ព្រម​"</string>
+    <string name="recurrence_end_continously">"ជានិច្ច"</string>
+    <string name="recurrence_end_count_label">"សម្រាប់​ព្រឹត្តិការណ៍​មួយ​ចំនួន"</string>
+    <string name="recurrence_end_date">"រហូតដល់ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"រហូតដល់​កាលបរិច្ឆេទ"</string>
+    <string name="recurrence_month_pattern_by_day">"នៅ​ថ្ងៃ​ដដែល​នៃ​ខែ​នីមួយៗ"</string>
+    <string name="select_day">"ជ្រើស​ខែ និង​ថ្ងៃ"</string>
+    <string name="select_hours">"ជ្រើស​ម៉ោង"</string>
+    <string name="select_minutes">"ជ្រើស​នាទី"</string>
+    <string name="select_year">"ជ្រើស​ឆ្នាំ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"បញ្ជី​ឆ្នាំ"</string>
+    <string name="yearly_plain">"ប្រចាំ​ឆ្នាំ"</string>
+</resources>

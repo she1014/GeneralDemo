@@ -1,0 +1,68 @@
+package com.techfly.demo.util;
+
+import android.content.Context;
+import android.view.Gravity;
+import android.widget.Toast;
+
+public class ToastUtil {
+
+
+	
+	private static Toast myToast;
+	/*private static Handler mhandler = new Handler(){
+		@Override
+		public void handleMessage(Message msg) {
+			// TODO Auto-generated method stub
+			super.handleMessage(msg);
+			switch (msg.what) {
+			case 1:
+				myToast.setText(str);
+				myToast.show();
+				break;
+			case 2:
+				myToast = Toast.makeText(mContext,str,Toast.LENGTH_SHORT);
+				myToast.show();
+				break;
+
+			default:
+				break;
+			}
+		}
+	};*/
+
+	/*
+     * 测试时用于打印错误，发布后注销
+     */
+	public static void DisplayToastDebug(Context mContext, String str) {
+		if (myToast != null) {
+			myToast.setText(str);
+		} else {
+			myToast = Toast.makeText(mContext, str, Toast.LENGTH_LONG);
+		}
+		myToast.setGravity(Gravity.BOTTOM, 0, 0);
+		myToast.show();
+	}
+
+	public static void DisplayToast(Context mContext,String str){
+//		Message msg = new Message();
+		if(myToast != null){
+			myToast.setText(str);
+		}else{
+			myToast = Toast.makeText(mContext,str,Toast.LENGTH_SHORT);
+		}
+		myToast.setGravity(Gravity.CENTER, 0, 0);
+		myToast.show();
+	}
+
+	public static void DisplayToast(Context mContext,String str,int length){
+//		Message msg = new Message();
+		if(myToast != null){
+			myToast.setText(str);
+		}else{
+			myToast = Toast.makeText(mContext,str,Toast.LENGTH_LONG);
+		}
+		myToast.setGravity(Gravity.CENTER, 0, 0);
+		myToast.show();
+	}
+	
+}

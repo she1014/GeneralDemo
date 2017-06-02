@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"TOISTA PÄIVITTÄIN"</item>
+        <item>"TOISTA VIIKOITTAIN"</item>
+        <item>"TOISTA KUUKAUSITTAIN"</item>
+        <item>"TOISTA VUOSITTAIN"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"kuukauden 1. perjantai"</item>
+        <item>"kuukauden 2. perjantai"</item>
+        <item>"kuukauden 3. perjantai"</item>
+        <item>"kuukauden 4. perjantai"</item>
+        <item>"kuukauden viimeinen perjantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"kuukauden 1. maanantai"</item>
+        <item>"kuukauden 2. maanantai"</item>
+        <item>"kuukauden 3. maanantai"</item>
+        <item>"kuukauden 4. maanantai"</item>
+        <item>"kuukauden viimeinen maanantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"kuukauden 1. lauantai"</item>
+        <item>"kuukauden 2. lauantai"</item>
+        <item>"kuukauden 3. lauantai"</item>
+        <item>"kuukauden 4. lauantai"</item>
+        <item>"kuukauden viimeinen lauantai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"kuukauden 1. sunnuntai"</item>
+        <item>"kuukauden 2. sunnuntai"</item>
+        <item>"kuukauden 3. sunnuntai"</item>
+        <item>"kuukauden 4. sunnuntai"</item>
+        <item>"kuukauden viimeinen sunnuntai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"kuukauden 1. torstai"</item>
+        <item>"kuukauden 2. torstai"</item>
+        <item>"kuukauden 3. torstai"</item>
+        <item>"kuukauden 4. torstai"</item>
+        <item>"kuukauden viimeinen torstai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"kuukauden 1. tiistai"</item>
+        <item>"kuukauden 2. tiistai"</item>
+        <item>"kuukauden 3. tiistai"</item>
+        <item>"kuukauden 4. tiistai"</item>
+        <item>"kuukauden viimeinen tiistai"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"kuukauden 1. keskiviikko"</item>
+        <item>"kuukauden 2. keskiviikko"</item>
+        <item>"kuukauden 3. keskiviikko"</item>
+        <item>"kuukauden 4. keskiviikko"</item>
+        <item>"kuukauden viim. keskiviikko"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Päivittäin"</item>
+        <item quantity="other">"Joka <ns1:g id="NUMBER">%d</ns1:g>. päivä"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"yhden kerran"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> kertaa"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> tapahtuman ajan"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> tapahtuman ajan"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> päivän välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> päivän välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> kuukauden välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> kuukauden välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> viikon välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> viikon välein"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> vuoden välein"</item>
+        <item quantity="other">"<ns1:g id="COUNT">%d</ns1:g> vuoden välein"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Viikoittain joka <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%1$d</ns1:g> viikon välein joka <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Lisää"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"KÄYTÖSSÄ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Hakulauseke"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"muuta lopetuspäivää"</string>
+    <string name="cancel">"Peruuta"</string>
+    <string name="day_picker_description">"Päiväruudukko kuukausittain"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> poistettiin"</string>
+    <string name="endByDate">"<ns1:g id="DATE">%s</ns1:g> saakka"</string>
+    <string name="every_weekday">"Joka arkipäivä (ma–pe)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> on valittu"</string>
+    <string name="monthly">"Kuukausittain"</string>
+    <string name="ok">"OK"</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">Päivitä vetämällä ylös…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Päivitä vetämällä alas…</string>
+    <string name="pull_to_refresh_refreshing_label">Päivitetään…</string>
+    <string name="pull_to_refresh_release_label">Päivitä vapauttamalla…</string>
+    <string name="recurrence_end_continously">"Ikuisesti"</string>
+    <string name="recurrence_end_count_label">"Useita kertoja"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g> saakka"</string>
+    <string name="recurrence_end_date_label">"Tiettyyn päivään saakka"</string>
+    <string name="recurrence_month_pattern_by_day">"samana päiv. joka kk"</string>
+    <string name="select_day">"Valitse kuukausi ja päivä"</string>
+    <string name="select_hours">"Valitse tunnit"</string>
+    <string name="select_minutes">"Valitse minuutit"</string>
+    <string name="select_year">"Valitse vuosi"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Vuosiluettelo"</string>
+    <string name="yearly_plain">"Vuosittain"</string>
+</resources>

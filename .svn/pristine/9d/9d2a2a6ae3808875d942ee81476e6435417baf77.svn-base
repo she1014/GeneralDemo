@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-kk-rKZ/strings.xml -->
+    <eat-comment/>
+    <string name="cancel">"Бас тарту"</string>
+    <string name="day_picker_description">"Күндердің айлық торлары"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> жойылды"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> таңдалды"</string>
+    <string name="ok">"Жарайды"</string>
+    <string name="select_day">"Ай мен күнді таңдау"</string>
+    <string name="select_hours">"Сағат таңдау"</string>
+    <string name="select_minutes">"Минут таңдау"</string>
+    <string name="select_year">"Жыл таңдау"</string>
+    <string name="year_picker_description">"Жыл тізімі"</string>
+</resources>

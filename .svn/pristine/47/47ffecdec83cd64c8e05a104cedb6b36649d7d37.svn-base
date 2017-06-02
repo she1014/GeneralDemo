@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_index"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/main_indexIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_home" />
+
+            <TextView
+                android:id="@+id/main_indexTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_indexIv"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="@string/home_index"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_small"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/rl_business"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/main_businessIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_business" />
+
+            <TextView
+                android:id="@+id/main_businessTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_businessIv"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="@string/home_business"
+                android:textColor="@color/font_gray"
+                android:textSize="@dimen/size_small"
+                />
+        </RelativeLayout>
+    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/rl_group"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/main_groupIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_order" />
+
+            <TextView
+                android:id="@+id/main_groupTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_groupIv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="@string/home_order"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_small"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_my"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/main_myIv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_me" />
+
+            <TextView
+                android:id="@+id/main_myTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_myIv"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:text="@string/home_mine"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_small"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

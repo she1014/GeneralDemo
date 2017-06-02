@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"በየቀኑ ድገም"</item>
+        <item>"በየሳምንቱ ድገም"</item>
+        <item>"በየወሩ ድገም"</item>
+        <item>"በየዓመቱ ድገም"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"በሁሉም የመጀመሪያ አርብ"</item>
+        <item>"በሁሉም ሁለተኛ አርብ"</item>
+        <item>"በሁሉም ሶስተኛ አርብ"</item>
+        <item>"በሁሉም አራተኛ አርብ"</item>
+        <item>"በሁሉም የመጨረሻ አርብ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"በሁሉም የመጀመሪያ ሰኞ"</item>
+        <item>"በሁሉም ሁለተኛ ሰኞ"</item>
+        <item>"በሁሉም ሶስተኛ ሰኞ"</item>
+        <item>"በሁሉም አራተኛ ሰኞ"</item>
+        <item>"በሁሉም የመጨረሻ ሰኞ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"በሁሉም የመጀመሪያ ቅዳሜ"</item>
+        <item>"በሁሉም ሁለተኛ ቅዳሜ"</item>
+        <item>"በሁሉም ሶስተኛ ቅዳሜ"</item>
+        <item>"በሁሉም አራተኛ ቅዳሜ"</item>
+        <item>"በሁሉም የመጨረሻ ቅዳሜ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"በሁሉም የመጀመሪያ እሁድ"</item>
+        <item>"በሁሉም ሁለተኛ እሁድ"</item>
+        <item>"በሁሉም ሶስተኛ እሁድ"</item>
+        <item>"በሁሉም አራተኛ እሁድ"</item>
+        <item>"በሁሉም የመጨረሻ እሁድ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"በሁሉም የመጀመሪያ ሃሙስ"</item>
+        <item>"በሁሉም ሁለተኛ ሃሙስ"</item>
+        <item>"በሁሉም ሶስተኛ ሃሙስ"</item>
+        <item>"በሁሉም አራተኛ ሃሙስ"</item>
+        <item>"በሁሉም የመጨረሻ ሃሙስ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"በሁሉም የመጀመሪያ ማክሰኞ"</item>
+        <item>"በሁሉም ሁለተኛ ማክሰኞ"</item>
+        <item>"በሁሉም ሶስተኛ ማክሰኞ"</item>
+        <item>"በሁሉም አራተኛ ማክሰኞ"</item>
+        <item>"በሁሉም የመጨረሻ ማክሰኞ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"በሁሉም የመጀመሪያ ረቡዕ"</item>
+        <item>"በሁሉም ሁለተኛ ረቡዕ"</item>
+        <item>"በሁሉም ሶስተኛ ረቡዕ"</item>
+        <item>"በሁሉም አራተኛ ረቡዕ"</item>
+        <item>"በሁሉም የመጨረሻ ረቡዕ"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ዕለታዊ"</item>
+        <item quantity="other">"በየ<ns1:g id="NUMBER">%d</ns1:g> ቀኖች"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"፤ ለአንድ ጊዜ"</item>
+        <item quantity="other">"፤ ለ<ns1:g id="NUMBER">%d</ns1:g> ጊዜያት"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"ለ<ns1:g id="EVENT_COUNT">%d</ns1:g> ክስተት"</item>
+        <item quantity="other">"ለ<ns1:g id="EVENT_COUNT">%d</ns1:g> ክስተቶች"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ቀን"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ቀን"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ወር"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ወር"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ሳምንት"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ሳምንት"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"በየ<ns1:g id="COUNT">%d</ns1:g> ዓመት"</item>
+        <item quantity="other">"በየ<ns1:g id="COUNT">%d</ns1:g> ዓመት"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"በየሳምንቱ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ላይ"</item>
+        <item quantity="other">"በየ<ns1:g id="NUMBER">%1$d</ns1:g> ሳምንቱ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> ላይ"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ወደ መነሻ ይዳስሱ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s፣ %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s፣ %2$s፣ %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ወደ ላይ ይዳስሱ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ተጨማሪ አማራጮች"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ተከናውኗል"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ሁሉንም ይመልከቱ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"መተግበሪያ ይምረጡ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ጠፍቷል"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"በርቷል"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ፈልግ…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"መጠይቅ አጽዳ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"የፍለጋ ጥያቄ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ፍለጋ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"መጠይቅ ያስረክቡ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"የድምፅ ፍለጋ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ከሚከተለው ጋር ያጋሩ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ከ%s ጋር ያጋሩ"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ሰብስብ"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"የመጨረሻውን ቀን ቀይር"</string>
+    <string name="cancel">"ይቅር"</string>
+    <string name="day_picker_description">"የቀናት የወር ፍርግርግ"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ተሰርዟል"</string>
+    <string name="endByDate">"፤ እስከ <ns1:g id="DATE">%s</ns1:g> ድረስ"</string>
+    <string name="every_weekday">"በአዘቦት ቀን(ሰኞ-አርብ)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ተመርጧል"</string>
+    <string name="monthly">"ወርሃዊ"</string>
+    <string name="ok">"እሺ"</string>
+    <string name="recurrence_end_continously">"ለዘለዓለም"</string>
+    <string name="recurrence_end_count_label">"ለተወሰነ የክስተቶች ብዛት"</string>
+    <string name="recurrence_end_date">"እስከ <ns1:g id="DATE">%s</ns1:g> ድረስ"</string>
+    <string name="recurrence_end_date_label">"እስከ አንድ ቀን ድረስ"</string>
+    <string name="recurrence_month_pattern_by_day">"በየወሩ በተመሳሳዩ ቀን ላይ"</string>
+    <string name="select_day">"ወር እና ቀን ይምረጡ"</string>
+    <string name="select_hours">"ሰዓታትን ይምረጡ"</string>
+    <string name="select_minutes">"ደቂቃዎችን ይምረጡ"</string>
+    <string name="select_year">"ዓመት ይምረጡ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"የዓመት ዝርዝር"</string>
+    <string name="yearly_plain">"በየአመቱ"</string>
+</resources>

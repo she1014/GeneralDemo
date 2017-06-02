@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"RUDIA KILA SIKU"</item>
+        <item>"RUDIA KILA WIKI"</item>
+        <item>"RUDIA KILA MWEZI"</item>
+        <item>"RUDIA KILA MWAKA"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"kila Ijumaa ya kwanza"</item>
+        <item>"kila Ijumaa ya pili"</item>
+        <item>"kila Ijumaa ya tatu"</item>
+        <item>"kila Ijumaa ya nne"</item>
+        <item>"kila Ijumaa ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"kila Jumatatu ya kwanza"</item>
+        <item>"kila Jumatatu ya pili"</item>
+        <item>"kila Jumatatu ya tatu"</item>
+        <item>"kila Jumatatu ya nne"</item>
+        <item>"kila Jumatatu ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"kila Jumamosi ya kwanza"</item>
+        <item>"kila Jumamosi ya pili"</item>
+        <item>"kila Jumamosi ya tatu"</item>
+        <item>"kila Jumamosi ya nne"</item>
+        <item>"kila Jumamosi ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"kila Jumapili ya kwanza"</item>
+        <item>"kila Jumapili ya pili"</item>
+        <item>"kila Jumapili ya tatu"</item>
+        <item>"kila Jumapili ya nne"</item>
+        <item>"kila Jumapili ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"kila Alhamisi ya kwanza"</item>
+        <item>"kila Alhamisi ya pili"</item>
+        <item>"kila Alhamisi ya tatu"</item>
+        <item>"kila Alhamisi ya nne"</item>
+        <item>"kila Alhamisi ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"kila Jumanne ya kwanza"</item>
+        <item>"kila Jumanne ya pili"</item>
+        <item>"kila Jumanne ya tatu"</item>
+        <item>"kila Jumanne ya nne"</item>
+        <item>"kila Jumanne ya mwisho"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"kila Jumatano ya kwanza"</item>
+        <item>"kila Jumatano ya pili"</item>
+        <item>"kila Jumatano ya tatu"</item>
+        <item>"kila Jumatano ya nne"</item>
+        <item>"kila Jumatano ya mwisho"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Kila siku"</item>
+        <item quantity="other">"Kila baada ya siku <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; kwa wakati mmoja"</item>
+        <item quantity="other">"; kwa mara <ns1:g id="NUMBER">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Kwa tukio <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Kwa matukio <ns1:g id="EVENT_COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Kila baada ya siku <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Kila baada ya siku <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Kila baada ya mwezi <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Kila baada ya miezi <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Kila baada ya wiki <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Kila baada ya wiki <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Kila baada ya mwaka <ns1:g id="COUNT">%d</ns1:g>"</item>
+        <item quantity="other">"Kila baada ya miaka <ns1:g id="COUNT">%d</ns1:g>"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Kila wiki siku ya <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Kila wiki  <ns1:g id="NUMBER">%1$d</ns1:g> siku ya <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Nenda mwanzo"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nenda juu"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Chaguo zaidi"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Nimemaliza"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Angalia zote"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chagua programu"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IMEZIMWA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"IMEWASHWA"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Tafuta…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Futa hoja"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Hoja ya utafutaji"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tafuta"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Wasilisha hoja"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tafuta kwa kutamka"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Shiriki na:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Shiriki na %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kunja"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"badilisha tarehe ya mwisho"</string>
+    <string name="cancel">"Ghairi"</string>
+    <string name="day_picker_description">"Gridi ya mwezi ya siku"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> kimefutwa"</string>
+    <string name="endByDate">"; hadi <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Kila siku ya kazi (Jumatatu-Ijumaa)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> kimechaguliwa"</string>
+    <string name="monthly">"Kila mwezi"</string>
+    <string name="ok">"Sawa"</string>
+    <string name="recurrence_end_continously">"Milele"</string>
+    <string name="recurrence_end_count_label">"Kwa matukio kadhaa"</string>
+    <string name="recurrence_end_date">"Hadi <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Hadi tarehe"</string>
+    <string name="recurrence_month_pattern_by_day">"katika siku sawa ya kila mwezi"</string>
+    <string name="select_day">"Chagua mwezi na siku"</string>
+    <string name="select_hours">"Chagua saa"</string>
+    <string name="select_minutes">"Chagua dakika"</string>
+    <string name="select_year">"Chagua mwaka"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Orodha ya miaka"</string>
+    <string name="yearly_plain">"Kila mwaka"</string>
+</resources>

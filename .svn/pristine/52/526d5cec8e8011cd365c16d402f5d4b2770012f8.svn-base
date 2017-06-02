@@ -1,0 +1,48 @@
+package com.techfly.demo.activity.demo;
+
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+
+import com.techfly.demo.R;
+import com.techfly.demo.activity.base.BaseActivity;
+import com.techfly.demo.selfview.luckypan.LuckyPan;
+
+
+public class Demo4Activity extends BaseActivity {
+
+    private LuckyPan luckyPan;
+    private ImageView startBtn;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_demo4);
+
+        setTranslucentStatus(R.color.main_bg);
+
+        initBaseView();
+        setBaseTitle("Demo4", 0);
+        initBackButton(R.id.top_back_iv);
+
+        luckyPan = (LuckyPan) this.findViewById(R.id.luckypan);
+
+        startBtn = (ImageView) this.findViewById(R.id.start_btn);
+        startBtn.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (!luckyPan.isRuning()) {
+                    luckyPan.luckyStart(2);
+                    startBtn.setImageResource(R.drawable.icon_prize_stop);
+                } else {
+                    if (!luckyPan.isShoundEnd()) {
+                        luckyPan.luckyEnd();
+                        startBtn.setImageResource(R.drawable.icon_prize_start);
+                    }
+                }
+            }
+        });
+    }
+}

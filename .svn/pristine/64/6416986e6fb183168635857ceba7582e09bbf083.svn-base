@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zms="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="94"
+        android:orientation="vertical">
+
+        <com.techfly.demo.selfview.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:fillViewport="false"
+            zms:pstsDividerColor="@color/transparent"
+            zms:pstsIndicatorColor="@color/pink"
+            zms:pstsIndicatorHeight="1dp"
+            zms:pstsShouldExpand="true"
+            zms:pstsUnderlineColor="@color/divider_line_color"
+            zms:pstsUnderlineHeight="1dp"
+            zms:zmsSelectedTabTextColor="@color/pink"
+            zms:zmsSelectedTabTextSize="@dimen/size_small"
+            zms:zmsTabTextColor="@color/text_font_gray"
+            zms:zmsTabTextSize="@dimen/size_small" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="@dimen/marign_text_image"
+        >
+
+        <!--<ImageView
+            android:id="@+id/item_del_iv1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:src="@drawable/icon_pic_delete"
+            android:visibility="invisible"
+            />-->
+
+        <ImageView
+            android:id="@+id/item_pic_iv"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_go_camare"
+            />
+
+        <ImageView
+            android:id="@+id/item_del_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/item_pic_iv"
+            android:src="@drawable/icon_pic_delete" />
+
+        <!--<ImageView
+            android:id="@+id/item_del_iv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/icon_pic_delete"
+            android:visibility="invisible"
+            />-->
+
+    </RelativeLayout>
+
+
+</LinearLayout>

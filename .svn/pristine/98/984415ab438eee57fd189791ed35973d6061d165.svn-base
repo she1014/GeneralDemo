@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>REPEAT DAILY</item>
+        <item>REPEAT WEEKLY</item>
+        <item>REPEAT MONTHLY</item>
+        <item>REPEAT YEARLY</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>on every second Friday</item>
+        <item>on every third Friday</item>
+        <item>on every fourth Friday</item>
+        <item>on every last Friday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>on every fourth Monday</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>on every first Saturday</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>on every third Sunday</item>
+        <item>on every fourth Sunday</item>
+        <item>on every last Sunday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>on every second Thursday</item>
+        <item>on every third Thursday</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>on every second Tuesday</item>
+        <item>on every third Tuesday</item>
+        <item>on every fourth Tuesday</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>on every fourth Wednesday</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="spButtonLayoutStyle"/>
+    <attr format="color|reference" name="spCalendarDayTextColorPtr"/>
+    <attr format="reference|color" name="spCalendarDisabledTextColor"/>
+    <attr format="reference" name="spDatePickerStyle"/>
+    <attr format="reference" name="spDayPickerStyle"/>
+    <attr format="reference|color" name="spHeaderBackground"/>
+    <attr format="color|reference" name="spHeaderBackgroundPtr"/>
+    <attr format="reference" name="spLandscapeButtonModeOkCancelButtonStyle"/>
+    <attr format="reference" name="spLandscapeButtonModeSwitcherButtonStyle"/>
+    <attr format="reference" name="spLandscapeCancelActionDrawable"/>
+    <attr format="reference" name="spLandscapeOkActionDrawable"/>
+    <attr format="reference" name="spMonthViewStyle"/>
+    <attr format="reference|color" name="spNumbersBackgroundColor"/>
+    <attr format="reference|color" name="spNumbersBackgroundColorPtr"/>
+    <attr format="color" name="spNumbersInnerTextColorPtr"/>
+    <attr format="reference|color" name="spNumbersTextColorPtr"/>
+    <attr format="color" name="spOverflowIconColor"/>
+    <attr format="color" name="spOverflowIconPressedBgColor"/>
+    <attr format="reference|color" name="spPickerBackground"/>
+    <attr format="reference" name="spPrimaryTextSecondaryWhenActivatedMaterialInversePtr"/>
+    <attr format="reference" name="spRadialTimePickerStyle"/>
+    <attr format="reference" name="spRecurrenceOptionCreatorStyle"/>
+    <attr format="reference" name="spRecurrencePickerStyle"/>
+    <attr format="reference" name="spTimePickerStyle"/>
+    <attr format="reference" name="sublimePickerStyle"/>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="calendar_disabled_text_color_dark">#35ffffff</color>
+    <color name="calendar_disabled_text_color_light">#23000000</color>
+    <color name="fake_shadow_end_color">#03000000</color>
+    <color name="fake_shadow_start_color">#44000000</color>
+    <color name="overflow_icon_pressed_state_bg_color_dark">#40000000</color>
+    <color name="overflow_icon_pressed_state_bg_color_light">#40ffffff</color>
+    <color name="recurrence_menu_divider_color">#30888888</color>
+    <color name="sp_primary_text_default_material_dark">#ffffffff</color>
+    <color name="sp_ripple_material_dark">#33ffffff</color>
+    <color name="sp_secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="timepicker_default_numbers_background_color_material">@android:color/transparent
+    </color>
+    <declare-styleable name="ButtonLayout"><attr format="enum" name="spPresentation"><enum name="spButton" value="0"/><enum name="spIcon" value="1"/></attr><attr format="reference" name="spOkActionDrawable"/><attr format="reference" name="spCancelActionDrawable"/><attr format="color" name="spIconColor"/><attr format="color" name="spButtonBgColor"/><attr format="color" name="spButtonPressedBgColor"/><attr format="color" name="spButtonBarBgColor"/><attr format="reference" name="spButtonModeOkCancelButtonStyle"/><attr format="reference" name="spButtonModeSwitcherButtonStyle"/><attr format="color" name="spButtonInvertedBgColor"/><attr format="color" name="spButtonPressedInvertedBgColor"/></declare-styleable>
+    <declare-styleable name="DayPickerView"><attr format="color" name="spDayPickerBgColor"/><attr format="reference" name="spMonthTextAppearance"/><attr format="reference" name="spWeekDayTextAppearance"/><attr format="reference" name="spDateTextAppearance"/><attr format="color" name="spDaySelectorColor"/><attr format="color" name="spDayHighlightColor"/></declare-styleable>
+    <declare-styleable name="MonthView"><attr format="integer" name="spSelectedDayCircleAlpha"/><attr format="color" name="spCalendarEnabledTextColor"/><attr name="spCalendarDisabledTextColor"/><attr format="color" name="spCalendarEnabledSelectedTextColor"/><attr format="color" name="spMonthNameTextColor"/><attr format="color" name="spDayNameTextColor"/></declare-styleable>
+    <declare-styleable name="RadialTimePickerView"><attr format="reference|color" name="spNumbersTextColor"/><attr format="color" name="spNumbersSelectorColor"/><attr name="spNumbersBackgroundColor"/><attr format="color" name="spNumbersInnerTextColor"/></declare-styleable>
+    <declare-styleable name="RecurrenceOptionCreator"><attr name="spHeaderBackground"/><attr format="enum" name="spEndDateFormat"><enum name="spShortFormat" value="0"/><enum name="spMediumFormat" value="1"/></attr><attr format="reference" name="spRocLabelTextAppearance"/><attr format="reference" name="spRocWeekButtonStyle"/><attr format="reference" name="spRocFreqSpinnerStyle"/><attr format="reference" name="spRocEndSpinnerStyle"/><attr format="reference" name="spRocFreqSpinnerItemStyle"/><attr format="reference" name="spRocEndDateStyle"/><attr format="reference" name="spRocEndSpinnerItemStyle"/><attr format="reference" name="spRocEndSpinnerDropDownItemStyle"/><attr format="reference" name="spWeekButtonUnselectedTextColor"/><attr format="reference" name="spWeekButtonSelectedTextColor"/><attr format="reference" name="spWeekButtonSelectedCircleColor"/></declare-styleable>
+    <declare-styleable name="SublimeDatePicker"><attr format="integer" name="spFirstDayOfWeek"/><attr format="string" name="spMinDate"/><attr format="string" name="spMaxDate"/><attr name="spHeaderBackground"/><attr format="color" name="spHeaderTextColor"/><attr format="reference" name="spYearListItemActivatedTextAppearance"/><attr format="color|reference" name="spCalendarTextColor"/></declare-styleable>
+    <declare-styleable name="SublimePicker"><attr name="spDatePickerStyle"/><attr name="spMonthViewStyle"/><attr name="spDayPickerStyle"/><attr name="spTimePickerStyle"/><attr name="spRadialTimePickerStyle"/><attr name="spHeaderBackgroundPtr"/><attr name="spCalendarDayTextColorPtr"/><attr name="spPrimaryTextSecondaryWhenActivatedMaterialInversePtr"/><attr name="spNumbersTextColorPtr"/><attr name="spNumbersBackgroundColorPtr"/><attr name="spNumbersInnerTextColorPtr"/><attr name="spButtonLayoutStyle"/><attr name="spLandscapeOkActionDrawable"/><attr name="spLandscapeCancelActionDrawable"/><attr name="spLandscapeButtonModeOkCancelButtonStyle"/><attr name="spLandscapeButtonModeSwitcherButtonStyle"/><attr name="spRecurrenceOptionCreatorStyle"/><attr name="spRecurrencePickerStyle"/><attr name="spOverflowIconColor"/><attr name="spOverflowIconPressedBgColor"/></declare-styleable>
+    <declare-styleable name="SublimeRecurrencePicker"><attr format="reference" name="spRecurrencePickerHeadingStyle"/><attr format="reference" name="spRecurrencePickerOptionsStyle"/><attr name="spHeaderBackground"/><attr name="spPickerBackground"/><attr format="color" name="spSelectedOptionTextColor"/><attr format="color" name="spUnselectedOptionsTextColor"/><attr format="color" name="spPressedOptionBgColor"/><attr format="reference" name="spSelectedOptionDrawable"/></declare-styleable>
+    <declare-styleable name="SublimeTimePicker"><attr name="spHeaderBackground"/><attr name="spHeaderTextColor"/></declare-styleable>
+    <declare-styleable name="YearPickerView"><attr format="reference" name="spYearListItemTextAppearance"/><attr format="color" name="spYearListSelectorColor"/><attr format="color" name="spYearPickerBgColor"/></declare-styleable>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="button_inset_horizontal_material">4dp</dimen>
+    <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_padding_horizontal_material">8dp</dimen>
+    <dimen name="button_padding_vertical_material">4dp</dimen>
+    <dimen name="close_drawable_size">32dp</dimen>
+    <dimen name="control_corner_material">2dp</dimen>
+    <dimen name="datepicker_component_width">260dp</dimen>
+    <dimen name="datepicker_day_number_select_circle_radius">13.5dp</dimen>
+    <dimen name="datepicker_day_number_size">12sp</dimen>
+    <dimen name="datepicker_dialog_width">520dp</dimen>
+    <dimen name="datepicker_header_height">30dp</dimen>
+    <dimen name="datepicker_header_text_size">14dp</dimen>
+    <dimen name="datepicker_month_day_label_text_size">12sp</dimen>
+    <dimen name="datepicker_month_label_size">14sp</dimen>
+    <dimen name="datepicker_month_list_item_header_height">48dp</dimen>
+    <dimen name="datepicker_selected_date_day_size">88dp</dimen>
+    <dimen name="datepicker_selected_date_month_size">24dp</dimen>
+    <dimen name="datepicker_selected_date_year_size">24dp</dimen>
+    <dimen name="datepicker_view_animator_height">226dp</dimen>
+    <dimen name="datepicker_year_label_height">64dp</dimen>
+    <dimen name="datepicker_year_label_text_size">14dp</dimen>
+    <dimen name="datepicker_year_picker_padding_top">8dp</dimen>
+    <dimen name="fake_shadow_inset">1dp</dimen>
+    <dimen name="fake_shadow_size">8dp</dimen>
+    <dimen name="options_size">36dp</dimen>
+    <dimen name="recurrence_picker_height">220dp</dimen>
+    <dimen name="recurrence_picker_width">300dp</dimen>
+    <dimen name="repeat_options_menu_top_margin">10dp</dimen>
+    <dimen name="selected_recurrence_option_drawable_padding">24dp</dimen>
+    <dimen name="sp_button_bar_padding_bottom">8dp</dimen>
+    <dimen name="sp_button_bar_padding_end">12dp</dimen>
+    <dimen name="sp_button_bar_padding_start">12dp</dimen>
+    <dimen name="sp_button_bar_padding_top">8dp</dimen>
+    <dimen name="sp_date_picker_date_label_size">34dp</dimen>
+    <dimen name="sp_date_picker_date_range_label_size">18dp</dimen>
+    <dimen name="sp_date_picker_day_height">40dp</dimen>
+    <dimen name="sp_date_picker_day_of_week_height">36dp</dimen>
+    <dimen name="sp_date_picker_day_of_week_text_size">12sp</dimen>
+    <dimen name="sp_date_picker_day_selector_radius">20dp</dimen>
+    <dimen name="sp_date_picker_day_text_size">12sp</dimen>
+    <dimen name="sp_date_picker_day_width">44dp</dimen>
+    <dimen name="sp_date_picker_month_height">56dp</dimen>
+    <dimen name="sp_date_picker_month_text_size">14sp</dimen>
+    <dimen name="sp_datepicker_list_year_activated_label_size">26sp</dimen>
+    <dimen name="sp_datepicker_list_year_label_size">16sp</dimen>
+    <dimen name="sp_day_picker_padding_horizontal">20dp</dimen>
+    <dimen name="sp_day_picker_padding_top">6dp</dimen>
+    <dimen name="sp_dialog_button_bar_height">48dip</dimen>
+    <dimen name="sp_month_scroll_threshold">30dp</dimen>
+    <dimen name="sp_month_view_range_padding">1dp</dimen>
+    <dimen name="sp_timepicker_am_top_padding">4dp</dimen>
+    <dimen name="sp_timepicker_ampm_horizontal_padding">16dp</dimen>
+    <dimen name="sp_timepicker_ampm_label_size">16dp</dimen>
+    <dimen name="sp_timepicker_center_dot_radius">3dp</dimen>
+    <dimen name="sp_timepicker_header_height">96dp</dimen>
+    <dimen name="sp_timepicker_pm_top_padding">4dp</dimen>
+    <dimen name="sp_timepicker_radial_picker_dimen">296dp</dimen>
+    <dimen name="sp_timepicker_radial_picker_horizontal_margin">16dp</dimen>
+    <dimen name="sp_timepicker_radial_picker_top_margin">16dp</dimen>
+    <dimen name="sp_timepicker_selector_dot_radius">2dp</dimen>
+    <dimen name="sp_timepicker_selector_radius">20dp</dimen>
+    <dimen name="sp_timepicker_selector_stroke">2dp</dimen>
+    <dimen name="sp_timepicker_separator_padding">2dp</dimen>
+    <dimen name="sp_timepicker_text_inset_inner">58dp</dimen>
+    <dimen name="sp_timepicker_text_inset_normal">22dp</dimen>
+    <dimen name="sp_timepicker_text_size_inner">12sp</dimen>
+    <dimen name="sp_timepicker_text_size_normal">16sp</dimen>
+    <dimen name="sp_timepicker_time_label_size">60dp</dimen>
+    <dimen name="text_size_body_1">14sp</dimen>
+    <dimen name="text_size_button_material">14sp</dimen>
+    <dimen name="timepicker_ampm_horizontal_padding">12dp</dimen>
+    <dimen name="timepicker_ampm_label_size">16sp</dimen>
+    <dimen name="timepicker_ampm_vertical_padding">16dp</dimen>
+    <dimen name="timepicker_header_height">96dp</dimen>
+    <dimen name="timepicker_left_side_width">250dip</dimen>
+    <dimen name="timepicker_pm_top_padding">3dp</dimen>
+    <dimen name="timepicker_radial_picker_dimen">270dp</dimen>
+    <dimen name="timepicker_separator_padding">4dp</dimen>
+    <dimen name="timepicker_time_label_size">60sp</dimen>
+    <dimen name="week_button_size">60dp</dimen>
+    <dimen name="week_button_state_on_circle_size">48dp</dimen>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="sp_disabled_alpha_animation_duration">100</integer>
+    <integer name="sp_time_picker_column_end_material">1</integer>
+    <integer name="sp_time_picker_column_start_material">0</integer>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">Daily</item>
+        <item quantity="other">Every <ns1:g id="number">%d</ns1:g> days</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; for one time</item>
+        <item quantity="other">; for <ns1:g id="number">%d</ns1:g> times</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <ns1:g id="event_count">%d</ns1:g> event</item>
+        <item quantity="other">For <ns1:g id="event_count">%d</ns1:g> events</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <ns1:g id="count">%d</ns1:g> day</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <ns1:g id="count">%d</ns1:g> days</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <ns1:g id="count">%d</ns1:g> month</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <ns1:g id="count">%d</ns1:g> months</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <ns1:g id="count">%d</ns1:g> week</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <ns1:g id="count">%d</ns1:g> weeks</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <ns1:g id="count">%d</ns1:g> year</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <ns1:g id="count">%d</ns1:g> years</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Weekly on <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Every <ns1:g id="number">%1$d</ns1:g> weeks on <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+    <string name="cancel">Cancel</string>
+    <string name="cd_negative_component">Cancel, do not set date/time</string>
+    <string name="cd_positive_component">ok, set date/time</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="day_of_week_label_typeface">sans-serif</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="day_picker_description">Month grid of days</string>
+    <string name="deleted_key"><ns1:g example="4" id="key">%1$s</ns1:g> deleted</string>
+    <string name="endByDate">; until <ns1:g id="date">%s</ns1:g></string>
+    <string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="font_family_body_1">sans-serif</string>
+    <string name="font_family_button_material">sans-serif</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="item_is_selected"><ns1:g example="2013" id="item">%1$s</ns1:g> selected</string>
+    <string name="monthly">Monthly</string>
+    <string name="ok">OK</string>
+    <string name="recurrence_custom">custom…</string>
+    <string name="recurrence_daily">every day</string>
+    <string name="recurrence_does_not_repeat">does not repeat</string>
+    <string name="recurrence_end_continously">Forever</string>
+    <string name="recurrence_end_count_label">For a number of events</string>
+    <string name="recurrence_end_date">Until <ns1:g id="date">%s</ns1:g></string>
+    <string name="recurrence_end_date_label">Until a date</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="recurrence_end_date_picker_tag">redp</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="recurrence_heading">repeat options</string>
+    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+    <string name="recurrence_monthly">every month</string>
+    <string name="recurrence_weekly">every week</string>
+    <string name="recurrence_yearly">every year</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="sans_serif">sans-serif</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="select_day">Select month and day</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="select_year">Select year</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="sp_date_picker_day_of_week_typeface">sans-serif-medium</string>
+    <string name="sp_date_picker_day_typeface">sans-serif-medium</string>
+    <string name="sp_date_picker_month_typeface">sans-serif-medium</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="sp_date_picker_next_month_button">Next month</string>
+    <string name="sp_date_picker_prev_month_button">Previous month</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="sublime_date_picker_tag">sdp</string>
+    <string name="time_placeholder">--</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <item format="float" name="timepicker_circle_radius_multiplier" type="string">0.82</item>
+    <item format="float" name="timepicker_circle_radius_multiplier_24HourMode" type="string">0.85
+    </item>
+    <item format="float" name="timepicker_numbers_radius_multiplier_inner" type="string">0.60</item>
+    <item format="float" name="timepicker_numbers_radius_multiplier_normal" type="string">0.81
+    </item>
+    <item format="float" name="timepicker_numbers_radius_multiplier_outer" type="string">0.83</item>
+    <item format="float" name="timepicker_selection_radius_multiplier" type="string">0.16</item>
+    <item format="float" name="timepicker_text_size_multiplier_inner" type="string">0.14</item>
+    <item format="float" name="timepicker_text_size_multiplier_normal" type="string">0.17</item>
+    <item format="float" name="timepicker_text_size_multiplier_outer" type="string">0.11</item>
+    <item format="float" name="timepicker_transition_end_radius_multiplier" type="string">1.3</item>
+    <item format="float" name="timepicker_transition_mid_radius_multiplier" type="string">0.95
+    </item>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="year_picker_description">Year list</string>
+    <string name="yearly_plain">Yearly</string>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="BaseRecurrenceOptionCreatorEndSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+    <style name="BaseRecurrenceOptionCreatorFreqSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+    <style name="ButtonLayoutStyle">
+        <item name="spPresentation">spButton</item>
+        <item name="spOkActionDrawable">@drawable/checkmark_medium_ff</item>
+        <item name="spCancelActionDrawable">@drawable/cancel_medium_ff</item>
+        <item name="spIconColor">?attr/colorAccent</item>
+        <item name="spButtonBgColor">?attr/colorButtonNormal</item>
+        <item name="spButtonPressedBgColor">?attr/colorControlHighlight</item>
+        <item name="spButtonBarBgColor">@android:color/transparent</item>
+        <item name="spButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
+        <item name="spButtonModeSwitcherButtonStyle">?attr/spButtonModeOkCancelButtonStyle</item>
+        <item name="spButtonInvertedBgColor">?attr/colorAccent</item>
+        <item name="spButtonPressedInvertedBgColor">@color/sp_ripple_material_dark</item>
+    </style>
+    <style name="DayPickerViewStyle">
+        <item name="spDayPickerBgColor">@android:color/transparent</item>
+        <item name="spMonthTextAppearance">@style/SPMonthLabelTextAppearance</item>
+        <item name="spWeekDayTextAppearance">@style/SPWeekDayLabelTextAppearance</item>
+        <item name="spDateTextAppearance">@style/SPDayTextAppearance</item>
+        <item name="spDaySelectorColor">?attr/colorControlActivated</item>
+        <item name="spDayHighlightColor">?attr/colorControlHighlight</item>
+    </style>
+    <style name="EndSpinnerDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">@style/STextAppearance.EndSpinnerDropDownItem</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="EndSpinnerItemStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/STextAppearance.EndSpinnerItem</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="FreqSpinnerItemStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/STextAppearance.FreqSpinnerItem</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="MonthViewStyle">
+        <item name="spSelectedDayCircleAlpha">60</item>
+        <item name="spCalendarEnabledTextColor">?android:attr/textColorSecondary</item>
+        <item name="spCalendarDisabledTextColor">?attr/spCalendarDisabledTextColor</item>
+        <item name="spCalendarEnabledSelectedTextColor">?attr/colorAccent</item>
+        <item name="spMonthNameTextColor">?android:attr/textColorSecondary</item>
+        <item name="spDayNameTextColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="RadialTimePickerViewStyle">
+        <item name="spNumbersTextColor">?attr/spNumbersTextColorPtr</item>
+        <item name="spNumbersSelectorColor">?attr/colorControlActivated</item>
+        <item name="spNumbersBackgroundColor">?attr/spNumbersBackgroundColorPtr</item>
+        <item name="spNumbersInnerTextColor">?attr/spNumbersInnerTextColorPtr</item>
+    </style>
+    <style name="RecurrenceOptionCreatorEndDateStyle">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">@style/STextAppearance.EndDate</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:contentDescription">
+            @string/acessibility_recurrence_choose_end_date_description
+        </item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="RecurrenceOptionCreatorEndSpinnerStyle" parent="BaseRecurrenceOptionCreatorEndSpinnerStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="RecurrenceOptionCreatorFreqSpinnerStyle" parent="BaseRecurrenceOptionCreatorFreqSpinnerStyle">
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="RecurrenceOptionCreatorStyle">
+        <item name="spHeaderBackground">?attr/colorAccent</item>
+        <item name="spEndDateFormat">spMediumFormat</item>
+        <item name="spRocLabelTextAppearance">
+            @style/STextAppearance.RecurrenceOptionCreatorLabelStyle
+        </item>
+        <item name="spRocWeekButtonStyle">
+            @style/RecurrenceOptionCreatorWeekButtonStyle
+        </item>
+        <item name="spRocEndDateStyle">
+            @style/RecurrenceOptionCreatorEndDateStyle
+        </item>
+        <item name="spRocFreqSpinnerStyle">@style/RecurrenceOptionCreatorFreqSpinnerStyle</item>
+        <item name="spRocEndSpinnerStyle">@style/RecurrenceOptionCreatorEndSpinnerStyle</item>
+        <item name="spRocFreqSpinnerItemStyle">@style/FreqSpinnerItemStyle</item>
+        <item name="spRocEndSpinnerItemStyle">@style/EndSpinnerItemStyle</item>
+        <item name="spRocEndSpinnerDropDownItemStyle">@style/EndSpinnerDropDownItemStyle</item>
+        <item name="spWeekButtonUnselectedTextColor">?attr/colorAccent</item>
+        <item name="spWeekButtonSelectedTextColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="spWeekButtonSelectedCircleColor">?attr/colorAccent</item>
+    </style>
+    <style name="RecurrenceOptionCreatorWeekButtonStyle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="RecurrencePickerHeadingStyle">
+        <item name="android:textAppearance">
+            @style/STextAppearance.RecurrencePickerHeadingTextAppearance
+        </item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="RecurrencePickerOptionsStyle">
+        <item name="android:textAppearance">
+            @style/STextAppearance.RecurrencePickerOptionsTextAppearance
+        </item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="SButtonBarButtonStyle" parent="SButtonBarButtonStyleBase"/>
+    <style name="SButtonBarButtonStyleBase">
+        <item name="android:textAppearance">@style/SButtonTextAppearance</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minHeight">@dimen/sp_dialog_button_bar_height</item>
+    </style>
+    <style name="SButtonBarStyle">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="SButtonTextAppearance" parent="STextAppearanceBase.BaseButton"/>
+    <style name="SInvertedButtonBarButtonStyle" parent="SButtonBarButtonStyleBase"/>
+    <style name="SPAmPmLabelTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/sp_timepicker_ampm_label_size</item>
+        <item name="android:textColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+    </style>
+    <style name="SPDateLabelTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+        <item name="android:textSize">@dimen/sp_date_picker_date_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SPDateRangeLabelTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+        <item name="android:textSize">@dimen/sp_date_picker_date_range_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SPDayTextAppearance" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/spCalendarDayTextColorPtr</item>
+    </style>
+    <style name="SPMonthLabelTextAppearance" parent="TextAppearance.AppCompat.Body2"/>
+    <style name="SPTimeLabelTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_timepicker_time_label_size</item>
+        <item name="android:textColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+    </style>
+    <style name="SPWeekDayLabelTextAppearance" parent="TextAppearance.AppCompat.Caption"/>
+    <style name="SPYearLabelActivatedTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorControlActivated</item>
+        <item name="android:textSize">@dimen/sp_datepicker_list_year_activated_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="SPYearLabelTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/sp_datepicker_list_year_label_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="STextAppearance" parent="STextAppearanceBase"/>
+    <style name="STextAppearance.DatePicker.DayOfMonthLabel" parent="STextAppearance">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/datepicker_selected_date_day_size</item>
+    </style>
+    <style name="STextAppearance.DatePicker.DayOfWeekLabel" parent="STextAppearance">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textSize">@dimen/datepicker_header_text_size</item>
+    </style>
+    <style name="STextAppearance.DatePicker.List.YearLabel" parent="STextAppearance">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/datepicker_year_label_text_size</item>
+    </style>
+    <style name="STextAppearance.DatePicker.MonthLabel" parent="STextAppearance">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/datepicker_selected_date_month_size</item>
+    </style>
+    <style name="STextAppearance.DatePicker.YearLabel" parent="STextAppearance">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/datepicker_selected_date_year_size</item>
+    </style>
+    <style name="STextAppearance.EndDate">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="STextAppearance.EndSpinnerDropDownItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="STextAppearance.EndSpinnerItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="STextAppearance.FreqSpinnerItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="STextAppearance.RecurrenceOptionCreatorLabelStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="STextAppearance.RecurrencePickerHeadingTextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="STextAppearance.RecurrencePickerOptionsTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="STextAppearance.TimePicker.AmPmLabel" parent="STextAppearance">
+        <item name="android:textSize">@dimen/timepicker_ampm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="STextAppearance.TimePicker.TimeLabel" parent="STextAppearance">
+        <item name="android:textSize">@dimen/timepicker_time_label_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <style name="STextAppearanceBase">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="android:textColorLink">?android:attr/textColorLink</item>
+        <item name="android:textSize">@dimen/text_size_body_1</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="STextAppearanceBase.BaseButton">
+        <item name="android:textSize">@dimen/text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="SublimeDatePickerStyle">
+        <item name="spFirstDayOfWeek">0</item>
+        <item name="spHeaderBackground">?spHeaderBackgroundPtr</item>
+        <item name="spMinDate">01/01/1900</item>
+        <item name="spMaxDate">12/31/2100</item>
+        <item name="spHeaderTextColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+    </style>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="SublimePickerStyleDark" parent="Theme.AppCompat">
+        <item name="spDatePickerStyle">@style/SublimeDatePickerStyle</item>
+        <item name="spTimePickerStyle">@style/SublimeTimePickerStyle</item>
+        <item name="spRecurrencePickerStyle">@style/SublimeRecurrencePickerStyle</item>
+        <item name="spRecurrenceOptionCreatorStyle">@style/RecurrenceOptionCreatorStyle</item>
+        <item name="spNumbersBackgroundColor">#10ffffff</item>
+        <item name="spCalendarDisabledTextColor">@color/calendar_disabled_text_color_dark</item>
+        <item name="spButtonLayoutStyle">@style/ButtonLayoutStyle</item>
+        <item name="spDayPickerStyle">@style/DayPickerViewStyle</item>
+        <item name="spRadialTimePickerStyle">@style/RadialTimePickerViewStyle</item>
+        <item name="spOverflowIconColor">?android:attr/textColorPrimary</item>
+        <item name="spOverflowIconPressedBgColor">
+            @color/overflow_icon_pressed_state_bg_color_light
+        </item>
+        <!-- Material (API 23) -->
+        <item name="spHeaderBackgroundPtr">#ff555555</item>
+        <item name="spCalendarDayTextColorPtr">@color/sp_primary_text_dark</item>
+        <item name="spPrimaryTextSecondaryWhenActivatedMaterialInversePtr">@color/sp_multi_use_text_dark</item>
+        <item name="spNumbersTextColorPtr">@color/sp_text_color_primary_activated_dark</item>
+        <item name="spNumbersBackgroundColorPtr">#ff555555</item>
+        <item name="spNumbersInnerTextColorPtr">@color/sp_text_color_secondary_activated_dark</item>
+
+        <!-- Button: landscape styles -->
+        <item name="spLandscapeOkActionDrawable">@drawable/checkmark_medium_ff</item>
+        <item name="spLandscapeCancelActionDrawable">@drawable/cancel_medium_ff</item>
+        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
+        <item name="spLandscapeButtonModeSwitcherButtonStyle">@style/SInvertedButtonBarButtonStyle</item>
+    </style>
+    <style name="SublimePickerStyleLight" parent="Theme.AppCompat.Light">
+        <item name="spDatePickerStyle">@style/SublimeDatePickerStyle</item>
+        <item name="spTimePickerStyle">@style/SublimeTimePickerStyle</item>
+        <item name="spRecurrencePickerStyle">@style/SublimeRecurrencePickerStyle</item>
+        <item name="spRecurrenceOptionCreatorStyle">@style/RecurrenceOptionCreatorStyle</item>
+        <item name="spNumbersBackgroundColor">#10000000</item>
+        <item name="spCalendarDisabledTextColor">@color/calendar_disabled_text_color_light</item>
+        <item name="spButtonLayoutStyle">@style/ButtonLayoutStyle</item>
+        <item name="spDayPickerStyle">@style/DayPickerViewStyle</item>
+        <item name="spRadialTimePickerStyle">@style/RadialTimePickerViewStyle</item>
+        <item name="spOverflowIconColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="spOverflowIconPressedBgColor">
+            @color/overflow_icon_pressed_state_bg_color_light
+        </item>
+        <!-- Material (API 23) -->
+        <item name="spHeaderBackgroundPtr">?attr/colorAccent</item>
+        <item name="spCalendarDayTextColorPtr">@color/sp_primary_text_light</item>
+        <item name="spPrimaryTextSecondaryWhenActivatedMaterialInversePtr">@color/sp_multi_use_text_light</item>
+        <item name="spNumbersTextColorPtr">@color/sp_text_color_primary_activated_light</item>
+        <item name="spNumbersBackgroundColorPtr">#ffdddddd</item>
+        <item name="spNumbersInnerTextColorPtr">@color/sp_text_color_secondary_activated_light</item>
+
+        <!-- Button: landscape styles -->
+        <item name="spLandscapeOkActionDrawable">@drawable/checkmark_medium_ff</item>
+        <item name="spLandscapeCancelActionDrawable">@drawable/cancel_medium_ff</item>
+        <item name="spLandscapeButtonModeOkCancelButtonStyle">@style/SButtonBarButtonStyle</item>
+        <item name="spLandscapeButtonModeSwitcherButtonStyle">@style/SInvertedButtonBarButtonStyle</item>
+    </style>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="SublimeRecurrencePickerStyle">
+        <item name="spRecurrencePickerHeadingStyle">@style/RecurrencePickerHeadingStyle</item>
+        <item name="spRecurrencePickerOptionsStyle">@style/RecurrencePickerOptionsStyle</item>
+        <item name="spHeaderBackground">?attr/colorAccent</item>
+        <item name="spPickerBackground">@android:color/transparent</item>
+        <item name="spSelectedOptionTextColor">?attr/colorAccent</item>
+        <item name="spUnselectedOptionsTextColor">?android:attr/textColorPrimary</item>
+        <item name="spPressedOptionBgColor">?attr/colorControlHighlight</item>
+        <item name="spSelectedOptionDrawable">@drawable/checkmark_medium_ff</item>
+    </style>
+    <style name="SublimeTimePickerStyle">
+        <item name="spHeaderBackground">?spHeaderBackgroundPtr</item>
+        <item name="spHeaderTextColor">?attr/spPrimaryTextSecondaryWhenActivatedMaterialInversePtr</item>
+    </style>
+    <style name="YearPickerViewStyle">
+        <item name="spYearListItemTextAppearance">@style/STextAppearance.DatePicker.List.YearLabel
+        </item>
+        <item name="spYearListSelectorColor">?attr/colorControlActivated</item>
+        <item name="spYearPickerBgColor">@android:color/transparent</item>
+    </style>
+</resources>

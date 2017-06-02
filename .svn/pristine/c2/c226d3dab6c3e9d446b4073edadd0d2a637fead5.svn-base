@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-sk/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"OPAKOVAŤ DENNE"</item>
+        <item>"OPAKOVAŤ TÝŽDENNE"</item>
+        <item>"OPAKOVAŤ MESAČNE"</item>
+        <item>"OPAKOVAŤ ROČNE"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"každý prvý piatok"</item>
+        <item>"každý druhý piatok"</item>
+        <item>"každý tretí piatok"</item>
+        <item>"každý štvrtý piatok"</item>
+        <item>"každý posledný piatok"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"každý prvý pondelok"</item>
+        <item>"každý druhý pondelok"</item>
+        <item>"každý tretí pondelok"</item>
+        <item>"každý štvrtý pondelok"</item>
+        <item>"každý posledný pondelok"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"každú prvú sobotu"</item>
+        <item>"každú druhú sobotu"</item>
+        <item>"každú tretiu sobotu"</item>
+        <item>"každú štvrtú sobotu"</item>
+        <item>"každú poslednú sobotu"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"každú prvú nedeľu"</item>
+        <item>"každú druhú nedeľu"</item>
+        <item>"každú tretiu nedeľu"</item>
+        <item>"každú štvrtú nedeľu"</item>
+        <item>"každú poslednú nedeľu"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"každý prvý štvrtok"</item>
+        <item>"každý druhý štvrtok"</item>
+        <item>"každý tretí štvrtok"</item>
+        <item>"každý štvrtý štvrtok"</item>
+        <item>"každý posledný štvrtok"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"každý prvý utorok"</item>
+        <item>"každý druhý utorok"</item>
+        <item>"každý tretí utorok"</item>
+        <item>"každý štvrtý utorok"</item>
+        <item>"každý posledný utorok"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"každú prvú stredu"</item>
+        <item>"každú druhú stredu"</item>
+        <item>"každú tretiu stredu"</item>
+        <item>"každú štvrtú stredu"</item>
+        <item>"každú poslednú stredu"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Denne"</item>
+        <item quantity="other">"Vždy po <ns1:g id="NUMBER">%d</ns1:g> dňoch"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">", jednorazovo"</item>
+        <item quantity="other">", <ns1:g id="NUMBER">%d</ns1:g>-krát"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Pre <ns1:g id="EVENT_COUNT">%d</ns1:g> udalosť"</item>
+        <item quantity="other">"Pre <ns1:g id="EVENT_COUNT">%d</ns1:g> udalosti/-í"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Raz za <ns1:g id="COUNT">%d</ns1:g> d."</item>
+        <item quantity="other">"Raz za <ns1:g id="COUNT">%d</ns1:g> d."</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Raz za <ns1:g id="COUNT">%d</ns1:g> mes."</item>
+        <item quantity="other">"Raz za <ns1:g id="COUNT">%d</ns1:g> mes."</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Raz za <ns1:g id="COUNT">%d</ns1:g> týžd."</item>
+        <item quantity="other">"Raz za <ns1:g id="COUNT">%d</ns1:g> týžd."</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Raz za <ns1:g id="COUNT">%d</ns1:g> r."</item>
+        <item quantity="other">"Raz za <ns1:g id="COUNT">%d</ns1:g> r."</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Každý týždeň v <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Raz za <ns1:g id="NUMBER">%1$d</ns1:g> týžd. v <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"zmeniť dátum ukončenia"</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="day_picker_description">"Tabuľka dní v mesiaci"</string>
+    <string name="deleted_key">"Číslo <ns1:g id="KEY">%1$s</ns1:g> bolo odstránené"</string>
+    <string name="endByDate">", do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Každý pracovný deň (Po. – Pi.)"</string>
+    <string name="item_is_selected">"Bola vybratá položka <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Mesačne"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Stále"</string>
+    <string name="recurrence_end_count_label">"Pre určitý počet udalostí"</string>
+    <string name="recurrence_end_date">"Do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Do dátumu"</string>
+    <string name="recurrence_month_pattern_by_day">"mesačne v ten istý deň"</string>
+    <string name="select_day">"Vyberte mesiac a deň"</string>
+    <string name="select_hours">"Vyberte hodiny"</string>
+    <string name="select_minutes">"Vyberte minúty"</string>
+    <string name="select_year">"Vyberte rok"</string>
+    <string name="year_picker_description">"Zoznam rokov"</string>
+    <string name="yearly_plain">"Ročne"</string>
+</resources>

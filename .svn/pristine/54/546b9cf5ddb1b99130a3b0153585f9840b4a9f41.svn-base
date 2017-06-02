@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"每天重複"</item>
+        <item>"每週重複"</item>
+        <item>"每月重複"</item>
+        <item>"每年重複"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"每月第一個週五"</item>
+        <item>"每月第二個週五"</item>
+        <item>"每月第三個週五"</item>
+        <item>"每月第四個週五"</item>
+        <item>"每月最後一個週五"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"每月第一個週一"</item>
+        <item>"每月第二個週一"</item>
+        <item>"每月第三個週一"</item>
+        <item>"每月第四個週一"</item>
+        <item>"每月最後一個週一"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"每月第一個週六"</item>
+        <item>"每月第二個週六"</item>
+        <item>"每月第三個週六"</item>
+        <item>"每月第四個週六"</item>
+        <item>"每月最後一個週六"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"每月第一個週日"</item>
+        <item>"每月第二個週日"</item>
+        <item>"每月第三個週日"</item>
+        <item>"每月第四個週日"</item>
+        <item>"每月最後一個週日"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"每月第一個週四"</item>
+        <item>"每月第二個週四"</item>
+        <item>"每月第三個週四"</item>
+        <item>"每月第四個週四"</item>
+        <item>"每月最後一個週四"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"每月第一個週二"</item>
+        <item>"每月第二個週二"</item>
+        <item>"每月第三個週二"</item>
+        <item>"每月第四個週二"</item>
+        <item>"每月最後一個週二"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"每月第一個週三"</item>
+        <item>"每月第二個週三"</item>
+        <item>"每月第三個週三"</item>
+        <item>"每月第四個週三"</item>
+        <item>"每月最後一個週三"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"每天"</item>
+        <item quantity="other">"每 <ns1:g id="NUMBER">%d</ns1:g> 天"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"；1 次"</item>
+        <item quantity="other">"；<ns1:g id="NUMBER">%d</ns1:g> 次"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"重複 <ns1:g id="EVENT_COUNT">%d</ns1:g> 次活動"</item>
+        <item quantity="other">"重複 <ns1:g id="EVENT_COUNT">%d</ns1:g> 次活動"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"每 <ns1:g id="COUNT">%d</ns1:g> 天"</item>
+        <item quantity="other">"每 <ns1:g id="COUNT">%d</ns1:g> 天"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"每 <ns1:g id="COUNT">%d</ns1:g> 個月"</item>
+        <item quantity="other">"每 <ns1:g id="COUNT">%d</ns1:g> 個月"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"每 <ns1:g id="COUNT">%d</ns1:g> 週"</item>
+        <item quantity="other">"每 <ns1:g id="COUNT">%d</ns1:g> 週"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"每 <ns1:g id="COUNT">%d</ns1:g> 年"</item>
+        <item quantity="other">"每 <ns1:g id="COUNT">%d</ns1:g> 年"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"每週 (每<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+        <item quantity="other">"每 <ns1:g id="NUMBER">%1$d</ns1:g> 週 (每<ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"變更結束日期"</string>
+    <string name="cancel">"取消"</string>
+    <string name="day_picker_description">"日期網格 (按月顯示)"</string>
+    <string name="deleted_key">"已刪除 <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string name="endByDate">"；直到 <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"平日 (週一至週五)"</string>
+    <string name="item_is_selected">"已選取 <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"每月"</string>
+    <string name="ok">"確定"</string>
+    <string name="recurrence_end_continously">"無限期"</string>
+    <string name="recurrence_end_count_label">"固定次數重複"</string>
+    <string name="recurrence_end_date">"結束日期：<ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"直到指定日期為止"</string>
+    <string name="recurrence_month_pattern_by_day">"每月的同一天"</string>
+    <string name="select_day">"選取月份和日期"</string>
+    <string name="select_hours">"選取小時數"</string>
+    <string name="select_minutes">"選取分鐘數"</string>
+    <string name="select_year">"選取年份"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"年份清單"</string>
+    <string name="yearly_plain">"每年"</string>
+</resources>

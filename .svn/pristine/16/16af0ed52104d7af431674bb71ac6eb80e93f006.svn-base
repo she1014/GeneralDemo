@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-fr/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"TOUS LES JOURS"</item>
+        <item>"TOUTES LES SEMAINES"</item>
+        <item>"TOUS LES MOIS"</item>
+        <item>"TOUS LES ANS"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"tous les premiers vendredis"</item>
+        <item>"tous les deuxièmes vendredis"</item>
+        <item>"tous les troisièmes vendredis"</item>
+        <item>"tous les quatrièmes vendredis"</item>
+        <item>"tous les derniers vendredis"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"tous les premiers lundis"</item>
+        <item>"tous les deuxièmes lundis"</item>
+        <item>"tous les troisièmes lundis"</item>
+        <item>"tous les quatrièmes lundis"</item>
+        <item>"tous les derniers lundis"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"tous les premiers samedis"</item>
+        <item>"tous les deuxièmes samedis"</item>
+        <item>"tous les troisièmes samedis"</item>
+        <item>"tous les quatrièmes samedis"</item>
+        <item>"tous les derniers samedis"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"tous les premiers dimanches"</item>
+        <item>"tous les deuxièmes dimanches"</item>
+        <item>"tous les troisièmes dimanches"</item>
+        <item>"tous les quatrièmes dimanches"</item>
+        <item>"tous les derniers dimanches"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"tous les premiers jeudis"</item>
+        <item>"tous les deuxièmes jeudis"</item>
+        <item>"tous les troisièmes jeudis"</item>
+        <item>"tous les quatrièmes jeudis"</item>
+        <item>"tous les derniers jeudis"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"tous les premiers mardis"</item>
+        <item>"tous les deuxièmes mardis"</item>
+        <item>"tous les troisièmes mardis"</item>
+        <item>"tous les quatrièmes mardis"</item>
+        <item>"tous les derniers mardis"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"tous les premiers mercredis"</item>
+        <item>"tous les deuxièmes mercredis"</item>
+        <item>"tous les troisièmes mercredis"</item>
+        <item>"tous les quatrièmes mercredis"</item>
+        <item>"tous les derniers mercredis"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Quotidien"</item>
+        <item quantity="other">"Tous les <ns1:g id="NUMBER">%d</ns1:g> jours"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; une seule fois"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> fois"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Pour <ns1:g id="EVENT_COUNT">%d</ns1:g> événement"</item>
+        <item quantity="other">"Pour <ns1:g id="EVENT_COUNT">%d</ns1:g> événements"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Tous les <ns1:g id="COUNT">%d</ns1:g> jour"</item>
+        <item quantity="other">"Tous les <ns1:g id="COUNT">%d</ns1:g> jours"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Tous les <ns1:g id="COUNT">%d</ns1:g> mois"</item>
+        <item quantity="other">"Tous les <ns1:g id="COUNT">%d</ns1:g> mois"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"<ns1:g id="COUNT">%d</ns1:g> fois par semaine"</item>
+        <item quantity="other">"Toutes les <ns1:g id="COUNT">%d</ns1:g> semaines"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Tous les <ns1:g id="COUNT">%d</ns1:g> an"</item>
+        <item quantity="other">"Tous les <ns1:g id="COUNT">%d</ns1:g> ans"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Hebdomadaire (le <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>)"</item>
+        <item quantity="other">"Toutes les <ns1:g id="NUMBER">%1$d</ns1:g> semaines le <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"modifier la date de fin"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="day_picker_description">"Calendrier mensuel sous forme de grille"</string>
+    <string name="deleted_key">"\"<ns1:g id="KEY">%1$s</ns1:g>\" supprimé"</string>
+    <string name="endByDate">"; jusqu\'au <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Jours ouvrés (lun–ven)"</string>
+    <string name="item_is_selected">"\"<ns1:g id="ITEM">%1$s</ns1:g>\" sélectionné"</string>
+    <string name="monthly">"Tous les mois"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Toujours"</string>
+    <string name="recurrence_end_count_label">"Pour une série d\'événements"</string>
+    <string name="recurrence_end_date">"Jusqu\'au <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Jusqu\'à une certaine date"</string>
+    <string name="recurrence_month_pattern_by_day">"le même jour chaque mois"</string>
+    <string name="select_day">"Sélectionner un mois et un jour"</string>
+    <string name="select_hours">"Sélectionner une heure"</string>
+    <string name="select_minutes">"Sélectionner des minutes"</string>
+    <string name="select_year">"Sélectionner une année"</string>
+    <string name="year_picker_description">"Liste des années"</string>
+    <string name="yearly_plain">"Tous les ans"</string>
+</resources>

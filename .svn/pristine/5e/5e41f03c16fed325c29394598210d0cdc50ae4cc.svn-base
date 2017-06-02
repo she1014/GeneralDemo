@@ -1,0 +1,21 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo23Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo23Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427535, "field 'detail_call_js_btn'");
+    target.detail_call_js_btn = finder.castView(view, 2131427535, "field 'detail_call_js_btn'");
+    view = finder.findRequiredView(source, 2131427538, "field 'detail_wv'");
+    target.detail_wv = finder.castView(view, 2131427538, "field 'detail_wv'");
+  }
+
+  @Override public void reset(T target) {
+    target.detail_call_js_btn = null;
+    target.detail_wv = null;
+  }
+}

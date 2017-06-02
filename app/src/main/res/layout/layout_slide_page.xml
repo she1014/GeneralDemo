@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4.7"
+        android:layout_height="0dp"
+        android:background="@drawable/qq_nls_change_again">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/slide_my_pic"
+                android:layout_marginTop="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/qq_me"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/slide_my_name"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="走吧走吧去吧去吧"
+                android:singleLine="true"
+                android:layout_alignTop="@id/slide_my_pic"
+                android:layout_toRightOf="@id/slide_my_pic"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/slide_my_pic"
+                android:layout_alignBottom="@id/slide_my_pic"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/qq_setting_me_qr_code_icon"
+                android:layout_marginRight="15dp"/>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/slide_my_name"
+                android:layout_alignLeft="@id/slide_my_name"
+                android:layout_alignBottom="@id/slide_my_pic"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qq_hdr"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/slide_my_qm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#aa000000"
+                android:textSize="13sp"
+                android:singleLine="true"
+                android:text=" 咔咔   1000001000 "
+                android:layout_below="@id/slide_my_pic"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@id/slide_my_pic"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/slide_list"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:background="#27C1f7"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        />
+
+    <!--<com.techfly.demo.activity.qq_demo.view.MyListView
+        android:id="@+id/slide_list"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:background="#27C1f7"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:listSelector="#00000000"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#27C1f7">
+
+        <TextView
+            android:id="@+id/slide_setting_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:text="设置"
+            android:drawableLeft="@drawable/qq_setting_setting"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="5dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

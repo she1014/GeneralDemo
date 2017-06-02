@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ຊ້ຳທຸກໆມື້"</item>
+        <item>"ຊ້ຳທຸກໆອາທິດ"</item>
+        <item>"ຊ້ຳທຸກໆເດືອນ"</item>
+        <item>"ຊ້ຳທຸກໆປີ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ໃນທຸກໆວັນສຸກທໍາອິດ"</item>
+        <item>"ໃນທຸກໆວັນສຸກທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນສຸກທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນສຸກທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນສຸກສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ໃນທຸກໆວັນຈັນທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນຈັນທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນຈັນທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນຈັນທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນຈັນສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ໃນທຸກໆວັນເສົາທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນເສົາທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນເສົາທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນເສົາທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນເສົາສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ໃນທຸກໆວັນອາທິດທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນອາທິດທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນອາທິດທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນອາທິດທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນອາທິດສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ໃນທຸກໆວັນພະຫັດທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນພະຫັດທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນພະຫັດທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນພະຫັດທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນພະຫັດທີສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ໃນທຸກໆວັນອັງຄານທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນອັງຄານທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນອັງຄານທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນອັງຄານທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນອັງຄານສຸດທ້າຍ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ໃນທຸກໆວັນພຸດທຳອິດ"</item>
+        <item>"ໃນທຸກໆວັນພຸດທີສອງ"</item>
+        <item>"ໃນທຸກໆວັນພຸດທີສາມ"</item>
+        <item>"ໃນທຸກໆວັນພຸດທີສີ່"</item>
+        <item>"ໃນທຸກໆວັນພຸດທີສຸດທ້າຍ"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"ປະຈໍາວັນ"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="NUMBER">%d</ns1:g> ມື້"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; ເທື່ອດຽວ"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> ເທື່ອ"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"ສໍາລັບ <ns1:g id="EVENT_COUNT">%d</ns1:g> ນັດໝາຍ"</item>
+        <item quantity="other">"ສໍາລັບ <ns1:g id="EVENT_COUNT">%d</ns1:g> ນັດໝາຍ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ມື້"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ມື້"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ເດືອນ"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ເດືອນ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ອາທິດ"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ອາທິດ"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ປີ"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="COUNT">%d</ns1:g> ປີ"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"ປະຈຳອາທິດໃນມື້ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"ທຸກໆ <ns1:g id="NUMBER">%1$d</ns1:g> ອາທິດໃນມື້ <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ກັບໄປໜ້າຫຼັກ"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ຂຶ້ນເທິງ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ໂຕເລືອກອື່ນ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ແລ້ວໆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ເບິ່ງທັງຫມົດ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ເລືອກແອັບຯ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ປິດ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ເປີດ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ຊອກຫາ"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ລຶບຂໍ້ຄວາມຊອກຫາ"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ຊອກຫາ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ຊອກຫາ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ສົ່ງການຊອກຫາ"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ຊອກຫາດ້ວຍສຽງ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ແບ່ງປັນກັບ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"ແບ່ງ​ປັນ​ກັບ​ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ຫຍໍ້"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"ປ່ຽນວັນສິ້ນສຸດ"</string>
+    <string name="cancel">"ຍົກເລີກ"</string>
+    <string name="day_picker_description">"ຕາຕາລາງວັນທີເດືອນປີ"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> ຖືກລຶບແລ້ວ"</string>
+    <string name="endByDate">"; ຈົນຮອດ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"ທຸກໆມື້ເຮັດວຽກ (ຈັນ–ສຸກ)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> ຖືກເລືອກແລ້ວ"</string>
+    <string name="monthly">"ທຸກເດືອນ"</string>
+    <string name="ok">"ຕົກລົງ"</string>
+    <string name="recurrence_end_continously">"ຕະຫຼອດໄປ"</string>
+    <string name="recurrence_end_count_label">"ຕາມຈຳນວນເທື່ອຂອງການນັດໝາຍ"</string>
+    <string name="recurrence_end_date">"ຈົນຮອດ <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"ຈົນຮອດວັນທີ"</string>
+    <string name="recurrence_month_pattern_by_day">"ໃນມື້ດຽວກັນຂອງແຕ່ລະເດືອນ"</string>
+    <string name="select_day">"ເລືອກເດືອນ ແລະ ວັນ"</string>
+    <string name="select_hours">"ເລືອກ​ຊົ່ວ​ໂມງ"</string>
+    <string name="select_minutes">"ເລືອກນາ​ທີ"</string>
+    <string name="select_year">"ເລືອກ​ປີ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"ລາຍການປີ"</string>
+    <string name="yearly_plain">"ປະຈໍາປີ"</string>
+</resources>

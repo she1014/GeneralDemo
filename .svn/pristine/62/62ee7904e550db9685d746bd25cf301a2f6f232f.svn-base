@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/base_plv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:dividerHeight="0dp" />
+
+            <LinearLayout
+                android:id="@+id/base_empty_linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/base_empty_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_login_tip" />
+
+                <TextView
+                    android:id="@+id/base_login_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marign_middle"
+                    android:background="@drawable/shape_stroke_empty_solid_green"
+                    android:paddingBottom="@dimen/marign_normal"
+                    android:paddingLeft="@dimen/marign_big"
+                    android:paddingRight="@dimen/marign_big"
+                    android:paddingTop="@dimen/marign_normal"
+                    android:text="@string/user_login"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_middle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/base_noorder_linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/base_other_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="还没有已完成的订单哦~~"
+                    android:textColor="@color/main_bg"
+                    android:textSize="@dimen/size_middle" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/marign_middle"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_order_tip" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--<include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/base_lv"
+        android:background="@color/divider_line_color"
+        />-->
+
+
+</LinearLayout>

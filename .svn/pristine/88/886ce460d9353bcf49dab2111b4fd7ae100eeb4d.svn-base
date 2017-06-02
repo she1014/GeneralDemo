@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-it/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"GIORNALIERA"</item>
+        <item>"SETTIMANALE"</item>
+        <item>"MENSILE"</item>
+        <item>"ANNUALE"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"ogni primo venerdì"</item>
+        <item>"ogni secondo venerdì"</item>
+        <item>"ogni terzo venerdì"</item>
+        <item>"ogni quarto venerdì"</item>
+        <item>"ogni ultimo venerdì"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"ogni primo lunedì"</item>
+        <item>"ogni secondo lunedì"</item>
+        <item>"ogni terzo lunedì"</item>
+        <item>"ogni quarto lunedì"</item>
+        <item>"ogni ultimo lunedì"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"ogni primo sabato"</item>
+        <item>"ogni secondo sabato"</item>
+        <item>"ogni terzo sabato"</item>
+        <item>"ogni quarto sabato"</item>
+        <item>"ogni ultimo sabato"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"ogni prima domenica"</item>
+        <item>"ogni seconda domenica"</item>
+        <item>"ogni terza domenica"</item>
+        <item>"ogni quarta domenica"</item>
+        <item>"ogni ultima domenica"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"ogni primo giovedì"</item>
+        <item>"ogni secondo giovedì"</item>
+        <item>"ogni terzo giovedì"</item>
+        <item>"ogni quarto giovedì"</item>
+        <item>"ogni ultimo giovedì"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"ogni primo martedì"</item>
+        <item>"ogni secondo martedì"</item>
+        <item>"ogni terzo martedì"</item>
+        <item>"ogni quarto martedì"</item>
+        <item>"ogni ultimo martedì"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"ogni primo mercoledì"</item>
+        <item>"ogni secondo mercoledì"</item>
+        <item>"ogni terzo mercoledì"</item>
+        <item>"ogni quarto mercoledì"</item>
+        <item>"ogni ultimo mercoledì"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Ogni giorno"</item>
+        <item quantity="other">"Ogni <ns1:g id="NUMBER">%d</ns1:g> giorni"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; per una volta"</item>
+        <item quantity="other">"; per <ns1:g id="NUMBER">%d</ns1:g> volte"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Per <ns1:g id="EVENT_COUNT">%d</ns1:g> evento"</item>
+        <item quantity="other">"Per <ns1:g id="EVENT_COUNT">%d</ns1:g> eventi"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Ogni <ns1:g id="COUNT">%d</ns1:g> giorno"</item>
+        <item quantity="other">"Ogni <ns1:g id="COUNT">%d</ns1:g> giorni"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Ogni <ns1:g id="COUNT">%d</ns1:g> mese"</item>
+        <item quantity="other">"Ogni <ns1:g id="COUNT">%d</ns1:g> mesi"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Ogni <ns1:g id="COUNT">%d</ns1:g> settimana"</item>
+        <item quantity="other">"Ogni <ns1:g id="COUNT">%d</ns1:g> settimane"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Ogni <ns1:g id="COUNT">%d</ns1:g> anni"</item>
+        <item quantity="other">"Ogni <ns1:g id="COUNT">%d</ns1:g> anni"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Ogni settimana di <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Ogni <ns1:g id="NUMBER">%1$d</ns1:g> settimane di <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"modifica data di fine"</string>
+    <string name="cancel">"Annulla"</string>
+    <string name="day_picker_description">"Griglia di giorni per mese"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> eliminato"</string>
+    <string name="endByDate">"; fino al <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Ogni giorno della sett. (lun-ven)"</string>
+    <string name="item_is_selected">"Elemento selezionato: <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Ogni mese"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Sempre"</string>
+    <string name="recurrence_end_count_label">"Per una serie di eventi"</string>
+    <string name="recurrence_end_date">"Fino al giorno: <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Fino a una data"</string>
+    <string name="recurrence_month_pattern_by_day">"lo stesso giorno ogni mese"</string>
+    <string name="select_day">"Seleziona mese e giorno"</string>
+    <string name="select_hours">"Seleziona le ore"</string>
+    <string name="select_minutes">"Seleziona i minuti"</string>
+    <string name="select_year">"Seleziona anno"</string>
+    <string name="year_picker_description">"Elenco degli anni"</string>
+    <string name="yearly_plain">"Ogni anno"</string>
+</resources>

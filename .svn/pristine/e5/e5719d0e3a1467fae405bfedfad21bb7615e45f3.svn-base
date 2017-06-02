@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"दैनिक दोहोर्याउनुहोस्"</item>
+        <item>"हप्तै पिच्छे दोहोर्याउनुहोस्"</item>
+        <item>"मासिक रूपमा दोहोर्याउनुहोस्"</item>
+        <item>"वर्षै पिच्छे दोहोर्याउनुहोस्"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"प्रत्येक पहिलो शुक्रबारमा"</item>
+        <item>"प्रत्येक दोस्रो शुक्रबारमा"</item>
+        <item>"प्रत्येक तेस्रो शुक्रबारमा"</item>
+        <item>"प्रत्येक चौंथो शुक्रबारमा"</item>
+        <item>"प्रत्येक अन्तिम शुक्रबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"प्रत्येक पहिलो सोमबारमा"</item>
+        <item>"प्रत्येक दोस्रो सोमबारमा"</item>
+        <item>"प्रत्येक तेस्रो सोमबारमा"</item>
+        <item>"प्रत्येक चौंथो सोमबारमा"</item>
+        <item>"प्रत्येक अन्तिम सोमबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"प्रत्येक पहिलो सोमबारमा"</item>
+        <item>"प्रत्येक दोस्रो शनिबारमा"</item>
+        <item>"प्रत्येक तेस्रो शनिबारमा"</item>
+        <item>"प्रत्येक चौंथो शनिबारमा"</item>
+        <item>"प्रत्येक अन्तिम शनिबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"प्रत्येक पहिलो आइतबारमा"</item>
+        <item>"प्रत्येक दोस्रो आइतबारमा"</item>
+        <item>"प्रत्येक तेस्रो आइतबारमा"</item>
+        <item>"प्रत्येक चौंथो आइतबारमा"</item>
+        <item>"प्रत्येक अन्तिम आइतबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"प्रत्येक पहिलो बिहिबारमा"</item>
+        <item>"प्रत्येक दोस्रो बिहिबारमा"</item>
+        <item>"प्रत्येक तेस्रो बिहिबारमा"</item>
+        <item>"प्रत्येक चौंथो बिहिबारमा"</item>
+        <item>"प्रत्येक अन्तिम बिहिबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"प्रत्येक पहिलो मङ्गलबारमा"</item>
+        <item>"प्रत्येक दोस्रो मङ्गलबारमा"</item>
+        <item>"प्रत्येक तेस्रो मङ्गलबारमा"</item>
+        <item>"प्रत्येक चौंथो मङ्गलबारमा"</item>
+        <item>"प्रत्येक अन्तिम मङ्गलबारमा"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"प्रत्येक पहिलो बुधबारमा"</item>
+        <item>"प्रत्येक दोस्रो बुधबारमा"</item>
+        <item>"प्रत्येक तेस्रो बुधबारमा"</item>
+        <item>"प्रत्येक चौंथो बुधबारमा"</item>
+        <item>"प्रत्येक अन्तिम बुधबारमा"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"दैनिक"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="NUMBER">%d</ns1:g> दिन"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; एक पटकका लागि"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> पटकका लागि"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"<ns1:g id="EVENT_COUNT">%d</ns1:g> घटनाका लागि"</item>
+        <item quantity="other">"<ns1:g id="EVENT_COUNT">%d</ns1:g> घटनाहरूका लागि"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"प्रत्येक<ns1:g id="COUNT">%d</ns1:g> दिन"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> दिन"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> महिना"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> महिना"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> हप्ता"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> हप्ता"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> वर्ष"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="COUNT">%d</ns1:g> वर्ष"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"हप्तै पिच्छे <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>मा"</item>
+        <item quantity="other">"प्रत्येक <ns1:g id="NUMBER">%1$d</ns1:g> हप्ता <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g> मा"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"गृह खोज्नुहोस्"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"माथि खोज्नुहोस्"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"थप विकल्पहरू"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"सम्पन्न भयो"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"सबै हेर्नुहोस्"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"एउटा अनुप्रयोग छान्नुहोस्"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"निष्क्रिय पार्नुहोस्"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"सक्रिय गर्नुहोस्"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"खोज्नुहोस्..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"प्रश्‍न हटाउनुहोस्"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"जिज्ञासाको खोज गर्नुहोस्"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"खोज्नुहोस्"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"जिज्ञासा पेस गर्नुहोस्"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"भ्वाइस खोजी"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"साझेदारी गर्नुहोस्..."</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s सँग साझेदारी गर्नुहोस्"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"संक्षिप्त पार्नुहोस्"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"समाप्त हुने मिति परिवर्तन गर्नुहोस्"</string>
+    <string name="cancel">"रद्द गर्नुहोस्"</string>
+    <string name="day_picker_description">"दिनहरुको महिना ग्रिड"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> हटाइयो"</string>
+    <string name="endByDate">"; <ns1:g id="DATE">%s</ns1:g>सम्म"</string>
+    <string name="every_weekday">"प्रत्यरक हप्ताका दिन (सोमबार-शुक्रबार)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> चयन गरियो"</string>
+    <string name="monthly">"मासिक रूपमा"</string>
+    <string name="ok">"ठिक छ"</string>
+    <string name="recurrence_end_continously">"सदाका लागि"</string>
+    <string name="recurrence_end_count_label">"केही घटनाहरूको नम्बर लागि"</string>
+    <string name="recurrence_end_date">"<ns1:g id="DATE">%s</ns1:g>सम्म"</string>
+    <string name="recurrence_end_date_label">"यस मितिसम्म"</string>
+    <string name="recurrence_month_pattern_by_day">"प्रत्येक महिनाको उही दिन"</string>
+    <string name="select_day">"महिना र दिन चयन गर्नुहोस्"</string>
+    <string name="select_hours">"घण्टा चयन गर्नुहोस्"</string>
+    <string name="select_minutes">"मिनेट चयन गर्नुहोस्"</string>
+    <string name="select_year">"वर्ष चयन गर्नुहोस्"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string name="year_picker_description">"वर्ष सूची"</string>
+    <string name="yearly_plain">"वार्षिक रूपमा"</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ro/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"REPETAȚI ZILNIC"</item>
+        <item>"REPETAȚI SĂPTĂMÂNAL"</item>
+        <item>"REPETAȚI LUNAR"</item>
+        <item>"REPETAȚI ANUAL"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"în prima vineri din lună"</item>
+        <item>"în a doua vineri din lună"</item>
+        <item>"în a treia vineri din lună"</item>
+        <item>"în a patra vineri din lună"</item>
+        <item>"în ultima vineri din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"în prima luni din lună"</item>
+        <item>"în a doua luni din lună"</item>
+        <item>"în a treia luni din lună"</item>
+        <item>"în a patra luni din lună"</item>
+        <item>"în ultima luni din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"în prima sâmbătă din lună"</item>
+        <item>"în a doua sâmbătă din lună"</item>
+        <item>"în a treia sâmbătă din lună"</item>
+        <item>"în a patra sâmbătă din lună"</item>
+        <item>"în ultima sâmbătă din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"în prima duminică din lună"</item>
+        <item>"în a doua duminică din lună"</item>
+        <item>"în a treia duminică din lună"</item>
+        <item>"în a patra duminică din lună"</item>
+        <item>"în ultima duminică din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"în prima joi din lună"</item>
+        <item>"în a doua joi din lună"</item>
+        <item>"în a treia joi din lună"</item>
+        <item>"în a patra joi din lună"</item>
+        <item>"în ultima joi din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"în prima marți din lună"</item>
+        <item>"în a doua marți din lună"</item>
+        <item>"în a treia marți din lună"</item>
+        <item>"în a patra marți din lună"</item>
+        <item>"în ultima marți din lună"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"în prima miercuri din lună"</item>
+        <item>"în a doua miercuri din lună"</item>
+        <item>"în a treia miercuri din lună"</item>
+        <item>"în a patra miercuri din lună"</item>
+        <item>"în ultima miercuri din lună"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-ro/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Zilnic"</item>
+        <item quantity="other">"O dată la <ns1:g id="NUMBER">%d</ns1:g> zile"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; o dată"</item>
+        <item quantity="other">"; de <ns1:g id="NUMBER">%d</ns1:g> ori"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Pentru <ns1:g id="EVENT_COUNT">%d</ns1:g> eveniment"</item>
+        <item quantity="other">"Pentru <ns1:g id="EVENT_COUNT">%d</ns1:g> evenimente"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"O dată la <ns1:g id="COUNT">%d</ns1:g> zi"</item>
+        <item quantity="other">"O dată la <ns1:g id="COUNT">%d</ns1:g> zile"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"O dată la <ns1:g id="COUNT">%d</ns1:g> lună"</item>
+        <item quantity="other">"O dată la <ns1:g id="COUNT">%d</ns1:g> luni"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"O dată la <ns1:g id="COUNT">%d</ns1:g> săptămână"</item>
+        <item quantity="other">"O dată la <ns1:g id="COUNT">%d</ns1:g> săptămâni"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"O dată la <ns1:g id="COUNT">%d</ns1:g> an"</item>
+        <item quantity="other">"O dată la <ns1:g id="COUNT">%d</ns1:g> ani"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Săptămânal, <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"La fiecare <ns1:g id="NUMBER">%1$d</ns1:g> săpt., <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"schimbați data de încheiere"</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="day_picker_description">"Afișare pe luni"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> a fost șters"</string>
+    <string name="endByDate">"; până la <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"În fiecare zi lucrătoare (Luni – Vineri)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> selectat"</string>
+    <string name="monthly">"Lunar"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Întotdeauna"</string>
+    <string name="recurrence_end_count_label">"De mai multe ori"</string>
+    <string name="recurrence_end_date">"Până la <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Până la o anumită dată"</string>
+    <string name="recurrence_month_pattern_by_day">"în aceeași zi lunar"</string>
+    <string name="select_day">"Selectați luna și ziua"</string>
+    <string name="select_hours">"Selectați orele"</string>
+    <string name="select_minutes">"Selectați minutele"</string>
+    <string name="select_year">"Selectați anul"</string>
+    <string name="year_picker_description">"Listă de ani"</string>
+    <string name="yearly_plain">"Anual"</string>
+</resources>

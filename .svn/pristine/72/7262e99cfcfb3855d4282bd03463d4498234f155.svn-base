@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/activity_base_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_title_weight"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/base_lv"
+        android:background="@color/divider_line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@string/activity_body_weight">
+        <com.techfly.demo.selfview.FlexibileScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/release_linear3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_gray_solid_empty_right_angle"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/release_list_pic_tip"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/button_height"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/marign_normal"
+                                android:text="商品图片"
+                                android:textColor="@color/orange_dark"
+                                android:textSize="@dimen/size_middle" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0.5dp"
+                                android:background="@color/divider_line_color" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/marign_middle"
+                                android:layout_marginTop="@dimen/marign_text_image">
+
+                                <ImageView
+                                    android:id="@+id/item_del_iv1"
+                                    android:layout_width="50dp"
+                                    android:layout_height="30dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerVertical="true"
+                                    android:padding="10dp"
+                                    android:src="@drawable/icon_pic_delete"
+                                    android:visibility="invisible" />
+
+                                <LinearLayout
+                                    android:id="@+id/release_list_pic_linear"
+                                    android:layout_width="304dp"
+                                    android:layout_height="229dp"
+                                    android:background="@drawable/shape_stroke_black_solid_empty_right_angle"
+                                    android:layout_centerVertical="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center"
+                                    >
+                                    <ImageView
+                                        android:id="@+id/release_list_pic_iv"
+                                        android:layout_width="300dp"
+                                        android:layout_height="225dp"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/icon_go_camare" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/item_del_iv"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_alignRight="@+id/item_pic_iv"
+                                    android:src="@drawable/icon_pic_delete"
+                                    android:visibility="invisible" />
+
+                                <ImageView
+                                    android:id="@+id/item_del_iv2"
+                                    android:layout_width="50dp"
+                                    android:layout_height="30dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:padding="10dp"
+                                    android:src="@drawable/icon_pic_delete"
+                                    android:visibility="invisible" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_banner_pic_tip"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/button_height"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/marign_normal"
+                                android:text="轮播图片(多张)"
+                                android:textColor="@color/orange_dark"
+                                android:textSize="@dimen/size_middle" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0.5dp"
+                                android:background="@color/divider_line_color" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="0.5dp"
+                                    android:background="@color/divider_line_color" />
+
+                                <com.techfly.demo.selfview.ForbidScrollRecycleView
+                                    android:id="@+id/release_banner_rv"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="@dimen/marign_normal"
+                                    android:background="@color/white"
+                                    android:scrollbars="none" />
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="0.5dp"
+                                    android:background="@color/divider_line_color" />
+
+                                <RelativeLayout
+                                    android:id="@+id/release_add_item_rl"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal"
+                                        android:padding="@dimen/marign_normal">
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="@dimen/marign_normal"
+                                            android:gravity="center"
+                                            android:src="@drawable/icon_add_red" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="@dimen/marign_text_image"
+                                            android:text="添加图片"
+                                            android:textColor="@color/orange_dark"
+                                            android:textSize="@dimen/size_middle" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/release_linear1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_gray_solid_empty_right_angle"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/release_goods_title_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="商品名称:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_goods_title_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:hint="苹果"
+                                android:singleLine="true"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_feature_lable_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="商品描述:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_feature_lable_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:hint="甜蜜多汁 酸甜可口"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_market_price_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="门市价:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_market_price_tv"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:hint="200"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_goods_price_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="市场价格:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_goods_market_price_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:hint="非真实售卖价格,只做展示"
+                                android:inputType="numberDecimal"
+                                android:singleLine="true"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_goods_price_unit"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="价格单位:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_goods_price_unit_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="元"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_price_lable_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="价格标签:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_price_lable_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:hint="新鲜价/新品上市/抢鲜价"
+                                android:singleLine="true"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_surplus_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="库存数量:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <EditText
+                                android:id="@+id/release_surplus_et"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:hint="999"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColor="@color/text_font_black"
+                                android:textColorHint="@color/hint_gray"
+                                android:textCursorDrawable="@drawable/shape_stroke_gray_edittext_cursor"
+                                android:textSize="@dimen/size_middle" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/release_linear4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_gray_solid_empty_right_angle"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/release_speces_tip"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/marign_normal"
+                            android:text="商品规格"
+                            android:textColor="@color/orange_dark"
+                            android:textSize="@dimen/size_middle" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/marign_large"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            >
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textSize="@dimen/size_small"
+                                android:textColor="@color/text_font_black"
+                                android:text="规格"
+                                />
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/divider_line_color"
+                                />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textSize="@dimen/size_small"
+                                android:textColor="@color/text_font_black"
+                                android:text="价格(元)"
+                                />
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/divider_line_color"
+                                />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textSize="@dimen/size_small"
+                                android:textColor="@color/text_font_black"
+                                android:text="库存"
+                                />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/divider_line_color" />
+
+                        <com.techfly.demo.selfview.ForbidScrollRecycleView
+                            android:id="@+id/release_style_rv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:scrollbars="none"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/marign_normal"
+                            android:gravity="center"
+                            >
+
+                            <LinearLayout
+                                android:id="@+id/release_add_style_linear"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="@dimen/marign_normal"
+                                android:paddingBottom="@dimen/marign_normal"
+                                android:orientation="horizontal"
+                                >
+                                <ImageView
+                                    android:layout_width="16dp"
+                                    android:layout_height="16dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/marign_normal"
+                                    android:gravity="center"
+                                    android:src="@drawable/icon_add_red" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/marign_text_image"
+                                    android:text="添加规格"
+                                    android:textColor="@color/orange_dark"
+                                    android:textSize="@dimen/size_middle" />
+
+                            </LinearLayout>
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/marign_normal"
+                                android:textColor="@color/text_font_black_light"
+                                android:textSize="@dimen/size_mini"
+                                android:text="[注:1.一条规格时,规格描述可以为空\n\t\t2.多条规格时,规格描述不能为空\n\t\t3.信息不全的规格,提交时会自动过滤\n\t\t4.已有规格不可删除,可修改库存为0]"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/release_linear2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/marign_boundary"
+                        android:background="@drawable/shape_stroke_gray_solid_empty_right_angle"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_status_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="状态:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <com.techfly.demo.selfview.TextImgItem
+                                android:id="@+id/release_status_ti"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:src="@drawable/icon_drop_down_black"
+                                android:text="请选择" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/release_big_category_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="商品大类:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <com.techfly.demo.selfview.TextImgItem
+                                android:id="@+id/release_big_category_ti"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:src="@drawable/icon_drop_down_black"
+                                android:text="请选择" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/release_small_category_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="商品小类:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <com.techfly.demo.selfview.TextImgItem
+                                android:id="@+id/release_small_category_ti"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:src="@drawable/icon_drop_down_black"
+                                android:text="请选择" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_province_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="选择省份:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <com.techfly.demo.selfview.TextImgItem
+                                android:id="@+id/release_province_ti"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:src="@drawable/icon_drop_down_black"
+                                android:text="请选择" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/good_release_divider_height"
+                            android:background="@color/divider_line_color"
+                            android:visibility="gone"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/button_height"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            >
+
+                            <TextView
+                                android:id="@+id/release_city_tip"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center|right"
+                                android:text="选择城市:"
+                                android:textColor="@color/text_font_black"
+                                android:textSize="@dimen/size_middle" />
+
+                            <com.techfly.demo.selfview.TextImgItem
+                                android:id="@+id/release_city_ti"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:src="@drawable/icon_drop_down_black"
+                                android:text="请选择" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.techfly.demo.selfview.RippleView
+                        android:id="@+id/login_view"
+                        style="@style/viewButtom"
+                        rv_centered="true"
+                        android:layout_marginBottom="@dimen/marign_larger"
+                        android:layout_marginTop="@dimen/marign_larger">
+
+                        <Button
+                            android:id="@+id/release_confirm_btn"
+                            style="@style/normalButtom"
+                            android:text="确认发布" />
+                    </com.techfly.demo.selfview.RippleView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.techfly.demo.selfview.FlexibileScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

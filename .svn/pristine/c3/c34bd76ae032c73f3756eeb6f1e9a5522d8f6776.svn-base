@@ -1,0 +1,48 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.setting;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class SetDeliveryActivity$$ViewInjector<T extends com.techfly.demo.activity.setting.SetDeliveryActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427669, "field 'delivery_money_et1'");
+    target.delivery_money_et1 = finder.castView(view, 2131427669, "field 'delivery_money_et1'");
+    view = finder.findRequiredView(source, 2131427671, "field 'delivery_money_et2'");
+    target.delivery_money_et2 = finder.castView(view, 2131427671, "field 'delivery_money_et2'");
+    view = finder.findRequiredView(source, 2131427670, "method 'confirmDelete1'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.confirmDelete1();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427672, "method 'confirmDelete2'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.confirmDelete2();
+        }
+      });
+    view = finder.findRequiredView(source, 2131427673, "method 'confirmSave'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.confirmSave();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.delivery_money_et1 = null;
+    target.delivery_money_et2 = null;
+  }
+}

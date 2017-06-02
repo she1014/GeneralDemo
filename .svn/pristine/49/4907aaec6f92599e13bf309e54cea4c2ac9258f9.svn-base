@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"ΕΠΑΝΑΛΗΨΗ ΚΑΘΗΜΕΡΙΝΑ"</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΕΒΔΟΜΑΔ."</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΜΗΝΙΑΙΑ"</item>
+        <item>"ΕΠΑΝΑΛΗΨΗ ΕΤΗΣΙΩΣ"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"κάθε πρώτη Παρασκευή"</item>
+        <item>"κάθε δεύτερη Παρασκευή"</item>
+        <item>"κάθε τρίτη Παρασκευή"</item>
+        <item>"κάθε τέταρτη Παρασκευή"</item>
+        <item>"κάθε προηγούμενη Παρασκευή"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"κάθε πρώτη Δευτέρα"</item>
+        <item>"κάθε δεύτερη Δευτέρα"</item>
+        <item>"κάθε τρίτη Δευτέρα"</item>
+        <item>"κάθε τέταρτη Δευτέρα"</item>
+        <item>"κάθε προηγούμενη Δευτέρα"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"κάθε πρώτο Σάββατο"</item>
+        <item>"κάθε δεύτερο Σάββατο"</item>
+        <item>"κάθε τρίτο Σάββατο"</item>
+        <item>"κάθε τέταρτο Σάββατο"</item>
+        <item>"κάθε προηγούμενο Σάββατο"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"κάθε πρώτη Κυριακή"</item>
+        <item>"κάθε δεύτερη Κυριακή"</item>
+        <item>"κάθε τρίτη Κυριακή"</item>
+        <item>"κάθε τέταρτη Κυριακή"</item>
+        <item>"κάθε προηγούμενη Κυριακή"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"κάθε πρώτη Πέμπτη"</item>
+        <item>"κάθε δεύτερη Πέμπτη"</item>
+        <item>"κάθε τρίτη Πέμπτη"</item>
+        <item>"κάθε τέταρτη Πέμπτη"</item>
+        <item>"κάθε προηγούμενη Πέμπτη"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"κάθε πρώτη Τρίτη"</item>
+        <item>"κάθε δεύτερη Τρίτη"</item>
+        <item>"κάθε τρίτη Τρίτη"</item>
+        <item>"κάθε τέταρτη Τρίτη"</item>
+        <item>"κάθε προηγούμενη Τρίτη"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"κάθε πρώτη Τετάρτη"</item>
+        <item>"κάθε δεύτερη Τετάρτη"</item>
+        <item>"κάθε τρίτη Τετάρτη"</item>
+        <item>"κάθε τέταρτη Τετάρτη"</item>
+        <item>"κάθε προηγούμενη Τετάρτη"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Ημερησίως"</item>
+        <item quantity="other">"Κάθε <ns1:g id="NUMBER">%d</ns1:g> ημέρες"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; για μία φορά"</item>
+        <item quantity="other">"; για <ns1:g id="NUMBER">%d</ns1:g> φορές"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Για <ns1:g id="EVENT_COUNT">%d</ns1:g> συμβάν"</item>
+        <item quantity="other">"Για <ns1:g id="EVENT_COUNT">%d</ns1:g> συμβάντα"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> ημέρα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> ημέρες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> μήνα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> μήνες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> εβδομάδα"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> εβδομάδες"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Κάθε <ns1:g id="COUNT">%d</ns1:g> έτος"</item>
+        <item quantity="other">"Κάθε <ns1:g id="COUNT">%d</ns1:g> έτη"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Κάθε εβδομάδα, μέρα <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Κάθε εβδομάδες <ns1:g id="NUMBER">%1$d</ns1:g>, μέρες <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Προβολή όλων"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Επιλέξτε κάποια εφαρμογή"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Κοινή χρήση με"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Κοινή χρήση με %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"αλλαγή ημερομηνίας λήξης"</string>
+    <string name="cancel">"Ακύρωση"</string>
+    <string name="day_picker_description">"Πλέγμα ημερών του μήνα"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> διαγράφηκε"</string>
+    <string name="endByDate">"; έως τις <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Καθημερινά (Δευ-Παρ)"</string>
+    <string name="item_is_selected">"Επιλέχτηκε το στοιχείο <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Μηνιαία"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Για πάντα"</string>
+    <string name="recurrence_end_count_label">"Για έναν αριθμό συμβάντων"</string>
+    <string name="recurrence_end_date">"Έως τις <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Μέχρι μια ορισμένη ημ/νία"</string>
+    <string name="recurrence_month_pattern_by_day">"ίδια ημέρα κάθε μήνα"</string>
+    <string name="select_day">"Επιλογή μήνα και ημέρας"</string>
+    <string name="select_hours">"Επιλογή ωρών"</string>
+    <string name="select_minutes">"Επιλογή λεπτών"</string>
+    <string name="select_year">"Επιλογή έτους"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="year_picker_description">"Λίστα ετών"</string>
+    <string name="yearly_plain">"Ετήσια"</string>
+</resources>

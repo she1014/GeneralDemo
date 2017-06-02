@@ -1,0 +1,12 @@
+int attr imgGap 0x7f010001
+int attr maxSize 0x7f010002
+int attr showStyle 0x7f010003
+int attr singleImgSize 0x7f010000
+int id fill 0x7f030000
+int id grid 0x7f030001
+int string app_name 0x7f020000
+int[] styleable NineGridImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable NineGridImageView_imgGap 1
+int styleable NineGridImageView_maxSize 2
+int styleable NineGridImageView_showStyle 3
+int styleable NineGridImageView_singleImgSize 0

@@ -1,0 +1,125 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.release;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class CommentReleaseActivity$$ViewInjector<T extends com.techfly.demo.activity.release.CommentReleaseActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131361874, "field 'release_list_pic_iv' and method 'addListPicture'");
+    target.release_list_pic_iv = finder.castView(view, 2131361874, "field 'release_list_pic_iv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.addListPicture();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361879, "field 'release_banner_rv'");
+    target.release_banner_rv = finder.castView(view, 2131361879, "field 'release_banner_rv'");
+    view = finder.findRequiredView(source, 2131361898, "field 'release_style_rv'");
+    target.release_style_rv = finder.castView(view, 2131361898, "field 'release_style_rv'");
+    view = finder.findRequiredView(source, 2131361883, "field 'release_goods_title_et'");
+    target.release_goods_title_et = finder.castView(view, 2131361883, "field 'release_goods_title_et'");
+    view = finder.findRequiredView(source, 2131361893, "field 'release_price_lable_et'");
+    target.release_price_lable_et = finder.castView(view, 2131361893, "field 'release_price_lable_et'");
+    view = finder.findRequiredView(source, 2131361885, "field 'release_feature_lable_et'");
+    target.release_feature_lable_et = finder.castView(view, 2131361885, "field 'release_feature_lable_et'");
+    view = finder.findRequiredView(source, 2131361902, "field 'release_status_ti' and method 'selectStatus'");
+    target.release_status_ti = finder.castView(view, 2131361902, "field 'release_status_ti'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.selectStatus();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361904, "field 'release_big_category_ti' and method 'selectBigCategory'");
+    target.release_big_category_ti = finder.castView(view, 2131361904, "field 'release_big_category_ti'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.selectBigCategory();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361906, "field 'release_small_category_ti' and method 'selectSmallCategory'");
+    target.release_small_category_ti = finder.castView(view, 2131361906, "field 'release_small_category_ti'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.selectSmallCategory();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361908, "field 'release_province_ti' and method 'selectProvince'");
+    target.release_province_ti = finder.castView(view, 2131361908, "field 'release_province_ti'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.selectProvince();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361910, "field 'release_city_ti' and method 'selectCity'");
+    target.release_city_ti = finder.castView(view, 2131361910, "field 'release_city_ti'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.selectCity();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361912, "field 'release_confirm_btn' and method 'submit'");
+    target.release_confirm_btn = finder.castView(view, 2131361912, "field 'release_confirm_btn'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.submit();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361880, "method 'addNewItem'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.addNewItem();
+        }
+      });
+    view = finder.findRequiredView(source, 2131361899, "method 'addStyleItem'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.addStyleItem();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.release_list_pic_iv = null;
+    target.release_banner_rv = null;
+    target.release_style_rv = null;
+    target.release_goods_title_et = null;
+    target.release_price_lable_et = null;
+    target.release_feature_lable_et = null;
+    target.release_status_ti = null;
+    target.release_big_category_ti = null;
+    target.release_small_category_ti = null;
+    target.release_province_ti = null;
+    target.release_city_ti = null;
+    target.release_confirm_btn = null;
+  }
+}

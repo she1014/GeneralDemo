@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\FileSelector\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\FileSelector\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\VideoPlayer\\FileSelector\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\VideoPlayer\\FileSelector\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

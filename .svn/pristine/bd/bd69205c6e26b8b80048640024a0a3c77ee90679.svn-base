@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="testArray">
+        <item>全部鲜果1</item>
+        <item>全部鲜果2</item>
+        <item>全部鲜果3</item>
+        <item>全部鲜果4</item>
+    </string-array>
+
+    <string-array name="farm_chip_menu">
+        <item>果园</item>
+        <item>基地</item>
+        <item>现货</item>
+    </string-array>
+
+    <string-array name="seller_detail_menu">
+        <item>商品</item>
+        <item>评价</item>
+        <item>商家</item>
+    </string-array>
+
+    <string-array name="order_status">
+        <item>待付款</item>
+        <item>待发货</item>
+        <item>待收货</item>
+        <item>申请退款</item>
+        <item>拒绝退款</item>
+        <item>已退款</item>
+        <item>待评价</item>
+        <item>已完成</item>
+    </string-array>
+
+    <string-array name="exp_no">
+        <item>ANE</item>
+        <item>AXD</item>
+        <item>BFDF</item>
+        <item>BQXHM</item>
+        <item>CCES</item>
+
+        <item>CITY100</item>
+        <item>COE</item>
+        <item>CSCY</item>
+        <item>DBL</item>
+        <item>DHL</item>
+
+        <item>DSWL</item>
+        <item>DTWL</item>
+        <item>EMS</item>
+        <item>FAST</item>
+        <item>FEDEX</item>
+
+        <item>FKD</item>
+        <item>GDEMS</item>
+        <item>GSD</item>
+        <item>GTO</item>
+        <item>GTSD</item>
+
+        <item>HFWL</item>
+        <item>HHTT</item>
+        <item>HLWL</item>
+        <item>HOAU</item>
+        <item>hq568</item>
+
+        <item>HTKY</item>
+        <item>HXLWL</item>
+        <item>HYLSD</item>
+        <item>JD</item>
+        <item>JGSD</item>
+
+        <item>JJKY</item>
+        <item>JTKD</item>
+        <item>JXD</item>
+        <item>JYKD</item>
+        <item>JYM</item>
+
+        <item>JYWL</item>
+        <item>LB</item>
+        <item>LHT</item>
+        <item>MHKD</item>
+        <item>MLWL</item>
+
+        <item>NEDA</item>
+        <item>QCKD</item>
+        <item>QFKD</item>
+        <item>QRT</item>
+        <item>SAWL</item>
+
+        <item>SDWL</item>
+        <item>SF</item>
+        <item>SFWL</item>
+        <item>SHWL</item>
+        <item>ST</item>
+
+        <item>STO</item>
+        <item>SURE</item>
+        <item>TSSTO</item>
+        <item>UAPEX</item>
+        <item>UC</item>
+
+        <item>WJWL</item>
+        <item>WXWL</item>
+        <item>XBWL</item>
+        <item>XFEX</item>
+        <item>XYT</item>
+
+        <item>YADEX</item>
+        <item>YCWL</item>
+        <item>YD</item>
+        <item>YFEX</item>
+        <item>YFHEX</item>
+
+        <item>YFSD</item>
+        <item>YTKD</item>
+        <item>YTO</item>
+        <item>YZPY</item>
+        <item>ZENY</item>
+
+        <item>ZHQKD</item>
+        <item>ZJS</item>
+        <item>ZTE</item>
+        <item>ZTKY</item>
+        <item>ZTO</item>
+        <item>ZTWL</item>
+        <item>ZYWL</item>
+    </string-array>
+
+    <string-array name="exp_name">
+        <item>安能物流</item>
+        <item>安信达快递</item>
+        <item>百福东方</item>
+        <item>北青小红帽</item>
+        <item>CCES快递</item>
+
+        <item>城市100</item>
+        <item>COE东方快递</item>
+        <item>长沙创一</item>
+        <item>德邦</item>
+        <item>DHL</item>
+
+        <item>D速物流</item>
+        <item>大田物流</item>
+        <item>EMS</item>
+        <item>快捷速递</item>
+        <item>FedEx联邦快递</item>
+
+        <item>飞康达</item>
+        <item>广东邮政</item>
+        <item>共速达</item>
+        <item>国通快递</item>
+        <item>高铁速递</item>
+
+        <item>汇丰物流</item>
+        <item>天天快递</item>
+        <item>恒路物流</item>
+        <item>天地华宇</item>
+        <item>华强物流</item>
+
+        <item>百世汇通</item>
+        <item>华夏龙物流</item>
+        <item>好来运快递</item>
+        <item>京东快递</item>
+        <item>京广速递</item>
+
+        <item>佳吉快运</item>
+        <item>捷特快递</item>
+        <item>急先达</item>
+        <item>晋越快递</item>
+        <item>加运美</item>
+
+        <item>佳怡物流</item>
+        <item>龙邦快递</item>
+        <item>联昊通速递</item>
+        <item>民航快递</item>
+        <item>明亮物流</item>
+
+        <item>能达速递</item>
+        <item>全晨快递</item>
+        <item>全峰快递</item>
+        <item>全日通快递</item>
+        <item>圣安物流</item>
+
+        <item>上大物流</item>
+        <item>顺丰快递</item>
+        <item>盛丰物流</item>
+        <item>盛辉物流</item>
+        <item>速通物流</item>
+
+        <item>申通快递</item>
+        <item>速尔快递</item>
+        <item>唐山申通</item>
+        <item>全一快递</item>
+        <item>优速快递</item>
+
+        <item>万家物流</item>
+        <item>万象物流</item>
+        <item>新邦物流</item>
+        <item>信丰快递</item>
+        <item>希优特</item>
+
+        <item>源安达快递</item>
+        <item>远成物流</item>
+        <item>韵达快递</item>
+        <item>越丰物流</item>
+        <item>原飞航物流</item>
+
+        <item>亚风快递</item>
+        <item>运通快递</item>
+        <item>圆通速递</item>
+        <item>邮政平邮/小包</item>
+        <item>增益快递</item>
+
+        <item>汇强快递</item>
+        <item>宅急送</item>
+        <item>众通快递</item>
+        <item>中铁快运</item>
+        <item>中通速递</item>
+        <item>中铁物流</item>
+        <item>中邮物流</item>
+    </string-array>
+
+</resources>

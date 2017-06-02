@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-sv/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"UPPREPA VARJE DAG"</item>
+        <item>"UPPREPA VARJE VECKA"</item>
+        <item>"UPPREPA VARJE MÅNAD"</item>
+        <item>"UPPREPA VARJE ÅR"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"den första fredagen i månaden"</item>
+        <item>"den andra fredagen i månaden"</item>
+        <item>"den tredje fredagen i månaden"</item>
+        <item>"den fjärde fredagen i månaden"</item>
+        <item>"den sista fredagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"den första måndagen i månaden"</item>
+        <item>"den andra måndagen i månaden"</item>
+        <item>"den tredje måndagen i månaden"</item>
+        <item>"den fjärde måndagen i månaden"</item>
+        <item>"den sista måndagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"den första lördagen i månaden"</item>
+        <item>"den andra lördagen i månaden"</item>
+        <item>"den tredje lördagen i månaden"</item>
+        <item>"den fjärde lördagen i månaden"</item>
+        <item>"den sista lördagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"den första söndagen i månaden"</item>
+        <item>"den andra söndagen i månaden"</item>
+        <item>"den tredje söndagen i månaden"</item>
+        <item>"den fjärde söndagen i månaden"</item>
+        <item>"den sista söndagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"den första torsdagen i månaden"</item>
+        <item>"den andra torsdagen i månaden"</item>
+        <item>"den tredje torsdagen i månaden"</item>
+        <item>"den fjärde torsdagen i månaden"</item>
+        <item>"den sista torsdagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"den första tisdagen i månaden"</item>
+        <item>"den andra tisdagen i månaden"</item>
+        <item>"den tredje tisdagen i månaden"</item>
+        <item>"den fjärde tisdagen i månaden"</item>
+        <item>"den sista tisdagen i månaden"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"den första onsdagen i månaden"</item>
+        <item>"den andra onsdagen i månaden"</item>
+        <item>"den tredje onsdagen i månaden"</item>
+        <item>"den fjärde onsdagen i månaden"</item>
+        <item>"den sista onsdagen i månaden"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-sv/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Varje dag"</item>
+        <item quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> dagars interv."</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">", en gång"</item>
+        <item quantity="other">", <ns1:g id="NUMBER">%d</ns1:g> gånger"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"För <ns1:g id="EVENT_COUNT">%d</ns1:g> event"</item>
+        <item quantity="other">"För <ns1:g id="EVENT_COUNT">%d</ns1:g> event"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> dags intervall"</item>
+        <item quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> dagars intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> månads intervall"</item>
+        <item quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> månaders intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> veckas intervall"</item>
+        <item quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> veckors intervall"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Med <ns1:g id="COUNT">%d</ns1:g> års intervall"</item>
+        <item quantity="other">"Med <ns1:g id="COUNT">%d</ns1:g> års intervall"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Varje vecka på <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Med <ns1:g id="NUMBER">%1$d</ns1:g> v. intervall på <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"ändra slutdatum"</string>
+    <string name="cancel">"Avbryt"</string>
+    <string name="day_picker_description">"Rutnät för månad"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> har tagits bort"</string>
+    <string name="endByDate">", till <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Varje vardag (mån-fre)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> har markerats"</string>
+    <string name="monthly">"Varje månad"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"För alltid"</string>
+    <string name="recurrence_end_count_label">"Ett antal upprepningar"</string>
+    <string name="recurrence_end_date">"Till den <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Till ett visst datum"</string>
+    <string name="recurrence_month_pattern_by_day">"samma dag varje månad"</string>
+    <string name="select_day">"Välj månad och dag"</string>
+    <string name="select_hours">"Välj timmar"</string>
+    <string name="select_minutes">"Välj minuter"</string>
+    <string name="select_year">"Välj år"</string>
+    <string name="year_picker_description">"Lista över år"</string>
+    <string name="yearly_plain">"Varje år"</string>
+</resources>

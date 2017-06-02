@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="recurrence_freq">
+        <item>"REPETIR DIARIAMENTE"</item>
+        <item>"REPETIR SEMANALMENTE"</item>
+        <item>"REPETIR MENSALMENTE"</item>
+        <item>"REPETIR ANUALMENTE"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"em cada primeira sexta-feira"</item>
+        <item>"em cada segunda sexta-feira"</item>
+        <item>"em cada terceira sexta-feira"</item>
+        <item>"em cada quarta sexta-feira"</item>
+        <item>"em cada última sexta-feira"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"em cada primeira segunda-feira"</item>
+        <item>"em cada segunda segunda-feira"</item>
+        <item>"em cada terceira segunda-feira"</item>
+        <item>"em cada quarta segunda-feira"</item>
+        <item>"em cada última segunda-feira"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"em cada primeiro sábado"</item>
+        <item>"em cada segundo sábado"</item>
+        <item>"em cada terceiro sábado"</item>
+        <item>"em cada quarto sábado"</item>
+        <item>"em cada último sábado"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"em cada primeiro domingo"</item>
+        <item>"em cada segundo domingo"</item>
+        <item>"em cada terceiro domingo"</item>
+        <item>"em cada quarto domingo"</item>
+        <item>"em cada último domingo"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"em cada primeira quinta-feira"</item>
+        <item>"em cada segunda quinta-feira"</item>
+        <item>"em cada terceira quinta-feira"</item>
+        <item>"em cada quarta quinta-feira"</item>
+        <item>"em cada última quinta-feira"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"em cada primeira terça-feira"</item>
+        <item>"em cada segunda terça-feira"</item>
+        <item>"em cada terceira terça-feira"</item>
+        <item>"em cada quarta terça-feira"</item>
+        <item>"em cada última terça-feira"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"em cada primeira quarta-feira"</item>
+        <item>"em cada segunda quarta-feira"</item>
+        <item>"em cada terceira quarta-feira"</item>
+        <item>"em cada quarta quarta-feira"</item>
+        <item>"em cada última quarta-feira"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">"Diariamente"</item>
+        <item quantity="other">"A cada <ns1:g id="NUMBER">%d</ns1:g> dias"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; evento único"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> vezes"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Para <ns1:g id="EVENT_COUNT">%d</ns1:g> evento"</item>
+        <item quantity="other">"Para <ns1:g id="EVENT_COUNT">%d</ns1:g> eventos"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"A cada <ns1:g id="COUNT">%d</ns1:g> dia"</item>
+        <item quantity="other">"A cada <ns1:g id="COUNT">%d</ns1:g> dias"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"A cada <ns1:g id="COUNT">%d</ns1:g> mês"</item>
+        <item quantity="other">"A cada <ns1:g id="COUNT">%d</ns1:g> meses"</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"A cada <ns1:g id="COUNT">%d</ns1:g> semana"</item>
+        <item quantity="other">"A cada <ns1:g id="COUNT">%d</ns1:g> semanas"</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"A cada <ns1:g id="COUNT">%d</ns1:g> ano"</item>
+        <item quantity="other">"A cada <ns1:g id="COUNT">%d</ns1:g> anos"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"A cada <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"A cada <ns1:g id="NUMBER">%1$d</ns1:g> semanas, às <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Escolher uma aplicação"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Reduzir"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">"alterar data de conclusão"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="day_picker_description">"Grelha de dias do mês"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> eliminado"</string>
+    <string name="endByDate">"; até <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Todos os dias úteis (Seg-Sex)"</string>
+    <string name="item_is_selected">"<ns1:g id="ITEM">%1$s</ns1:g> selecionado"</string>
+    <string name="monthly">"Mensalmente"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Para Sempre"</string>
+    <string name="recurrence_end_count_label">"Durante um n.º de eventos"</string>
+    <string name="recurrence_end_date">"Até <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Até uma data"</string>
+    <string name="recurrence_month_pattern_by_day">"no mesmo dia de cada mês"</string>
+    <string name="select_day">"Selecionar mês e dia"</string>
+    <string name="select_hours">"Selecionar horas"</string>
+    <string name="select_minutes">"Selecionar minutos"</string>
+    <string name="select_year">"Selecionar ano"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="year_picker_description">"Lista de anos"</string>
+    <string name="yearly_plain">"Anualmente"</string>
+</resources>

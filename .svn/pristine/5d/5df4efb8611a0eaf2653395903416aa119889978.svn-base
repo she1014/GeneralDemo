@@ -1,0 +1,101 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.base;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class MainActivity$$ViewInjector<T extends com.techfly.demo.activity.base.MainActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131362049, "field 'main_slide_layout'");
+    target.main_slide_layout = finder.castView(view, 2131362049, "field 'main_slide_layout'");
+    view = finder.findRequiredView(source, 2131362388, "field 'layout_main_linear'");
+    target.layout_main_linear = finder.castView(view, 2131362388, "field 'layout_main_linear'");
+    view = finder.findRequiredView(source, 2131362114, "field 'mViewPager'");
+    target.mViewPager = finder.castView(view, 2131362114, "field 'mViewPager'");
+    view = finder.findRequiredView(source, 2131362370, "field 'rl_index'");
+    target.rl_index = finder.castView(view, 2131362370, "field 'rl_index'");
+    view = finder.findRequiredView(source, 2131362373, "field 'rl_group'");
+    target.rl_group = finder.castView(view, 2131362373, "field 'rl_group'");
+    view = finder.findRequiredView(source, 2131362376, "field 'rl_my'");
+    target.rl_my = finder.castView(view, 2131362376, "field 'rl_my'");
+    view = finder.findRequiredView(source, 2131362372, "field 'main_indexTv'");
+    target.main_indexTv = finder.castView(view, 2131362372, "field 'main_indexTv'");
+    view = finder.findRequiredView(source, 2131362375, "field 'main_groupTv'");
+    target.main_groupTv = finder.castView(view, 2131362375, "field 'main_groupTv'");
+    view = finder.findRequiredView(source, 2131362378, "field 'main_myTv'");
+    target.main_myTv = finder.castView(view, 2131362378, "field 'main_myTv'");
+    view = finder.findRequiredView(source, 2131362371, "field 'main_indexIv'");
+    target.main_indexIv = finder.castView(view, 2131362371, "field 'main_indexIv'");
+    view = finder.findRequiredView(source, 2131362374, "field 'main_groupIv'");
+    target.main_groupIv = finder.castView(view, 2131362374, "field 'main_groupIv'");
+    view = finder.findRequiredView(source, 2131362377, "field 'main_myIv'");
+    target.main_myIv = finder.castView(view, 2131362377, "field 'main_myIv'");
+    view = finder.findRequiredView(source, 2131362422, "field 'slide_line'");
+    target.slide_line = finder.castView(view, 2131362422, "field 'slide_line'");
+    view = finder.findRequiredView(source, 2131362423, "field 'slide_my_pic' and method 'clickSlidePic'");
+    target.slide_my_pic = finder.castView(view, 2131362423, "field 'slide_my_pic'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clickSlidePic();
+        }
+      });
+    view = finder.findRequiredView(source, 2131362424, "field 'slide_my_name' and method 'clickSlideName'");
+    target.slide_my_name = finder.castView(view, 2131362424, "field 'slide_my_name'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clickSlideName();
+        }
+      });
+    view = finder.findRequiredView(source, 2131362425, "field 'slide_my_qm' and method 'clickSlideSign'");
+    target.slide_my_qm = finder.castView(view, 2131362425, "field 'slide_my_qm'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clickSlideSign();
+        }
+      });
+    view = finder.findRequiredView(source, 2131362427, "field 'slide_setting_tv' and method 'clickSlideSetting'");
+    target.slide_setting_tv = finder.castView(view, 2131362427, "field 'slide_setting_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.clickSlideSetting();
+        }
+      });
+    view = finder.findRequiredView(source, 2131362426, "field 'slide_list'");
+    target.slide_list = finder.castView(view, 2131362426, "field 'slide_list'");
+  }
+
+  @Override public void reset(T target) {
+    target.main_slide_layout = null;
+    target.layout_main_linear = null;
+    target.mViewPager = null;
+    target.rl_index = null;
+    target.rl_group = null;
+    target.rl_my = null;
+    target.main_indexTv = null;
+    target.main_groupTv = null;
+    target.main_myTv = null;
+    target.main_indexIv = null;
+    target.main_groupIv = null;
+    target.main_myIv = null;
+    target.slide_line = null;
+    target.slide_my_pic = null;
+    target.slide_my_name = null;
+    target.slide_my_qm = null;
+    target.slide_setting_tv = null;
+    target.slide_list = null;
+  }
+}

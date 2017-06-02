@@ -1,0 +1,586 @@
+[
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_black_add.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_black_add.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_me_click.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_me_click.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\navigationbar_arrow_up.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\navigationbar_arrow_up.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index1.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index1.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_erk.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_erk.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index2.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index2.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_default_show.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_default_show.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_med.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_med.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_login_tip.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_login_tip.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_ied.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_ied.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_start_gray.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_start_gray.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_password.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_password.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_xiangce.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_xiangce.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_home_click.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_home_click.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index3.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index3.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_pay_info.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_pay_info.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_hide_pwd.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_hide_pwd.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_color_line.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_color_line.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_avator.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_avator.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_erm.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_erm.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_svip.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_svip.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_phone_orange.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_phone_orange.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_shoucang.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_shoucang.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_zhuangban.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_zhuangban.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index4.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index4.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_pwd_delete.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_pwd_delete.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_default_avatar.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_default_avatar.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_menu.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_menu.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_service_details_default.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_service_details_default.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_phone.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_phone.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_goods_info.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_goods_info.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_delivery.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_delivery.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_banner_orange_point.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_banner_orange_point.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_banner_white_point.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_banner_white_point.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_hall_no_url.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_hall_no_url.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_search_delete.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_search_delete.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_business.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_business.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_order.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_order.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_refund.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_refund.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_officecenter.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_officecenter.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_drop_down_black.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_drop_down_black.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_defualt_null.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_defualt_null.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_setting.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_setting.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_hdr.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_hdr.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_loading.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_loading.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_idp.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_idp.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_me_qr_code_icon.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_me_qr_code_icon.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_me_nightmode_off.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_me_nightmode_off.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index7.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index7.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_nls_change_again.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_nls_change_again.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_show_pwd.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_show_pwd.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_default.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_default.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\image_check_on.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\image_check_on.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_horn.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_horn.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_home.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_home.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_me.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_me.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_lmf.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_lmf.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_businesscard.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_businesscard.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_nls_change.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_nls_change.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_add.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_add.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_jpush_tip.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_jpush_tip.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_camera.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_camera.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_return.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_return.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_go.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_go.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_lme.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_lme.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_cache.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_cache.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index8.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index8.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_mgf.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_mgf.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_logistics_info.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_logistics_info.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_update.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_update.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_dark_dot.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_dark_dot.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\navigationbar_arrow_down.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\navigationbar_arrow_down.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_pass.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_pass.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_nls.jpg",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_nls.jpg"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index6.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index6.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_default_avatar.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_default_avatar.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_white_dot.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_white_dot.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_customer_info.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_customer_info.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_add_red.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_add_red.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_idr.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_idr.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_mine_exit.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_mine_exit.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_order_info.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_order_info.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_go_camare.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_go_camare.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_mee.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_mee.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_start_orange.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_start_orange.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_era.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_era.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_clear.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_clear.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_mgg.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_mgg.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_index5.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_index5.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_more_phone.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_more_phone.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_profilecard_info_bg.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_profilecard_info_bg.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_pic_delete.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_pic_delete.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_me_nightmode_on.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_me_nightmode_on.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_wenjian.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_wenjian.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_order_click.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_order_click.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_idq.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_idq.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_me.jpg",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_me.jpg"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_def_photo.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_def_photo.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\image_check_off.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\image_check_off.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_order_tip.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_order_tip.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qq_setting_qianbao.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\qq_setting_qianbao.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_personal.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\src\\main\\res\\drawable-xxhdpi\\icon_personal.png"
+    },
+    {
+        "merged": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\workspace_android_studio\\WORK_DEMO\\GeneralDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    }
+]

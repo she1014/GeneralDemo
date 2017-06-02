@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_title"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        layout="@layout/activity_base_top_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marign_normal"
+        android:background="@color/main_gray"
+        android:orientation="vertical"
+        >
+
+        <com.techfly.demo.selfview.DiyView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            app:m_text_color="@color/red"
+            app:m_text_size="@dimen/size_middle"
+            app:m_text_content="@string/app_name"
+            />
+
+        <com.techfly.demo.selfview.DiyCircleView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

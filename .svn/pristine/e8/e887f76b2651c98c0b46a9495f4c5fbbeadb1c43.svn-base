@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-pl/arrays.xml -->
+    <eat-comment/>
+    <string-array name="recurrence_freq">
+        <item>"CODZIENNIE"</item>
+        <item>"CO TYDZIEŃ"</item>
+        <item>"CO MIESIĄC"</item>
+        <item>"CO ROK"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"w każdy pierwszy piątek"</item>
+        <item>"w każdy drugi piątek"</item>
+        <item>"w każdy trzeci piątek"</item>
+        <item>"w każdy czwarty piątek"</item>
+        <item>"w każdy ostatni piątek"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>"w każdy pierwszy poniedziałek"</item>
+        <item>"w każdy drugi poniedziałek"</item>
+        <item>"w każdy trzeci poniedziałek"</item>
+        <item>"w każdy czwarty poniedziałek"</item>
+        <item>"w każdy ostatni poniedziałek"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>"w każdą pierwszą sobotę"</item>
+        <item>"w każdą drugą sobotę"</item>
+        <item>"w każdą trzecią sobotę"</item>
+        <item>"w każdą czwartą sobotę"</item>
+        <item>"w każdą ostatnią sobotę"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>"w każdą pierwszą niedzielę"</item>
+        <item>"w każdą drugą niedzielę"</item>
+        <item>"w każdą trzecią niedzielę"</item>
+        <item>"w każdą czwartą niedzielę"</item>
+        <item>"w każdą ostatnią niedzielę"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>"w każdy pierwszy czwartek"</item>
+        <item>"w każdy drugi czwartek"</item>
+        <item>"w każdy trzeci czwartek"</item>
+        <item>"w każdy czwarty czwartek"</item>
+        <item>"w każdy ostatni czwartek"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>"w każdy pierwszy wtorek"</item>
+        <item>"w każdy drugi wtorek"</item>
+        <item>"w każdy trzeci wtorek"</item>
+        <item>"w każdy czwarty wtorek"</item>
+        <item>"w każdy ostatni wtorek"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>"w każdą pierwszą środę"</item>
+        <item>"w każdą drugą środę"</item>
+        <item>"w każdą trzecią środę"</item>
+        <item>"w każdą czwartą środę"</item>
+        <item>"w każdą ostatnią środę"</item>
+    </string-array>
+    <!-- From: file:/C:/Development/Projects/Android/SublimePicker/sublimepickerlibrary/src/main/res/values-pl/strings.xml -->
+    <eat-comment/>
+    <plurals name="daily">
+        <item quantity="one">"Codziennie"</item>
+        <item quantity="other">"Co <ns1:g id="NUMBER">%d</ns1:g> dni"</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">"; jeden raz"</item>
+        <item quantity="other">"; <ns1:g id="NUMBER">%d</ns1:g> razy"</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">"Do <ns1:g id="EVENT_COUNT">%d</ns1:g> wydarzenia"</item>
+        <item quantity="other">"Dla <ns1:g id="EVENT_COUNT">%d</ns1:g> wystąpienia"</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">"Co <ns1:g id="COUNT">%d</ns1:g> dzień"</item>
+        <item quantity="other">"Co <ns1:g id="COUNT">%d</ns1:g> dni"</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">"Co <ns1:g id="COUNT">%d</ns1:g> miesiąc"</item>
+        <item quantity="other">"Co <ns1:g id="COUNT">%d</ns1:g> mies."</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">"Co <ns1:g id="COUNT">%d</ns1:g> tydzień"</item>
+        <item quantity="other">"Co <ns1:g id="COUNT">%d</ns1:g> tyg."</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">"Co <ns1:g id="COUNT">%d</ns1:g> rok"</item>
+        <item quantity="other">"Co <ns1:g id="COUNT">%d</ns1:g> lat(a)"</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">"Co tydzień w <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+        <item quantity="other">"Co <ns1:g id="NUMBER">%1$d</ns1:g> tyg. w <ns1:g id="DAYS_OF_WEEK">%2$s</ns1:g>"</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">"zmień datę zakończenia"</string>
+    <string name="cancel">"Anuluj"</string>
+    <string name="day_picker_description">"Siatka miesięczna z dniami"</string>
+    <string name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> usunięte"</string>
+    <string name="endByDate">"; do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="every_weekday">"Codziennie (pn-pt)"</string>
+    <string name="item_is_selected">"Wybrałeś <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string name="monthly">"Co miesiąc"</string>
+    <string name="ok">"OK"</string>
+    <string name="recurrence_end_continously">"Bez daty zakończenia"</string>
+    <string name="recurrence_end_count_label">"Określona liczba powtórzeń"</string>
+    <string name="recurrence_end_date">"Do <ns1:g id="DATE">%s</ns1:g>"</string>
+    <string name="recurrence_end_date_label">"Do daty"</string>
+    <string name="recurrence_month_pattern_by_day">"tego samego dnia miesiąca"</string>
+    <string name="select_day">"Wybierz miesiąc i dzień"</string>
+    <string name="select_hours">"Wybierz godziny"</string>
+    <string name="select_minutes">"Wybierz minuty"</string>
+    <string name="select_year">"Wybierz rok"</string>
+    <string name="year_picker_description">"Lista lat"</string>
+    <string name="yearly_plain">"Co rok"</string>
+</resources>

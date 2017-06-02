@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.introductionPage.SplashActivity"
+    >
+
+    <ImageView
+        android:id="@+id/splash_show_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/icon_default_show"
+        android:scaleType="fitXY"
+        />
+    
+</RelativeLayout>

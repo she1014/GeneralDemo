@@ -1,0 +1,366 @@
+open /proc/kmsg failed: Permission denied
+--------- beginning of system
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201b3 mAirplaneMode=false mMSimDataActivity=2 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201b3/com.android.systemui:drawable/stat_sys_signal_out mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+I/ProcessCpuTracker( 1160): time_in_state file does not exist
+I/ProcessCpuTracker( 1160): time_in_state file does not exist
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=0
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=0
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837939
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201b0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201b0/com.android.systemui:drawable/stat_sys_signal_inout_null mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onSignalStrengthsChanged received on phoneId :1 subid: 2signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 17 -109 -11 36 2147483647 2147483647 gsm|lte level=2
+--------- beginning of main
+W/RenderThread(23323): type=1400 audit(0.0:15013): avc: denied { search } for name="cn.nubia.security2" dev="mmcblk0p38" ino=82157 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+D/FitAnimSurface( 1160): nubia_start_app_transition  AppWindowToken{1fe696ff token=Token{2f544e1e ActivityRecord{241e0259 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960}}}
+D/FitAnimSurface( 1160): nubia_surface_first_show  Window{2ba36b15 u0 com.techfly.demo/com.techfly.demo.activity.demo.Demo29Activity}
+I/Timeline(23279): Timeline: Activity_idle id: android.os.BinderProxy@1849e7a5 time:249430630
+W/ActivityManager( 1160): Duplicate finish request for ActivityRecord{241e0259 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960 f}
+D/FitAnimSurface( 1160): nubia_finish_app_transition  AppWindowToken{1fe696ff token=Token{2f544e1e ActivityRecord{241e0259 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960}}}
+E/AVGFPS  (  409): com.techfly.demo/com.techfly.demo.activity.demo.Demo29Activity b- nAvgNum= 15 avgtime=16665062.00 fps=60.01
+E/AVGFPS  (  409): com.techfly.demo/com.techfly.demo.activity.demo.Demo29Activity b- nAvgNum= 18 avgtime=17594850.00 fps=56.83
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=3
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=3 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=3
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837936
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201af mAirplaneMode=false mMSimDataActivity=3 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201af/com.android.systemui:drawable/stat_sys_signal_inout mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+I/TTSS    (23279): 点击了,position=28
+I/Timeline(23279): Timeline: Activity_launch_request id:com.techfly.demo time:249431638
+I/ActivityManager( 1160): START u0 {cmp=com.techfly.demo/.activity.demo.Demo29Activity} from uid 10664 on display 0
+V/WindowManager( 1160): addAppToken: AppWindowToken{220997d0 token=Token{dec7b93 ActivityRecord{76f5882 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960}}} to stack=11 task=33960 at 1
+E/ImeManager( 1160): System would not have a null focused window on display;0
+D/cr_Ime  (23279): [InputMethodManagerWrapper.java:30] Constructor
+W/cr_AwContents(23279): onDetachedFromWindow called when already detached. Ignoring
+D/cr_Ime  (23279): [InputMethodManagerWrapper.java:59] isActive: false
+I/TTSS    (23279): 顺序A:0
+I/TTSS    (23279): 顺序A:1
+I/TTSS    (23279): 顺序A:2
+I/TTSS    (23279): 顺序A:3
+I/TTSS    (23279): 顺序A:4
+I/TTSS    (23279): 顺序A:5
+I/TTSS    (23279): 顺序A:6
+I/TTSS    (23279): 顺序A:7
+I/TTSS    (23279): 顺序A:8
+I/TTSS    (23279): 顺序A:9
+I/TTSS    (23279): 顺序A:10
+I/TTSS    (23279): 顺序A:11
+I/TTSS    (23279): 顺序A:12
+I/TTSS    (23279): 顺序A:13
+I/TTSS    (23279): 顺序A:14
+I/TTSS    (23279): 顺序A:15
+I/TTSS    (23279): 顺序A:16
+I/TTSS    (23279): 顺序A:17
+I/TTSS    (23279): 顺序A:18
+I/TTSS    (23279): 顺序A:19
+I/TTSS    (23279): 顺序A:20
+I/TTSS    (23279): 顺序A:21
+I/TTSS    (23279): 顺序A:22
+I/TTSS    (23279): 顺序A:23
+I/TTSS    (23279): 顺序A:24
+I/TTSS    (23279): 顺序A:25
+W/RenderThread(23323): type=1400 audit(0.0:15014): avc: denied { search } for name="cn.nubia.security2" dev="mmcblk0p38" ino=82157 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+I/TTSS    (23279): 顺序A:26
+I/TTSS    (23279): 顺序A:27
+I/TTSS    (23279): 顺序A:28
+I/TTSS    (23279): 顺序A:29
+I/TTSS    (23279): 顺序A:30
+I/TTSS    (23279): 顺序A:31
+I/TTSS    (23279): 顺序A:32
+I/TTSS    (23279): 顺序A:33
+I/TTSS    (23279): 顺序A:34
+I/TTSS    (23279): 顺序A:35
+I/TTSS    (23279): 顺序A:36
+I/TTSS    (23279): 顺序A:37
+I/TTSS    (23279): 顺序A:38
+I/TTSS    (23279): 顺序A:39
+I/TTSS    (23279): 顺序A:40
+I/TTSS    (23279): 顺序A:41
+I/TTSS    (23279): 顺序A:42
+I/TTSS    (23279): 顺序A:43
+I/TTSS    (23279): 顺序A:44
+I/TTSS    (23279): 顺序A:45
+I/TTSS    (23279): 顺序A:46
+I/TTSS    (23279): 顺序A:47
+I/TTSS    (23279): 顺序A:48
+I/TTSS    (23279): 顺序A:49
+I/TTSS    (23279): 顺序A:50
+I/TTSS    (23279): 顺序A:51
+I/TTSS    (23279): 顺序A:52
+I/TTSS    (23279): 顺序A:53
+I/TTSS    (23279): 顺序A:54
+I/TTSS    (23279): 顺序A:55
+I/TTSS    (23279): 顺序A:56
+I/TTSS    (23279): 顺序A:57
+I/TTSS    (23279): 顺序A:58
+I/TTSS    (23279): 顺序A:59
+I/TTSS    (23279): 顺序A:60
+I/TTSS    (23279): 顺序A:61
+I/TTSS    (23279): 顺序A:62
+I/TTSS    (23279): 顺序A:63
+I/TTSS    (23279): 顺序A:64
+I/TTSS    (23279): 顺序A:65
+I/TTSS    (23279): 顺序A:66
+I/TTSS    (23279): 顺序A:67
+I/TTSS    (23279): 顺序A:68
+I/TTSS    (23279): 顺序A:69
+I/TTSS    (23279): 顺序A:70
+I/TTSS    (23279): 顺序A:71
+I/TTSS    (23279): 顺序A:72
+I/TTSS    (23279): 顺序A:73
+I/TTSS    (23279): 顺序A:74
+I/TTSS    (23279): 顺序A:75
+I/TTSS    (23279): 顺序A:76
+I/TTSS    (23279): 顺序A:77
+I/TTSS    (23279): 顺序A:78
+I/TTSS    (23279): 顺序A:79
+I/TTSS    (23279): 顺序A:80
+I/TTSS    (23279): 顺序A:81
+I/TTSS    (23279): 顺序A:82
+I/TTSS    (23279): 顺序A:83
+I/TTSS    (23279): 顺序A:84
+I/TTSS    (23279): 顺序A:85
+I/TTSS    (23279): 顺序A:86
+I/TTSS    (23279): 顺序A:87
+I/TTSS    (23279): 顺序A:88
+I/TTSS    (23279): 顺序A:89
+I/TTSS    (23279): 顺序A:90
+I/TTSS    (23279): 顺序A:91
+I/TTSS    (23279): 顺序A:92
+I/TTSS    (23279): 顺序A:93
+I/TTSS    (23279): 顺序A:94
+I/TTSS    (23279): 顺序A:95
+I/TTSS    (23279): 顺序A:96
+I/TTSS    (23279): 顺序A:97
+I/TTSS    (23279): 顺序A:98
+I/TTSS    (23279): 顺序A:99
+I/TTSS    (23279): 顺序A:100
+I/TTSS    (23279): 顺序A:101
+I/TTSS    (23279): 顺序A:102
+I/TTSS    (23279): 顺序A:103
+I/TTSS    (23279): 顺序A:104
+I/TTSS    (23279): 顺序A:105
+I/TTSS    (23279): 顺序A:106
+I/TTSS    (23279): 顺序A:107
+I/TTSS    (23279): 顺序A:108
+I/TTSS    (23279): 顺序A:109
+I/TTSS    (23279): 顺序A:110
+I/TTSS    (23279): 顺序A:111
+I/TTSS    (23279): 顺序A:112
+I/TTSS    (23279): 顺序A:113
+I/TTSS    (23279): 顺序A:114
+I/TTSS    (23279): 顺序A:115
+I/TTSS    (23279): 顺序A:116
+I/TTSS    (23279): 顺序A:117
+I/TTSS    (23279): 顺序A:118
+I/TTSS    (23279): 顺序A:119
+I/TTSS    (23279): 顺序A:120
+I/TTSS    (23279): 顺序A:121
+I/TTSS    (23279): 顺序A:122
+I/TTSS    (23279): 顺序A:123
+I/TTSS    (23279): 顺序A:124
+I/TTSS    (23279): 顺序A:125
+I/TTSS    (23279): 顺序A:126
+I/TTSS    (23279): 顺序A:127
+I/TTSS    (23279): 顺序A:128
+I/TTSS    (23279): 顺序A:129
+I/TTSS    (23279): 顺序A:130
+I/TTSS    (23279): 顺序A:131
+I/TTSS    (23279): 顺序A:132
+I/TTSS    (23279): 顺序A:133
+I/TTSS    (23279): 顺序A:134
+I/TTSS    (23279): 顺序A:135
+I/TTSS    (23279): 顺序A:136
+I/TTSS    (23279): 顺序A:137
+I/TTSS    (23279): 顺序A:138
+I/TTSS    (23279): 顺序A:139
+I/TTSS    (23279): 顺序A:140
+I/TTSS    (23279): 顺序A:141
+I/TTSS    (23279): 顺序A:142
+I/TTSS    (23279): 顺序A:143
+I/TTSS    (23279): 顺序A:144
+I/TTSS    (23279): 顺序A:145
+I/TTSS    (23279): 顺序A:146
+I/TTSS    (23279): 顺序A:147
+I/TTSS    (23279): 顺序A:148
+I/TTSS    (23279): 顺序A:149
+I/TTSS    (23279): 顺序A:150
+I/TTSS    (23279): 顺序A:151
+I/TTSS    (23279): 顺序A:152
+I/TTSS    (23279): 顺序A:153
+I/TTSS    (23279): 顺序A:154
+I/TTSS    (23279): 顺序A:155
+I/TTSS    (23279): 顺序A:156
+I/TTSS    (23279): 顺序A:157
+I/TTSS    (23279): 顺序A:158
+I/TTSS    (23279): 顺序A:159
+I/TTSS    (23279): 顺序A:160
+I/TTSS    (23279): 顺序A:161
+I/TTSS    (23279): 顺序A:162
+I/TTSS    (23279): 顺序A:163
+I/TTSS    (23279): 顺序A:164
+I/TTSS    (23279): 顺序A:165
+I/TTSS    (23279): 顺序A:166
+I/TTSS    (23279): 顺序A:167
+I/TTSS    (23279): 顺序A:168
+I/TTSS    (23279): 顺序A:169
+I/TTSS    (23279): 顺序A:170
+I/TTSS    (23279): 顺序A:171
+I/TTSS    (23279): 顺序A:172
+I/TTSS    (23279): 顺序A:173
+I/TTSS    (23279): 顺序A:174
+I/TTSS    (23279): 顺序A:175
+I/TTSS    (23279): 顺序A:176
+I/TTSS    (23279): 顺序A:177
+I/TTSS    (23279): 顺序A:178
+I/TTSS    (23279): 顺序A:179
+I/TTSS    (23279): 顺序A:180
+I/TTSS    (23279): 顺序A:181
+I/TTSS    (23279): 顺序A:182
+I/TTSS    (23279): 顺序A:183
+I/TTSS    (23279): 顺序A:184
+I/TTSS    (23279): 顺序A:185
+I/TTSS    (23279): 顺序A:186
+I/TTSS    (23279): 顺序A:187
+I/TTSS    (23279): 顺序A:188
+I/TTSS    (23279): 顺序A:189
+I/TTSS    (23279): 顺序A:190
+I/TTSS    (23279): 顺序A:191
+I/TTSS    (23279): 顺序A:192
+I/TTSS    (23279): 顺序A:193
+I/TTSS    (23279): 顺序A:194
+I/TTSS    (23279): 顺序A:195
+I/TTSS    (23279): 顺序A:196
+I/TTSS    (23279): 顺序A:197
+I/TTSS    (23279): 顺序A:198
+I/TTSS    (23279): 顺序A:199
+I/TTSS    (23279): 顺序A:200
+I/TTSS    (23279): 顺序A:201
+I/TTSS    (23279): 顺序A:202
+I/TTSS    (23279): 顺序A:203
+I/TTSS    (23279): 顺序A:204
+I/TTSS    (23279): 顺序A:205
+I/TTSS    (23279): 顺序A:206
+I/TTSS    (23279): 顺序A:207
+I/TTSS    (23279): 顺序A:208
+I/TTSS    (23279): 顺序A:209
+I/TTSS    (23279): 顺序A:210
+I/TTSS    (23279): 顺序A:211
+I/TTSS    (23279): 顺序A:212
+I/TTSS    (23279): 顺序A:213
+I/TTSS    (23279): 顺序A:214
+I/TTSS    (23279): 顺序A:215
+I/TTSS    (23279): 顺序A:216
+I/TTSS    (23279): 顺序A:217
+I/TTSS    (23279): 顺序A:218
+I/TTSS    (23279): 顺序A:219
+I/TTSS    (23279): 顺序A:220
+I/TTSS    (23279): 顺序A:221
+I/TTSS    (23279): 顺序A:222
+I/TTSS    (23279): 顺序A:223
+I/TTSS    (23279): 顺序A:224
+I/TTSS    (23279): 顺序A:225
+I/TTSS    (23279): 顺序A:226
+I/TTSS    (23279): 顺序A:227
+I/TTSS    (23279): 顺序A:228
+I/TTSS    (23279): 顺序A:229
+I/TTSS    (23279): 顺序A:230
+I/TTSS    (23279): 顺序A:231
+I/TTSS    (23279): 顺序A:232
+I/TTSS    (23279): 顺序A:233
+I/TTSS    (23279): 顺序A:234
+I/TTSS    (23279): 顺序A:235
+I/TTSS    (23279): 顺序A:236
+I/TTSS    (23279): 顺序A:237
+I/TTSS    (23279): 顺序A:238
+I/TTSS    (23279): 顺序A:239
+I/TTSS    (23279): 顺序A:240
+I/TTSS    (23279): 顺序A:241
+I/TTSS    (23279): 顺序A:242
+I/TTSS    (23279): 顺序A:243
+I/TTSS    (23279): 顺序A:244
+I/TTSS    (23279): 顺序A:245
+I/TTSS    (23279): 顺序A:246
+I/TTSS    (23279): 顺序A:247
+I/TTSS    (23279): 顺序A:248
+I/TTSS    (23279): 顺序A:249
+I/TTSS    (23279): 顺序A:250
+I/TTSS    (23279): 顺序A:251
+I/TTSS    (23279): 顺序A:252
+I/TTSS    (23279): 顺序A:253
+I/TTSS    (23279): 顺序A:254
+I/TTSS    (23279): 顺序A:255
+I/TTSS    (23279): 顺序A:256
+I/TTSS    (23279): 顺序A:257
+I/TTSS    (23279): 顺序A:258
+I/TTSS    (23279): 顺序A:259
+I/TTSS    (23279): 顺序A:260
+I/TTSS    (23279): 顺序A:261
+I/TTSS    (23279): 顺序A:262
+I/TTSS    (23279): 顺序A:263
+I/TTSS    (23279): 顺序A:264
+I/TTSS    (23279): 顺序A:265
+I/TTSS    (23279): 顺序A:266
+I/TTSS    (23279): 顺序A:267
+I/TTSS    (23279): 顺序A:268
+I/TTSS    (23279): 顺序A:269
+I/TTSS    (23279): 顺序A:270
+I/TTSS    (23279): 顺序A:271
+I/TTSS    (23279): 顺序A:272
+I/TTSS    (23279): 顺序B:20
+V/WindowManager( 1160): Adding window Window{be7ace u0 com.techfly.demo/com.techfly.demo.activity.demo.Demo29Activity} at 5 of 12 (after Window{2932b37 u0 com.techfly.demo/com.techfly.demo.activity.base.MainActivity})
+I/ActivityManager( 1160): Displayed com.techfly.demo/.activity.demo.Demo29Activity: +174ms
+D/FitAnimSurface( 1160): nubia_start_app_transition  AppWindowToken{220997d0 token=Token{dec7b93 ActivityRecord{76f5882 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960}}}
+D/Ulp_jni ( 1160): JNI:In update_settings:currentContextType 0, currentGpsSetting 0, currentAgpsSetting 1,currentNetworkProvSetting 0,currentWifiSetting 0,currentBatteryCharging 0,currentEnhLocationServicesSetting 0 currentPipUserSetting 0 
+D/Ulp_jni ( 1160): JNI:system_update. Event-4
+D/FitAnimSurface( 1160): nubia_surface_first_show  Window{be7ace u0 com.techfly.demo/com.techfly.demo.activity.demo.Demo29Activity}
+D/Ulp_jni ( 1160): JNI:In update_settings:currentContextType 0, currentGpsSetting 0, currentAgpsSetting 1,currentNetworkProvSetting 0,currentWifiSetting 0,currentBatteryCharging 0,currentEnhLocationServicesSetting 0 currentPipUserSetting 0 
+D/Ulp_jni ( 1160): JNI:system_update. Event-4
+I/Timeline(23279): Timeline: Activity_idle id: android.os.BinderProxy@2ae13904 time:249431872
+I/Gobi    (  545): vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:1952: GetTransState() EBADF
+I/Gobi    (  545): vendor/qcom/proprietary/RIDL/RIDLClient/MainCore.cpp:1455: Failed to get TransState, rc 
+I/Gobi    (  545): vendor/qcom/proprietary/RIDL/RIDLClient/RIDLSQL.cpp:1952: GetTransState() EBADF
+D/Ulp_jni ( 1160): JNI:In update_settings:currentContextType 0, currentGpsSetting 0, currentAgpsSetting 1,currentNetworkProvSetting 0,currentWifiSetting 0,currentBatteryCharging 0,currentEnhLocationServicesSetting 0 currentPipUserSetting 0 
+D/Ulp_jni ( 1160): JNI:system_update. Event-4
+D/FitAnimSurface( 1160): nubia_finish_app_transition  AppWindowToken{220997d0 token=Token{dec7b93 ActivityRecord{76f5882 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960}}}
+I/Timeline( 1160): Timeline: Activity_windows_visible id: ActivityRecord{76f5882 u0 com.techfly.demo/.activity.demo.Demo29Activity t33960} time:249432246
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=2
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=2 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=2
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837935
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201b3 mAirplaneMode=false mMSimDataActivity=2 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201b3/com.android.systemui:drawable/stat_sys_signal_out mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onSignalStrengthsChanged received on phoneId :1 subid: 2signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 17 -109 -11 10 2147483647 2147483647 gsm|lte level=2
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=3
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=3 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=3
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837939
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201af mAirplaneMode=false mMSimDataActivity=3 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201af/com.android.systemui:drawable/stat_sys_signal_inout mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=2
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=2 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=2
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837935
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201b3 mAirplaneMode=false mMSimDataActivity=2 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201b3/com.android.systemui:drawable/stat_sys_signal_out mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+I/ProcessCpuTracker( 1160): time_in_state file does not exist
+I/ProcessCpuTracker( 1160): time_in_state file does not exist
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :1 subid: 2direction=0
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 1 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon when mMSimDataConnected[1] =true mMSimMobileActivityIconId[1] = 2130837939
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ data } level=2 mMSimcombinedSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimcombinedActivityIconId=0x7f0201b0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0201aa/com.android.systemui:drawable/stat_sys_signal_2 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201aa mMSimDataTypeIconId=0x7f020193/com.android.systemui:drawable/stat_sys_data_connected_4g mNoMSimIconId=0x0/(null) mMSimMobileActivityIconId=0x7f0201b0/com.android.systemui:drawable/stat_sys_signal_inout_null mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onDataActivity received on phoneId :0 subid: 2147483643direction=0
+D/StatusBar.MSimNetworkController( 6279): updateDataIcon phoneId = 0 dataSub =1
+D/StatusBar.MSimNetworkController( 6279): updateDataIconi: phoneId0 is not DDS.  Clear the mMSimDataConnected Flag and return
+D/StatusBar.MSimNetworkController( 6279): refreshViews connected={ } level=1 mMSimcombinedSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimcombinedActivityIconId=0x7f0201b9 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f0201b2/com.android.systemui:drawable/stat_sys_signal_null mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f0201b2 mMSimDataTypeIconId=0x0/(null) mNoMSimIconId=0x7f0201a2/com.android.systemui:drawable/stat_sys_no_sim mMSimMobileActivityIconId=0x0/(null) mWifiIconId=0x0 mBluetoothTetherIconId=0x108069c
+D/StatusBar.MSimNetworkController( 6279): onSignalStrengthsChanged received on phoneId :1 subid: 2signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 17 -109 -10 10 2147483647 2147483647 gsm|lte level=2

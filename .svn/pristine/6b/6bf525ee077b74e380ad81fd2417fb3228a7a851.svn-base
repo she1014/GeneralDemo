@@ -1,0 +1,29 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.guidepage;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class SplashActivity$$ViewInjector<T extends com.techfly.demo.guidepage.SplashActivity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427570, "field 'splash_show_iv'");
+    target.splash_show_iv = finder.castView(view, 2131427570, "field 'splash_show_iv'");
+    view = finder.findRequiredView(source, 2131427674, "field 'splash_jump_tv' and method 'jumpToLogin'");
+    target.splash_jump_tv = finder.castView(view, 2131427674, "field 'splash_jump_tv'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.jumpToLogin();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.splash_show_iv = null;
+    target.splash_jump_tv = null;
+  }
+}

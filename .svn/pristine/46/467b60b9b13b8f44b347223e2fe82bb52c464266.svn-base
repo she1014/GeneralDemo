@@ -1,0 +1,33 @@
+// Generated code from Butter Knife. Do not modify!
+package com.techfly.demo.activity.demo;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.Injector;
+
+public class Demo12Activity$$ViewInjector<T extends com.techfly.demo.activity.demo.Demo12Activity> implements Injector<T> {
+  @Override public void inject(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131427405, "field 'base_lv'");
+    target.base_lv = finder.castView(view, 2131427405, "field 'base_lv'");
+    view = finder.findRequiredView(source, 2131427478, "field 'base_view'");
+    target.base_view = view;
+    view = finder.findRequiredView(source, 2131427401, "field 'top_title_tv'");
+    target.top_title_tv = finder.castView(view, 2131427401, "field 'top_title_tv'");
+    view = finder.findRequiredView(source, 2131427402, "method 'addMyFile'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.addMyFile();
+        }
+      });
+  }
+
+  @Override public void reset(T target) {
+    target.base_lv = null;
+    target.base_view = null;
+    target.top_title_tv = null;
+  }
+}
